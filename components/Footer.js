@@ -3,52 +3,53 @@ import Image from "next/dist/client/image";
 const Footer = () => {
     return (
         <div className="footer">
-            <div className="backtotop">
-                <Link href="/">
-                    <a>
-                        <p>Back To Home/Top <Image src="/backtotop-greyish.png" width={20} height={20} /></p>
-                    </a>
-                </Link>
-            </div>
+
             <div className="toprightfootstuff">
-                <p>
+                <div className="backtotop">
+                    <Link href="/">
+                        <a>
+                            <p>Back To Home/Top <Image src="/backtotop-greyish.png" width={20} height={20} /></p>
+                        </a>
+                    </Link>
+                </div>
+                <p className="forum-about">
                     <Link href="#">
-                        <a>FORUM </a>
+                        <a>FORUM  </a>
                     </Link>
                     |
                     <Link href="#">
-                        <a> ABOUT</a>
+                        <a>  ABOUT</a>
                     </Link>
                 </p>
             </div>
             <div className="middlefooterstuff">
                 <Link href="#">
                     <a target="_blank">
-                        <Image src="/facebook.png" width={20} height={20} />
+                        <Image src="/fbcolor.png" width={25} height={25} />
                     </a>
                 </Link>
 
                 <Link href="#">
                     <a target="_blank">
-                        <Image src="/insta.png" width={20} height={20} />
+                        <Image src="/igcolor.png" width={25} height={25} />
                     </a>
                 </Link>
 
                 <Link href="#">
                     <a target="_blank">
-                        <Image src="/twitter.png" width={20} height={20} />
+                        <Image src="/twittercolor.png" width={25} height={25} />
                     </a>
                 </Link>
 
                 <Link href="#">
                     <a target="_blank">
-                        <Image src="/linkedin.png" width={20} height={20} />
+                        <Image src="/lincolor.png" width={25} height={25} />
                     </a>
                 </Link>
 
                 <Link href="#">
                     <a target="_blank">
-                        <Image src="/upwork.png" width={36} height={21} />
+                        <Image src="/upwork-svgrepo-com.svg" width={25} height={25} />
                     </a>
                 </Link>
             </div>
@@ -63,6 +64,9 @@ const Footer = () => {
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
+            </div>
+            <div className="randombtn">
+                <p>Random</p>
             </div>
         </div>
     );

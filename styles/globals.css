@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
 body {
   padding: 0;
@@ -16,32 +17,176 @@ body {
   margin: 0;
   justify-content: space-between;
   background-color: #1d2a35 !important;
-  color: aliceblue;
+  color: white;
 }
 
 .leftnavstuff {
   display: flex;
   flex-direction: row;
   align-items: center;
-  
+
 }
 
 .leftnavstuff>p {
-  padding: 16px 16px;
+  display: flex;
+  flex-direction: row;
+  padding: 24px 16px;
   font-size: 18px;
-  font-weight: 570;
+  font-weight: bold;
+  text-shadow: none;
   margin: 0;
 }
+
+
+.leftnavstuff>p:hover {
+  background-color: #ee9209;
+  cursor: pointer;
+}
+
+/* 
+.imgacenter {
+  align-items: center !important;
+  margin: 0;
+  padding: 0;
+} */
 
 .rightnavstuff {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between !important;
 }
 
 .rightnavstuff>p {
   font-size: 18px;
-  font-weight: 570;
-  padding: 16px 16px;
+  font-weight: bold;
+  text-shadow: none;
+  padding: 24px 16px;
+  margin: 0 10px 0 0;
+}
+
+.rightnavstuff>p:hover {
+  background-color: #ee9209;
+  cursor: pointer;
+}
+
+.serbtn {
+  background-color: transparent;
+  border: transparent;
+}
+
+.serbtn:hover {
+  cursor: pointer;
+}
+
+.login {
+  padding: 13px 40px !important;
+  background-color: #ee9209;
+  border-radius: 40px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  transition: none;
+}
+
+.paidc {
+  padding: 13px 16px !important;
+  border-radius: 40px;
+}
+
+.paidc:hover {
+  padding: 13px 16px !important;
+  background-color: #ee9209;
+  border-radius: 40px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  transition: none;
+}
+
+.login:hover {
+  color: white;
+  background-color: #a86705 !important;
+}
+
+/* footer */
+.footer {
+  background-color: #1d2a35;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 16px;
+}
+
+.toprightfootstuff {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 32px 16px;
   margin: 0;
 }
+
+.toprightfootstuff a {
+  text-decoration: none !important;
+  color: white;
+}
+
+.toprightfootstuff a:hover {
+  color: #ee9209;
+}
+
+.forum-about {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.forum-about>a {
+  padding: 0 5px;
+}
+
+.forum-about a:hover {
+  color: #ee9209;
+}
+
+.middlefooterstuff {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 1px 16px;
+}
+
+.middlefooterstuff a {
+  padding: 1px 5px;
+}
+
+.project {
+  text-align: center;
+}
+
+.project>p a {
+  color: white;
+}
+
+.project>p a:hover {
+  color: #ee9209;
+}
+
+.randombtn {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.randombtn p {
+  background-color: #ee9209;
+  border-radius: 40px;
+  padding: 15px 20%;
+}
+
+.randombtn>p:hover {
+  cursor: pointer;
+  background-color: #a86705;
+}
+
