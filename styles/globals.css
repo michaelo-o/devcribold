@@ -8,7 +8,15 @@ body {
     sans-serif;
 }
 
+/* 404page */
+.not-found {
+  text-align: center;
+}
 
+.not-found a {
+  color: #4979ff;
+  text-decoration: underline;
+}
 
 /* navbar */
 .navbar {
@@ -189,4 +197,3 @@ body {
   cursor: pointer;
   background-color: #a86705;
 }
-

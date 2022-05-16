@@ -13,41 +13,41 @@ const Footer = () => {
                     </Link>
                 </div>
                 <p className="forum-about">
-                    <Link href="#">
+                    <Link href="infographics/forum">
                         <a>FORUM  </a>
                     </Link>
                     |
-                    <Link href="#">
+                    <Link href="/infographics/about">
                         <a>  ABOUT</a>
                     </Link>
                 </p>
             </div>
             <div className="middlefooterstuff">
-                <Link href="#">
+                <Link href="https://web.facebook.com/michael.okwuosah">
                     <a target="_blank">
                         <Image src="/fbcolor.png" width={25} height={25} />
                     </a>
                 </Link>
 
-                <Link href="#">
+                <Link href="https://www.instagram.com/_michaeli/">
                     <a target="_blank">
                         <Image src="/igcolor.png" width={25} height={25} />
                     </a>
                 </Link>
 
-                <Link href="#">
+                <Link href="https://twitter.com/OkwuosahMike">
                     <a target="_blank">
                         <Image src="/twittercolor.png" width={25} height={25} />
                     </a>
                 </Link>
 
-                <Link href="#">
+                <Link href="https://www.linkedin.com/in/michael-okwuosah-b92279160/">
                     <a target="_blank">
                         <Image src="/lincolor.png" width={25} height={25} />
                     </a>
                 </Link>
 
-                <Link href="#">
+                <Link href="https://www.upwork.com/freelancers/~018a014dbbe3506e8b?s=1110580755057594368">
                     <a target="_blank">
                         <Image src="/upwork-svgrepo-com.svg" width={25} height={25} />
                     </a>
