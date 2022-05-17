@@ -13,7 +13,7 @@ const Footer = () => {
                     </Link>
                 </div>
                 <p className="forum-about">
-                    <Link href="infographics/forum">
+                    <Link href="/infographics/forum">
                         <a>FORUM  </a>
                     </Link>
                     |

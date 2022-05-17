@@ -21,7 +21,7 @@ const NotFound = () => {
             </Head>
             <div className="not-found">
                 <h1>Ooops...</h1>
-                <h2>Looks like this page doesn't exist in the crib :(</h2>
+                <h2>Looks like this page does not exist in the crib :(</h2>
                 <p>Going back to the <Link href="/"><a>Homepage</a></Link> in 5 seconds...</p>
             </div>
         </>
