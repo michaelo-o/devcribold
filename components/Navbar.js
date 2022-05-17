@@ -33,7 +33,7 @@ const Navbar = () => {
                     />
                 </button>
                 <Link href="https://ko-fi.com/michae_l#paypalModal">
-                    <a className="paidc">Buy a Coffee 🙂☕</a>
+                    <a target="_blank" className="paidc">Buy a Coffee 🙂☕</a>
                 </Link>
                 <p className="login">Log In</p>
             </div>

@@ -38,6 +38,9 @@ export default function Home() {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nam autem, non deserunt iure harum tempore natus veniam quos pariatur? Unde minima officia officiis sapiente expedita optio quasi incidunt corrupti.
           </div>
         </div>
+        <div className="gradient2">
+          <p> </p>
+        </div>
         <div className="learncss">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum labore voluptates dolorem fuga, illum adipisci est! Quasi deleniti qui ipsam inventore, animi recusandae eum quia, iusto expedita ratione, reiciendis ab.
         </div>
