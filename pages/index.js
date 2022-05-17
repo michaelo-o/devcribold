@@ -20,7 +20,7 @@ export default function Home() {
             <h1>Learn to Code</h1>
             <h3>Kick start your Front-End Web Developer Career</h3>
             <Link href="#">
-              <a> <h4>Do not Know Where to Begin?</h4></a>
+              <a> <h4>Having trouble Deciding Where to Begin?</h4></a>
             </Link>
           </div>
         </div>
