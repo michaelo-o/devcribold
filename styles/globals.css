@@ -11,6 +11,8 @@ body {
 /* 404page */
 .not-found {
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .not-found a {
@@ -196,4 +198,99 @@ body {
 .randombtn>p:hover {
   cursor: pointer;
   background-color: #a86705;
+}
+
+/* body */
+.content {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.learntocode {
+  background-color: rgb(13, 23, 33) !important;
+  color: white;
+  justify-content: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.innerlearntocode {
+  padding-left: 90px;
+  padding-right: 90px;
+  text-align: center !important;
+}
+
+.innerlearntocode h1 {
+  font-size: 70px;
+  margin: 2px 0 -20px;
+  font-weight: bold;
+}
+
+.innerlearntocode h3 {
+  font-size: 23px;
+  margin: 30px 0 10px;
+  color: #a86705;
+}
+
+.innerlearntocode>a h4 {
+  font-size: 23px;
+  text-decoration: underline;
+  color: white;
+}
+
+.innerlearntocode>a h4:hover {
+  color: #ee9209;
+}
+
+.gradient1 {
+  padding: 20px;
+  background-image: linear-gradient(#0d1721, #ee9209);
+}
+
+.learnhtml {
+  background-color: #ee9209 !important;
+  color: white;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  padding-left: 90px;
+  padding-right: 90px;
+  display: flex;
+  flex-direction: row;
+}
+
+.innerlearnhtml{
+  padding: 3%;
+  text-align: center;
+  width: 50%;
+}
+
+.learnhtml h1 {
+  font-size: 100px;
+  margin: -18px 0 -20px;
+  color: #0d1721;
+}
+
+.learnhtml h3 {
+  font-size: 19px;
+  margin: 22.8px 0;
+  color: #0d1721;
+}
+
+.learnhtml h4 {
+  border-radius: 40px;
+  padding: 8px 16px;
+  background-color: #0d1721;
+  color: aliceblue;
+}
+
+.learnhtml h4:hover {
+  background-color: #1d2a35;
+  cursor: pointer;
+  color: #a86705;
+}
+
+.example{
+  padding: 3%;
+  
 }
