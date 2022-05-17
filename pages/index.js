@@ -2,10 +2,23 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import Codepen from "react-codepen-embed";
+
 
 export default function Home() {
+
+  const CodepenEmbedded = () => {
+    return <Codepen hash="NWydmqx" user="_michaeli" />;
+  };
+
+
+
+
+
+
   return (
     <>
+
       <Head>
         <title>Dev Crib | Your Front-End Developer Hub</title>
         <meta name="description" content="Dev Crib" />
@@ -32,7 +45,6 @@ export default function Home() {
           </div>
           <div className="example">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nam autem, non deserunt iure harum tempore natus veniam quos pariatur? Unde minima officia officiis sapiente expedita optio quasi incidunt corrupti.
-            
           </div>
         </div>
         <div className="learncss">
