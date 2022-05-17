@@ -2,18 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import Codepen from "react-codepen-embed";
 
 
 export default function Home() {
-
-  const CodepenEmbedded = () => {
-    return <Codepen hash="NWydmqx" user="_michaeli" />;
-  };
-
-
-
-
 
 
   return (
