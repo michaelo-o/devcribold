@@ -32,7 +32,9 @@ const Navbar = () => {
                         height={19}
                     />
                 </button>
-                <p className="paidc">Paid Courses</p>
+                <Link href="https://ko-fi.com/michae_l#paypalModal">
+                    <a className="paidc">Buy a Coffee 🙂☕</a>
+                </Link>
                 <p className="login">Log In</p>
             </div>
 
