@@ -7,6 +7,10 @@ import Link from 'next/link'
 export default function Home() {
 
 
+  const BrO = '<';
+  const BrC = '>';
+
+
   return (
     <>
 
@@ -35,7 +39,13 @@ export default function Home() {
             <h4>HTML References</h4>
           </div>
           <div className="example">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nam autem, non deserunt iure harum tempore natus veniam quos pariatur? Unde minima officia officiis sapiente expedita optio quasi incidunt corrupti.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nam autem, non deserunt iure harum tempore natus veniam quos pariatur? Unde minima officia officiis sapiente expedita optio quasi incidunt corrupti. 
+            
+            <p className="brac">
+              {BrO}!DOCTYPE html{BrC} <br />
+              {BrO}Head{BrC}
+            </p>
+            
           </div>
         </div>
         <div className="gradient2">
