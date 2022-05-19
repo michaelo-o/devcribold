@@ -7,8 +7,11 @@ import Link from 'next/link'
 export default function Home() {
 
 
-  const BrO = '<';
-  const BrC = '>';
+  const BracketOpen = '<';
+  const BracketClose = '>';
+
+  const BrO = <span className="tagcolor">{BracketOpen}</span>;
+  const BrC = <span className="tagcolor">{BracketClose}</span>;
 
 
   return (
@@ -32,15 +35,33 @@ export default function Home() {
           <p> </p>
         </div>
         <div className="learnhtml">
-          <div className="innerlearnhtml">
+          <div className="leftlearnhtml">
             <h1>Learn</h1>
             <h1>HTML</h1>
             <h3>The building blocks that make up the bodies of all Web Pages</h3>
             <h4>Learn HTML</h4>
             <h4>HTML References</h4>
           </div>
-          <div className="example">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nam autem, non deserunt iure harum tempore natus veniam quos pariatur? Unde minima officia officiis sapiente expedita optio quasi incidunt corrupti. 
+          <div className="rightlearnhtml">
+            <div className="innerrlh">
+              <h2>HTML Example: </h2>
+              <div className="innerrlhexample">
+                <p className="inlinehtml">
+                  {BrO}!DOCTYPE <span className="attributecolor">html</span>{BrC} <br />
+                  {BrO}html{BrC} <br />
+                  {BrO}title{BrC}<span>HTML Tutorial</span>{BrO}/title{BrC} <br />
+                  {BrO}body{BrC}
+                  <br />
+                  <br />
+                  {BrO}h1{BrC}<span>This is a heading</span>{BrO}/h1{BrC} <br />
+                  {BrO}p{BrC}<span>This is a paragraph.</span>{BrO}/p{BrC}
+                  <br />
+                  <br />
+                  {BrO}/body{BrC} <br />
+                  {BrO}/html{BrC}
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <div className="gradient2">
@@ -52,7 +73,6 @@ export default function Home() {
         <div className="learnjavascript">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda eveniet vitae amet, nulla dolore similique quod. Temporibus quaerat laborum nemo adipisci ipsa! Pariatur in corporis quas nihil debitis voluptates dolores!
         </div>
-
 
 
 
