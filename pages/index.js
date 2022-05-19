@@ -33,19 +33,14 @@ export default function Home() {
         </div>
         <div className="learnhtml">
           <div className="innerlearnhtml">
-            <h1>Learn HTML</h1>
+            <h1>Learn</h1>
+            <h1>HTML</h1>
             <h3>The building blocks that make up the bodies of all Web Pages</h3>
             <h4>Learn HTML</h4>
             <h4>HTML References</h4>
           </div>
           <div className="example">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nam autem, non deserunt iure harum tempore natus veniam quos pariatur? Unde minima officia officiis sapiente expedita optio quasi incidunt corrupti. 
-            
-            <p className="brac">
-              {BrO}!DOCTYPE html{BrC} <br />
-              {BrO}Head{BrC}
-            </p>
-            
           </div>
         </div>
         <div className="gradient2">

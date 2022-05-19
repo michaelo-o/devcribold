@@ -272,12 +272,14 @@ body {
   padding-right: 90px;
   display: flex;
   flex-direction: row;
+  width: auto;
+  /* align-items: center; */
 }
 
 .innerlearnhtml {
   padding: 3%;
   text-align: center;
-  width: 50%;
+  width: 100%;
 }
 
 .learnhtml h1 {
