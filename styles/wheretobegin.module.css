@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+/* where to begin page */
+
+/* base styles */
+.root {
+    --htmlorange: #e54d26;
+    --cssblue: #3799d6;
+    --jsyellow: #f7df1d;
+}
+
+.w2bcontent {
+    background-color: #282A35;
+}
+
+.wheretobegin {
+    color: white;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+.innerw2b {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 5%;
+    text-align: center !important;
+}
+
+.innerw2b h1 {
+    font-size: 70px;
+    margin: 2px 0 -20px;
+    font-weight: bolder !important;
+}
+
+.innerw2b h3 {
+    font-size: 24px;
+    margin: 60px 0 10px;
+    color: white;
+}
+
+.w2bhtml {
+    padding: 10%;
+    padding-top: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.w2bhtml a {
+    text-decoration: none;
+}
+
+/* html ticket 1 */
+
+.w2bhtmlticket {
+    background-color: #f7df1d;
+    color: black;
+    height: 190px;
+    width: 40vw;
+    padding: 1%;
+}
+
+.w2bhtmlticket2 {
+    background-color: #f7df1d;
+    color: black;
+    border-left: 5px dotted #282A35;
+    height: 190px;
+    width: 15vw;
+    padding: 1%;
+}
+
+.hticketcontainer1 {
+    transform: rotate(3deg);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/* ticket2 */
+
+.hticketcontainer2 {
+    transform: rotate(-3deg);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: #3799d6;
+}
+
+.w2bhtmlticket3 {
+    background-color: #3799d6;
+    color: black;
+    height: 190px;
+    width: 40vw;
+    padding: 1%;
+}
+
+.w2bhtmlticket4 {
+    background-color: #3799d6;
+    color: black;
+    height: 190px;
+    width: 15vw;
+    padding: 1%;
+    border-left: 5px dotted #282A35;
+}
+
+/* ticket 3 */
+
+.hticketcontainer3 {
+    transform: rotate(.5deg);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: #e54d26;
+}
+
+.w2bhtmlticket5 {
+    background-color: #e54d26;
+    color: black;
+    height: 190px;
+    width: 40vw;
+    border-radius: 20px 0 0 20px;
+    padding: 1%;
+}
+
+.w2bhtmlticket5 h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.w2bhtmlticket5 p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.w2bhtmlticket5 h4 {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 8px 8px;
+    width: fit-content;
+    background-color: #0d1721;
+    color: aliceblue;
+}
+
+.w2bhtmlticket6 {
+    background-color: #e54d26;
+    color: black;
+    height: 190px;
+    width: 15vw;
+    padding: 1%;
+    border-left: 5px dotted #282A35;
+}
+
+.w2bhtmlticket6 h1 {
+    font-size: 50px;
+    margin: 0;
+    font-weight: bolder;
+    text-align: center;
+    padding: 5%;
+}
+
+
+/* css ticket 1 */
+
+.w2bcssticket {
+    background-color: #e54d26;
+    color: black;
+    height: 190px;
+    width: 40vw;
+    padding: 1%;
+}
+
+.w2bcssticket2 {
+    background-color: #e54d26;
+    color: black;
+    border-left: 5px dotted #282A35;
+    height: 190px;
+    width: 15vw;
+    padding: 1%;
+}
+
+.cticketcontainer1 {
+    transform: rotate(3deg);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/* ticket2 */
+
+.cticketcontainer2 {
+    transform: rotate(-3deg);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: #f7df1d;
+}
+
+.w2bcssticket3 {
+    background-color: #f7df1d;
+    color: black;
+    height: 190px;
+    width: 40vw;
+    padding: 1%;
+}
+
+.w2bcssticket4 {
+    background-color: #f7df1d;
+    color: black;
+    height: 190px;
+    width: 15vw;
+    padding: 1%;
+    border-left: 5px dotted #282A35;
+}
+
+/* ticket 3 */
+
+.cticketcontainer3 {
+    transform: rotate(.5deg);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: #3799d6;
+}
+
+.w2bcssticket5 {
+    background-color: #3799d6;
+    color: black;
+    height: 190px;
+    width: 40vw;
+    padding: 1%;
+}
+
+.w2bcssticket5 h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.w2bcssticket5 p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.w2bcssticket5 h4 {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 8px 8px;
+    width: fit-content;
+    background-color: #0d1721;
+    color: aliceblue;
+}
+
+.w2bcssticket6 {
+    background-color: #3799d6;
+    color: black;
+    height: 190px;
+    width: 15vw;
+    padding: 1%;
+    border-left: 5px dotted #282A35;
+}
+
+.w2bcssticket6 h1 {
+    font-size: 50px;
+    margin: 0;
+    font-weight: bolder;
+    text-align: center;
+    padding: 5%;
+}
+
+/* js ticket 1 */
+
+.w2bjsticket {
+    background-color: #3799d6;
+    color: black;
+    height: 190px;
+    width: 40vw;
+    padding: 1%;
+}
+
+.w2bjsticket2 {
+    background-color: #3799d6;
+    color: black;
+    border-left: 5px dotted #282A35;
+    height: 190px;
+    width: 15vw;
+    padding: 1%;
+}
+
+.jticketcontainer1 {
+    transform: rotate(3deg);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/* ticket2 */
+
+.jticketcontainer2 {
+    transform: rotate(-3deg);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: #e54d26;
+}
+
+.w2bjsticket3 {
+    background-color: #e54d26;
+    color: black;
+    height: 190px;
+    width: 40vw;
+    padding: 1%;
+}
+
+.w2bjsticket4 {
+    background-color: #e54d26;
+    color: black;
+    height: 190px;
+    width: 15vw;
+    padding: 1%;
+    border-left: 5px dotted #282A35;
+}
+
+/* ticket 3 */
+
+.jticketcontainer3 {
+    transform: rotate(.5deg);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: #f7df1d;
+}
+
+.w2bjsticket5 {
+    background-color: #f7df1d;
+    color: black;
+    height: 190px;
+    width: 40vw;
+    padding: 1%;
+}
+
+.w2bjsticket5 h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.w2bjsticket5 p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.w2bjsticket5 h4 {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 8px 8px;
+    width: fit-content;
+    background-color: #0d1721;
+    color: aliceblue;
+}
+
+.w2bjsticket6 {
+    background-color: #f7df1d;
+    color: black;
+    height: 190px;
+    width: 15vw;
+    padding: 1%;
+    border-left: 5px dotted #282A35;
+}
+
+.w2bjsticket6 h1 {
+    font-size: 45px;
+    margin: 0;
+    font-weight: bolder;
+    text-align: center;
+    padding: 5%;
+}

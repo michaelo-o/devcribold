@@ -22,11 +22,9 @@ export default function Home() {
   const CBrO = <span className="curlybracket">{CurlyBracketOpen}</span>;
   const CBrC = <span className="curlybracket">{CurlyBracketClose}</span>;
 
-  // SINCE I CANT USE " " Directly for some reason
+  // &#39;  ---  '
 
-  const Quot = '"';
-
-  // &#34;
+  //  &#34; --- " 
 
   return (
     <>
@@ -116,8 +114,12 @@ export default function Home() {
             <h1>Learn</h1>
             <h1>CSS</h1>
             <h3>The stlying language that beautifies all Web Pages</h3>
-            <h4>Learn CSS</h4>
-            <h4>CSS References</h4>
+            <Link href="#">
+              <a> <h4>Learn CSS</h4></a>
+            </Link>
+            <Link href="#">
+              <a> <h4>CSS References</h4></a>
+            </Link>
           </div>
         </div>
         <div className="gradient3">
@@ -128,27 +130,31 @@ export default function Home() {
             <h1>Learn</h1>
             <h1>JavaScript</h1>
             <h3>The scripting language used for programming Web Pages</h3>
-            <h4>Learn JavaScript</h4>
-            <h4>JavaScript References</h4>
+            <Link href="#">
+              <a> <h4>Learn JavaScript</h4></a>
+            </Link>
+            <Link href="#">
+              <a> <h4>JavaScript References</h4></a>
+            </Link>
           </div>
           <div className="rightlearnjs">
             <div className="innerrlj">
               <h2>JavaScript Example: </h2>
               <div className="innerrljexample">
                 <p className="inlinejs">
-                  {BrO}button <span className="jsvh">onclick</span>={Quot}myFunction(){Quot}{BrC}<span>Click Me!</span>{BrO}/button{BrC}
+                  {BrO}button <span className="jsvh">onclick</span>=&#34;myFunction()&#34;{BrC}<span>Click Me!</span>{BrO}/button{BrC}
                   <br />
                   <br />
                   {BrO}script{BrC} <br />
-                  <span className="jsvh">function</span> myFunction() {CBrO} <br />
-                  <span className="tabbedjs"><span className="jsvh">let</span> x = document.getElementById(<span className="jsfunval">{Quot}demo{Quot}</span>); <br /></span>
-                  <span className="tabbedjs">x.style.fontSize = <span className="jsfunval">{Quot}25px{Quot}</span>; <br /></span>
-                  <span className="tabbedjs"> x.style.color = <span className="jsfunval">{Quot}red{Quot}</span>; <br />
+                  <span className="jsvh">function</span> myFunction() &#123; <br />
+                  <span className="tabbedjs"><span className="jsvh">let</span> x = document.getElementById(<span className="jsfunval">&#34;demo&#34;</span>); <br /></span>
+                  <span className="tabbedjs">x.style.fontSize = <span className="jsfunval">&#34;25px&#34;</span>; <br /></span>
+                  <span className="tabbedjs"> x.style.color = <span className="jsfunval">&#34;red&#34;</span>; <br />
                   </span>
                   {CBrC} <br />
                   <br />
                   <span className="jsvh">const</span><span> d =</span> <span className="jsvh">new</span> <span>Date();</span> <br />
-                  <span><span className="jsvh">let</span> x = document.getElementById(<span className="jsfunval">{Quot}datesample{Quot}</span>).innerHTML = d;</span> <br />
+                  <span><span className="jsvh">let</span> x = document.getElementById(<span className="jsfunval">&#34;datesample&#34;</span>).innerHTML = d;</span> <br />
                   {BrO}/script{BrC}
                 </p>
               </div>
