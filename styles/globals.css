@@ -394,6 +394,7 @@ body {
   color: aliceblue;
   width: 30%;
   margin-left: 32.5%;
+  text-decoration: none;
 }
 
 .leftlearnhtml h4:hover {
@@ -592,4 +593,61 @@ body {
   height: 70%;
   border-radius: 10px;
   background-color: #0d1721;
+}
+
+
+/* where to begin page */
+
+
+.w2b-content {
+  background-color: #282A35;
+}
+
+.wheretobegin {
+  color: white;
+  justify-content: center;
+  padding-top: 90px;
+  padding-bottom: 70px;
+}
+
+.innerw2b {
+  padding-left: 90px;
+  padding-right: 90px;
+  text-align: center !important;
+}
+
+.innerw2b h1 {
+  font-size: 70px;
+  margin: 2px 0 -20px;
+  font-weight: bolder !important;
+}
+
+.innerw2b h3 {
+  font-size: 24px;
+  margin: 60px 0 10px;
+  color: white;
+}
+
+.w2bhtml {
+  padding: 5%;
+  padding-top: 0%;
+  display: flex;
+  justify-content: center;
+}
+
+.innerw2bhtml {
+  background-color: orange;
+  color: black;
+  width: 40%;
+  border-radius: 20px 0 0 20px;
+  padding: 1%;
+}
+
+.innerw2bhtml2 {
+  background-color: orange;
+  color: black;
+  border-left: 5px dotted #282A35;
+  width: 20%;
+  border-radius: 0 20px 20px 0px;
+  padding: 1%;
 }

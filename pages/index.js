@@ -26,6 +26,8 @@ export default function Home() {
 
   const Quot = '"';
 
+  // &#34;
+
   return (
     <>
 
@@ -38,7 +40,7 @@ export default function Home() {
           <div className="innerlearntocode">
             <h1>Learn to Code</h1>
             <h3>Kick start your Front-End Web Developer Career</h3>
-            <Link href="#">
+            <Link href="/infographics/wheretobegin">
               <a> <h4>Having trouble Deciding Where to Begin?</h4></a>
             </Link>
           </div>
@@ -51,8 +53,12 @@ export default function Home() {
             <h1>Learn</h1>
             <h1>HTML</h1>
             <h3>The building blocks that make up the bodies of all Web Pages</h3>
-            <h4>Learn HTML</h4>
-            <h4>HTML References</h4>
+            <Link href="#">
+              <a> <h4>Learn HTML</h4></a>
+            </Link>
+            <Link href="#">
+              <a> <h4>HTML References</h4></a>
+            </Link>
           </div>
           <div className="rightlearnhtml">
             <div className="innerrlh">
