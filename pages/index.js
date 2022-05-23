@@ -22,6 +22,10 @@ export default function Home() {
   const CBrO = <span className="curlybracket">{CurlyBracketOpen}</span>;
   const CBrC = <span className="curlybracket">{CurlyBracketClose}</span>;
 
+  // SINCE I CANT USE " " Directly for some reason
+
+  const Quot = '"';
+
   return (
     <>
 
@@ -126,19 +130,19 @@ export default function Home() {
               <h2>JavaScript Example: </h2>
               <div className="innerrljexample">
                 <p className="inlinejs">
-                  {BrO}button <span className="jsvh">onclick</span>="myFunction()"{BrC}<span>Click Me!</span>{BrO}/button{BrC}
+                  {BrO}button <span className="jsvh">onclick</span>={Quot}myFunction(){Quot}{BrC}<span>Click Me!</span>{BrO}/button{BrC}
                   <br />
                   <br />
                   {BrO}script{BrC} <br />
                   <span className="jsvh">function</span> myFunction() {CBrO} <br />
-                  <span className="tabbedjs"><span className="jsvh">let</span> x = document.getElementById(<span className="jsfunval">"demo"</span>); <br /></span>
-                  <span className="tabbedjs">x.style.fontSize = <span className="jsfunval">"25px"</span>; <br /></span>
-                  <span className="tabbedjs"> x.style.color = <span className="jsfunval">"red"</span>; <br />
+                  <span className="tabbedjs"><span className="jsvh">let</span> x = document.getElementById(<span className="jsfunval">{Quot}demo{Quot}</span>); <br /></span>
+                  <span className="tabbedjs">x.style.fontSize = <span className="jsfunval">{Quot}25px{Quot}</span>; <br /></span>
+                  <span className="tabbedjs"> x.style.color = <span className="jsfunval">{Quot}red{Quot}</span>; <br />
                   </span>
                   {CBrC} <br />
                   <br />
                   <span className="jsvh">const</span><span> d =</span> <span className="jsvh">new</span> <span>Date();</span> <br />
-                  <span><span className="jsvh">let</span> x = document.getElementById(<span className="jsfunval">"datesample"</span>).innerHTML = d;</span> <br />
+                  <span><span className="jsvh">let</span> x = document.getElementById(<span className="jsfunval">{Quot}datesample{Quot}</span>).innerHTML = d;</span> <br />
                   {BrO}/script{BrC}
                 </p>
               </div>
