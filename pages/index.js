@@ -165,6 +165,29 @@ export default function Home() {
         <div className="gradient4">
           <p> </p>
         </div>
+        <div className={styles.comingsoon}>
+          <div className={styles.cmshead}>
+            <h1>Coming Soon...</h1>
+          </div>
+          <div className={styles.preview_cont}>
+            <div className={styles.preview}>
+              <h1>PHP</h1>
+              <p>A web server programming language</p>
+            </div>
+            <div className={styles.preview}>
+              <h1>SQL</h1>
+              <p>A language for accessing databases</p>
+             </div>
+            <div className={styles.preview}>
+              <h1>Go</h1>
+              <p>A version control system to keep track of code changes</p>
+              </div>
+            <div className={styles.preview}>
+              <h1>Git</h1>
+              <p>A popular programming language by Google</p>
+             </div>
+          </div>
+        </div>
       </div>
 
 

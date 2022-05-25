@@ -1,21 +1,25 @@
 import Link from "next/link";
 import Image from "next/dist/client/image";
+import styles from '../styles/footer.module.css'
+
+
+
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className={styles.footer}>
 
-            <div className="toprightfootstuff">
-                <div className="backtotop">
+            <div className={styles.toprightfootstuff}>
+                <div className={styles.backtotop}>
                     <Link href="/">
                         <a>
                             <p>Back To Home/Top <Image src="/backtotop-greyish.png" width={20} height={20} /></p>
                         </a>
                     </Link>
                 </div>
-                <div className="footerlogo">
+                <div className={styles.footerlogo}>
                     <Image src="/devcrib2.png" width={160} height={101} />
                 </div>
-                <p className="forum-about">
+                <p className={styles.forum_about}>
                     <Link href="/infographics/forum">
                         <a>FORUM  </a>
                     </Link>
@@ -25,7 +29,7 @@ const Footer = () => {
                     </Link>
                 </p>
             </div>
-            <div className="middlefooterstuff">
+            <div className={styles.middlefooterstuff}>
                 <Link href="https://web.facebook.com/michael.okwuosah">
                     <a target="_blank">
                         <Image src="/fbcolor.png" width={25} height={25} />
@@ -56,7 +60,7 @@ const Footer = () => {
                     </a>
                 </Link>
             </div>
-            <div className="project">
+            <div className={styles.project}>
                 <p>
                     Final Year Project by
                     <Link href="https://www.upwork.com/freelancers/~018a014dbbe3506e8b?s=1110580755057594368">
@@ -68,8 +72,10 @@ const Footer = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
             </div>
-            <div className="randombtn">
-                <p>Random</p>
+            <div className={styles.randombtn}>
+                <Link href="https://www.bellsuniversity.edu.ng">
+                    <a target="_blank">Submitted to Bells University of Technology</a>
+                </Link>
             </div>
         </div>
     );

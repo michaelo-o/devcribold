@@ -64,15 +64,24 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
+    text-align: center;
+    color: #000000;
 }
 
-.randombtn p {
+.randombtn a {
     background-color: #ee9209;
     border-radius: 40px;
-    padding: 15px 20%;
+    padding: 15px 10%;
+    width: fit-content;
 }
 
-.randombtn>p:hover {
+.randombtn a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.randombtn>a:hover {
     cursor: pointer;
     background-color: #a86705;
+    color: white;
 }
