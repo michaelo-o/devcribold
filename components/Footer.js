@@ -12,6 +12,9 @@ const Footer = () => {
                         </a>
                     </Link>
                 </div>
+                <div className="footerlogo">
+                    <Image src="/devcrib2.png" width={160} height={101} />
+                </div>
                 <p className="forum-about">
                     <Link href="/infographics/forum">
                         <a>FORUM  </a>

@@ -117,6 +117,85 @@ const WheretoBegin = () => {
                         </div>
                     </div>
                 </div>
+                <div className={styles.whatsnext}>
+                    <div className={styles.innerwn}>
+                        <h1>Now, What Next?</h1>
+                        <h3>Now you know how to use HTML, CSS, and JavaScript <br /> to create, style, and make interactive web pages.</h3>
+                        <h3>The <span className={styles.nextstep}>next step</span> is to publish your website, <br /> so that the rest of the world can see your work. </h3>
+                        <h3> There are tons of hosting services to choose from. A few Examples are; <br />
+                            <Link href="https://www.hostinger.com/">
+                                <a target="blank">Hostinger, </a>
+                            </Link>
+                            <Link href="https://www.bluehost.com/">
+                                <a target="blank">Bluehost, </a>
+                            </Link>
+                            <Link href="https://www.dreamhost.com/">
+                                <a target="blank">DreamHost, </a>
+                            </Link>
+                            <Link href="https://www.hostgator.com/">
+                                <a target="blank">Hostgator </a>
+                            </Link>
+                            etc.
+                        </h3>
+                    </div>
+                </div>
+                <div className={styles.hellofronted}>
+                    <div className={styles.innerhfed}>
+                        <h1>Hello, <br /> Front-End Web Developer.</h1>
+                        <h3>People who create websites and web applications for a living, are called <span className={styles.fronted}>Front-End Developers</span>.</h3>
+                        <h3>Tip: Many Front-End Developers also have basic knowledge of <br /> different CSS and JavaScript frameworks and libraries, like; <br />
+                            <Link href="#">
+                                <a target="blank">Bootstrap, </a>
+                            </Link>
+                            <Link href="#">
+                                <a target="blank">SASS (CSS pre-processor), </a>
+                            </Link>
+                            <Link href="#">
+                                <a target="blank">jQuery, </a>
+                            </Link>
+                            and
+                            <Link href="#">
+                                <a target="blank">React, </a>
+                            </Link>
+                            <br />
+                            and , the popular version control system,
+                            <Link href="#">
+                                <a target="blank">Git.</a>
+                            </Link>
+                        </h3>
+                    </div>
+                </div>
+                <div className={styles.gradient}>
+                    <p> </p>
+                </div>
+                <div className={styles.asfbackend}>
+                    <div className={styles.innerbend}>
+                        <h1>As for the Back-End...</h1>
+                        <h3><span className={styles.bend_un}>Front-end</span> development refers to the <span className={styles.bend_un}>client</span>-side (how a web page <span className={styles.bend_un}>looks</span>). <br />
+                            <span className={styles.bend_un}>Back-end</span> development refers to the <span className={styles.bend_un}>server</span>-side (how a web page <span className={styles.bend_un}>works</span>). </h3>
+                        <h3>Front-end code is used to create static websites, where the purpose is to display the web page. <br /> However, if you want to make your website dynamic <br />  (manage files and databases, add contact forms, control user-access, etc.), <br /> you need to learn a back-end programming language, like; <br />
+                            <Link href="#">
+                                <a target="blank">PHP, </a>
+                            </Link>
+                            <Link href="#">
+                                <a target="blank">Python, </a>
+                            </Link>
+                            and use
+                            <Link href="#">
+                                <a target="blank"> SQL, </a>
+                            </Link>
+                            to communicate with databases.
+                            <h3>
+                                A list of other popular languages can be found on the 
+                                <Link href="/">
+                                    <a> Homepage</a>
+                                </Link>.
+                            </h3>
+                        </h3>
+                    </div>
+                </div>
+
+
 
 
 

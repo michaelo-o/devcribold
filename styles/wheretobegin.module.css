@@ -12,6 +12,8 @@
 
 .w2bcontent {
     background-color: #282A35;
+    padding: 0;
+    margin: 0;
 }
 
 .wheretobegin {
@@ -38,6 +40,7 @@
     font-size: 24px;
     margin: 60px 0 10px;
     color: white;
+    word-wrap: break-word;
 }
 
 .w2bhtml {
@@ -126,11 +129,13 @@
 .w2bhtmlticket5 h3 {
     font-size: 20px;
     text-align: center;
+    word-wrap: break-word;
 }
 
 .w2bhtmlticket5 p {
     font-size: 20px;
     text-align: center;
+    word-wrap: break-word;
 }
 
 .w2bhtmlticket5 h4 {
@@ -140,6 +145,7 @@
     width: fit-content;
     background-color: #0d1721;
     color: aliceblue;
+    word-wrap: break-word;
 }
 
 .w2bhtmlticket6 {
@@ -157,6 +163,7 @@
     font-weight: bolder;
     text-align: center;
     padding: 5%;
+    word-wrap: break-word;
 }
 
 
@@ -234,11 +241,13 @@
 .w2bcssticket5 h3 {
     font-size: 20px;
     text-align: center;
+    word-wrap: break-word;
 }
 
 .w2bcssticket5 p {
     font-size: 20px;
     text-align: center;
+    word-wrap: break-word;
 }
 
 .w2bcssticket5 h4 {
@@ -248,6 +257,7 @@
     width: fit-content;
     background-color: #0d1721;
     color: aliceblue;
+    word-wrap: break-word;
 }
 
 .w2bcssticket6 {
@@ -265,6 +275,7 @@
     font-weight: bolder;
     text-align: center;
     padding: 5%;
+    word-wrap: break-word;
 }
 
 /* js ticket 1 */
@@ -341,11 +352,13 @@
 .w2bjsticket5 h3 {
     font-size: 20px;
     text-align: center;
+    word-wrap: break-word;
 }
 
 .w2bjsticket5 p {
     font-size: 20px;
     text-align: center;
+    word-wrap: break-word;
 }
 
 .w2bjsticket5 h4 {
@@ -355,6 +368,7 @@
     width: fit-content;
     background-color: #0d1721;
     color: aliceblue;
+    word-wrap: break-word;
 }
 
 .w2bjsticket6 {
@@ -372,4 +386,146 @@
     font-weight: bolder;
     text-align: center;
     padding: 5%;
+    word-wrap: break-word;
+}
+
+/* what's next */
+
+.whatsnext {
+    /* background-color: white; */
+    background-image: linear-gradient(rgb(229, 77, 38), rgb(55, 153, 214), rgb(247, 223, 29));
+    color: #000000;
+    /* background-image: linear-gradient(rgb(229, 77, 38,0.4), rgb(55, 153, 214, 0.4), rgb(247, 223, 29, 0.4)); */
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+.innerwn {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 5%;
+    text-align: center !important;
+}
+
+
+.innerwn h1 {
+    font-size: 70px;
+    margin: 10px 0 -20px;
+    font-weight: bolder !important;
+    word-wrap: break-word;
+}
+
+.innerwn h3 {
+    font-size: 24px;
+    margin: 50px 0 10px;
+    word-wrap: break-word;
+    line-height: 1.5;
+}
+
+.innerwn a {
+    text-decoration: underline;
+    color: black !important;
+}
+
+.innerwn a:hover {
+    text-decoration: none;
+}
+
+.nextstep {
+    text-decoration: underline;
+}
+
+/* hello front end dev */
+
+.fronted{
+    text-decoration: underline;
+}
+
+.hellofronted {
+    background-color: #282A35;
+    color: white;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+.innerhfed {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 5%;
+    text-align: center !important;
+}
+
+
+.innerhfed h1 {
+    font-size: 70px;
+    margin: 10px 0 -20px;
+    font-weight: bolder !important;
+    word-wrap: break-word;
+}
+
+.innerhfed h3 {
+    font-size: 24px;
+    margin: 50px 0 10px;
+    word-wrap: break-word;
+    line-height: 1.5;
+}
+
+.innerhfed a {
+    text-decoration: underline;
+    color: white !important;
+}
+
+.innerhfed a:hover {
+    text-decoration: none;
+}
+
+.gradient {
+    padding: 20px;
+    background-image: linear-gradient(#282A35,#ffffff);
+}
+
+/* For the back end */
+
+.bend_un {
+    text-decoration: underline;
+}
+
+.asfbackend {
+    background-color: #ffffff;
+    color: #282A35;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+.innerbend {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 5%;
+    text-align: center !important;
+}
+
+.innerbend h1 {
+    font-size: 70px;
+    margin: 10px 0 -20px;
+    font-weight: bolder !important;
+    word-wrap: break-word;
+}
+
+.innerbend h3 {
+    font-size: 24px;
+    margin: 50px 0 10px;
+    word-wrap: break-word;
+    line-height: 1.5;
+}
+
+.innerbend a {
+    text-decoration: underline;
+    color: #282A35 !important;
+}
+
+.innerbend a:hover {
+    text-decoration: none;
 }

@@ -93,8 +93,9 @@ body {
 /* 404page */
 .not-found {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 120px;
   padding-bottom: 20px;
+  height: 350px;
 }
 
 .not-found a {
