@@ -82,9 +82,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="gradient2">
-          <p> </p>
-        </div>
+        
+        
         <div className="learncss">
           <div className="leftlearncss">
             <div className="innerllc">
@@ -122,9 +121,8 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="gradient3">
-          <p> </p>
-        </div>
+        
+        
         <div className="learnjavascript">
           <div className="leftlearnjs">
             <h1>Learn</h1>

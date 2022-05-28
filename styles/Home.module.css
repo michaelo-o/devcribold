@@ -29,15 +29,16 @@
 }
 
 .preview {
-  background-color: #a86705;
+  background-color: #ee9209;
   width: 40%;
   justify-content: stretch;
   margin-bottom: 30px;
-  border: .9px solid #0d1721;
+  /* border: .9px solid #0d1721; */
   border-radius: 5px;
   padding: 2%;
   color: black;
   height: 200px;
+  box-shadow: 2px 4px 20px 5px rgb(168, 103, 5, 1);
 }
 
 .preview p {

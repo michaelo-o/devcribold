@@ -394,7 +394,7 @@
 .whatsnext {
     /* background-color: white; */
     background-image: linear-gradient(rgb(229, 77, 38), rgb(55, 153, 214), rgb(247, 223, 29));
-    color: #000000;
+    color: #ffffff;
     /* background-image: linear-gradient(rgb(229, 77, 38,0.4), rgb(55, 153, 214, 0.4), rgb(247, 223, 29, 0.4)); */
     justify-content: center;
     padding-top: 90px;
@@ -425,7 +425,7 @@
 
 .innerwn a {
     text-decoration: underline;
-    color: black !important;
+    color: #ffffff !important;
 }
 
 .innerwn a:hover {
