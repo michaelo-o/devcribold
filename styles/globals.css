@@ -6,6 +6,9 @@
   --use: #FF9999;
   --midaqua: mediumaquamarine;
   --greyel: greenyellow;
+  --orange1: #a86705;
+  --orange2: #ee9209;
+  --blue2: #1d2a35;
 }
 
 body {
@@ -111,7 +114,7 @@ body {
 }
 
 .learntocode {
-  background-color: rgb(13, 23, 33) !important;
+  background-color: #0d1721 !important;
   color: white;
   justify-content: center;
   padding-top: 90px;
@@ -133,17 +136,17 @@ body {
 .innerlearntocode h3 {
   font-size: 23px;
   margin: 30px 0 10px;
-  color: #a86705;
+  color: #ffffff;
 }
 
 .innerlearntocode>a h4 {
   font-size: 23px;
   text-decoration: underline;
-  color: white;
+  color: #ee9209;
 }
 
 .innerlearntocode>a h4:hover {
-  color: #ee9209;
+  color: #ffffff;
 }
 
 .gradient1 {
@@ -167,7 +170,7 @@ body {
 }
 
 .learnhtml {
-  background-color: #ee9209 !important;
+  background-color: #ffffff !important;
   color: white;
   padding-top: 25px;
   padding-bottom: 35px;
@@ -216,7 +219,7 @@ body {
 .leftlearnhtml h4:hover {
   background-color: #1d2a35;
   cursor: pointer;
-  color: #a86705;
+  color: #ffffff;
 }
 
 .rightlearnhtml {
@@ -252,7 +255,7 @@ body {
 }
 
 .learncss {
-  background-color: #1d2a35 !important;
+  background-color: #0d1721 !important;
   color: white;
   padding-top: 25px;
   padding-bottom: 35px;
@@ -274,7 +277,7 @@ body {
   height: 100%;
   background-color: #293642;
   border-radius: 10px;
-  box-shadow: 1px 11px 35px 2px rgba(168, 103, 5, 1);
+  box-shadow: 1px 2px 15px 2px rgba(255, 255, 255, 1);
 }
 
 .innerllc>h2 {
@@ -311,33 +314,33 @@ body {
 .rightlearncss h1 {
   font-size: 100px;
   margin: -18px 0 -20px;
-  color: #ee9209;
+  color: #ffffff;
 }
 
 .rightlearncss h3 {
   font-size: 19px;
   margin: 22.8px 0;
-  color: #ee9209;
+  color: #ffffff;
 }
 
 .rightlearncss h4 {
   border-radius: 40px;
   padding: 8px 16px;
-  background-color: #ee9209;
-  color: aliceblue;
+  background-color: aliceblue;
+  color: #0d1721;
   width: 30%;
   margin-left: 32.5%;
 }
 
 .rightlearncss h4:hover {
-  background-color: #a86705;
+  background-color: #1d2a35;
   cursor: pointer;
-  color: #1d2a35;
+  color: #ffffff;
 }
 
 .learnjavascript {
-  background-color: #a86705 !important;
-  color: white;
+  background-color: white !important;
+  color: #0d1721;
   padding-top: 25px;
   padding-bottom: 35px;
   padding-left: 90px;
@@ -384,7 +387,7 @@ body {
 .leftlearnjs h4:hover {
   background-color: #1d2a35;
   cursor: pointer;
-  color: #a86705;
+  color: aliceblue;
 }
 
 .rightlearnjs {

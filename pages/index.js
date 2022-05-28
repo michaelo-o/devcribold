@@ -43,9 +43,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="gradient1">
-          <p> </p>
-        </div>
+        
         <div className="learnhtml">
           <div className="leftlearnhtml">
             <h1>Learn</h1>
@@ -160,9 +158,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="gradient4">
-          <p> </p>
-        </div>
+      
         <div className={styles.comingsoon}>
           <div className={styles.cmshead}>
             <h1>Coming Soon...</h1>
