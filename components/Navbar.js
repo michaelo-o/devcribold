@@ -30,6 +30,8 @@ const Navbar = () => {
 
     const closeButton = () => {
         setopenTutorial(false)
+        setopenExcercises(false)
+        setopenReferences(false)
     }
 
 
@@ -164,13 +166,78 @@ const Navbar = () => {
             }
             {openReferences ? (
                 <div className={styles.tutmodal}>
-                    trefum dolor sit amet consectetur adipisicing elit. Quos ullam accusantium voluptate suscipit harum, molestias alias non reiciendis excepturi atque delectus a enim laudantium dicta exercitationem neque accusamus illum aut.
+                    <button onClick={closeButton} className={styles.xbutton}>X</button>
+                    <div className={styles.innertutm}>
+                        <h1>References</h1>
+                        <div className={styles.inouter}>
+                            <div>
+                                <h2>HTML</h2>
+                                <Link href="#">
+                                    <a><h3>HTML Tag Reference</h3></a>
+                                </Link>
+                                <Link href="#">
+                                    <a><h3>HTML Color Reference</h3></a>
+                                </Link>
+                                <Link href="#">
+                                    <a><h3>HTML Attribute Reference</h3></a>
+                                </Link>
+                                <Link href="#">
+                                    <a><h3>HTML Event Reference</h3></a>
+                                </Link>
+                                <Link href="#">
+                                    <a><h3>HTML Canvas Reference</h3></a>
+                                </Link>
+                            </div>
+                            <div>
+                                <h2>CSS</h2>
+                                <Link href="#">
+                                    <a><h3>CSS Reference</h3></a>
+                                </Link>
+                                <Link href="#">
+                                    <a><h3>CSS Selector Reference</h3></a>
+                                </Link>
+                                <Link href="#">
+                                    <a><h3>CSS Property Reference</h3></a>
+                                </Link>
+                                <Link href="#">
+                                    <a><h3>CSS Function Reference</h3></a>
+                                </Link>
+                                <Link href="#">
+                                    <a><h3>CSS Unit Reference</h3></a>
+                                </Link>
+                            </div>
+                            <div>
+                                <h2>JavaScript</h2>
+                                <Link href="#">
+                                    <a><h3>JavaScript Reference</h3></a>
+                                </Link>
+                                <Link href="#">
+                                    <a><h3>JavaScript Class Reference</h3></a>
+                                </Link>
+                                <Link href="#">
+                                    <a><h3>JavaScript Array Reference</h3></a>
+                                </Link>
+                                <Link href="#">
+                                    <a><h3>JavaScript String Reference</h3></a>
+                                </Link>
+                                <Link href="#">
+                                    <a><h3>JavaScript Global Reference</h3></a>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             ) : null
             }
             {openExcercises ? (
                 <div className={styles.tutmodal}>
-                    excerLorem ipsum dolor sit amet consectetur adipisicing elit. Quos ullam accusantium voluptate suscipit harum, molestias alias non reiciendis excepturi atque delectus a enim laudantium dicta exercitationem neque accusamus illum aut.
+                    <button onClick={closeButton} className={styles.xbutton}>X</button>
+                    <div className={styles.innertutm}>
+                        <h1>Excercises</h1>
+                        <div className={styles.inouter}>
+                            <h1>Coming Soon...</h1>
+                        </div>
+                    </div>
                 </div>
             ) : null
             }

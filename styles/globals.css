@@ -217,9 +217,8 @@ body {
 }
 
 .leftlearnhtml h4:hover {
-  background-color: #1d2a35;
   cursor: pointer;
-  color: #ffffff;
+  color: #ee9209;
 }
 
 .rightlearnhtml {
@@ -335,7 +334,7 @@ body {
 .rightlearncss h4:hover {
   background-color: #1d2a35;
   cursor: pointer;
-  color: #ffffff;
+  color: #ee9209;
 }
 
 .learnjavascript {
@@ -387,7 +386,7 @@ body {
 .leftlearnjs h4:hover {
   background-color: #1d2a35;
   cursor: pointer;
-  color: aliceblue;
+  color: #ee9209;
 }
 
 .rightlearnjs {
