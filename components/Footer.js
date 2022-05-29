@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
                 <p className={styles.forum_about}>
                     <Link href="/infographics/forum">
-                        <a>FORUM  </a>
+                        <a>TERMS OF SERVICE  </a>
                     </Link>
                     |
                     <Link href="/infographics/about">

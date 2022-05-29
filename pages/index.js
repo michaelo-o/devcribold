@@ -34,16 +34,73 @@ export default function Home() {
         <meta name="description" content="Dev Crib" />
       </Head>
       <div className="content">
-        <div className="learntocode">
-          <div className="innerlearntocode">
-            <h1>Learn to Code</h1>
-            <h3>Kick start your Front-End Web Developer Career</h3>
+        <div className={styles.learntocode}>
+          <div className={styles.lltc}>
+            <h1><span className={styles.lltclearn}>Learning</span> to <span className={styles.lltccode}>Code</span> has never been <span className={styles.lltceasier}>easier</span>.</h1>
+            <div className={styles.lltcp}>
+              <p>Dev Crib is a Front-end Web Developer Hub that&#39;s here to help you kick start your career as a Front-End Web Developer with ease.</p>
+              <p>Focused on modern web standards and web app UX, Dev Crib would simply teach you how to build better websites. By the time you&#39;re done, people are gonna love using your stuff!</p>
+            </div>
+            {/* <h3>Kick start your Front-End Web Developer Career</h3> */}
             <Link href="/infographics/wheretobegin">
-              <a> <h4>Having trouble Deciding Where to Begin?</h4></a>
+              <a> <h4>Having trouble Getting Started?</h4></a>
             </Link>
           </div>
+          <div className={styles.rltc}>
+            <div className={styles.innerrltc}>
+              <div className={styles.innerrltcexample}>
+                <p className="inlinehtml">
+                  {BrO}!DOCTYPE <span className="attributecolor">html</span>{BrC} <br />
+                  {BrO}html{BrC} <br />
+                  <br />
+                  {BrO}head{BrC} <br />
+                  {BrO}title{BrC}<span>HTML Tutorial</span>{BrO}/title{BrC} <br />
+                  {BrO}style{BrC} <br />
+                  <span className="inlinecss">
+                    body {CBrO}  <br />
+                    <span className="cselector">background-color:</span> <span className="cssvalue">lightblue</span>;  <br />
+                    {CBrC}
+                    <br />
+                    <br />
+                    #datesample {CBrO}  <br />
+                    <span className="cselector">font-size:</span> <span className="cssvalue">28px</span>;  <br />
+                    <span className="cselector">font-family:</span> <span className="cssvalue">&#34;Source Sans Pro&#34;</span>;  <br />
+                    {CBrC}
+                  </span> <br />
+                  {BrO}/style{BrC} <br />
+                  <p className="inlinejs">
+                    {BrO}script{BrC} <br />
+                    <span className="jsvh">function</span> myFunction() &#123; <br />
+                    <span className="tabbedjs"><span className="jsvh">let</span> x = document.getElementById(<span className="jsfunval">&#34;demo&#34;</span>); <br /></span>
+                    <span className="tabbedjs">x.style.fontSize = <span className="jsfunval">&#34;25px&#34;</span>; <br /></span>
+                    <span className="tabbedjs"> x.style.color = <span className="jsfunval">&#34;red&#34;</span>; <br />
+                    </span>
+                    {CBrC} <br />
+                    <br />
+                    <span className="jsvh">const</span><span> d =</span> <span className="jsvh">new</span> <span>Date();</span> <br />
+                    <span><span className="jsvh">let</span> x = document.getElementById(<span className="jsfunval">&#34;datesample&#34;</span>).innerHTML = d;</span> <br />
+                    {BrO}/script{BrC}
+                  </p>
+                  {BrO}/head{BrC} <br />
+                  <br />
+                  {BrO}body{BrC}
+                  <br />
+                  <br />
+                  {BrO}h1{BrC}<span>This is a heading</span>{BrO}/h1{BrC} <br />
+                  {BrO}h2{BrC}<span>This is a Sub-heading</span>{BrO}/h2{BrC} <br />
+                  <br />
+                  {BrO}p{BrC}<span>This is a paragraph.</span>{BrO}/p{BrC}
+                  <p className="inlinejs">
+                    {BrO}button <span className="jsvh">onclick</span>=&#34;myFunction()&#34;{BrC}<span>Click Me!</span>{BrO}/button{BrC}
+                  </p>
+                  {BrO}/body{BrC} <br />
+                  {BrO}/html{BrC}
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        
+
         <div className="learnhtml">
           <div className="leftlearnhtml">
             <h1>Learn</h1>
@@ -80,8 +137,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        
-        
+
+
         <div className="learncss">
           <div className="leftlearncss">
             <div className="innerllc">
@@ -119,8 +176,8 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        
-        
+
+
         <div className="learnjavascript">
           <div className="leftlearnjs">
             <h1>Learn</h1>
@@ -158,7 +215,7 @@ export default function Home() {
           </div>
         </div>
 
-      
+
         <div className={styles.comingsoon}>
           <div className={styles.cmshead}>
             <h1>Coming Soon...</h1>
@@ -171,15 +228,15 @@ export default function Home() {
             <div className={styles.preview}>
               <h1>SQL</h1>
               <p>A language for accessing databases</p>
-             </div>
+            </div>
             <div className={styles.preview}>
               <h1>Go</h1>
               <p>A version control system to keep track of code changes</p>
-              </div>
+            </div>
             <div className={styles.preview}>
               <h1>Git</h1>
               <p>A popular programming language by Google</p>
-             </div>
+            </div>
           </div>
         </div>
       </div>

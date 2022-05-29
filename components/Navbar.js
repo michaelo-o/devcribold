@@ -35,21 +35,6 @@ const Navbar = () => {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     return (
         <nav className={styles.navbar}>
             <Head>
@@ -61,7 +46,6 @@ const Navbar = () => {
                     <a>
                         <Image src="/devcrib2.png" alt="site logo" width={128} height={77} />
                     </a>
-
                 </Link>
 
                 <p onClick={tutorial} >Tutorials<Image src="/cdown.png" width={25} height={25} /></p>
@@ -70,14 +54,14 @@ const Navbar = () => {
 
             </div>
             <div className={styles.rightnavstuff}>
-                <button className={styles.serbtn}>
+                {/* <button className={styles.serbtn}>
                     <Image
                         src="/whitesearch.png"
                         alt="Submit Search"
                         width={20}
                         height={19}
                     />
-                </button>
+                </button> */}
                 <Link href="https://ko-fi.com/michae_l#paypalModal">
                     <a target="_blank" className={styles.paidc}>Buy a Coffee 🙂☕</a>
                 </Link>
@@ -92,7 +76,7 @@ const Navbar = () => {
 
             {openTutorial ? (
                 <div className={styles.tutmodal}>
-                    <button onClick={closeButton} className={styles.xbutton}>X</button>
+                    <button onClick={closeButton} className={styles.xbutton}><h2>X</h2></button>
                     <div className={styles.innertutm}>
                         <h1>Tutorials</h1>
                         <div className={styles.inouter}>
@@ -166,7 +150,7 @@ const Navbar = () => {
             }
             {openReferences ? (
                 <div className={styles.tutmodal}>
-                    <button onClick={closeButton} className={styles.xbutton}>X</button>
+                    <button onClick={closeButton} className={styles.xbutton}><h2>X</h2></button>
                     <div className={styles.innertutm}>
                         <h1>References</h1>
                         <div className={styles.inouter}>
@@ -231,7 +215,7 @@ const Navbar = () => {
             }
             {openExcercises ? (
                 <div className={styles.tutmodal}>
-                    <button onClick={closeButton} className={styles.xbutton}>X</button>
+                    <button onClick={closeButton} className={styles.xbutton}><h2>X</h2></button>
                     <div className={styles.innertutm}>
                         <h1>Excercises</h1>
                         <div className={styles.inouter}>

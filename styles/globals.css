@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap'); */
+
 
 :root {
   --useful: #b93428;
@@ -14,8 +17,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Source Sans Pro',
-    sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* inlinehtmlcode */
@@ -43,7 +45,7 @@ body {
 .inlinecss {
   font-family: Consolas, Menlo, "courier new", monospace;
   font-size: 15px;
-  color: #FF9999;
+  color: #FF9999 !important;
   line-height: 1.3;
 }
 
@@ -52,11 +54,11 @@ body {
 }
 
 .cselector {
-  color: var(--midaqua);
+  color: var(--midaqua) !important;
 }
 
 .cssvalue {
-  color: #ee9209;
+  color: #ee9209 !important;
 }
 
 /* inlinejs */
@@ -113,42 +115,6 @@ body {
   flex-direction: column;
 }
 
-.learntocode {
-  background-color: #0d1721 !important;
-  color: white;
-  justify-content: center;
-  padding-top: 90px;
-  padding-bottom: 90px;
-}
-
-.innerlearntocode {
-  padding-left: 90px;
-  padding-right: 90px;
-  text-align: center !important;
-}
-
-.innerlearntocode h1 {
-  font-size: 70px;
-  margin: 2px 0 -20px;
-  font-weight: bold;
-}
-
-.innerlearntocode h3 {
-  font-size: 23px;
-  margin: 30px 0 10px;
-  color: #ffffff;
-}
-
-.innerlearntocode>a h4 {
-  font-size: 23px;
-  text-decoration: underline;
-  color: #ee9209;
-}
-
-.innerlearntocode>a h4:hover {
-  color: #ffffff;
-}
-
 .gradient1 {
   padding: 20px;
   background-image: linear-gradient(#0d1721, #ee9209);
@@ -170,7 +136,7 @@ body {
 }
 
 .learnhtml {
-  background-color: #ffffff !important;
+  background-color: aliceblue !important;
   color: white;
   padding-top: 25px;
   padding-bottom: 35px;
@@ -338,7 +304,7 @@ body {
 }
 
 .learnjavascript {
-  background-color: white !important;
+  background-color: aliceblue !important;
   color: #0d1721;
   padding-top: 25px;
   padding-bottom: 35px;

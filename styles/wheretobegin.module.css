@@ -146,6 +146,13 @@
     background-color: #0d1721;
     color: aliceblue;
     word-wrap: break-word;
+    border: .5px solid #0d1721;
+}
+
+.w2bhtmlticket5 h4:hover {
+    background-color: transparent;
+    transition: ease-in-out .5s;
+    color: #0d1721;
 }
 
 .w2bhtmlticket6 {
@@ -258,6 +265,13 @@
     background-color: #0d1721;
     color: aliceblue;
     word-wrap: break-word;
+    border: .5px solid #0d1721;
+}
+
+.w2bcssticket5 h4:hover {
+    background-color: transparent;
+    transition: ease-in-out .5s;
+    color: #0d1721;
 }
 
 .w2bcssticket6 {
@@ -369,6 +383,13 @@
     background-color: #0d1721;
     color: aliceblue;
     word-wrap: break-word;
+    border: .5px solid #0d1721;
+}
+
+.w2bjsticket5 h4:hover {
+    background-color: transparent;
+    transition: ease-in-out .5s;
+    color: #0d1721;
 }
 
 .w2bjsticket6 {
@@ -438,7 +459,7 @@
 
 /* hello front end dev */
 
-.fronted{
+.fronted {
     text-decoration: underline;
 }
 
@@ -483,7 +504,7 @@
 
 .gradient {
     padding: 20px;
-    background-image: linear-gradient(#282A35,#ffffff);
+    background-image: linear-gradient(#282A35, #ffffff);
 }
 
 /* For the back end */

@@ -1,3 +1,104 @@
+
+/* learn to code on landing page */
+
+.store {
+  --thegray: #293642;
+}
+
+
+.learntocode {
+  display: flex;
+  flex-direction: row;
+  background-color: #0d1721 !important;
+  color: white;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  width: 100%;
+  height: 900px;
+}
+
+.lltc {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  width: 40%;
+  text-align: left;
+  padding-top: 5%;
+}
+
+.rltc {
+  width: 60%;
+  padding-left: 2.5%;
+  padding-right: 0;
+  margin-right: 0;
+  right: 0;
+}
+
+.innerrltc {
+  position: relative;
+  width: 100%;
+  height: 95%;
+  background-color: #ee9209;
+  border-radius: 10px 0px 0px 10px;
+  box-shadow: 1px 11px 35px 10px rgba(29, 42, 53, 1);
+}
+
+.innerrltcexample {
+  display: block;
+  position: absolute;
+  padding: 1.5% 0 1.5% 1.5%;
+  top: 2.5%;
+  right: 3%;
+  left: 2.5%;
+  width: 75%;
+  height: 91%;
+  border-radius: 10px;
+  background-color: #0d1721;
+}
+
+.lltc h1 {
+  font-size: 75px;
+  margin: 2px 0 -20px;
+  /* font-weight: bolder; */
+  line-height: 1;
+}
+
+.lltcp {
+  font-size: 23px;
+  margin: 50px 0 10px;
+  color: #ffffff;
+}
+
+.lltccode{
+  color: #ee9209;
+}
+
+.lltclearn{
+  color: #FF9999;
+}
+
+.lltceasier{
+  color: mediumaquamarine;
+}
+
+.lltc>a h4 {
+  font-size: 23px;
+  text-decoration: underline;
+  color: #0d1721;
+  border: 1px solid #ee9209;
+  width: fit-content;
+  padding: 16px 32px;
+  background-color: #ee9209;
+  border-radius: 10px;
+}
+
+.lltc>a h4:hover {
+  transition: ease-in-out .5s;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+
 .comingsoon {
   text-align: center;
   width: 100%;
@@ -38,6 +139,7 @@
   padding: 2%;
   color: white;
   height: 200px;
+  border: 1px solid #ee9209;
   /* box-shadow: 2px 4px 20px 5px rgb(168, 103, 5, 1); */
   /* box-shadow: 2px 4px 20px 5px #1d2a35; */
 }
