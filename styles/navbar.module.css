@@ -33,14 +33,6 @@
     border: none;
 }
 
-
-/* 
-.imgacenter {
-  align-items: center !important;
-  margin: 0;
-  padding: 0;
-} */
-
 .rightnavstuff {
     display: flex;
     flex-direction: row;
@@ -176,7 +168,7 @@
     background-color: transparent;
 }
 
-.innertutm>div a{
+.innertutm>div a {
     text-decoration: none;
 }
 
@@ -184,4 +176,14 @@
     text-decoration: none;
     background-color: #da8608 !important;
     color: #1d2a35;
+}
+
+
+/* MOBILE STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media only screen and (max-width: 700px) {
+
+
+
+
+    
 }

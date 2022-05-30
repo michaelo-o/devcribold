@@ -100,7 +100,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+<div className="texcfst">
 
+</div>
         <div className="learnhtml">
           <div className="leftlearnhtml">
             <h1>Learn</h1>

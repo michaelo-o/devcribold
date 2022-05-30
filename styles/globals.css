@@ -302,7 +302,13 @@ body {
   cursor: pointer;
   color: #ee9209;
 }
-
+.texcfst{
+  height: 600px;
+  background-image: url('/working-code_1098-19858.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .learnjavascript {
   background-color: aliceblue !important;
   color: #0d1721;
