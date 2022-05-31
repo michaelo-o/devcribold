@@ -323,7 +323,7 @@
         max-height: 70%;
         overflow-x: auto;
         /* left: 0; */
-        z-index: 0;
+        z-index: 1;
         margin-top: 20%;
         border-bottom: 1px solid #da8608;
     }

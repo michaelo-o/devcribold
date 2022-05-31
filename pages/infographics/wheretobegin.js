@@ -112,7 +112,7 @@ const WheretoBegin = () => {
                             </Link>
                         </div>
                         <div className={styles.w2bjsticket6}>
-                            <h1>3</h1>
+                            <h1 style={{ fontSize: "50px" }}>3</h1>
                             <h1>JavaScript</h1>
                         </div>
                     </div>
@@ -186,7 +186,7 @@ const WheretoBegin = () => {
                             </Link>
                             to communicate with databases.
                             <h3>
-                                A list of other popular languages can be found on the 
+                                A list of other popular languages can be found on the
                                 <Link href="/">
                                     <a> Homepage</a>
                                 </Link>.

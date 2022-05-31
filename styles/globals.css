@@ -166,7 +166,7 @@ body {
 
 .leftlearnhtml h3 {
   font-size: 19px;
-  margin: 22.8px 0;
+  margin: 22.8px 5px;
   color: #0d1721;
 }
 
@@ -175,8 +175,9 @@ body {
   padding: 8px 16px;
   background-color: #0d1721;
   color: aliceblue;
-  width: 30%;
-  margin-left: 32.5%;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
   text-decoration: none;
 }
 
@@ -288,7 +289,7 @@ body {
 
 .rightlearncss h3 {
   font-size: 19px;
-  margin: 22.8px 0;
+  margin: 22.8px 5px;
   color: #ffffff;
 }
 
@@ -297,8 +298,9 @@ body {
   padding: 8px 16px;
   background-color: aliceblue;
   color: #0d1721;
-  width: 30%;
-  margin-left: 32.5%;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .rightlearncss h4:hover {
@@ -334,13 +336,13 @@ body {
 
 .leftlearnjs h1 {
   font-size: 100px;
-  margin: -18px 0 -20px; 
+  margin: -18px 0 -20px;
   color: #0d1721;
 }
 
 .leftlearnjs h3 {
   font-size: 19px;
-  margin: 22.8px 0;
+  margin: 22.8px 5px;
   color: #0d1721;
 }
 
@@ -349,8 +351,9 @@ body {
   padding: 8px 16px;
   background-color: #0d1721;
   color: aliceblue;
-  width: 30%;
-  margin-left: 32.5%;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .leftlearnjs h4:hover {
@@ -493,31 +496,57 @@ body {
     display: none;
   }
 
-.leftlearnjs h1 {
-  font-size: 90px;
-  margin: -18px 0 -20px;
-  color: #0d1721;
+  .leftlearnjs h1 {
+    font-size: 80px;
+    margin: -18px 0 -20px;
+    color: #0d1721;
+  }
+
+  .rightlearncss h1 {
+    font-size: 80px;
+    line-height: 1.5;
+  }
+
+  .leftlearnhtml h1 {
+    font-size: 80px;
+    line-height: 1.5;
+  }
 }
 
+/* to start diplaying none */
+@media only screen and (max-width: 850px) {
+  .rightlearnhtml {
+    display: none;
+  }
+
+  .rightlearnjs {
+    display: none;
+  }
+
+  .leftlearncss {
+    display: none;
+  }
+
 }
+
 
 @media only screen and (max-width: 400px) {
-.leftlearnjs h1 {
-  font-size: 60px;
-  margin: -18px 0 -20px;
-  color: #0d1721;
-  line-height: 1.5;
-}
+  .leftlearnjs h1 {
+    font-size: 60px;
+    margin: -18px 0 -20px;
+    color: #0d1721;
+    line-height: 1.5;
+  }
 
-.rightlearncss h1{
-font-size: 60px;
-line-height: 1.5;
-}
+  .rightlearncss h1 {
+    font-size: 60px;
+    line-height: 1.5;
+  }
 
-.leftlearnhtml h1 {
-  font-size: 60px;
-  line-height: 1.5;
-}
+  .leftlearnhtml h1 {
+    font-size: 60px;
+    line-height: 1.5;
+  }
 
 
 }
