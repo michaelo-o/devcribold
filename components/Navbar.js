@@ -18,6 +18,7 @@ const Navbar = () => {
     const [openExcercises, setopenExcercises] = useState(false)
     const [openMenu, setopenMenu] = useState(false)
 
+
     const tutorial = () => {
         setopenTutorial(!openTutorial)
         setopenExcercises(false)
@@ -54,6 +55,9 @@ const Navbar = () => {
         setopenReferences(false)
         setopenMenu(false)
     }
+
+
+
 
     return (
         <nav className={styles.navbar}>
@@ -152,16 +156,14 @@ const Navbar = () => {
                     <div className={styles.mobileinnertutm}>
                         <h1>Menu</h1>
                         <div className={styles.mobileinouter}>
-                            <p onClick={tutorial} >Tutorials<Image src="/cdown.png" width={25} height={25} /></p>
-                            <p onClick={references}>References<Image src="/cdown.png" width={25} height={25} /></p>
-                            <p onClick={excercises}>Exercises<Image src="/cdown.png" width={25} height={25} /></p>
+                            <p className={styles.tutdpn}>Tutorials<Image src="/cdown.png" width={25} height={25} /></p>
+                            <p className={styles.refdpn}>References<Image src="/cdown.png" width={25} height={25} /></p>
+                            <p className={styles.excdpn}>Exercises<Image src="/cdown.png" width={25} height={25} /></p>
                         </div>
                     </div>
                 </div>
             ) : null
             }
-
-
 
 
 

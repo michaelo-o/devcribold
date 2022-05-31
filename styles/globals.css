@@ -226,6 +226,7 @@ body {
   height: 70%;
   border-radius: 10px;
   background-color: #0d1721;
+  overflow: auto;
 }
 
 .learncss {
@@ -267,9 +268,10 @@ body {
   right: 2%;
   left: 2%;
   width: 93%;
-  height: 70%;
+  height: 71%;
   border-radius: 10px;
   background-color: #0d1721;
+  overflow: auto;
 }
 
 .rightlearncss {
@@ -394,6 +396,7 @@ body {
   height: 70%;
   border-radius: 10px;
   background-color: #0d1721;
+  overflow: auto;
 }
 
 
