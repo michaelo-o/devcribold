@@ -1,4 +1,3 @@
-
 /* learn to code on landing page */
 
 .store {
@@ -15,7 +14,7 @@
   padding-top: 30px;
   padding-bottom: 50px;
   width: 100%;
-  height: 900px;
+  height: 1000px;
 }
 
 .lltc {
@@ -38,11 +37,11 @@
   position: relative;
   width: 100%;
   height: 95%;
-  /* background-color: #ee9209; */
+  background-color: #ee9209;
   background-image: url('/programming-code-icon-made-with-binary-code-coding-hacker-matrix-background-with-digits-1-0_127544-1141.webp');
   background-position: center;
   background-repeat: no-repeat;
-  background-position: -450px;
+  background-position: -460px;
   background-size: cover;
   border-radius: 10px 0px 0px 10px;
   box-shadow: 1px 11px 35px 10px rgba(29, 42, 53, 1);
@@ -74,15 +73,15 @@
   color: #ffffff;
 }
 
-.lltccode{
+.lltccode {
   color: #ee9209;
 }
 
-.lltclearn{
+.lltclearn {
   color: #FF9999;
 }
 
-.lltceasier{
+.lltceasier {
   color: mediumaquamarine;
 }
 
@@ -158,4 +157,57 @@
   font-size: 45px;
   margin: 10px 0;
   padding: 24px;
+}
+
+/* MOBILE STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media only screen and (max-width: 700px) {
+
+.learntocode {
+  display: flex;
+  flex-direction: row;
+  background-color: #0d1721 !important;
+  color: white;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  width: 100%;
+  height: 900px;
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

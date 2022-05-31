@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className={styles.backtotop}>
                     <Link href="/">
                         <a>
-                            <p>Back To Home/Top <Image src="/backtotop-greyish.png" width={20} height={20} /></p>
+                            <p>Back To Home</p>
                         </a>
                     </Link>
                 </div>
@@ -20,7 +20,7 @@ const Footer = () => {
                     <Image src="/devcrib2.png" width={160} height={101} />
                 </div>
                 <p className={styles.forum_about}>
-                    <Link href="/infographics/forum">
+                    <Link href="/infographics/termsofservice">
                         <a>TERMS OF SERVICE  </a>
                     </Link>
                     |

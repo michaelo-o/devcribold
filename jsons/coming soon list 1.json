@@ -1,0 +1,22 @@
+[
+    {
+        "Language Name": "PHP",
+        "Short Note": "A web server programming language",
+        "id": "1"
+    },
+    {
+        "Language Name": "SQL",
+        "Short Note": "A language for accessing databases",
+        "id": "2"
+    },
+    {
+        "Language Name": "Go",
+        "Short Note": "A version control system to keep track of code changes",
+        "id": "3"
+    },
+    {
+        "Language Name": "Git",
+        "Short Note": "A popular programming language by Google",
+        "id": "4"
+    }
+]

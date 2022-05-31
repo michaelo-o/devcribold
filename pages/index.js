@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import ComingSoonList from '../jsons/coming soon list 1.json'
 
 
 export default function Home() {
@@ -100,9 +101,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-<div className="texcfst">
+        <div className="beforelearnh">
 
-</div>
+        </div>
         <div className="learnhtml">
           <div className="leftlearnhtml">
             <h1>Learn</h1>
@@ -223,22 +224,12 @@ export default function Home() {
             <h1>Coming Soon...</h1>
           </div>
           <div className={styles.preview_cont}>
-            <div className={styles.preview}>
-              <h1>PHP</h1>
-              <p>A web server programming language</p>
-            </div>
-            <div className={styles.preview}>
-              <h1>SQL</h1>
-              <p>A language for accessing databases</p>
-            </div>
-            <div className={styles.preview}>
-              <h1>Go</h1>
-              <p>A version control system to keep track of code changes</p>
-            </div>
-            <div className={styles.preview}>
-              <h1>Git</h1>
-              <p>A popular programming language by Google</p>
-            </div>
+            {ComingSoonList.map(cmsl => (
+              <div className={styles.preview} key={cmsl.id}>
+                <h1>{cmsl['Language Name']}</h1>
+                <p>{cmsl['Short Note']}</p>
+              </div>
+            ))}
           </div>
         </div>
       </div>

@@ -113,9 +113,10 @@ body {
   text-decoration: none;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
-.gradient1 {
+/* .gradient1 {
   padding: 20px;
   background-image: linear-gradient(#0d1721, #ee9209);
 }
@@ -133,7 +134,15 @@ body {
 .gradient4 {
   padding: 20px;
   background-image: linear-gradient(#a86705, #0d1721);
-}
+} */
+
+/* .beforelearnh {
+  height: 600px;
+  background-image: url('/working-code_1098-19858.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
 
 .learnhtml {
   background-color: aliceblue !important;
@@ -302,13 +311,7 @@ body {
   cursor: pointer;
   color: #ee9209;
 }
-.texcfst{
-  height: 600px;
-  background-image: url('/working-code_1098-19858.webp');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 .learnjavascript {
   background-color: aliceblue !important;
   color: #0d1721;
@@ -336,7 +339,7 @@ body {
 
 .leftlearnjs h1 {
   font-size: 100px;
-  margin: -18px 0 -20px;
+  margin: -18px 0 -20px; 
   color: #0d1721;
 }
 
@@ -391,4 +394,126 @@ body {
   height: 70%;
   border-radius: 10px;
   background-color: #0d1721;
+}
+
+
+/* MOBILE STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media only screen and (max-width: 700px) {
+  body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro',
+      sans-serif;
+  }
+
+  .content {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+
+  .learncss {
+    background-color: #0d1721 !important;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .leftlearncss {
+    width: 100%;
+    padding: 2.5%;
+    display: none;
+  }
+
+  .rightlearncss {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .learnhtml {
+    background-color: aliceblue !important;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+  }
+
+  .leftlearnhtml {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .rightlearnhtml {
+    width: 100%;
+    padding: 0%;
+    display: none;
+  }
+
+  .learnjavascript {
+    background-color: aliceblue !important;
+    color: #0d1721;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .leftlearnjs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .rightlearnjs {
+    width: 100%;
+    padding: 0%;
+    display: none;
+  }
+
+.leftlearnjs h1 {
+  font-size: 50px;
+  margin: -18px 0 -20px;
+  color: #0d1721;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
