@@ -136,13 +136,6 @@ body {
   background-image: linear-gradient(#a86705, #0d1721);
 } */
 
-/* .beforelearnh {
-  height: 600px;
-  background-image: url('/working-code_1098-19858.webp');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
 
 .learnhtml {
   background-color: aliceblue !important;
@@ -501,22 +494,30 @@ body {
   }
 
 .leftlearnjs h1 {
-  font-size: 50px;
+  font-size: 90px;
   margin: -18px 0 -20px;
   color: #0d1721;
 }
 
+}
 
+@media only screen and (max-width: 400px) {
+.leftlearnjs h1 {
+  font-size: 60px;
+  margin: -18px 0 -20px;
+  color: #0d1721;
+  line-height: 1.5;
+}
 
+.rightlearncss h1{
+font-size: 60px;
+line-height: 1.5;
+}
 
-
-
-
-
-
-
-
-
+.leftlearnhtml h1 {
+  font-size: 60px;
+  line-height: 1.5;
+}
 
 
 }

@@ -17,7 +17,9 @@ const Navbar = () => {
     const [openReferences, setopenReferences] = useState(false)
     const [openExcercises, setopenExcercises] = useState(false)
     const [openMenu, setopenMenu] = useState(false)
-
+    const [mobileTutorial, setmobileTutorial] = useState(false)
+    const [mobileReference, setmobileReference] = useState(false)
+    const [mobileExcercise, setmobileExcercise] = useState(false)
 
     const tutorial = () => {
         setopenTutorial(!openTutorial)
@@ -50,13 +52,29 @@ const Navbar = () => {
     }
 
     const mobilemenuback = () => {
-        setopenTutorial(false)
-        setopenExcercises(false)
-        setopenReferences(false)
+        setmobileTutorial(false)
+        setmobileExcercise(false)
+        setmobileReference(false)
         setopenMenu(false)
     }
 
+    const mobtut = () => {
+        setmobileTutorial(!mobileTutorial)
+        setmobileExcercise(false)
+        setmobileReference(false)
+    }
 
+    const mobref = () => {
+        setmobileReference(!mobileReference)
+        setmobileTutorial(false)
+        setmobileExcercise(false)
+    }
+
+    const mobex = () => {
+        setmobileExcercise(!mobileExcercise)
+        setmobileTutorial(false)
+        setmobileReference(false)
+    }
 
 
     return (
@@ -156,9 +174,28 @@ const Navbar = () => {
                     <div className={styles.mobileinnertutm}>
                         <h1>Menu</h1>
                         <div className={styles.mobileinouter}>
-                            <p className={styles.tutdpn}>Tutorials<Image src="/cdown.png" width={25} height={25} /></p>
-                            <p className={styles.refdpn}>References<Image src="/cdown.png" width={25} height={25} /></p>
-                            <p className={styles.excdpn}>Exercises<Image src="/cdown.png" width={25} height={25} /></p>
+                            <p onClick={mobtut}>Tutorials<Image src="/cdown.png" width={25} height={25} /></p>
+                            {mobileTutorial ? (
+                                <div className={styles.tutdpnc}>
+                                    <NavTutHtml />
+                                    <NavTutCss />
+                                    <NavTutJs />
+                                </div>
+                            ) : null}
+                            <p onClick={mobref}>References<Image src="/cdown.png" width={25} height={25} /></p>
+                            {mobileReference ? (
+                                <div className={styles.tutdpnc}>
+                                    <NavRefHtml />
+                                    <NavRefCss />
+                                    <NavRefJs />
+                                </div>
+                            ) : null}
+                            <p onClick={mobex}>Exercises<Image src="/cdown.png" width={25} height={25} /></p>
+                            {mobileExcercise ? (
+                                <div className={styles.tutdpnc}>
+                                    <h1>Coming Soon...</h1>
+                                </div>
+                            ) : null}
                         </div>
                     </div>
                 </div>

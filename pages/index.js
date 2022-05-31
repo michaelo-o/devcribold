@@ -101,8 +101,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="beforelearnh">
-
+        <div className={styles.beforelearnh}>
+<p> </p>
         </div>
         <div className="learnhtml">
           <div className="leftlearnhtml">

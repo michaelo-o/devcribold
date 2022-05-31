@@ -10,12 +10,12 @@
         "id": "2"
     },
     {
-        "Language Name": "Go",
+        "Language Name": "Git",
         "Short Note": "A version control system to keep track of code changes",
         "id": "3"
     },
     {
-        "Language Name": "Git",
+        "Language Name": "Go",
         "Short Note": "A popular programming language by Google",
         "id": "4"
     }

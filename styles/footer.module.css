@@ -4,7 +4,8 @@
     color: white;
     display: flex;
     flex-direction: column;
-    padding: 32px 16px;
+    padding: 16px 8px;
+    overflow: auto;
 }
 
 .toprightfootstuff {
@@ -84,4 +85,49 @@
     cursor: pointer;
     background-color: #a86705;
     color: white;
+}
+
+/* MOBILE STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media only screen and (max-width: 700px) {
+
+.toprightfootstuff{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
