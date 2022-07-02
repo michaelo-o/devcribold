@@ -18,7 +18,7 @@ const NavTutHtml = (props) => {
                     <a><h3 onClick={tutorial}>Learn HTML Forms</h3></a>
                 </Link>
                 <Link href="#">
-                    <a><h3 onClick={tutorial}>Learn HTML Canvas</h3></a>
+                    <a><h3 onClick={tutorial}>Learn HTML Media</h3></a>
                 </Link>
                 <Link href="#">
                     <a><h3 onClick={tutorial}>HTML Examples</h3></a>

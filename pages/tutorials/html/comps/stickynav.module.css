@@ -1,0 +1,43 @@
+/* sticky tab */
+.stickytab {
+    color: white;
+    position: sticky;
+    top: 0;
+    background-color: #1d2a35;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    border-left: 1px solid #a86705;
+    border-right: 1px solid #a86705;
+    margin-left: auto;
+    z-index: 1;
+
+    width: 25%;
+}
+
+.currentlang {
+    background-color: #e68e0b !important;
+    color: #0d1721 !important;
+}
+
+.currentlang:hover {
+    text-decoration: none;
+    border-bottom: .5px solid #0d1721;
+}
+
+.stickytab a {
+    text-decoration: none;
+    color: white;
+    padding: 5%;
+    border: 1px solid #a86705;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.stickytab a:hover {
+    text-decoration: none;
+    color: #e68e0b;
+    background-color: #0d1721;
+    border-bottom: none;
+}

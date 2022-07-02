@@ -1,0 +1,39 @@
+/* Left Side Bar */
+
+.leftsidebar {
+    background-color: #050e18;
+    width: 15%;
+    padding: 0 1% 2% 1%;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.lfsbcont {
+    display: flex;
+    flex-direction: column;
+}
+
+.lfsbcont a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.lfsbcont a:hover {
+    background-color: #1d2a35;
+    border: .5px solid #a86705;
+}
+
+.lfsbcont a:active {
+    background-color: #a86705 !important;
+    border: .5px solid #a86705;
+}
+
+.lfsbcont h2 {
+    font-weight: lighter;
+    margin-bottom: 1px;
+}

@@ -1,0 +1,32 @@
+.root {
+    --useful: #b93428;
+    --use: #FF9999;
+    --midaqua: mediumaquamarine;
+    --greyel: greenyellow;
+    --orange1: #a86705;
+    --orange2: #ee9209;
+    --blue2: #1d2a35;
+    --blue3: #0d1721;
+}
+
+.htmltutbackground {
+    background-color: #0d1721;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    line-height: 1.5;
+}
+
+/* Main Column? */
+
+.pagecontent {
+    background-color: transparent;
+    margin: 0;
+    width: 80%;
+    padding: 0 1%;
+    display: flex;
+    flex-direction: column;
+}
