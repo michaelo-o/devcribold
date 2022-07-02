@@ -17,7 +17,7 @@ const Footer = () => {
                     </Link>
                 </div>
                 <div className={styles.footerlogo}>
-                    <Image src="/devcrib2.png" width={160} height={101} />
+                    <Image src="/devcrib2.png" width={160} height={101} alt="DevCrib" />
                 </div>
                 <p className={styles.forum_about}>
                     <Link href="/infographics/termsofservice">
@@ -32,31 +32,31 @@ const Footer = () => {
             <div className={styles.middlefooterstuff}>
                 <Link href="https://web.facebook.com/michael.okwuosah">
                     <a target="_blank">
-                        <Image src="/fbcolor.png" width={25} height={25} />
+                        <Image src="/fbcolor.png" width={25} height={25} alt="Open Facebook"/>
                     </a>
                 </Link>
 
                 <Link href="https://www.instagram.com/_michaeli/">
                     <a target="_blank">
-                        <Image src="/igcolor.png" width={25} height={25} />
+                        <Image src="/igcolor.png" width={25} height={25} alt="Open Instagram"/>
                     </a>
                 </Link>
 
                 <Link href="https://twitter.com/OkwuosahMike">
                     <a target="_blank">
-                        <Image src="/twittercolor.png" width={25} height={25} />
+                        <Image src="/twittercolor.png" width={25} height={25} alt="Open Twitter" />
                     </a>
                 </Link>
 
                 <Link href="https://www.linkedin.com/in/michael-okwuosah-b92279160/">
                     <a target="_blank">
-                        <Image src="/lincolor.png" width={25} height={25} />
+                        <Image src="/lincolor.png" width={25} height={25} alt="Open LinkedIn"/>
                     </a>
                 </Link>
 
                 <Link href="https://www.upwork.com/freelancers/~018a014dbbe3506e8b?s=1110580755057594368">
                     <a target="_blank">
-                        <Image src="/upwork-svgrepo-com.svg" width={25} height={25} />
+                        <Image src="/upwork-svgrepo-com.svg" width={25} height={25} alt="Open Upwork" />
                     </a>
                 </Link>
             </div>

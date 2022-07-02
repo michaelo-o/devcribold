@@ -90,9 +90,9 @@ const Navbar = () => {
                     </a>
                 </Link>
 
-                <p onClick={tutorial} >Tutorials<Image src="/cdown.png" width={25} height={25} /></p>
-                <p onClick={references}>References<Image src="/cdown.png" width={25} height={25} /></p>
-                <p onClick={excercises}>Exercises<Image src="/cdown.png" width={25} height={25} /></p>
+                <p onClick={tutorial} >Tutorials<Image src="/cdown.png" width={25} height={25} alt="Open" /></p>
+                <p onClick={references}>References<Image src="/cdown.png" width={25} height={25} alt="Open" /></p>
+                <p onClick={excercises}>Exercises<Image src="/cdown.png" width={25} height={25} alt="Open" /></p>
 
             </div>
             <div className={styles.rightnavstuff}>
@@ -117,12 +117,12 @@ const Navbar = () => {
                     </a>
                 </Link>
 
-                <p onClick={mobilemenu} >Menu<Image src="/cdown.png" width={22} height={22} /></p>
+                <p onClick={mobilemenu} >Menu<Image src="/cdown.png" width={22} height={22} alt="Open" /></p>
 
                 <Link href="https://ko-fi.com/michae_l#paypalModal">
                     <a target="_blank" className={styles.paidc}>🙂☕</a>
                 </Link>
-                <span className={styles.mobilelogin}><Image src="/user1-removebg-preview.png" width={65} height={45} /></span>
+                <span className={styles.mobilelogin}><Image src="/user1-removebg-preview.png" width={65} height={45} alt="User" /></span>
             </div>
 
 
@@ -174,7 +174,7 @@ const Navbar = () => {
                     <div className={styles.mobileinnertutm}>
                         <h1>Menu</h1>
                         <div className={styles.mobileinouter}>
-                            <p onClick={mobtut}>Tutorials<Image src="/cdown.png" width={25} height={25} /></p>
+                            <p onClick={mobtut}>Tutorials<Image src="/cdown.png" width={25} height={25} alt="Open" /></p>
                             {mobileTutorial ? (
                                 <div className={styles.tutdpnc}>
                                     <NavTutHtml />
@@ -182,7 +182,7 @@ const Navbar = () => {
                                     <NavTutJs />
                                 </div>
                             ) : null}
-                            <p onClick={mobref}>References<Image src="/cdown.png" width={25} height={25} /></p>
+                            <p onClick={mobref}>References<Image src="/cdown.png" width={25} height={25} alt="Open" /></p>
                             {mobileReference ? (
                                 <div className={styles.tutdpnc}>
                                     <NavRefHtml />
@@ -190,7 +190,7 @@ const Navbar = () => {
                                     <NavRefJs />
                                 </div>
                             ) : null}
-                            <p onClick={mobex}>Exercises<Image src="/cdown.png" width={25} height={25} /></p>
+                            <p onClick={mobex}>Exercises<Image src="/cdown.png" width={25} height={25} alt="Open" /></p>
                             {mobileExcercise ? (
                                 <div className={styles.tutdpnc}>
                                     <h1>Coming Soon...</h1>
