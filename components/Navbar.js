@@ -83,6 +83,8 @@ const Navbar = () => {
                 <link rel="icon" href="/favicon.png" />
             </Head>
             <div className={styles.leftnavstuff}>
+                <div id="backtotop">
+                </div>
                 <Link href="/">
                     <a>
                         <Image src="/devcrib2.png" alt="site logo" width={128} height={77} />

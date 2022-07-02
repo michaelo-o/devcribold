@@ -91,7 +91,7 @@ const WheretoBegin = () => {
                                 <a> <h4>Learn CSS</h4></a>
                             </Link>
                         </div>
-                    </div>
+                    </div> 
                 </div>
                 <div className={styles.w2bhtml}>
                     <div className={styles.jticketcontainer1}>

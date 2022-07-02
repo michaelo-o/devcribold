@@ -10,9 +10,9 @@ const Footer = () => {
 
             <div className={styles.toprightfootstuff}>
                 <div className={styles.backtotop}>
-                    <Link href="/">
+                    <Link href="#backtotop">
                         <a>
-                            <p>Back To Home</p>
+                            <p>Back To Top</p>
                         </a>
                     </Link>
                 </div>
@@ -32,13 +32,13 @@ const Footer = () => {
             <div className={styles.middlefooterstuff}>
                 <Link href="https://web.facebook.com/michael.okwuosah">
                     <a target="_blank">
-                        <Image src="/fbcolor.png" width={25} height={25} alt="Open Facebook"/>
+                        <Image src="/fbcolor.png" width={25} height={25} alt="Open Facebook" />
                     </a>
                 </Link>
 
                 <Link href="https://www.instagram.com/_michaeli/">
                     <a target="_blank">
-                        <Image src="/igcolor.png" width={25} height={25} alt="Open Instagram"/>
+                        <Image src="/igcolor.png" width={25} height={25} alt="Open Instagram" />
                     </a>
                 </Link>
 
@@ -50,7 +50,7 @@ const Footer = () => {
 
                 <Link href="https://www.linkedin.com/in/michael-okwuosah-b92279160/">
                     <a target="_blank">
-                        <Image src="/lincolor.png" width={25} height={25} alt="Open LinkedIn"/>
+                        <Image src="/lincolor.png" width={25} height={25} alt="Open LinkedIn" />
                     </a>
                 </Link>
 
