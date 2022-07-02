@@ -6,10 +6,7 @@ const NavTutJs = () => {
             <div>
                 <h2>JavaScript</h2>
                 <Link href="#">
-                    <a><h3>Learn JavaScript Basic</h3></a>
-                </Link>
-                <Link href="#">
-                    <a><h3>Learn JavaScript Advanced</h3></a>
+                    <a><h3>Learn JavaScript</h3></a>
                 </Link>
                 <Link href="#">
                     <a><h3>Learn JavaScript Objects</h3></a>

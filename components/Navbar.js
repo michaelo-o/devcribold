@@ -81,7 +81,6 @@ const Navbar = () => {
         <nav className={styles.navbar}>
             <Head>
                 <link rel="icon" href="/favicon.png" />
-
             </Head>
             <div className={styles.leftnavstuff}>
                 <Link href="/">

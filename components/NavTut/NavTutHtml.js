@@ -6,10 +6,7 @@ const NavTutHtml = () => {
             <div>
                 <h2>HTML</h2>
                 <Link href="#">
-                    <a><h3>Learn HTML Basic</h3></a>
-                </Link>
-                <Link href="#">
-                    <a><h3>Learn HTML Advanced</h3></a>
+                    <a><h3>Learn HTML</h3></a>
                 </Link>
                 <Link href="#">
                     <a><h3>Learn HTML Icons</h3></a>
