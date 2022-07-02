@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import ComingSoonList from '../jsons/coming soon list 1.json'
+import Footer from '../components/Footer'
 
 
 export default function Home() {
@@ -102,14 +103,14 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.beforelearnh}>
-<p> </p>
+          <p> </p>
         </div>
         <div className="learnhtml">
           <div className="leftlearnhtml">
             <h1>Learn</h1>
             <h1>HTML</h1>
             <h3>The building blocks that make up the bodies of all Web Pages</h3>
-            <Link href="#">
+            <Link href="/tutorials/html/">
               <a> <h4>Learn HTML</h4></a>
             </Link>
             <Link href="#">
@@ -255,7 +256,7 @@ export default function Home() {
 
 
 
-
+      <Footer />
     </>
   )
 }

@@ -11,12 +11,21 @@
 
 .leftnavstuff {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.leftnavstuffinner {
+    display: flex;
     flex-direction: row;
     align-items: center;
     border: none;
 }
 
-.leftnavstuff>p {
+.leftnavstuffinner>p {
     display: flex;
     flex-direction: row;
     padding: 25.5px 16px;
@@ -27,7 +36,7 @@
 }
 
 
-.leftnavstuff>p:hover {
+.leftnavstuffinner>p:hover {
     background-color: #da8608;
     cursor: pointer;
     border: none;
@@ -114,8 +123,8 @@
     height: 80%;
     overflow-x: hidden;
     left: 0;
-    z-index: +1;
-    margin-top: 5.3%;
+    z-index: +2;
+    /* margin-top: 5.3%; */
     border-bottom: 1px solid #da8608;
 }
 
@@ -195,6 +204,7 @@
 /* MOBILE STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 @media only screen and (max-width: 900px) {
+
     .inouter {
         display: flex;
         /* flex-direction: column; */
@@ -234,9 +244,10 @@
         width: 100%;
     }
 
+
     .mobilenavstuff {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
         border: none;
@@ -245,7 +256,17 @@
         /* display: none; */
     }
 
-    .mobilenavstuff>p {
+    .mobilenavstuffinner{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        border: none;
+        width: 100%;
+        /* display: none; */
+    }
+
+    .mobilenavstuffinner>p {
         display: flex;
         flex-direction: row;
         padding: 26px 16px;
@@ -255,7 +276,7 @@
         margin: 0 5px 0 0;
     }
 
-    .mobilenavstuff>p:hover {
+    .mobilenavstuffinner>p:hover {
         background-color: #da8608;
         cursor: pointer;
         border: none;
@@ -295,13 +316,13 @@
     .mobiletutmodal {
         position: absolute;
         background: #1d2a35;
+        left: 0;
         width: 100%;
         height: 50%;
         max-height: 70%;
         overflow-x: auto;
         /* left: 0; */
-        z-index: 1;
-        margin-top: 20%;
+        z-index: +2;
         border-bottom: 1px solid #da8608;
     }
 

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from '../../styles/wheretobegin.module.css'
 import Link from 'next/link'
+import Footer from "../../components/Footer";
 
 
 
@@ -91,7 +92,7 @@ const WheretoBegin = () => {
                                 <a> <h4>Learn CSS</h4></a>
                             </Link>
                         </div>
-                    </div> 
+                    </div>
                 </div>
                 <div className={styles.w2bhtml}>
                     <div className={styles.jticketcontainer1}>
@@ -206,7 +207,7 @@ const WheretoBegin = () => {
                         </h3>
                     </div>
                 </div>
-
+                <Footer />
 
 
 

@@ -1,24 +1,27 @@
 import Link from 'next/link'
 
-const NavTutHtml = () => {
-    return (
+const NavTutHtml = (props) => {
+
+    const tutorial = props.tutorials
+
+     return (
         <>
             <div>
                 <h2>HTML</h2>
-                <Link href="#">
-                    <a><h3>Learn HTML</h3></a>
+                <Link href="/tutorials/html">
+                    <a><h3 onClick={tutorial}>Learn HTML</h3></a>
                 </Link>
                 <Link href="#">
-                    <a><h3>Learn HTML Icons</h3></a>
+                     <a><h3 onClick={tutorial}>Learn HTML Icons</h3></a>
                 </Link>
                 <Link href="#">
-                    <a><h3>Learn HTML Forms</h3></a>
+                    <a><h3 onClick={tutorial}>Learn HTML Forms</h3></a>
                 </Link>
                 <Link href="#">
-                    <a><h3>Learn HTML Canvas</h3></a>
+                    <a><h3 onClick={tutorial}>Learn HTML Canvas</h3></a>
                 </Link>
                 <Link href="#">
-                    <a><h3>HTML Examples</h3></a>
+                    <a><h3 onClick={tutorial}>HTML Examples</h3></a>
                 </Link>
             </div>
         </>
