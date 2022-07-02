@@ -396,7 +396,7 @@ body {
 }
 
 
-/* MOBILE STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* MOBILE STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 @media only screen and (max-width: 700px) {
   body {
     width: 100%;
@@ -502,12 +502,7 @@ body {
     color: #0d1721;
   }
 
-  .rightlearncss h1 {
-    font-size: 80px;
-    line-height: 1.5;
-  }
-
-  .leftlearnhtml h1 {
+  .rightlearncss h1, .leftlearnhtml h1 {
     font-size: 80px;
     line-height: 1.5;
   }
@@ -515,17 +510,13 @@ body {
 
 /* to start diplaying none */
 @media only screen and (max-width: 850px) {
+
+  .rightlearnjs,
+  .leftlearncss,
   .rightlearnhtml {
     display: none;
   }
 
-  .rightlearnjs {
-    display: none;
-  }
-
-  .leftlearncss {
-    display: none;
-  }
 
 }
 
@@ -538,11 +529,7 @@ body {
     line-height: 1.5;
   }
 
-  .rightlearncss h1 {
-    font-size: 60px;
-    line-height: 1.5;
-  }
-
+  .rightlearncss h1,
   .leftlearnhtml h1 {
     font-size: 60px;
     line-height: 1.5;

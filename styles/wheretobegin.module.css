@@ -173,7 +173,6 @@
     word-wrap: break-word;
 }
 
-
 /* css ticket 1 */
 
 .w2bcssticket {
@@ -292,6 +291,7 @@
     word-wrap: break-word;
 }
 
+
 /* js ticket 1 */
 
 .w2bjsticket {
@@ -409,6 +409,16 @@
     text-align: center;
     padding: 5%;
     word-wrap: break-word;
+}
+
+
+.w2bjsticket6 h3,
+.w2bjsticket6 h4,
+.w2bcssticket6 h3,
+.w2bcssticket6 h4,
+.w2bhtmlticket6 h3,
+.w2bhtmlticket6 h4 {
+    display: none;
 }
 
 /* what's next */
@@ -554,6 +564,7 @@
 
 
 @media only screen and (max-width: 1160px) {
+    /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
     .wheretobegin {
         color: white;
@@ -588,6 +599,7 @@
 
 @media only screen and (max-width: 750px) {
 
+    /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
     .w2bhtmlticket {
         background-color: #f7df1d;
         color: black;
@@ -817,6 +829,8 @@
         border-left: 5px dotted #282A35;
     }
 
+
+
     .w2bcssticket6 h1 {
         font-size: 50px;
         margin: 0;
@@ -825,6 +839,7 @@
         padding: 5%;
         word-wrap: break-word;
     }
+
 
     /* js ticket 1 */
 
@@ -945,9 +960,82 @@
         word-wrap: break-word;
     }
 
+    .w2bjsticket6 h3,
+    .w2bjsticket6 h4,
+    .w2bcssticket6 h3,
+    .w2bcssticket6 h4,
+    .w2bhtmlticket6 h3,
+    .w2bhtmlticket6 h4 {
+        display: none;
+    }
+
+}
 
 
+@media only screen and (max-width: 700px) {
+    /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 
+    .w2bhtmlticket,
+    .w2bhtmlticket3,
+    .w2bhtmlticket5,
+    .w2bcssticket,
+    .w2bcssticket3,
+    .w2bcssticket5,
+    .w2bjsticket,
+    .w2bjsticket3,
+    .w2bjsticket5 {
+        display: none;
+    }
+
+
+    .w2bhtmlticket6>h1,
+    .w2bjsticket6>h1,
+    .w2bcssticket6>h1 {
+        font-size: 36px !important;
+        padding: 1px;
+        margin: 0;
+    }
+
+
+    .w2bjsticket6,
+    .w2bjsticket4,
+    .w2bjsticket2,
+    .w2bcssticket6,
+    .w2bcssticket4,
+    .w2bcssticket2,
+    .w2bhtmlticket6,
+    .w2bhtmlticket4,
+    .w2bhtmlticket2 {
+        color: black;
+        height: 275px;
+        width: 250px;
+        border-left: 5px dotted #282A35;
+    }
+
+    .w2bjsticket6 h3,
+    .w2bhtmlticket6 h3,
+    .w2bcssticket6 h3 {
+        display: block;
+        font-size: 20px;
+        text-align: center;
+        word-wrap: break-word;
+    }
+
+    .w2bjsticket6 h4,
+    .w2bhtmlticket6 h4,
+    .w2bcssticket6 h4 {
+        display: block;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        padding: 8px 8px;
+        width: fit-content;
+        background-color: #0d1721;
+        color: aliceblue;
+        word-wrap: break-word;
+        border: .5px solid #0d1721;
+    }
 
 }

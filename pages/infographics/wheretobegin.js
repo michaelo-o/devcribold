@@ -24,7 +24,7 @@ const WheretoBegin = () => {
                 <div className={styles.w2bhtml}>
                     <div className={styles.hticketcontainer1}>
                         <div className={styles.w2bhtmlticket}>
-                            <p> </p>
+                            <p> &#32; </p>
                         </div>
                         <div className={styles.w2bhtmlticket2}>
                             <p> </p>
@@ -50,6 +50,10 @@ const WheretoBegin = () => {
                         <div className={styles.w2bhtmlticket6}>
                             <h1>1</h1>
                             <h1>HTML</h1>
+                            <h3>Create your first web page</h3>
+                            <Link href="#">
+                                <a> <h4>Learn HTML</h4></a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -82,6 +86,10 @@ const WheretoBegin = () => {
                         <div className={styles.w2bcssticket6}>
                             <h1>2</h1>
                             <h1>CSS</h1>
+                            <h3>Style your web page</h3>
+                            <Link href="#">
+                                <a> <h4>Learn CSS</h4></a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -114,6 +122,10 @@ const WheretoBegin = () => {
                         <div className={styles.w2bjsticket6}>
                             <h1 style={{ fontSize: "50px" }}>3</h1>
                             <h1>JavaScript</h1>
+                            <h3>Make your web page interactive</h3>
+                            <Link href="#">
+                                <a> <h4>Learn JavaScript</h4></a>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -183,69 +183,46 @@
 
 /* mobile styling display none */
 
-.mobilenavstuff {
-    display: none;
-}
-
-.mobileinnertutm {
-    display: none;
-}
-
-.mobileinouter {
-    display: none;
-}
-
-.mobilelogin {
-    display: none;
-}
-
+.mobilenavstuff,
+.mobileinnertutm,
+.mobileinouter,
+.mobilelogin,
 .mobiletutmodal {
     display: none;
 }
 
 
-/* MOBILE STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* MOBILE STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 @media only screen and (max-width: 900px) {
-.inouter{
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
-    align-items: center;
-}
-
-.inouter div{
-    width: 50%;
-    flex-wrap: wrap;
-}
-
-}
-
-
-@media only screen and (max-width: 700px) {
-
-    .leftnavstuff {
-        display: none;
+    .inouter {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
     }
 
-    .rightnavstuff {
-        display: none;
+    .inouter div {
+        width: 50%;
+        flex-wrap: wrap;
     }
 
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .leftnavstuff,
+    .rightnavstuff,
     .tutmodal {
         display: none;
     }
 
-    .mobileinnertutm {
-        display: inline;
-    }
 
-    .mobileinouter {
-        display: inline;
-    }
-
+    .mobileinnertutm,
+    .mobileinouter,
     .mobiletutmodal {
-        display: inline;
+        display: block;
     }
 
     .navbar {
