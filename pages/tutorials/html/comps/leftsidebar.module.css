@@ -37,3 +37,27 @@
     font-weight: lighter;
     margin-bottom: 1px;
 }
+
+
+
+/* Scrollbar Styling */
+
+/* width */
+.leftsidebar::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.leftsidebar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.leftsidebar::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.leftsidebar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

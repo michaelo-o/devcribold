@@ -1,4 +1,4 @@
-import styles from '../comps/stickynav.module.css'
+import styles from '../comps/stickynav.module.css';
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
