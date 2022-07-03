@@ -8,7 +8,7 @@ const NavTutJs = (props) => {
         <>
             <div>
                 <h2>JavaScript</h2>
-                <Link href="#">
+                <Link href="/tutorials/javascript/">
                     <a><h3 onClick={tutorial}>Learn JavaScript</h3></a>
                 </Link>
                 <Link href="#">

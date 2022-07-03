@@ -1,8 +1,7 @@
-import styles from "../../leftsidebar.module.css"
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
-
+import styles from "../../leftsidebar.module.css"
 
 
 const LeftSidebar = () => {
@@ -13,39 +12,22 @@ const LeftSidebar = () => {
         <>
             <div className={styles.leftsidebar}>
                 <div className={styles.lfsbcont}>
-                    <h2>HTML Tutorial</h2>
-                    <Link href="/tutorials/html/">
-                        <a>HTML Home</a>
+                    <h2>CSS Tutorial</h2>
+                    <Link href="/tutorials/css/">
+                        <a>CSS Home</a>
                     </Link>
+                    <h2>CSS Basic</h2>
                     <Link href="#">
                         <a>Introduction </a>
                     </Link>
                     <Link href="#">
-                        <a>Editors </a>
+                        <a>Syntax </a>
                     </Link>
                     <Link href="#">
-                        <a>Basic </a>
+                        <a>Selectors </a>
                     </Link>
                     <Link href="#">
-                        <a>Elements </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Attributes </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Headings </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Paragraphs </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Styles </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Formatting </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Quotations </a>
+                        <a>How To </a>
                     </Link>
                     <Link href="#">
                         <a>Comments </a>
@@ -54,115 +36,128 @@ const LeftSidebar = () => {
                         <a>Colors </a>
                     </Link>
                     <Link href="#">
-                        <a>CSS in HTML</a>
+                        <a>Backgrounds </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Borders </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Margins </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Padding </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Comments </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Colors </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Height/Width</a>
+                    </Link>
+                    <Link href="#">
+                        <a>Box Model </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Outline </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Text </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Fonts </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Icons </a>
                     </Link>
                     <Link href="#">
                         <a>Links </a>
                     </Link>
                     <Link href="#">
-                        <a>Images </a>
+                        <a>Lists & Tables </a>
                     </Link>
                     <Link href="#">
-                        <a>Favicon </a>
+                        <a>Max-width </a>
                     </Link>
                     <Link href="#">
-                        <a>Tables </a>
+                        <a>Position </a>
                     </Link>
                     <Link href="#">
-                        <a>Lists </a>
+                        <a>Z-index </a>
                     </Link>
                     <Link href="#">
-                        <a>Block & Inline </a>
+                        <a>Navigation Bar </a>
                     </Link>
                     <Link href="#">
-                        <a>Classes </a>
+                        <a>Dropdowns </a>
                     </Link>
-                    <Link href="#">
-                        <a>Id </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Iframes </a>
-                    </Link>
-                    <Link href="#">
-                        <a>JavaScript in HTML </a>
-                    </Link>
-                    <Link href="#">
-                        <a>File Paths </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Head </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Layout </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Responsive </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Computercode </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Semantics </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Style Guide </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Entities </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Symbols </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Emojis </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Charset </a>
-                    </Link>
-                    <Link href="#">
-                        <a>URL Encode </a>
-                    </Link>
-                    <Link href="#">
-                        <a>HTML vs.XHTML </a>
-                    </Link>
-                    <h2>HTML Forms</h2>
                     <Link href="#">
                         <a>Forms </a>
                     </Link>
+                    <h2>CSS Advanced</h2>
                     <Link href="#">
-                        <a>Form Attributes </a>
+                        <a>Rounded Corners </a>
                     </Link>
                     <Link href="#">
-                        <a>Form Elements </a>
+                        <a>Border Images </a>
                     </Link>
                     <Link href="#">
-                        <a>Input Types </a>
+                        <a>Backgrounds </a>
                     </Link>
                     <Link href="#">
-                        <a>Input Attributes </a>
+                        <a>Colors </a>
                     </Link>
                     <Link href="#">
-                        <a>Input Form Attributes </a>
-                    </Link>
-                    <h2>HTML Media</h2>
-                    <Link href="#">
-                        <a>Media</a>
+                        <a>Gradients </a>
                     </Link>
                     <Link href="#">
-                        <a>Video </a>
+                        <a>Shadows </a>
                     </Link>
                     <Link href="#">
-                        <a>Audio </a>
+                        <a>2D Transforms</a>
                     </Link>
                     <Link href="#">
-                        <a>Plug-Ins </a>
+                        <a>3D Transforms </a>
                     </Link>
                     <Link href="#">
-                        <a>YouTube </a>
+                        <a>Transitions </a>
                     </Link>
-                    <h2>HTML Examples</h2>
                     <Link href="#">
-                        <a>Examples </a>
+                        <a>Animations </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Flexbox </a>
+                    </Link>
+                    <h2>CSS Responsive</h2>
+                    <Link href="#">
+                        <a>Intro & Viewport </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Grid View </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Media Queries </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Images & Videos </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Frameworks </a>
+                    </Link>
+                    <h2>CSS Grid</h2>
+                    <Link href="#">
+                        <a>Intro </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Grid Container </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Grid Item </a>
+                    </Link>
+                    <h2>CSS Examples</h2>
+                    <Link href="#">
+                        <a>Examples</a>
                     </Link>
                 </div>
             </div>

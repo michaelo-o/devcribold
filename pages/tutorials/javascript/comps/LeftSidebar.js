@@ -13,154 +13,131 @@ const LeftSidebar = () => {
         <>
             <div className={styles.leftsidebar}>
                 <div className={styles.lfsbcont}>
-                    <h2>HTML Tutorial</h2>
-                    <Link href="/tutorials/html/">
-                        <a>HTML Home</a>
+                    <h2>JavaScript Tutorial</h2>
+                    <Link href="/tutorials/javascript/">
+                        <a>JavaScript Home</a>
                     </Link>
                     <Link href="#">
                         <a>Introduction </a>
                     </Link>
                     <Link href="#">
-                        <a>Editors </a>
+                        <a>Where To </a>
                     </Link>
                     <Link href="#">
-                        <a>Basic </a>
+                        <a>Output </a>
                     </Link>
                     <Link href="#">
-                        <a>Elements </a>
+                        <a>Statements </a>
                     </Link>
                     <Link href="#">
-                        <a>Attributes </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Headings </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Paragraphs </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Styles </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Formatting </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Quotations </a>
+                        <a>Syntax </a>
                     </Link>
                     <Link href="#">
                         <a>Comments </a>
                     </Link>
                     <Link href="#">
-                        <a>Colors </a>
+                        <a>Variables (Let & Const) </a>
                     </Link>
                     <Link href="#">
-                        <a>CSS in HTML</a>
+                        <a>Operators </a>
                     </Link>
                     <Link href="#">
-                        <a>Links </a>
+                        <a>Arithmetic </a>
                     </Link>
                     <Link href="#">
-                        <a>Images </a>
+                        <a>Functions </a>
                     </Link>
                     <Link href="#">
-                        <a>Favicon </a>
+                        <a>Objects </a>
                     </Link>
                     <Link href="#">
-                        <a>Tables </a>
+                        <a>Events </a>
                     </Link>
                     <Link href="#">
-                        <a>Lists </a>
+                        <a>Strings & String Methods</a>
                     </Link>
                     <Link href="#">
-                        <a>Block & Inline </a>
+                        <a>Numbers & Number Methods </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Arrays </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Array Methods & Iteration </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Dates </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Math </a>
+                    </Link>
+                    <Link href="#">
+                        <a>If Else </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Switch </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Loops </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Maps </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Errors </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Arrow Function </a>
                     </Link>
                     <Link href="#">
                         <a>Classes </a>
                     </Link>
+                    <h2>JavaScript Objects</h2>
                     <Link href="#">
-                        <a>Id </a>
+                        <a>Definitions </a>
                     </Link>
                     <Link href="#">
-                        <a>Iframes </a>
+                        <a>Properties </a>
                     </Link>
                     <Link href="#">
-                        <a>JavaScript in HTML </a>
+                        <a>Methods </a>
                     </Link>
                     <Link href="#">
-                        <a>File Paths </a>
+                        <a>Display </a>
                     </Link>
                     <Link href="#">
-                        <a>Head </a>
+                        <a>Constructors & Sets </a>
                     </Link>
                     <Link href="#">
-                        <a>Layout </a>
+                        <a>Maps </a>
+                    </Link>
+                    <h2>JavaScript Functions</h2>
+                    <Link href="#">
+                        <a>Definitions </a>
                     </Link>
                     <Link href="#">
-                        <a>Responsive </a>
+                        <a>Parameters </a>
                     </Link>
                     <Link href="#">
-                        <a>Computercode </a>
+                        <a>Invocation </a>
                     </Link>
                     <Link href="#">
-                        <a>Semantics </a>
+                        <a>Call </a>
                     </Link>
                     <Link href="#">
-                        <a>Style Guide </a>
+                        <a>Apply </a>
+                    </Link>
+                    <h2>JavaScript Classes</h2>
+                    <Link href="#">
+                        <a>Intro </a>
                     </Link>
                     <Link href="#">
-                        <a>Entities </a>
+                        <a>Inheritance </a>
                     </Link>
                     <Link href="#">
-                        <a>Symbols </a>
+                        <a>Static </a>
                     </Link>
-                    <Link href="#">
-                        <a>Emojis </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Charset </a>
-                    </Link>
-                    <Link href="#">
-                        <a>URL Encode </a>
-                    </Link>
-                    <Link href="#">
-                        <a>HTML vs.XHTML </a>
-                    </Link>
-                    <h2>HTML Forms</h2>
-                    <Link href="#">
-                        <a>Forms </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Form Attributes </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Form Elements </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Input Types </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Input Attributes </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Input Form Attributes </a>
-                    </Link>
-                    <h2>HTML Media</h2>
-                    <Link href="#">
-                        <a>Media</a>
-                    </Link>
-                    <Link href="#">
-                        <a>Video </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Audio </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Plug-Ins </a>
-                    </Link>
-                    <Link href="#">
-                        <a>YouTube </a>
-                    </Link>
-                    <h2>HTML Examples</h2>
+                    <h2>JavaScript Examples</h2>
                     <Link href="#">
                         <a>Examples </a>
                     </Link>

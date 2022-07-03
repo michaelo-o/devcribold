@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
-import styles from "../comps/pagecf.module.css"
+import styles from "../../pages/tutorials/pagecf.module.css"
 import { useState } from "react";
 
 

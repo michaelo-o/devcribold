@@ -2,11 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 // default imports
-import styles from "../html/comps/htmlgeneral.module.css"
+import styles from "../tutorialgeneral.module.css"
 import templates from "../../../jsons/template.json"
 import { useState } from "react";
 import LeftSidebar from "./comps/LeftSideBar";
-import PageContentFooter from "./comps/PageContentFooter";
+import PageContentFooter from "../PageContentFooter";
 import StickyNav from "./comps/StickyNav";
 
 
@@ -22,7 +22,7 @@ const LearnHtml = () => {
             </Head>
 
 
-            <div className={styles.htmltutbackground}>
+            <div className={styles.gentutbackground}>
 
                 <LeftSidebar />
 

@@ -8,7 +8,7 @@ const NavTutCss = (props) => {
         <>
             <div>
                 <h2>CSS</h2>
-                <Link href="#">
+                <Link href="/tutorials/css/">
                     <a><h3 onClick={tutorial}>Learn CSS Basic</h3></a>
                 </Link>
                 <Link href="#">

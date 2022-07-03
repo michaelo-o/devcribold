@@ -21,7 +21,7 @@ const NavRefHtml = (props) => {
                     <a><h3 onClick={references}>HTML Event Reference</h3></a>
                 </Link>
                 <Link href="#">
-                    <a><h3 onClick={references}>HTML Canvas Reference</h3></a>
+                    <a><h3 onClick={references}>HTML Media Reference</h3></a>
                 </Link>
             </div>
         </>

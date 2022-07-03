@@ -10,6 +10,7 @@
     margin: 0;
     overflow-y: scroll;
     height: 100vh;
+    color: white;
 }
 
 .lfsbcont {
@@ -33,12 +34,12 @@
     border: .5px solid #a86705;
 }
 
+
 .lfsbcont h2 {
     font-weight: lighter;
     margin-bottom: 1px;
+    border-bottom: .5px dashed #a86705;
 }
-
-
 
 /* Scrollbar Styling */
 
