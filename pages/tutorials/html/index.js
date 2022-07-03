@@ -5,9 +5,9 @@ import Head from "next/head";
 import styles from "../tutorialgeneral.module.css"
 import templates from "../../../jsons/template.json"
 import { useState } from "react";
-import LeftSidebar from "./comps/LeftSideBar";
 import PageContentFooter from "../PageContentFooter";
 import StickyNav from "./comps/StickyNav";
+import HtmlLeftSidebar from "./comps/HtmlLeftSideBar";
 
 
 const LearnHtml = () => {
@@ -24,7 +24,7 @@ const LearnHtml = () => {
 
             <div className={styles.gentutbackground}>
 
-                <LeftSidebar />
+                <HtmlLeftSidebar />
 
                 <div className={styles.pagecontent}>
                     <StickyNav />

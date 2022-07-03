@@ -5,7 +5,7 @@ import Head from "next/head";
 
 
 
-const LeftSidebar = () => {
+const HtmlLeftSidebar = () => {
 
 
 
@@ -13,131 +13,154 @@ const LeftSidebar = () => {
         <>
             <div className={styles.leftsidebar}>
                 <div className={styles.lfsbcont}>
-                    <h2>JavaScript Tutorial</h2>
-                    <Link href="/tutorials/javascript/">
-                        <a>JavaScript Home</a>
+                    <h2>HTML Tutorial</h2>
+                    <Link href="/tutorials/html/">
+                        <a>HTML Home</a>
                     </Link>
                     <Link href="#">
                         <a>Introduction </a>
                     </Link>
                     <Link href="#">
-                        <a>Where To </a>
+                        <a>Editors </a>
                     </Link>
                     <Link href="#">
-                        <a>Output </a>
+                        <a>Basic </a>
                     </Link>
                     <Link href="#">
-                        <a>Statements </a>
+                        <a>Elements </a>
                     </Link>
                     <Link href="#">
-                        <a>Syntax </a>
+                        <a>Attributes </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Headings </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Paragraphs </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Styles </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Formatting </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Quotations </a>
                     </Link>
                     <Link href="#">
                         <a>Comments </a>
                     </Link>
                     <Link href="#">
-                        <a>Variables (Let & Const) </a>
+                        <a>Colors </a>
                     </Link>
                     <Link href="#">
-                        <a>Operators </a>
+                        <a>CSS in HTML</a>
                     </Link>
                     <Link href="#">
-                        <a>Arithmetic </a>
+                        <a>Links </a>
                     </Link>
                     <Link href="#">
-                        <a>Functions </a>
+                        <a>Images </a>
                     </Link>
                     <Link href="#">
-                        <a>Objects </a>
+                        <a>Favicon </a>
                     </Link>
                     <Link href="#">
-                        <a>Events </a>
+                        <a>Tables </a>
                     </Link>
                     <Link href="#">
-                        <a>Strings & String Methods</a>
+                        <a>Lists </a>
                     </Link>
                     <Link href="#">
-                        <a>Numbers & Number Methods </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Arrays </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Array Methods & Iteration </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Dates </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Math </a>
-                    </Link>
-                    <Link href="#">
-                        <a>If Else </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Switch </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Loops </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Maps </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Errors </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Arrow Function </a>
+                        <a>Block & Inline </a>
                     </Link>
                     <Link href="#">
                         <a>Classes </a>
                     </Link>
-                    <h2>JavaScript Objects</h2>
                     <Link href="#">
-                        <a>Definitions </a>
+                        <a>Id </a>
                     </Link>
                     <Link href="#">
-                        <a>Properties </a>
+                        <a>Iframes </a>
                     </Link>
                     <Link href="#">
-                        <a>Methods </a>
+                        <a>JavaScript in HTML </a>
                     </Link>
                     <Link href="#">
-                        <a>Display </a>
+                        <a>File Paths </a>
                     </Link>
                     <Link href="#">
-                        <a>Constructors & Sets </a>
+                        <a>Head </a>
                     </Link>
                     <Link href="#">
-                        <a>Maps </a>
-                    </Link>
-                    <h2>JavaScript Functions</h2>
-                    <Link href="#">
-                        <a>Definitions </a>
+                        <a>Layout </a>
                     </Link>
                     <Link href="#">
-                        <a>Parameters </a>
+                        <a>Responsive </a>
                     </Link>
                     <Link href="#">
-                        <a>Invocation </a>
+                        <a>Computercode </a>
                     </Link>
                     <Link href="#">
-                        <a>Call </a>
+                        <a>Semantics </a>
                     </Link>
                     <Link href="#">
-                        <a>Apply </a>
-                    </Link>
-                    <h2>JavaScript Classes</h2>
-                    <Link href="#">
-                        <a>Intro </a>
+                        <a>Style Guide </a>
                     </Link>
                     <Link href="#">
-                        <a>Inheritance </a>
+                        <a>Entities </a>
                     </Link>
                     <Link href="#">
-                        <a>Static </a>
+                        <a>Symbols </a>
                     </Link>
-                    <h2>JavaScript Examples</h2>
+                    <Link href="#">
+                        <a>Emojis </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Charset </a>
+                    </Link>
+                    <Link href="#">
+                        <a>URL Encode </a>
+                    </Link>
+                    <Link href="#">
+                        <a>HTML vs.XHTML </a>
+                    </Link>
+                    <h2>HTML Forms</h2>
+                    <Link href="#">
+                        <a>Forms </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Form Attributes </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Form Elements </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Input Types </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Input Attributes </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Input Form Attributes </a>
+                    </Link>
+                    <h2>HTML Media</h2>
+                    <Link href="#">
+                        <a>Media</a>
+                    </Link>
+                    <Link href="#">
+                        <a>Video </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Audio </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Plug-Ins </a>
+                    </Link>
+                    <Link href="#">
+                        <a>YouTube </a>
+                    </Link>
+                    <h2>HTML Examples</h2>
                     <Link href="#">
                         <a>Examples </a>
                     </Link>
@@ -147,4 +170,4 @@ const LeftSidebar = () => {
     );
 }
 
-export default LeftSidebar;
+export default HtmlLeftSidebar;

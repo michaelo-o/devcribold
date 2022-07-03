@@ -1,10 +1,11 @@
+import styles from "../../leftsidebar.module.css"
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
-import styles from "../../leftsidebar.module.css"
 
 
-const LeftSidebar = () => {
+
+const JsLeftSidebar = () => {
 
 
 
@@ -12,152 +13,133 @@ const LeftSidebar = () => {
         <>
             <div className={styles.leftsidebar}>
                 <div className={styles.lfsbcont}>
-                    <h2>CSS Tutorial</h2>
-                    <Link href="/tutorials/css/">
-                        <a>CSS Home</a>
+                    <h2>JavaScript Tutorial</h2>
+                    <Link href="/tutorials/javascript/">
+                        <a>JavaScript Home</a>
                     </Link>
-                    <h2>CSS Basic</h2>
                     <Link href="#">
                         <a>Introduction </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Where To </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Output </a>
+                    </Link>
+                    <Link href="#">
+                        <a>Statements </a>
                     </Link>
                     <Link href="#">
                         <a>Syntax </a>
                     </Link>
                     <Link href="#">
-                        <a>Selectors </a>
-                    </Link>
-                    <Link href="#">
-                        <a>How To </a>
-                    </Link>
-                    <Link href="#">
                         <a>Comments </a>
                     </Link>
                     <Link href="#">
-                        <a>Colors </a>
+                        <a>Variables (Let & Const) </a>
                     </Link>
                     <Link href="#">
-                        <a>Backgrounds </a>
+                        <a>Operators </a>
                     </Link>
                     <Link href="#">
-                        <a>Borders </a>
+                        <a>Arithmetic </a>
                     </Link>
                     <Link href="#">
-                        <a>Margins </a>
+                        <a>Functions </a>
                     </Link>
                     <Link href="#">
-                        <a>Padding </a>
+                        <a>Objects </a>
                     </Link>
                     <Link href="#">
-                        <a>Comments </a>
+                        <a>Events </a>
                     </Link>
                     <Link href="#">
-                        <a>Colors </a>
+                        <a>Strings & String Methods</a>
                     </Link>
                     <Link href="#">
-                        <a>Height/Width</a>
+                        <a>Numbers & Number Methods </a>
                     </Link>
                     <Link href="#">
-                        <a>Box Model </a>
+                        <a>Arrays </a>
                     </Link>
                     <Link href="#">
-                        <a>Outline </a>
+                        <a>Array Methods & Iteration </a>
                     </Link>
                     <Link href="#">
-                        <a>Text </a>
+                        <a>Dates </a>
                     </Link>
                     <Link href="#">
-                        <a>Fonts </a>
+                        <a>Math </a>
                     </Link>
                     <Link href="#">
-                        <a>Icons </a>
+                        <a>If Else </a>
                     </Link>
                     <Link href="#">
-                        <a>Links </a>
+                        <a>Switch </a>
                     </Link>
                     <Link href="#">
-                        <a>Lists & Tables </a>
+                        <a>Loops </a>
                     </Link>
                     <Link href="#">
-                        <a>Max-width </a>
+                        <a>Maps </a>
                     </Link>
                     <Link href="#">
-                        <a>Position </a>
+                        <a>Errors </a>
                     </Link>
                     <Link href="#">
-                        <a>Z-index </a>
+                        <a>Arrow Function </a>
                     </Link>
                     <Link href="#">
-                        <a>Navigation Bar </a>
+                        <a>Classes </a>
+                    </Link>
+                    <h2>JavaScript Objects</h2>
+                    <Link href="#">
+                        <a>Definitions </a>
                     </Link>
                     <Link href="#">
-                        <a>Dropdowns </a>
+                        <a>Properties </a>
                     </Link>
                     <Link href="#">
-                        <a>Forms </a>
-                    </Link>
-                    <h2>CSS Advanced</h2>
-                    <Link href="#">
-                        <a>Rounded Corners </a>
+                        <a>Methods </a>
                     </Link>
                     <Link href="#">
-                        <a>Border Images </a>
+                        <a>Display </a>
                     </Link>
                     <Link href="#">
-                        <a>Backgrounds </a>
+                        <a>Constructors & Sets </a>
                     </Link>
                     <Link href="#">
-                        <a>Colors </a>
+                        <a>Maps </a>
+                    </Link>
+                    <h2>JavaScript Functions</h2>
+                    <Link href="#">
+                        <a>Definitions </a>
                     </Link>
                     <Link href="#">
-                        <a>Gradients </a>
+                        <a>Parameters </a>
                     </Link>
                     <Link href="#">
-                        <a>Shadows </a>
+                        <a>Invocation </a>
                     </Link>
                     <Link href="#">
-                        <a>2D Transforms</a>
+                        <a>Call </a>
                     </Link>
                     <Link href="#">
-                        <a>3D Transforms </a>
+                        <a>Apply </a>
                     </Link>
-                    <Link href="#">
-                        <a>Transitions </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Animations </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Flexbox </a>
-                    </Link>
-                    <h2>CSS Responsive</h2>
-                    <Link href="#">
-                        <a>Intro & Viewport </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Grid View </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Media Queries </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Images & Videos </a>
-                    </Link>
-                    <Link href="#">
-                        <a>Frameworks </a>
-                    </Link>
-                    <h2>CSS Grid</h2>
+                    <h2>JavaScript Classes</h2>
                     <Link href="#">
                         <a>Intro </a>
                     </Link>
                     <Link href="#">
-                        <a>Grid Container </a>
+                        <a>Inheritance </a>
                     </Link>
                     <Link href="#">
-                        <a>Grid Item </a>
+                        <a>Static </a>
                     </Link>
-                    <h2>CSS Examples</h2>
+                    <h2>JavaScript Examples</h2>
                     <Link href="#">
-                        <a>Examples</a>
+                        <a>Examples </a>
                     </Link>
                 </div>
             </div>
@@ -165,4 +147,4 @@ const LeftSidebar = () => {
     );
 }
 
-export default LeftSidebar;
+export default JsLeftSidebar;
