@@ -1,0 +1,537 @@
+[
+    {
+        "id": 1,
+        "html_tag": "<!--...-->",
+        "tag_description": "Defines a comment"
+    },
+    {
+        "id": 2,
+        "html_tag": "<!DOCTYPE>",
+        "tag_description": "Defines the document type"
+    },
+    {
+        "id": 3,
+        "html_tag": "<a>",
+        "tag_description": "Defines a hyperlink"
+    },
+    {
+        "id": 4,
+        "html_tag": "<abbr>",
+        "tag_description": "Defines an abbreviation or an acronym"
+    },
+    {
+        "id": 5,
+        "html_tag": "address>",
+        "tag_description": "Defines contact information for the author/owner of a document"
+    },
+    {
+        "id": 6,
+        "html_tag": "<area>",
+        "tag_description": "Defines an area inside an image map"
+    },
+    {
+        "id": 7,
+        "html_tag": "<article>",
+        "tag_description": "Defines an article"
+    },
+    {
+        "id": 8,
+        "html_tag": "<aside>",
+        "tag_description": "Defines content aside from the page content"
+    },
+    {
+        "id": 9,
+        "html_tag": "<audio>",
+        "tag_description": "Defines embedded sound content"
+    },
+    {
+        "id": 10,
+        "html_tag": "<b>",
+        "tag_description": "Defines bold text"
+    },
+    {
+        "id": 11,
+        "html_tag": "<base>",
+        "tag_description": "Specifies the base URL/target for all relative URLs in a document"
+    },
+    {
+        "id": 12,
+        "html_tag": "<bdi>",
+        "tag_description": "Isolates a part of text that might be formatted in a different direction from other text outside it"
+    },
+    {
+        "id": 13,
+        "html_tag": "<bdo>",
+        "tag_description": "Overrides the current text direction"
+    },
+    {
+        "id": 14,
+        "html_tag": "<blockquote>",
+        "tag_description": "Defines a section that is quoted from another source"
+    },
+    {
+        "id": 15,
+        "html_tag": "<body>",
+        "tag_description": "Defines the document's body"
+    },
+    {
+        "id": 16,
+        "html_tag": "<br>",
+        "tag_description": "Defines a single line break"
+    },
+    {
+        "id": 17,
+        "html_tag": "<button>",
+        "tag_description": "Defines a clickable button"
+    },
+    {
+        "id": 18,
+        "html_tag": "<canvas>",
+        "tag_description": "Used to draw graphics, on the fly, via scripting (usually JavaScript)"
+    },
+    {
+        "id": 19,
+        "html_tag": "<caption>",
+        "tag_description": "Defines a table caption"
+    },
+    {
+        "id": 20,
+        "html_tag": "<cite>",
+        "tag_description": "Defines the title of a work"
+    },
+    {
+        "id": 21,
+        "html_tag": "<code>",
+        "tag_description": "Defines a piece of computer code"
+    },
+    {
+        "id": 22,
+        "html_tag": "<col>",
+        "tag_description": "Specifies column properties for each column within a <colgroup> element"
+    },
+    {
+        "id": 23,
+        "html_tag": "<colgroup>",
+        "tag_description": "Specifies a group of one or more columns in a table for formatting"
+    },
+    {
+        "id": 24,
+        "html_tag": "<data>",
+        "tag_description": "Adds a machine-readable translation of a given content"
+    },
+    {
+        "id": 25,
+        "html_tag": "<datalist>",
+        "tag_description": "Specifies a list of pre-defined options for input controls"
+    },
+    {
+        "id": 26,
+        "html_tag": "<dd>",
+        "tag_description": "Defines a description/value of a term in a description list"
+    },
+    {
+        "id": 27,
+        "html_tag": "<del>",
+        "tag_description": "Defines text that has been deleted from a document"
+    },
+    {
+        "id": 28,
+        "html_tag": "<details>",
+        "tag_description": "Defines additional details that the user can view or hide"
+    },
+    {
+        "id": 29,
+        "html_tag": "<dfn>",
+        "tag_description": "Specifies a term that is going to be defined within the content"
+    },
+    {
+        "id": 30,
+        "html_tag": "<dialog>",
+        "tag_description": "Defines a dialog box or window"
+    },
+    {
+        "id": 31,
+        "html_tag": "<div>",
+        "tag_description": "Defines a section in a document"
+    },
+    {
+        "id": 32,
+        "html_tag": "<dl>",
+        "tag_description": "Defines a description list"
+    },
+    {
+        "id": 33,
+        "html_tag": "<dt>",
+        "tag_description": "Defines a term/name in a description list"
+    },
+    {
+        "id": 34,
+        "html_tag": "<em>",
+        "tag_description": "Defines emphasized text "
+    },
+    {
+        "id": 35,
+        "html_tag": "<embed>",
+        "tag_description": "Defines a container for an external application"
+    },
+    {
+        "id": 36,
+        "html_tag": "<fieldset>",
+        "tag_description": "Groups related elements in a form"
+    },
+    {
+        "id": 37,
+        "html_tag": "<figcaption>",
+        "tag_description": "Defines a caption for a <figure> element"
+    },
+    {
+        "id": 38,
+        "html_tag": "<figure>",
+        "tag_description": "Specifies self-contained content"
+    },
+    {
+        "id": 39,
+        "html_tag": "<footer>",
+        "tag_description": "Defines a footer for a document or section"
+    },
+    {
+        "id": 40,
+        "html_tag": "<form>",
+        "tag_description": "Defines an HTML form for user input"
+    },
+    {
+        "id": 41,
+        "html_tag": "<h1> to <h6>",
+        "tag_description": "Defines HTML headings"
+    },
+    {
+        "id": 42,
+        "html_tag": "<head>",
+        "tag_description": "Contains metadata/information for the document"
+    },
+    {
+        "id": 43,
+        "html_tag": "<header>",
+        "tag_description": "Defines a header for a document or section"
+    },
+    {
+        "id": 44,
+        "html_tag": "<hr>",
+        "tag_description": "Defines a thematic change in the content"
+    },
+    {
+        "id": 45,
+        "html_tag": "<html>",
+        "tag_description": "Defines the root of an HTML document"
+    },
+    {
+        "id": 46,
+        "html_tag": "<i>",
+        "tag_description": "Defines a part of text in an alternate voice or mood"
+    },
+    {
+        "id": 47,
+        "html_tag": "<iframe>",
+        "tag_description": "Defines an inline frame"
+    },
+    {
+        "id": 48,
+        "html_tag": "<img>",
+        "tag_description": "Defines an image"
+    },
+    {
+        "id": 49,
+        "html_tag": "<input>",
+        "tag_description": "Defines an input control"
+    },
+    {
+        "id": 50,
+        "html_tag": "<ins>",
+        "tag_description": "efines a text that has been inserted into a document"
+    },
+    {
+        "id": 51,
+        "html_tag": "<kbd>",
+        "tag_description": "Defines keyboard input"
+    },
+    {
+        "id": 52,
+        "html_tag": "<label>",
+        "tag_description": "Defines a label for an <input> element"
+    },
+    {
+        "id": 53,
+        "html_tag": "<legend>",
+        "tag_description": "Defines a caption for a <fieldset> element"
+    },
+    {
+        "id": 54,
+        "html_tag": "<li>",
+        "tag_description": "Defines a list item"
+    },
+    {
+        "id": 55,
+        "html_tag": "<link>",
+        "tag_description": "Defines the relationship between a document and an external resource (most used to link to style sheets)"
+    },
+    {
+        "id": 56,
+        "html_tag": "<main>",
+        "tag_description": "Specifies the main content of a document"
+    },
+    {
+        "id": 57,
+        "html_tag": "<map>",
+        "tag_description": "Defines an image map"
+    },
+    {
+        "id": 58,
+        "html_tag": "<mark>",
+        "tag_description": "Defines marked/highlighted text"
+    },
+    {
+        "id": 59,
+        "html_tag": "<meta>",
+        "tag_description": "Defines metadata about an HTML document"
+    },
+    {
+        "id": 60,
+        "html_tag": "<meter>",
+        "tag_description": "Defines a scalar measurement within a known range (a gauge)"
+    },
+    {
+        "id": 61,
+        "html_tag": "<nav>",
+        "tag_description": "Defines navigation links"
+    },
+    {
+        "id": 62,
+        "html_tag": "<noscript>",
+        "tag_description": "Defines an alternate content for users that do not support client-side scripts"
+    },
+    {
+        "id": 63,
+        "html_tag": "<object>",
+        "tag_description": "Defines a container for an external application"
+    },
+    {
+        "id": 64,
+        "html_tag": "<ol>",
+        "tag_description": "Defines an ordered list"
+    },
+    {
+        "id": 65,
+        "html_tag": "<optgroup>",
+        "tag_description": "Defines a group of related options in a drop-down list"
+    },
+    {
+        "id": 66,
+        "html_tag": "<option>",
+        "tag_description": "Defines an option in a drop-down list"
+    },
+    {
+        "id": 67,
+        "html_tag": "<output>",
+        "tag_description": "Defines the result of a calculation"
+    },
+    {
+        "id": 68,
+        "html_tag": "<p>",
+        "tag_description": "Defines a paragraph"
+    },
+    {
+        "id": 69,
+        "html_tag": "<param>",
+        "tag_description": "Defines a parameter for an object"
+    },
+    {
+        "id": 70,
+        "html_tag": "<picture>",
+        "tag_description": "Defines a container for multiple image resources"
+    },
+    {
+        "id": 71,
+        "html_tag": "<pre>",
+        "tag_description": "Defines preformatted text"
+    },
+    {
+        "id": 72,
+        "html_tag": "<progress>",
+        "tag_description": "Represents the progress of a task"
+    },
+    {
+        "id": 73,
+        "html_tag": "<q>",
+        "tag_description": "Defines a short quotation"
+    },
+    {
+        "id": 74,
+        "html_tag": "<rp>",
+        "tag_description": "Defines what to show in browsers that do not support ruby annotations"
+    },
+    {
+        "id": 75,
+        "html_tag": "<rt>",
+        "tag_description": "Defines an explanation/pronunciation of characters (for East Asian typography)"
+    },
+    {
+        "id": 76,
+        "html_tag": "<ruby>",
+        "tag_description": "Defines a ruby annotation (for East Asian typography)"
+    },
+    {
+        "id": 77,
+        "html_tag": "<s>",
+        "tag_description": "Defines text that is no longer correct"
+    },
+    {
+        "id": 78,
+        "html_tag": "<samp>",
+        "tag_description": "Defines sample output from a computer program"
+    },
+    {
+        "id": 79,
+        "html_tag": "<script>",
+        "tag_description": "Defines a client-side script"
+    },
+    {
+        "id": 80,
+        "html_tag": "<section>",
+        "tag_description": "Defines a section in a document"
+    },
+    {
+        "id": 81,
+        "html_tag": "<select>",
+        "tag_description": "Defines a drop-down list"
+    },
+    {
+        "id": 82,
+        "html_tag": "<small>",
+        "tag_description": "Defines smaller text"
+    },
+    {
+        "id": 83,
+        "html_tag": "<source>",
+        "tag_description": "Defines multiple media resources for media elements (<video> and <audio>)"
+    },
+    {
+        "id": 84,
+        "html_tag": "<span>",
+        "tag_description": "Defines a section in a document"
+    },
+    {
+        "id": 85,
+        "html_tag": "<strong>",
+        "tag_description": "Defines important text"
+    },
+    {
+        "id": 86,
+        "html_tag": "<style>",
+        "tag_description": "Defines style information for a document"
+    },
+    {
+        "id": 87,
+        "html_tag": "<sub>",
+        "tag_description": "Defines subscripted text"
+    },
+    {
+        "id": 88,
+        "html_tag": "<summary>",
+        "tag_description": "Defines a visible heading for a <details> element"
+    },
+    {
+        "id": 89,
+        "html_tag": "<sup>",
+        "tag_description": "Defines superscripted text"
+    },
+    {
+        "id": 90,
+        "html_tag": "<svg>",
+        "tag_description": "Defines a container for SVG graphics"
+    },
+    {
+        "id": 91,
+        "html_tag": "<table>",
+        "tag_description": "Defines a table"
+    },
+    {
+        "id": 92,
+        "html_tag": "<tbody>",
+        "tag_description": "Groups the body content in a table"
+    },
+    {
+        "id": 93,
+        "html_tag": "<td>",
+        "tag_description": "Defines a cell in a table"
+    },
+    {
+        "id": 94,
+        "html_tag": "<template>",
+        "tag_description": "Defines a container for content that should be hidden when the page loads"
+    },
+    {
+        "id": 95,
+        "html_tag": "<textarea>",
+        "tag_description": "Defines a multiline input control (text area)"
+    },
+    {
+        "id": 96,
+        "html_tag": "<tfoot",
+        "tag_description": "Groups the footer content in a table"
+    },
+    {
+        "id": 97,
+        "html_tag": "<th>",
+        "tag_description": "Defines a header cell in a table"
+    },
+    {
+        "id": 98,
+        "html_tag": "<thead>",
+        "tag_description": "Groups the header content in a table"
+    },
+    {
+        "id": 99,
+        "html_tag": "<time>",
+        "tag_description": "Defines a specific time (or datetime)"
+    },
+    {
+        "id": 100,
+        "html_tag": "<title>",
+        "tag_description": "Defines a title for the document"
+    },
+    {
+        "id": 101,
+        "html_tag": "<tr>",
+        "tag_description": "Defines a row in a table"
+    },
+    {
+        "id": 102,
+        "html_tag": "<track>",
+        "tag_description": "Defines text tracks for media elements (<video> and <audio>)"
+    },
+    {
+        "id": 103,
+        "html_tag": "<u>",
+        "tag_description": "Defines some text that is unarticulated and styled differently from normal text"
+    },
+    {
+        "id": 104,
+        "html_tag": "<ul>",
+        "tag_description": "Defines an unordered list"
+    },
+    {
+        "id": 105,
+        "html_tag": "<var>",
+        "tag_description": "Defines a variable"
+    },
+    {
+        "id": 106,
+        "html_tag": "<video>",
+        "tag_description": "Defines embedded video content"
+    },
+    {
+        "id": 107,
+        "html_tag": "<wbr>",
+        "tag_description": "Defines a possible line-break"
+    }
+]

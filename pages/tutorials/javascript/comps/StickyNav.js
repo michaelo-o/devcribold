@@ -14,10 +14,10 @@ const StickyNav = () => {
                 <Link href="/tutorials/html/">
                     <a>HTML</a>
                 </Link>
-                <Link href="#">
+                <Link href="/tutorials/css/">
                     <a>CSS</a>
                 </Link>
-                <Link href="#">
+                <Link href="/tutorials/javascript/">
                     <a className={styles.currentlang}>JavaScript</a>
                 </Link>
             </div>

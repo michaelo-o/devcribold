@@ -1,0 +1,64 @@
+/* Left Side Bar */
+
+.refleftsidebar {
+    background-color: #050e18;
+    width: 15%;
+    padding: 0 1% 2% 1%;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    overflow-y: scroll;
+    height: 100vh;
+    color: white;
+}
+
+.reflfsbcont {
+    display: flex;
+    flex-direction: column;
+}
+
+.reflfsbcont a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.reflfsbcont a:hover {
+    background-color: #1d2a35;
+    border: .5px solid #a86705;
+}
+
+.reflfsbcont a:active {
+    background-color: #a86705 !important;
+    border: .5px solid #a86705;
+}
+
+
+.reflfsbcont h2 {
+    font-weight: lighter;
+    margin-bottom: 1px;
+    border-bottom: .5px dashed #a86705;
+}
+
+/* Scrollbar Styling */
+
+/* width */
+.refleftsidebar::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.refleftsidebar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.refleftsidebar::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.refleftsidebar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

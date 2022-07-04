@@ -17,7 +17,7 @@ const StickyNav = () => {
                 <Link href="/tutorials.css/">
                     <a className={styles.currentlang}>CSS</a>
                 </Link>
-                <Link href="#">
+                <Link href="/tutorials/javascript/">
                     <a>JavaScript</a>
                 </Link>
             </div>

@@ -1,0 +1,62 @@
+[
+    {
+        "html_tag": "<acronym>",
+        "tag_description": " Defines an acronym; Not supported in HTML5. Use <abbr> instead.",
+        "id": 1
+    },
+    {
+        "html_tag": "<applet>",
+        "tag_description": " Defines an embedded applet; Not supported in HTML5. Use <embed> or <object> instead.",
+        "id": 2
+    },
+    {
+        "html_tag": "<basefont>",
+        "tag_description": " Specifies a default color, size, and font for all text in a document; Not supported in HTML5. Use CSS instead.",
+        "id": 3
+    },
+    {
+        "html_tag": "<big>",
+        "tag_description": " Defines big text; Not supported in HTML5. Use CSS instead.",
+        "id": 4
+    },
+    {
+        "html_tag": "<center>",
+        "tag_description": " Defines centered text; Not supported in HTML5. Use CSS instead.",
+        "id": 5
+    },
+    {
+        "html_tag": "<dir>",
+        "tag_description": " Defines a directory list; Not supported in HTML5. Use <ul> instead.",
+        "id": 6
+    },
+    {
+        "html_tag": "<font>",
+        "tag_description": " Defines font, color, and size for text; Not supported in HTML5. Use CSS instead.",
+        "id": 7
+    },
+    {
+        "html_tag": "<frame>",
+        "tag_description": " Defines a window (a frame) in a frameset; Not supported in HTML5.",
+        "id": 8
+    },
+    {
+        "html_tag": "<frameset>",
+        "tag_description": " Defines a set of frames; Not supported in HTML5.",
+        "id": 9
+    },
+    {
+        "html_tag": "<noframes>",
+        "tag_description": " Defines an alternate content for users that do not support frames; Not supported in HTML5.",
+        "id": 10
+    },
+    {
+        "html_tag": "<strike>",
+        "tag_description": " Defines strikethrough text; Not supported in HTML5. Use <del> or <s> instead.",
+        "id": 11
+    },
+    {
+        "html_tag": "<tt>",
+        "tag_description": " Defines teletype text; Not supported in HTML5. Use CSS instead.",
+        "id": 12
+    }
+]

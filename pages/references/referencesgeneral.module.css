@@ -1,0 +1,82 @@
+.root {
+    --useful: #b93428;
+    --use: #FF9999;
+    --midaqua: mediumaquamarine;
+    --greyel: greenyellow;
+    --orange1: #a86705;
+    --orange2: #ee9209;
+    --blue2: #1d2a35;
+    --blue3: #0d1721;
+}
+
+.genrefbackground {
+    background-color: #0d1721;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    line-height: 1.5;
+}
+
+/* Main Column? */
+
+.pagecontent {
+    background-color: transparent;
+    margin: 0;
+    width: 80%;
+    padding: 0 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pagecontent h1,
+.pagecontent h2 {
+    font-weight: lighter;
+}
+
+.pagecontent h2 {
+    border-bottom: .5px solid #a86705;
+}
+
+/* Reference Tables */
+.reftable {
+    font-family: Consolas,
+        Menlo,
+        "courier new",
+        monospace;
+    border-collapse: collapse;
+    width: 85%;
+}
+
+.reftable td,
+.reftable th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.reftable tr:nth-child(even) {
+    background-color: #1d2a35;
+}
+
+/* Search Bar */
+
+.search [type="text"]::placeholder {
+    text-align: center;
+    font-size: larger;
+}
+
+.search [type="text"] {
+    width: 85%;
+    border: 1px solid #a86705;
+    box-sizing: border-box;
+    padding: 1% 2%;
+    border-radius: 10px 10px 0 0;
+}
+
+.search [type="text"]:focus {
+    outline: none;
+    border: 3px solid #a86705;
+}

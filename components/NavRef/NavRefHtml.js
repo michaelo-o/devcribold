@@ -8,7 +8,7 @@ const NavRefHtml = (props) => {
         <>
             <div>
                 <h2>HTML</h2>
-                <Link href="#">
+                <Link href="/references/html/HtmlTagRef">
                     <a><h3 onClick={references}>HTML Tag Reference</h3></a>
                 </Link>
                 <Link href="#">
