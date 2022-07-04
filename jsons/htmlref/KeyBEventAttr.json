@@ -1,0 +1,20 @@
+[
+ {
+  "Attribute": "onkeydown",
+  "Value": "script",
+  "Description": "Fires when a user is pressing a key",
+  "id": 1
+ },
+ {
+  "Attribute": "onkeypress",
+  "Value": "script",
+  "Description": "Fires when a user presses a key",
+  "id": 2
+ },
+ {
+  "Attribute": "onkeyup",
+  "Value": "script",
+  "Description": "Fires when a user releases a key",
+  "id": 3
+ }
+]

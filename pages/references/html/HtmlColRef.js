@@ -6,7 +6,7 @@ import styles from "../referencesgeneral.module.css"
 import HtmlRefLSb from "./comps/HtmlRefLSb";
 import RefFooter from "../RefFooter"
 import { useState, useEffect } from "react";
-import ColorTable from "./ColTable";
+import ColorTable from "../html/comps/ColTable";
 
 
 const HtmlColRef = () => {

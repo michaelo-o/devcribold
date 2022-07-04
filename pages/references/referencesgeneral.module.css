@@ -39,6 +39,16 @@
 .pagecontent h2 {
     border-bottom: .5px solid #a86705;
 }
+.pagecontent h3 {
+    font-size: 25px;
+    font-weight: lighter;
+    margin-bottom: 1px;
+}
+.pagecontent p {
+    margin-top: 1px;
+    font-size: large;
+    margin-bottom: 3px;
+}
 
 /* Reference Tables */
 .reftable {
@@ -131,4 +141,9 @@
 
 .attrtable tr:nth-child(even) {
     background-color: #1d2a35;
+}
+/* Event Ref */
+.extraborder {
+    border-bottom: 1px dotted #a86705;
+    padding: 0 0 20px 0;
 }

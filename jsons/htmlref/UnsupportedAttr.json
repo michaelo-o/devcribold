@@ -1,0 +1,26 @@
+[
+    {
+        "Attribute": "align",
+        "Belongs to": "Not supported in HTML 5.",
+        "Description": "Specifies the alignment according to surrounding elements. Use CSS instead",
+        "id": "1"
+    },
+    {
+        "Attribute": "bgcolor",
+        "Belongs to": "Not supported in HTML 5.",
+        "Description": "Specifies the background color of an element. Use CSS instead",
+        "id": "2"
+    },
+    {
+        "Attribute": "border",
+        "Belongs to": "Not supported in HTML 5.",
+        "Description": "Specifies the width of the border of an element. Use CSS instead",
+        "id": "3"
+    },
+    {
+        "Attribute": "color",
+        "Belongs to": "Not supported in HTML 5.",
+        "Description": "Specifies the text color of an element. Use CSS instead",
+        "id": "4"
+    }
+]

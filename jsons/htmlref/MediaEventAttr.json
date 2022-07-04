@@ -1,0 +1,140 @@
+[
+ {
+  "Attribute": "onabort",
+  "Value": "script",
+  "Description": "Script to be run on abort",
+  "id": 1
+ },
+ {
+  "Attribute": "oncanplay",
+  "Value": "script",
+  "Description": "Script to be run when a file is ready to start playing (when it has buffered enough to begin)",
+  "id": 2
+ },
+ {
+  "Attribute": "oncanplaythrough",
+  "Value": "script",
+  "Description": "Script to be run when a file can be played all the way to the end without pausing for buffering",
+  "id": 3
+ },
+ {
+  "Attribute": "oncuechange",
+  "Value": "script",
+  "Description": "Script to be run when the cue changes in a <track> element",
+  "id": 4
+ },
+ {
+  "Attribute": "ondurationchange",
+  "Value": "script",
+  "Description": "Script to be run when the length of the media changes",
+  "id": 5
+ },
+ {
+  "Attribute": "onemptied",
+  "Value": "script",
+  "Description": "Script to be run when something bad happens and the file is suddenly unavailable (like unexpectedly disconnects)",
+  "id": 6
+ },
+ {
+  "Attribute": "onended",
+  "Value": "script",
+  "Description": "Script to be run when the media has reach the end (a useful event for messages like \"thanks for listening\")",
+  "id": 7
+ },
+ {
+  "Attribute": "onerror",
+  "Value": "script",
+  "Description": "Script to be run when an error occurs when the file is being loaded",
+  "id": 8
+ },
+ {
+  "Attribute": "onloadeddata",
+  "Value": "script",
+  "Description": "Script to be run when media data is loaded",
+  "id": 9
+ },
+ {
+  "Attribute": "onloadedmetadata",
+  "Value": "script",
+  "Description": "Script to be run when meta data (like dimensions and duration) are loaded",
+  "id": 10
+ },
+ {
+  "Attribute": "onloadstart",
+  "Value": "script",
+  "Description": "Script to be run just as the file begins to load before anything is actually loaded",
+  "id": 11
+ },
+ {
+  "Attribute": "onpause",
+  "Value": "script",
+  "Description": "Script to be run when the media is paused either by the user or programmatically",
+  "id": 12
+ },
+ {
+  "Attribute": "onplay",
+  "Value": "script",
+  "Description": "Script to be run when the media is ready to start playing",
+  "id": 13
+ },
+ {
+  "Attribute": "onplaying",
+  "Value": "script",
+  "Description": "Script to be run when the media actually has started playing",
+  "id": 14
+ },
+ {
+  "Attribute": "onprogress",
+  "Value": "script",
+  "Description": "Script to be run when the browser is in the process of getting the media data",
+  "id": 15
+ },
+ {
+  "Attribute": "onratechange",
+  "Value": "script",
+  "Description": "Script to be run each time the playback rate changes (like when a user switches to a slow motion or fast forward mode)",
+  "id": 16
+ },
+ {
+  "Attribute": "onseeked",
+  "Value": "script",
+  "Description": "Script to be run when the seeking attribute is set to false indicating that seeking has ended",
+  "id": 17
+ },
+ {
+  "Attribute": "onseeking",
+  "Value": "script",
+  "Description": "Script to be run when the seeking attribute is set to true indicating that seeking is active",
+  "id": 18
+ },
+ {
+  "Attribute": "onstalled",
+  "Value": "script",
+  "Description": "Script to be run when the browser is unable to fetch the media data for whatever reason",
+  "id": 19
+ },
+ {
+  "Attribute": "onsuspend",
+  "Value": "script",
+  "Description": "Script to be run when fetching the media data is stopped before it is completely loaded for whatever reason",
+  "id": 20
+ },
+ {
+  "Attribute": "ontimeupdate",
+  "Value": "script",
+  "Description": "Script to be run when the playing position has changed (like when the user fast forwards to a different point in the media)",
+  "id": 21
+ },
+ {
+  "Attribute": "onvolumechange",
+  "Value": "script",
+  "Description": "Script to be run each time the volume is changed which (includes setting the volume to \"mute\")",
+  "id": 22
+ },
+ {
+  "Attribute": "onwaiting",
+  "Value": "script",
+  "Description": "Script to be run when the media has paused but is expected to resume (like when the media pauses to buffer more data)",
+  "id": 23
+ }
+]

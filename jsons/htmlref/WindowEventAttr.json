@@ -1,0 +1,92 @@
+[
+ {
+  "Attribute": "onafterprint",
+  "Value": "script",
+  "Description": "Script to be run after the document is printed",
+  "id": 1
+ },
+ {
+  "Attribute": "onbeforeprint",
+  "Value": "script",
+  "Description": "Script to be run before the document is printed",
+  "id": 2
+ },
+ {
+  "Attribute": "onbeforeunload",
+  "Value": "script",
+  "Description": "Script to be run when the document is about to be unloaded",
+  "id": 3
+ },
+ {
+  "Attribute": "onerror",
+  "Value": "script",
+  "Description": "Script to be run when an error occurs",
+  "id": 4
+ },
+ {
+  "Attribute": "onhashchange",
+  "Value": "script",
+  "Description": "Script to be run when there has been changes to the anchor part of the a URL",
+  "id": 5
+ },
+ {
+  "Attribute": "onload",
+  "Value": "script",
+  "Description": "Fires after the page is finished loading",
+  "id": 6
+ },
+ {
+  "Attribute": "onmessage",
+  "Value": "script",
+  "Description": "Script to be run when the message is triggered",
+  "id": 7
+ },
+ {
+  "Attribute": "onoffline",
+  "Value": "script",
+  "Description": "Script to be run when the browser starts to work offline",
+  "id": 8
+ },
+ {
+  "Attribute": "ononline",
+  "Value": "script",
+  "Description": "Script to be run when the browser starts to work online",
+  "id": 9
+ },
+ {
+  "Attribute": "onpagehide",
+  "Value": "script",
+  "Description": "Script to be run when a user navigates away from a page",
+  "id": 10
+ },
+ {
+  "Attribute": "onpageshow",
+  "Value": "script",
+  "Description": "Script to be run when a user navigates to a page",
+  "id": 11
+ },
+ {
+  "Attribute": "onpopstate",
+  "Value": "script",
+  "Description": "Script to be run when the window's history changes",
+  "id": 12
+ },
+ {
+  "Attribute": "onresize",
+  "Value": "script",
+  "Description": "Fires when the browser window is resized",
+  "id": 13
+ },
+ {
+  "Attribute": "onstorage",
+  "Value": "script",
+  "Description": "Script to be run when a Web Storage area is updated",
+  "id": 14
+ },
+ {
+  "Attribute": "onunload",
+  "Value": "script",
+  "Description": "Fires once a page has unloaded (or the browser window has been closed)",
+  "id": 15
+ }
+]

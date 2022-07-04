@@ -1,0 +1,62 @@
+[
+ {
+  "Attribute": "onblur",
+  "Value": "script",
+  "Description": "Fires the moment that the element loses focus",
+  "id": 1
+ },
+ {
+  "Attribute": "onchange",
+  "Value": "script",
+  "Description": "Fires the moment when the value of the element is changed",
+  "id": 2
+ },
+ {
+  "Attribute": "oncontextmenu",
+  "Value": "script",
+  "Description": "Script to be run when a context menu is triggered",
+  "id": 3
+ },
+ {
+  "Attribute": "onfocus",
+  "Value": "script",
+  "Description": "Fires the moment when the element gets focus",
+  "id": 4
+ },
+ {
+  "Attribute": "oninput",
+  "Value": "script",
+  "Description": "Script to be run when an element gets user input",
+  "id": 5
+ },
+ {
+  "Attribute": "oninvalid",
+  "Value": "script",
+  "Description": "Script to be run when an element is invalid",
+  "id": 6
+ },
+ {
+  "Attribute": "onreset",
+  "Value": "script",
+  "Description": "Fires when the Reset button in a form is clicked",
+  "id": 7
+ },
+ {
+  "Attribute": "onsearch",
+  "Value": "script",
+  "Description": "Fires when the user writes something in a search field (for <input=\"search\">)",
+  "id": 8
+ },
+ {
+  "Attribute": "onselect",
+  "Value": "script",
+  "Description": "Fires after some text has been selected in an element",
+  "id": 9
+ },
+ {
+  "Attribute": "onsubmit",
+  "Value": "script",
+  "Description": "Fires when a form is submitted",
+  "id": 10
+ }
+]

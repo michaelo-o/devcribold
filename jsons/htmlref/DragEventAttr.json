@@ -1,0 +1,50 @@
+[
+ {
+  "Attribute": "ondrag",
+  "Value": "script",
+  "Description": "Script to be run when an element is dragged",
+  "id": 1
+ },
+ {
+  "Attribute": "ondragend",
+  "Value": "script",
+  "Description": "Script to be run at the end of a drag operation",
+  "id": 2
+ },
+ {
+  "Attribute": "ondragenter",
+  "Value": "script",
+  "Description": "Script to be run when an element has been dragged to a valid drop target",
+  "id": 3
+ },
+ {
+  "Attribute": "ondragleave",
+  "Value": "script",
+  "Description": "Script to be run when an element leaves a valid drop target",
+  "id": 4
+ },
+ {
+  "Attribute": "ondragover",
+  "Value": "script",
+  "Description": "Script to be run when an element is being dragged over a valid drop target",
+  "id": 5
+ },
+ {
+  "Attribute": "ondragstart",
+  "Value": "script",
+  "Description": "Script to be run at the start of a drag operation",
+  "id": 6
+ },
+ {
+  "Attribute": "ondrop",
+  "Value": "script",
+  "Description": "Script to be run when dragged element is being dropped",
+  "id": 7
+ },
+ {
+  "Attribute": "onscroll",
+  "Value": "script",
+  "Description": "Script to be run when an element's scrollbar is being scrolled",
+  "id": 8
+ }
+]

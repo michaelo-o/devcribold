@@ -1,0 +1,20 @@
+[
+ {
+  "Attribute": "oncopy",
+  "Value": "script",
+  "Description": "Fires when the user copies the content of an element",
+  "id": 1
+ },
+ {
+  "Attribute": "oncut",
+  "Value": "script",
+  "Description": "Fires when the user cuts the content of an element",
+  "id": 2
+ },
+ {
+  "Attribute": "onpaste",
+  "Value": "script",
+  "Description": "Fires when the user pastes some content in an element",
+  "id": 3
+ }
+]

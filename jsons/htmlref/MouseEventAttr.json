@@ -1,0 +1,56 @@
+[
+ {
+  "Attribute": "onclick",
+  "Value": "script",
+  "Description": "Fires on a mouse click on the element",
+  "id": 1
+ },
+ {
+  "Attribute": "ondblclick",
+  "Value": "script",
+  "Description": "Fires on a mouse double-click on the element",
+  "id": 2
+ },
+ {
+  "Attribute": "onmousedown",
+  "Value": "script",
+  "Description": "Fires when a mouse button is pressed down on an element",
+  "id": 3
+ },
+ {
+  "Attribute": "onmousemove",
+  "Value": "script",
+  "Description": "Fires when the mouse pointer is moving while it is over an element",
+  "id": 4
+ },
+ {
+  "Attribute": "onmouseout",
+  "Value": "script",
+  "Description": "Fires when the mouse pointer moves out of an element",
+  "id": 5
+ },
+ {
+  "Attribute": "onmouseover",
+  "Value": "script",
+  "Description": "Fires when the mouse pointer moves over an element",
+  "id": 6
+ },
+ {
+  "Attribute": "onmouseup",
+  "Value": "script",
+  "Description": "Fires when a mouse button is released over an element",
+  "id": 7
+ },
+ {
+  "Attribute": "onmousewheel",
+  "Value": "script",
+  "Description": "Deprecated. Use the onwheel attribute instead",
+  "id": 8
+ },
+ {
+  "Attribute": "onwheel",
+  "Value": "script",
+  "Description": "Fires when the mouse wheel rolls up or down over an element",
+  "id": 9
+ }
+]

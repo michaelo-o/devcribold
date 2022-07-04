@@ -5,7 +5,7 @@ import Head from "next/head";
 import styles from "../referencesgeneral.module.css"
 import HtmlRefLSb from "./comps/HtmlRefLSb";
 import RefFooter from "../RefFooter"
-import htmlattrref from "../../../jsons/htmlattrref.json"
+import htmlattrref from "../../../jsons/htmlref/htmlattrref.json"
 import { useState, useEffect } from "react";
 
 
