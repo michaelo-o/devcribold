@@ -113,7 +113,7 @@ export default function Home() {
             <Link href="/tutorials/html/">
               <a> <h4>Learn HTML</h4></a>
             </Link>
-            <Link href="#">
+            <Link href="/references/html/htmltagref">
               <a> <h4>HTML References</h4></a>
             </Link>
           </div>
@@ -175,7 +175,7 @@ export default function Home() {
             <Link href="#">
               <a> <h4>Learn CSS</h4></a>
             </Link>
-            <Link href="#">
+            <Link href="/references/css/csspropref">
               <a> <h4>CSS References</h4></a>
             </Link>
           </div>

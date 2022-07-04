@@ -8,20 +8,20 @@ const NavRefCss = (props) => {
         <>
             <div>
                 <h2>CSS</h2>
-                <Link href="#">
-                    <a><h3 onClick={references}>CSS Reference</h3></a>
-                </Link>
-                <Link href="#">
-                    <a><h3 onClick={references}>CSS Selector Reference</h3></a>
-                </Link>
-                <Link href="#">
+                <Link href="/references/css/csspropref">
                     <a><h3 onClick={references}>CSS Property Reference</h3></a>
                 </Link>
-                <Link href="#">
+                <Link href="/references/css/cssselref">
+                    <a><h3 onClick={references}>CSS Selector Reference</h3></a>
+                </Link>
+                <Link href="/references/css/cssfunref">
                     <a><h3 onClick={references}>CSS Function Reference</h3></a>
                 </Link>
-                <Link href="#">
+                <Link href="/references/css/cssunitref">
                     <a><h3 onClick={references}>CSS Unit Reference</h3></a>
+                </Link>
+                <Link href="#">
+                    <a><h3 onClick={references}>CSS Default Values</h3></a>
                 </Link>
             </div>
         </>

@@ -11,25 +11,25 @@ const HtmlRefLSb = () => {
             <div className={styles.refleftsidebar}>
                 <div className={styles.reflfsbcont}>
                     <h2>HTML References</h2>
-                    <Link href="/references/html/HtmlTagRef">
+                    <Link href="/references/html/htmltagref">
                         <a>HTML Tag Reference</a>
                     </Link>
-                    <Link href="/references/html/UnsupportedHtmlTags">
+                    <Link href="/references/html/unsupportedhtmltags">
                         <a>Unsupported/Deprecated Tags</a>
                     </Link>
-                    <Link href="/references/html/HtmlColRef">
+                    <Link href="/references/html/htmlcolref">
                         <a>HTML Color Reference</a>
                     </Link>
-                    <Link href="/references/html/HtmlAttrRef">
+                    <Link href="/references/html/htmlattrref">
                         <a>HTML Attribute Reference</a>
                     </Link>
-                    <Link href="/references/html/UnsupportedHtmlAttr">
+                    <Link href="/references/html/unsupportedhtmlattr">
                         <a>Unsupported/Deprecated Attributes</a>
                     </Link>
-                    <Link href="/references/html/HtmlEventRef">
+                    <Link href="/references/html/htmleventref">
                         <a>HTML Event Reference</a>
                     </Link>
-                    <Link href="/references/html/HtmlMediaRef">
+                    <Link href="/references/html/htmlmediaref">
                         <a>HTML Media Reference</a>
                     </Link>
                 </div>

@@ -1,0 +1,47 @@
+[
+ {
+  "Unit": "em",
+  "Description": "Relative to the font-size of the element (2em means 2 times the size of the current font)",
+  "id": 1
+ },
+ {
+  "Unit": "ex",
+  "Description": "Relative to the x-height of the current font (rarely used)",
+  "id": 2
+ },
+ {
+  "Unit": "ch",
+  "Description": "Relative to the width of the \"0\" (zero)",
+  "id": 3
+ },
+ {
+  "Unit": "rem",
+  "Description": "Relative to font-size of the root element",
+  "id": 4
+ },
+ {
+  "Unit": "vw",
+  "Description": "Relative to 1% of the width of the viewport*",
+  "id": 5
+ },
+ {
+  "Unit": "vh",
+  "Description": "Relative to 1% of the height of the viewport*",
+  "id": 6
+ },
+ {
+  "Unit": "vmin",
+  "Description": "Relative to 1% of viewport's* smaller dimension",
+  "id": 7
+ },
+ {
+  "Unit": "vmax",
+  "Description": "Relative to 1% of viewport's* larger dimension",
+  "id": 8
+ },
+ {
+  "Unit": "%",
+  "Description": "Relative to the parent element",
+  "id": 9
+ }
+]

@@ -1,0 +1,1222 @@
+[
+ {
+  "Property": "accent-color",
+  "Description": "Specifies an accent color for user-interface controls",
+  "id": 1
+ },
+ {
+  "Property": "align-content",
+  "Description": "Specifies the alignment between the lines inside a flexible container when the items do not use all available space",
+  "id": 2
+ },
+ {
+  "Property": "align-items",
+  "Description": "Specifies the alignment for items inside a flexible container",
+  "id": 3
+ },
+ {
+  "Property": "align-self",
+  "Description": "Specifies the alignment for selected items inside a flexible container",
+  "id": 4
+ },
+ {
+  "Property": "all",
+  "Description": "Resets all properties (except unicode-bidi and direction)",
+  "id": 5
+ },
+ {
+  "Property": "animation",
+  "Description": "A shorthand property for all the animation-* properties",
+  "id": 6
+ },
+ {
+  "Property": "animation-delay",
+  "Description": "Specifies a delay for the start of an animation",
+  "id": 7
+ },
+ {
+  "Property": "animation-direction",
+  "Description": "Specifies whether an animation should be played forwards, backwards or in alternate cycles",
+  "id": 8
+ },
+ {
+  "Property": "animation-duration",
+  "Description": "Specifies how long an animation should take to complete one cycle",
+  "id": 9
+ },
+ {
+  "Property": "animation-fill-mode",
+  "Description": "Specifies a style for the element when the animation is not playing (before it starts, after it ends, or both)",
+  "id": 10
+ },
+ {
+  "Property": "animation-iteration-count",
+  "Description": "Specifies the number of times an animation should be played",
+  "id": 11
+ },
+ {
+  "Property": "animation-name",
+  "Description": "Specifies a name for the @keyframes animation",
+  "id": 12
+ },
+ {
+  "Property": "animation-play-state",
+  "Description": "Specifies whether the animation is running or paused",
+  "id": 13
+ },
+ {
+  "Property": "animation-timing-function",
+  "Description": "Specifies the speed curve of an animation",
+  "id": 14
+ },
+ {
+  "Property": "backdrop-filter",
+  "Description": "Defines a graphical effect to the area behind an element",
+  "id": 15
+ },
+ {
+  "Property": "backface-visibility",
+  "Description": "Defines whether or not the back face of an element should be visible when facing the user",
+  "id": 16
+ },
+ {
+  "Property": "background",
+  "Description": "A shorthand property for all the background-* properties",
+  "id": 17
+ },
+ {
+  "Property": "background-attachment",
+  "Description": "Sets whether a background image scrolls with the rest of the page, or is fixed",
+  "id": 18
+ },
+ {
+  "Property": "background-blend-mode",
+  "Description": "Specifies the blending mode of each background layer (color\/image)",
+  "id": 19
+ },
+ {
+  "Property": "background-clip",
+  "Description": "Defines how far the background (color or image) should extend within an element",
+  "id": 20
+ },
+ {
+  "Property": "background-color",
+  "Description": "Specifies the background color of an element",
+  "id": 21
+ },
+ {
+  "Property": "background-image",
+  "Description": "Specifies one or more background images for an element",
+  "id": 22
+ },
+ {
+  "Property": "background-origin",
+  "Description": "Specifies the origin position of a background image",
+  "id": 23
+ },
+ {
+  "Property": "background-position",
+  "Description": "Specifies the position of a background image",
+  "id": 24
+ },
+ {
+  "Property": "background-repeat",
+  "Description": "Sets if\/how a background image will be repeated",
+  "id": 25
+ },
+ {
+  "Property": "background-size",
+  "Description": "Specifies the size of the background images",
+  "id": 26
+ },
+ {
+  "Property": "border",
+  "Description": "A shorthand property for border-width, border-style and border-color",
+  "id": 27
+ },
+ {
+  "Property": "border-bottom",
+  "Description": "A shorthand property for border-bottom-width, border-bottom-style and border-bottom-color",
+  "id": 28
+ },
+ {
+  "Property": "border-bottom-color",
+  "Description": "Sets the color of the bottom border",
+  "id": 29
+ },
+ {
+  "Property": "border-bottom-left-radius",
+  "Description": "Defines the radius of the border of the bottom-left corner",
+  "id": 30
+ },
+ {
+  "Property": "border-bottom-right-radius",
+  "Description": "Defines the radius of the border of the bottom-right corner",
+  "id": 31
+ },
+ {
+  "Property": "border-bottom-style",
+  "Description": "Sets the style of the bottom border",
+  "id": 32
+ },
+ {
+  "Property": "border-bottom-width",
+  "Description": "Sets the width of the bottom border",
+  "id": 33
+ },
+ {
+  "Property": "border-collapse",
+  "Description": "Sets whether table borders should collapse into a single border or be separated",
+  "id": 34
+ },
+ {
+  "Property": "border-color",
+  "Description": "Sets the color of the four borders",
+  "id": 35
+ },
+ {
+  "Property": "border-image",
+  "Description": "A shorthand property for all the border-image-* properties",
+  "id": 36
+ },
+ {
+  "Property": "border-image-outset",
+  "Description": "Specifies the amount by which the border image area extends beyond the border box",
+  "id": 37
+ },
+ {
+  "Property": "border-image-repeat",
+  "Description": "Specifies whether the border image should be repeated, rounded or stretched",
+  "id": 38
+ },
+ {
+  "Property": "border-image-slice",
+  "Description": "Specifies how to slice the border image",
+  "id": 39
+ },
+ {
+  "Property": "border-image-source",
+  "Description": "Specifies the path to the image to be used as a border",
+  "id": 40
+ },
+ {
+  "Property": "border-image-width",
+  "Description": "Specifies the width of the border image",
+  "id": 41
+ },
+ {
+  "Property": "border-left",
+  "Description": "A shorthand property for all the border-left-* properties",
+  "id": 42
+ },
+ {
+  "Property": "border-left-color",
+  "Description": "Sets the color of the left border",
+  "id": 43
+ },
+ {
+  "Property": "border-left-style",
+  "Description": "Sets the style of the left border",
+  "id": 44
+ },
+ {
+  "Property": "border-left-width",
+  "Description": "Sets the width of the left border",
+  "id": 45
+ },
+ {
+  "Property": "border-radius",
+  "Description": "A shorthand property for the four border-*-radius properties",
+  "id": 46
+ },
+ {
+  "Property": "border-right",
+  "Description": "A shorthand property for all the border-right-* properties",
+  "id": 47
+ },
+ {
+  "Property": "border-right-color",
+  "Description": "Sets the color of the right border",
+  "id": 48
+ },
+ {
+  "Property": "border-right-style",
+  "Description": "Sets the style of the right border",
+  "id": 49
+ },
+ {
+  "Property": "border-right-width",
+  "Description": "Sets the width of the right border",
+  "id": 50
+ },
+ {
+  "Property": "border-spacing",
+  "Description": "Sets the distance between the borders of adjacent cells",
+  "id": 51
+ },
+ {
+  "Property": "border-style",
+  "Description": "Sets the style of the four borders",
+  "id": 52
+ },
+ {
+  "Property": "border-top",
+  "Description": "A shorthand property for border-top-width, border-top-style and border-top-color",
+  "id": 53
+ },
+ {
+  "Property": "border-top-color",
+  "Description": "Sets the color of the top border",
+  "id": 54
+ },
+ {
+  "Property": "border-top-left-radius",
+  "Description": "Defines the radius of the border of the top-left corner",
+  "id": 55
+ },
+ {
+  "Property": "border-top-right-radius",
+  "Description": "Defines the radius of the border of the top-right corner",
+  "id": 56
+ },
+ {
+  "Property": "border-top-style",
+  "Description": "Sets the style of the top border",
+  "id": 57
+ },
+ {
+  "Property": "border-top-width",
+  "Description": "Sets the width of the top border",
+  "id": 58
+ },
+ {
+  "Property": "border-width",
+  "Description": "Sets the width of the four borders",
+  "id": 59
+ },
+ {
+  "Property": "bottom",
+  "Description": "Sets the elements position, from the bottom of its parent element",
+  "id": 60
+ },
+ {
+  "Property": "box-decoration-break",
+  "Description": "Sets the behavior of the background and border of an element at page-break, or, for in-line elements, at line-break.",
+  "id": 61
+ },
+ {
+  "Property": "box-shadow",
+  "Description": "Attaches one or more shadows to an element",
+  "id": 62
+ },
+ {
+  "Property": "box-sizing",
+  "Description": "Defines how the width and height of an element are calculated: should they include padding and borders, or not",
+  "id": 63
+ },
+ {
+  "Property": "break-after",
+  "Description": "Specifies whether or not a page-, column-, or region-break should occur after the specified element",
+  "id": 64
+ },
+ {
+  "Property": "break-before",
+  "Description": "Specifies whether or not a page-, column-, or region-break should occur before the specified element",
+  "id": 65
+ },
+ {
+  "Property": "break-inside",
+  "Description": "Specifies whether or not a page-, column-, or region-break should occur inside the specified element",
+  "id": 66
+ },
+ {
+  "Property": "caption-side",
+  "Description": "Specifies the placement of a table caption",
+  "id": 67
+ },
+ {
+  "Property": "caret-color",
+  "Description": "Specifies the color of the cursor (caret) in inputs, textareas, or any element that is editable",
+  "id": 68
+ },
+ {
+  "Property": "@charset",
+  "Description": "Specifies the character encoding used in the style sheet",
+  "id": 69
+ },
+ {
+  "Property": "clear",
+  "Description": "Specifies what should happen with the element that is next to a floating element",
+  "id": 70
+ },
+ {
+  "Property": "clip",
+  "Description": "Clips an absolutely positioned element",
+  "id": 71
+ },
+ {
+  "Property": "color",
+  "Description": "Sets the color of text",
+  "id": 72
+ },
+ {
+  "Property": "column-count",
+  "Description": "Specifies the number of columns an element should be divided into",
+  "id": 73
+ },
+ {
+  "Property": "column-fill",
+  "Description": "Specifies how to fill columns, balanced or not",
+  "id": 74
+ },
+ {
+  "Property": "column-gap",
+  "Description": "Specifies the gap between the columns",
+  "id": 75
+ },
+ {
+  "Property": "column-rule",
+  "Description": "A shorthand property for all the column-rule-* properties",
+  "id": 76
+ },
+ {
+  "Property": "column-rule-color",
+  "Description": "Specifies the color of the rule between columns",
+  "id": 77
+ },
+ {
+  "Property": "column-rule-style",
+  "Description": "Specifies the style of the rule between columns",
+  "id": 78
+ },
+ {
+  "Property": "column-rule-width",
+  "Description": "Specifies the width of the rule between columns",
+  "id": 79
+ },
+ {
+  "Property": "column-span",
+  "Description": "Specifies how many columns an element should span across",
+  "id": 80
+ },
+ {
+  "Property": "column-width",
+  "Description": "Specifies the column width",
+  "id": 81
+ },
+ {
+  "Property": "columns",
+  "Description": "A shorthand property for column-width and column-count",
+  "id": 82
+ },
+ {
+  "Property": "content",
+  "Description": "Used with the :before and :after pseudo-elements, to insert generated content",
+  "id": 83
+ },
+ {
+  "Property": "counter-increment",
+  "Description": "Increases or decreases the value of one or more CSS counters",
+  "id": 84
+ },
+ {
+  "Property": "counter-reset",
+  "Description": "Creates or resets one or more CSS counters",
+  "id": 85
+ },
+ {
+  "Property": "cursor",
+  "Description": "Specifies the mouse cursor to be displayed when pointing over an element",
+  "id": 86
+ },
+ {
+  "Property": "direction",
+  "Description": "Specifies the text direction\/writing direction",
+  "id": 87
+ },
+ {
+  "Property": "display",
+  "Description": "Specifies how a certain HTML element should be displayed",
+  "id": 88
+ },
+ {
+  "Property": "empty-cells",
+  "Description": "Specifies whether or not to display borders and background on empty cells in a table",
+  "id": 89
+ },
+ {
+  "Property": "filter",
+  "Description": "Defines effects (e.g. blurring or color shifting) on an element before the element is displayed",
+  "id": 90
+ },
+ {
+  "Property": "flex",
+  "Description": "A shorthand property for the flex-grow, flex-shrink, and the flex-basis properties",
+  "id": 91
+ },
+ {
+  "Property": "flex-basis",
+  "Description": "Specifies the initial length of a flexible item",
+  "id": 92
+ },
+ {
+  "Property": "flex-direction",
+  "Description": "Specifies the direction of the flexible items",
+  "id": 93
+ },
+ {
+  "Property": "flex-flow",
+  "Description": "A shorthand property for the flex-direction and the flex-wrap properties",
+  "id": 94
+ },
+ {
+  "Property": "flex-grow",
+  "Description": "Specifies how much the item will grow relative to the rest",
+  "id": 95
+ },
+ {
+  "Property": "flex-shrink",
+  "Description": "Specifies how the item will shrink relative to the rest",
+  "id": 96
+ },
+ {
+  "Property": "flex-wrap",
+  "Description": "Specifies whether the flexible items should wrap or not",
+  "id": 97
+ },
+ {
+  "Property": "float",
+  "Description": "Specifies whether an element should float to the left, right, or not at all",
+  "id": 98
+ },
+ {
+  "Property": "font",
+  "Description": "A shorthand property for the font-style, font-variant, font-weight, font-size\/line-height, and the font-family properties",
+  "id": 99
+ },
+ {
+  "Property": "@font-face",
+  "Description": "A rule that allows websites to download and use fonts other than the \"web-safe\" fonts",
+  "id": 100
+ },
+ {
+  "Property": "font-family",
+  "Description": "Specifies the font family for text",
+  "id": 101
+ },
+ {
+  "Property": "font-feature-settings",
+  "Description": "Allows control over advanced typographic features in OpenType fonts",
+  "id": 102
+ },
+ {
+  "Property": "@font-feature-values",
+  "Description": "Allows authors to use a common name in font-variant-alternate for feature activated differently in OpenType",
+  "id": 103
+ },
+ {
+  "Property": "font-kerning",
+  "Description": "Controls the usage of the kerning information (how letters are spaced)",
+  "id": 104
+ },
+ {
+  "Property": "font-language-override",
+  "Description": "Controls the usage of language-specific glyphs in a typeface",
+  "id": 105
+ },
+ {
+  "Property": "font-size",
+  "Description": "Specifies the font size of text",
+  "id": 106
+ },
+ {
+  "Property": "font-size-adjust",
+  "Description": "Preserves the readability of text when font fallback occurs",
+  "id": 107
+ },
+ {
+  "Property": "font-stretch",
+  "Description": "Selects a normal, condensed, or expanded face from a font family",
+  "id": 108
+ },
+ {
+  "Property": "font-style",
+  "Description": "Specifies the font style for text",
+  "id": 109
+ },
+ {
+  "Property": "font-synthesis",
+  "Description": "Controls which missing typefaces (bold or italic) may be synthesized by the browser",
+  "id": 110
+ },
+ {
+  "Property": "font-variant",
+  "Description": "Specifies whether or not a text should be displayed in a small-caps font",
+  "id": 111
+ },
+ {
+  "Property": "font-variant-alternates",
+  "Description": "Controls the usage of alternate glyphs associated to alternative names defined in @font-feature-values",
+  "id": 112
+ },
+ {
+  "Property": "font-variant-caps",
+  "Description": "Controls the usage of alternate glyphs for capital letters",
+  "id": 113
+ },
+ {
+  "Property": "font-variant-east-asian",
+  "Description": "Controls the usage of alternate glyphs for East Asian scripts (e.g Japanese and Chinese)",
+  "id": 114
+ },
+ {
+  "Property": "font-variant-ligatures",
+  "Description": "Controls which ligatures and contextual forms are used in textual content of the elements it applies to",
+  "id": 115
+ },
+ {
+  "Property": "font-variant-numeric",
+  "Description": "Controls the usage of alternate glyphs for numbers, fractions, and ordinal markers",
+  "id": 116
+ },
+ {
+  "Property": "font-variant-position",
+  "Description": "Controls the usage of alternate glyphs of smaller size positioned as superscript or subscript regarding the baseline of the font",
+  "id": 117
+ },
+ {
+  "Property": "font-weight",
+  "Description": "Specifies the weight of a font",
+  "id": 118
+ },
+ {
+  "Property": "gap",
+  "Description": "A shorthand property for the row-gap and the column-gap properties",
+  "id": 119
+ },
+ {
+  "Property": "grid",
+  "Description": "A shorthand property for the grid-template-rows, grid-template-columns, grid-template-areas, grid-auto-rows, grid-auto-columns, and the grid-auto-flow properties",
+  "id": 120
+ },
+ {
+  "Property": "grid-area",
+  "Description": "Either specifies a name for the grid item, or this property is a shorthand property for the grid-row-start, grid-column-start, grid-row-end, and grid-column-end properties",
+  "id": 121
+ },
+ {
+  "Property": "grid-auto-columns",
+  "Description": "Specifies a default column size",
+  "id": 122
+ },
+ {
+  "Property": "grid-auto-flow",
+  "Description": "Specifies how auto-placed items are inserted in the grid",
+  "id": 123
+ },
+ {
+  "Property": "grid-auto-rows",
+  "Description": "Specifies a default row size",
+  "id": 124
+ },
+ {
+  "Property": "grid-column",
+  "Description": "A shorthand property for the grid-column-start and the grid-column-end properties",
+  "id": 125
+ },
+ {
+  "Property": "grid-column-end",
+  "Description": "Specifies where to end the grid item",
+  "id": 126
+ },
+ {
+  "Property": "grid-column-gap",
+  "Description": "Specifies the size of the gap between columns",
+  "id": 127
+ },
+ {
+  "Property": "grid-column-start",
+  "Description": "Specifies where to start the grid item",
+  "id": 128
+ },
+ {
+  "Property": "grid-gap",
+  "Description": "A shorthand property for the grid-row-gap and grid-column-gap properties",
+  "id": 129
+ },
+ {
+  "Property": "grid-row",
+  "Description": "A shorthand property for the grid-row-start and the grid-row-end properties",
+  "id": 130
+ },
+ {
+  "Property": "grid-row-end",
+  "Description": "Specifies where to end the grid item",
+  "id": 131
+ },
+ {
+  "Property": "grid-row-gap",
+  "Description": "Specifies the size of the gap between rows",
+  "id": 132
+ },
+ {
+  "Property": "grid-row-start",
+  "Description": "Specifies where to start the grid item",
+  "id": 133
+ },
+ {
+  "Property": "grid-template",
+  "Description": "A shorthand property for the grid-template-rows, grid-template-columns and grid-areas properties",
+  "id": 134
+ },
+ {
+  "Property": "grid-template-areas",
+  "Description": "Specifies how to display columns and rows, using named grid items",
+  "id": 135
+ },
+ {
+  "Property": "grid-template-columns",
+  "Description": "Specifies the size of the columns, and how many columns in a grid layout",
+  "id": 136
+ },
+ {
+  "Property": "grid-template-rows",
+  "Description": "Specifies the size of the rows in a grid layout",
+  "id": 137
+ },
+ {
+  "Property": "hanging-punctuation",
+  "Description": "Specifies whether a punctuation character may be placed outside the line box",
+  "id": 138
+ },
+ {
+  "Property": "height",
+  "Description": "Sets the height of an element",
+  "id": 139
+ },
+ {
+  "Property": "hyphens",
+  "Description": "Sets how to split words to improve the layout of paragraphs",
+  "id": 140
+ },
+ {
+  "Property": "image-rendering",
+  "Description": "Specifies the type of algorithm to use for image scaling",
+  "id": 141
+ },
+ {
+  "Property": "@import",
+  "Description": "Allows you to import a style sheet into another style sheet",
+  "id": 142
+ },
+ {
+  "Property": "isolation",
+  "Description": "Defines whether an element must create a new stacking content",
+  "id": 143
+ },
+ {
+  "Property": "justify-content",
+  "Description": "Specifies the alignment between the items inside a flexible container when the items do not use all available space",
+  "id": 144
+ },
+ {
+  "Property": "@keyframes",
+  "Description": "Specifies the animation code",
+  "id": 145
+ },
+ {
+  "Property": "left",
+  "Description": "Specifies the left position of a positioned element",
+  "id": 146
+ },
+ {
+  "Property": "letter-spacing",
+  "Description": "Increases or decreases the space between characters in a text",
+  "id": 147
+ },
+ {
+  "Property": "line-break",
+  "Description": "Specifies how\/if to break lines",
+  "id": 148
+ },
+ {
+  "Property": "line-height",
+  "Description": "Sets the line height",
+  "id": 149
+ },
+ {
+  "Property": "list-style",
+  "Description": "Sets all the properties for a list in one declaration",
+  "id": 150
+ },
+ {
+  "Property": "list-style-image",
+  "Description": "Specifies an image as the list-item marker",
+  "id": 151
+ },
+ {
+  "Property": "list-style-position",
+  "Description": "Specifies the position of the list-item markers (bullet points)",
+  "id": 152
+ },
+ {
+  "Property": "list-style-type",
+  "Description": "Specifies the type of list-item marker",
+  "id": 153
+ },
+ {
+  "Property": "margin",
+  "Description": "Sets all the margin properties in one declaration",
+  "id": 154
+ },
+ {
+  "Property": "margin-bottom",
+  "Description": "Sets the bottom margin of an element",
+  "id": 155
+ },
+ {
+  "Property": "margin-left",
+  "Description": "Sets the left margin of an element",
+  "id": 156
+ },
+ {
+  "Property": "margin-right",
+  "Description": "Sets the right margin of an element",
+  "id": 157
+ },
+ {
+  "Property": "margin-top",
+  "Description": "Sets the top margin of an element",
+  "id": 158
+ },
+ {
+  "Property": "mask",
+  "Description": "Hides parts of an element by masking or clipping an image at specific places",
+  "id": 159
+ },
+ {
+  "Property": "mask-clip",
+  "Description": "Specifies the mask area",
+  "id": 160
+ },
+ {
+  "Property": "mask-composite",
+  "Description": "Represents a compositing operation used on the current mask layer with the mask layers below it",
+  "id": 161
+ },
+ {
+  "Property": "mask-image",
+  "Description": "Specifies an image to be used as a mask layer for an element",
+  "id": 162
+ },
+ {
+  "Property": "mask-mode",
+  "Description": "Specifies whether the mask layer image is treated as a luminance mask or as an alpha mask",
+  "id": 163
+ },
+ {
+  "Property": "mask-origin",
+  "Description": "Specifies the origin position (the mask position area) of a mask layer image",
+  "id": 164
+ },
+ {
+  "Property": "mask-position",
+  "Description": "Sets the starting position of a mask layer image (relative to the mask position area)",
+  "id": 165
+ },
+ {
+  "Property": "mask-repeat",
+  "Description": "Specifies how the mask layer image is repeated",
+  "id": 166
+ },
+ {
+  "Property": "mask-size",
+  "Description": "Specifies the size of a mask layer image",
+  "id": 167
+ },
+ {
+  "Property": "mask-type",
+  "Description": "Specifies whether an SVG <mask> element is treated as a luminance mask or as an alpha mask",
+  "id": 168
+ },
+ {
+  "Property": "max-height",
+  "Description": "Sets the maximum height of an element",
+  "id": 169
+ },
+ {
+  "Property": "max-width",
+  "Description": "Sets the maximum width of an element",
+  "id": 170
+ },
+ {
+  "Property": "@media",
+  "Description": "Sets the style rules for different media types\/devices\/sizes",
+  "id": 171
+ },
+ {
+  "Property": "min-height",
+  "Description": "Sets the minimum height of an element",
+  "id": 172
+ },
+ {
+  "Property": "min-width",
+  "Description": "Sets the minimum width of an element",
+  "id": 173
+ },
+ {
+  "Property": "mix-blend-mode",
+  "Description": "Specifies how an element's content should blend with its direct parent background",
+  "id": 174
+ },
+ {
+  "Property": "object-fit",
+  "Description": "Specifies how the contents of a replaced element should be fitted to the box established by its used height and width",
+  "id": 175
+ },
+ {
+  "Property": "object-position",
+  "Description": "Specifies the alignment of the replaced element inside its box",
+  "id": 176
+ },
+ {
+  "Property": "opacity",
+  "Description": "Sets the opacity level for an element",
+  "id": 177
+ },
+ {
+  "Property": "order",
+  "Description": "Sets the order of the flexible item, relative to the rest",
+  "id": 178
+ },
+ {
+  "Property": "orphans",
+  "Description": "Sets the minimum number of lines that must be left at the bottom of a page or column",
+  "id": 179
+ },
+ {
+  "Property": "outline",
+  "Description": "A shorthand property for the outline-width, outline-style, and the outline-color properties",
+  "id": 180
+ },
+ {
+  "Property": "outline-color",
+  "Description": "Sets the color of an outline",
+  "id": 181
+ },
+ {
+  "Property": "outline-offset",
+  "Description": "Offsets an outline, and draws it beyond the border edge",
+  "id": 182
+ },
+ {
+  "Property": "outline-style",
+  "Description": "Sets the style of an outline",
+  "id": 183
+ },
+ {
+  "Property": "outline-width",
+  "Description": "Sets the width of an outline",
+  "id": 184
+ },
+ {
+  "Property": "overflow",
+  "Description": "Specifies what happens if content overflows an element's box",
+  "id": 185
+ },
+ {
+  "Property": "overflow-wrap",
+  "Description": "Specifies whether or not the browser can break lines with long words, if they overflow the container",
+  "id": 186
+ },
+ {
+  "Property": "overflow-x",
+  "Description": "Specifies whether or not to clip the left\/right edges of the content, if it overflows the element's content area",
+  "id": 187
+ },
+ {
+  "Property": "overflow-y",
+  "Description": "Specifies whether or not to clip the top\/bottom edges of the content, if it overflows the element's content area",
+  "id": 188
+ },
+ {
+  "Property": "padding",
+  "Description": "A shorthand property for all the padding-* properties",
+  "id": 189
+ },
+ {
+  "Property": "padding-bottom",
+  "Description": "Sets the bottom padding of an element",
+  "id": 190
+ },
+ {
+  "Property": "padding-left",
+  "Description": "Sets the left padding of an element",
+  "id": 191
+ },
+ {
+  "Property": "padding-right",
+  "Description": "Sets the right padding of an element",
+  "id": 192
+ },
+ {
+  "Property": "padding-top",
+  "Description": "Sets the top padding of an element",
+  "id": 193
+ },
+ {
+  "Property": "page-break-after",
+  "Description": "Sets the page-break behavior after an element",
+  "id": 194
+ },
+ {
+  "Property": "page-break-before",
+  "Description": "Sets the page-break behavior before an element",
+  "id": 195
+ },
+ {
+  "Property": "page-break-inside",
+  "Description": "Sets the page-break behavior inside an element",
+  "id": 196
+ },
+ {
+  "Property": "perspective",
+  "Description": "Gives a 3D-positioned element some perspective",
+  "id": 197
+ },
+ {
+  "Property": "perspective-origin",
+  "Description": "Defines at which position the user is looking at the 3D-positioned element",
+  "id": 198
+ },
+ {
+  "Property": "pointer-events",
+  "Description": "Defines whether or not an element reacts to pointer events",
+  "id": 199
+ },
+ {
+  "Property": "position",
+  "Description": "Specifies the type of positioning method used for an element (static, relative, absolute or fixed)",
+  "id": 200
+ },
+ {
+  "Property": "quotes",
+  "Description": "Sets the type of quotation marks for embedded quotations",
+  "id": 201
+ },
+ {
+  "Property": "resize",
+  "Description": "Defines if (and how) an element is resizable by the user",
+  "id": 202
+ },
+ {
+  "Property": "right",
+  "Description": "Specifies the right position of a positioned element",
+  "id": 203
+ },
+ {
+  "Property": "row-gap",
+  "Description": "Specifies the gap between the grid rows",
+  "id": 204
+ },
+ {
+  "Property": "scroll-behavior",
+  "Description": "Specifies whether to smoothly animate the scroll position in a scrollable box, instead of a straight jump",
+  "id": 205
+ },
+ {
+  "Property": "tab-size",
+  "Description": "Specifies the width of a tab character",
+  "id": 206
+ },
+ {
+  "Property": "table-layout",
+  "Description": "Defines the algorithm used to lay out table cells, rows, and columns",
+  "id": 207
+ },
+ {
+  "Property": "text-align",
+  "Description": "Specifies the horizontal alignment of text",
+  "id": 208
+ },
+ {
+  "Property": "text-align-last",
+  "Description": "Describes how the last line of a block or a line right before a forced line break is aligned when text-align is \"justify\"",
+  "id": 209
+ },
+ {
+  "Property": "text-combine-upright",
+  "Description": "Specifies the combination of multiple characters into the space of a single character",
+  "id": 210
+ },
+ {
+  "Property": "text-decoration",
+  "Description": "Specifies the decoration added to text",
+  "id": 211
+ },
+ {
+  "Property": "text-decoration-color",
+  "Description": "Specifies the color of the text-decoration",
+  "id": 212
+ },
+ {
+  "Property": "text-decoration-line",
+  "Description": "Specifies the type of line in a text-decoration",
+  "id": 213
+ },
+ {
+  "Property": "text-decoration-style",
+  "Description": "Specifies the style of the line in a text decoration",
+  "id": 214
+ },
+ {
+  "Property": "text-decoration-thickness",
+  "Description": "Specifies the thickness of the decoration line",
+  "id": 215
+ },
+ {
+  "Property": "text-emphasis",
+  "Description": "Applies emphasis marks to text",
+  "id": 216
+ },
+ {
+  "Property": "text-indent",
+  "Description": "Specifies the indentation of the first line in a text-block",
+  "id": 217
+ },
+ {
+  "Property": "text-justify",
+  "Description": "Specifies the justification method used when text-align is \"justify\"",
+  "id": 218
+ },
+ {
+  "Property": "text-orientation",
+  "Description": "Defines the orientation of the text in a line",
+  "id": 219
+ },
+ {
+  "Property": "text-overflow",
+  "Description": "Specifies what should happen when text overflows the containing element",
+  "id": 220
+ },
+ {
+  "Property": "text-shadow",
+  "Description": "Adds shadow to text",
+  "id": 221
+ },
+ {
+  "Property": "text-transform",
+  "Description": "Controls the capitalization of text",
+  "id": 222
+ },
+ {
+  "Property": "text-underline-position",
+  "Description": "Specifies the position of the underline which is set using the text-decoration property",
+  "id": 223
+ },
+ {
+  "Property": "top",
+  "Description": "Specifies the top position of a positioned element",
+  "id": 224
+ },
+ {
+  "Property": "transform",
+  "Description": "Applies a 2D or 3D transformation to an element",
+  "id": 225
+ },
+ {
+  "Property": "transform-origin",
+  "Description": "Allows you to change the position on transformed elements",
+  "id": 226
+ },
+ {
+  "Property": "transform-style",
+  "Description": "Specifies how nested elements are rendered in 3D space",
+  "id": 227
+ },
+ {
+  "Property": "transition",
+  "Description": "A shorthand property for all the transition-* properties",
+  "id": 228
+ },
+ {
+  "Property": "transition-delay",
+  "Description": "Specifies when the transition effect will start",
+  "id": 229
+ },
+ {
+  "Property": "transition-duration",
+  "Description": "Specifies how many seconds or milliseconds a transition effect takes to complete",
+  "id": 230
+ },
+ {
+  "Property": "transition-property",
+  "Description": "Specifies the name of the CSS property the transition effect is for",
+  "id": 231
+ },
+ {
+  "Property": "transition-timing-function",
+  "Description": "Specifies the speed curve of the transition effect",
+  "id": 232
+ },
+ {
+  "Property": "unicode-bidi",
+  "Description": "Used together with the direction property to set or return whether the text should be overridden to support multiple languages in the same document",
+  "id": 233
+ },
+ {
+  "Property": "user-select",
+  "Description": "Specifies whether the text of an element can be selected",
+  "id": 234
+ },
+ {
+  "Property": "vertical-align",
+  "Description": "Sets the vertical alignment of an element",
+  "id": 235
+ },
+ {
+  "Property": "visibility",
+  "Description": "Specifies whether or not an element is visible",
+  "id": 236
+ },
+ {
+  "Property": "white-space",
+  "Description": "Specifies how white-space inside an element is handled",
+  "id": 237
+ },
+ {
+  "Property": "widows",
+  "Description": "Sets the minimum number of lines that must be left at the top of a page or column",
+  "id": 238
+ },
+ {
+  "Property": "width",
+  "Description": "Sets the width of an element",
+  "id": 239
+ },
+ {
+  "Property": "word-break",
+  "Description": "Specifies how words should break when reaching the end of a line",
+  "id": 240
+ },
+ {
+  "Property": "word-spacing",
+  "Description": "Increases or decreases the space between words in a text",
+  "id": 241
+ },
+ {
+  "Property": "word-wrap",
+  "Description": "Allows long, unbreakable words to be broken and wrap to the next line",
+  "id": 242
+ },
+ {
+  "Property": "writing-mode",
+  "Description": "Specifies whether lines of text are laid out horizontally or vertically",
+  "id": 243
+ },
+ {
+  "Property": "z-index",
+  "Description": "Sets the stack order of a positioned element",
+  "id": 244
+ }
+]

@@ -39,16 +39,37 @@
 .pagecontent h2 {
     border-bottom: .5px solid #a86705;
 }
+
 .pagecontent h3 {
     font-size: 25px;
     font-weight: lighter;
     margin-bottom: 1px;
 }
+
 .pagecontent p {
     margin-top: 1px;
     font-size: large;
     margin-bottom: 3px;
 }
+
+.cssprop {
+    color: #ee9209 !important;
+    background-color: #1d2a35;
+    padding: .5px;
+}
+
+.h1btmborder {
+    border-bottom: .5px solid #a86705;
+}
+
+.h3margintop {
+    margin-top: 1px;
+}
+
+.boldtext {
+    font-weight: bolder;
+}
+
 
 /* Reference Tables */
 .reftable {
@@ -58,6 +79,8 @@
         monospace;
     border-collapse: collapse;
     width: 85%;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .reftable td,
@@ -107,6 +130,8 @@
     margin-left: auto;
     /* margin-right: auto; */
     position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .coltable th {
@@ -128,6 +153,8 @@
         monospace;
     border-collapse: collapse;
     width: 95%;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .attrtable td,
@@ -142,6 +169,7 @@
 .attrtable tr:nth-child(even) {
     background-color: #1d2a35;
 }
+
 /* Event Ref */
 .extraborder {
     border-bottom: 1px dotted #a86705;

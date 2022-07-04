@@ -1,0 +1,56 @@
+[
+ {
+  "Length Unit": "em, ex, %, px, cm, mm, in, pt, pc",
+  "Google Chrome": 1,
+  "Microsoft Edge": 3,
+  "Mozilla Firefox": 1,
+  "Safari": 1,
+  "Opera Mini": 3.5,
+  "id": 1
+ },
+ {
+  "Length Unit": "ch",
+  "Google Chrome": 27,
+  "Microsoft Edge": 9,
+  "Mozilla Firefox": 1,
+  "Safari": 7,
+  "Opera Mini": 20,
+  "id": 2
+ },
+ {
+  "Length Unit": "rem",
+  "Google Chrome": 4,
+  "Microsoft Edge": 9,
+  "Mozilla Firefox": 3.6,
+  "Safari": 4.1,
+  "Opera Mini": 11.6,
+  "id": 3
+ },
+ {
+  "Length Unit": "vh, vw",
+  "Google Chrome": 20,
+  "Microsoft Edge": 9,
+  "Mozilla Firefox": 19,
+  "Safari": 6,
+  "Opera Mini": 20,
+  "id": 4
+ },
+ {
+  "Length Unit": "vmin",
+  "Google Chrome": 20,
+  "Microsoft Edge": 12,
+  "Mozilla Firefox": 19,
+  "Safari": 6,
+  "Opera Mini": 20,
+  "id": 5
+ },
+ {
+  "Length Unit": "vmax",
+  "Google Chrome": 26,
+  "Microsoft Edge": 16,
+  "Mozilla Firefox": 19,
+  "Safari": 7,
+  "Opera Mini": 20,
+  "id": 6
+ }
+]

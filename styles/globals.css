@@ -20,6 +20,14 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* Embed Div */
+.embedDiv{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
 /* inlinehtmlcode */
 .inlinehtml {
   font-family: Consolas, Menlo, "courier new", monospace;
