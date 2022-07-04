@@ -29,7 +29,7 @@ const HtmlRefLSb = () => {
                     <Link href="/references/html/HtmlEventRef">
                         <a>HTML Event Reference</a>
                     </Link>
-                    <Link href="/references/html/HtmlTagRef">
+                    <Link href="/references/html/HtmlMediaRef">
                         <a>HTML Media Reference</a>
                     </Link>
                 </div>

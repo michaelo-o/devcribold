@@ -1,0 +1,147 @@
+[
+ {
+  "Property": "audioTracks",
+  "Description": "Returns an AudioTrackList object representing available audio tracks",
+  "id": 1
+ },
+ {
+  "Property": "autoplay",
+  "Description": "Sets or returns whether the audio\/video should start playing as soon as it is loaded",
+  "id": 2
+ },
+ {
+  "Property": "buffered",
+  "Description": "Returns a TimeRanges object representing the buffered parts of the audio\/video",
+  "id": 3
+ },
+ {
+  "Property": "controller",
+  "Description": "Returns the MediaController object representing the current media controller of the audio\/video",
+  "id": 4
+ },
+ {
+  "Property": "controls",
+  "Description": "Sets or returns whether the audio\/video should display controls (like play\/pause etc.)",
+  "id": 5
+ },
+ {
+  "Property": "crossOrigin",
+  "Description": "Sets or returns the CORS settings of the audio\/video",
+  "id": 6
+ },
+ {
+  "Property": "currentSrc",
+  "Description": "Returns the URL of the current audio\/video",
+  "id": 7
+ },
+ {
+  "Property": "currentTime",
+  "Description": "Sets or returns the current playback position in the audio\/video (in seconds)",
+  "id": 8
+ },
+ {
+  "Property": "defaultMuted",
+  "Description": "Sets or returns whether the audio\/video should be muted by default",
+  "id": 9
+ },
+ {
+  "Property": "defaultPlaybackRate",
+  "Description": "Sets or returns the default speed of the audio\/video playback",
+  "id": 10
+ },
+ {
+  "Property": "duration",
+  "Description": "Returns the length of the current audio\/video (in seconds)",
+  "id": 11
+ },
+ {
+  "Property": "ended",
+  "Description": "Returns whether the playback of the audio\/video has ended or not",
+  "id": 12
+ },
+ {
+  "Property": "error",
+  "Description": "Returns a MediaError object representing the error state of the audio\/video",
+  "id": 13
+ },
+ {
+  "Property": "loop",
+  "Description": "Sets or returns whether the audio\/video should start over again when finished",
+  "id": 14
+ },
+ {
+  "Property": "mediaGroup",
+  "Description": "Sets or returns the group the audio\/video belongs to (used to link multiple audio\/video elements)",
+  "id": 15
+ },
+ {
+  "Property": "muted",
+  "Description": "Sets or returns whether the audio\/video is muted or not",
+  "id": 16
+ },
+ {
+  "Property": "networkState",
+  "Description": "Returns the current network state of the audio\/video",
+  "id": 17
+ },
+ {
+  "Property": "paused",
+  "Description": "Returns whether the audio\/video is paused or not",
+  "id": 18
+ },
+ {
+  "Property": "playbackRate",
+  "Description": "Sets or returns the speed of the audio\/video playback",
+  "id": 19
+ },
+ {
+  "Property": "played",
+  "Description": "Returns a TimeRanges object representing the played parts of the audio\/video",
+  "id": 20
+ },
+ {
+  "Property": "preload",
+  "Description": "Sets or returns whether the audio\/video should be loaded when the page loads",
+  "id": 21
+ },
+ {
+  "Property": "readyState",
+  "Description": "Returns the current ready state of the audio\/video",
+  "id": 22
+ },
+ {
+  "Property": "seekable",
+  "Description": "Returns a TimeRanges object representing the seekable parts of the audio\/video",
+  "id": 23
+ },
+ {
+  "Property": "seeking",
+  "Description": "Returns whether the user is currently seeking in the audio\/video",
+  "id": 24
+ },
+ {
+  "Property": "src",
+  "Description": "Sets or returns the current source of the audio\/video element",
+  "id": 25
+ },
+ {
+  "Property": "startDate",
+  "Description": "Returns a Date object representing the current time offset",
+  "id": 26
+ },
+ {
+  "Property": "textTracks",
+  "Description": "Returns a TextTrackList object representing the available text tracks",
+  "id": 27
+ },
+ {
+  "Property": "videoTracks",
+  "Description": "Returns a VideoTrackList object representing the available video tracks",
+  "id": 28
+ },
+ {
+  "Property": "volume",
+  "Description": "Sets or returns the volume of the audio\/video",
+  "id": 29
+ }
+]

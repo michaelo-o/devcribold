@@ -1,0 +1,112 @@
+[
+ {
+  "Event": "abort",
+  "Description": "Fires when the loading of an audio\/video is aborted",
+  "id": 1
+ },
+ {
+  "Event": "canplay",
+  "Description": "Fires when the browser can start playing the audio\/video",
+  "id": 2
+ },
+ {
+  "Event": "canplaythrough",
+  "Description": "Fires when the browser can play through the audio\/video without stopping for buffering",
+  "id": 3
+ },
+ {
+  "Event": "durationchange",
+  "Description": "Fires when the duration of the audio\/video is changed",
+  "id": 4
+ },
+ {
+  "Event": "emptied",
+  "Description": "Fires when the current playlist is empty",
+  "id": 5
+ },
+ {
+  "Event": "ended",
+  "Description": "Fires when the current playlist is ended",
+  "id": 6
+ },
+ {
+  "Event": "error",
+  "Description": "Fires when an error occurred during the loading of an audio\/video",
+  "id": 7
+ },
+ {
+  "Event": "loadeddata",
+  "Description": "Fires when the browser has loaded the current frame of the audio\/video",
+  "id": 8
+ },
+ {
+  "Event": "loadedmetadata",
+  "Description": "Fires when the browser has loaded meta data for the audio\/video",
+  "id": 9
+ },
+ {
+  "Event": "loadstart",
+  "Description": "Fires when the browser starts looking for the audio\/video",
+  "id": 10
+ },
+ {
+  "Event": "pause",
+  "Description": "Fires when the audio\/video has been paused",
+  "id": 11
+ },
+ {
+  "Event": "play",
+  "Description": "Fires when the audio\/video has been started or is no longer paused",
+  "id": 12
+ },
+ {
+  "Event": "playing",
+  "Description": "Fires when the audio\/video is playing after having been paused or stopped for buffering",
+  "id": 13
+ },
+ {
+  "Event": "progress",
+  "Description": "Fires when the browser is downloading the audio\/video",
+  "id": 14
+ },
+ {
+  "Event": "ratechange",
+  "Description": "Fires when the playing speed of the audio\/video is changed",
+  "id": 15
+ },
+ {
+  "Event": "seeked",
+  "Description": "Fires when the user is finished moving\/skipping to a new position in the audio\/video",
+  "id": 16
+ },
+ {
+  "Event": "seeking",
+  "Description": "Fires when the user starts moving\/skipping to a new position in the audio\/video",
+  "id": 17
+ },
+ {
+  "Event": "stalled",
+  "Description": "Fires when the browser is trying to get media data, but data is not available",
+  "id": 18
+ },
+ {
+  "Event": "suspend",
+  "Description": "Fires when the browser is intentionally not getting media data",
+  "id": 19
+ },
+ {
+  "Event": "timeupdate",
+  "Description": "Fires when the current playback position has changed",
+  "id": 20
+ },
+ {
+  "Event": "volumechange",
+  "Description": "Fires when the volume has been changed",
+  "id": 21
+ },
+ {
+  "Event": "waiting",
+  "Description": "Fires when the video stops because it needs to buffer the next frame",
+  "id": 22
+ }
+]

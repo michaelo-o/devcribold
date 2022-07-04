@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
-// default imports
 import styles from "../referencesgeneral.module.css"
 import HtmlRefLSb from "./comps/HtmlRefLSb";
 import RefFooter from "../RefFooter"
+// default imports
 import WinEventAttr from "../../../jsons/htmlref/WindowEventAttr.json"
 import FormEvent from "../../../jsons/htmlref/FormEventAttr.json"
 import KeybEvent from "../../../jsons/htmlref/KeyBEventAttr.json"

@@ -1,0 +1,27 @@
+[
+ {
+  "Method": "addTextTrack()",
+  "Description": "Adds a new text track to the audio\/video",
+  "id": 1
+ },
+ {
+  "Method": "canPlayType()",
+  "Description": "Checks if the browser can play the specified audio\/video type",
+  "id": 2
+ },
+ {
+  "Method": "load()",
+  "Description": "Re-loads the audio\/video element",
+  "id": 3
+ },
+ {
+  "Method": "play()",
+  "Description": "Starts playing the audio\/video",
+  "id": 4
+ },
+ {
+  "Method": "pause()",
+  "Description": "Pauses the currently playing audio\/video",
+  "id": 5
+ }
+]

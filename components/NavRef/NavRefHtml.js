@@ -17,10 +17,10 @@ const NavRefHtml = (props) => {
                 <Link href="/references/html/HtmlAttrRef">
                     <a><h3 onClick={references}>HTML Attribute Reference</h3></a>
                 </Link>
-                <Link href="#">
+                <Link href="/references/html/HtmlEventRef">
                     <a><h3 onClick={references}>HTML Event Reference</h3></a>
                 </Link>
-                <Link href="#">
+                <Link href="/references/html/HtmlMediaRef">
                     <a><h3 onClick={references}>HTML Media Reference</h3></a>
                 </Link>
             </div>
