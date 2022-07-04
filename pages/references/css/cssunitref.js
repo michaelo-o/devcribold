@@ -31,10 +31,10 @@ const CssUnitRef = () => {
                     <h1>CSS Unit Reference</h1>
                     <h2>CSS Units.</h2>
                     <p>CSS has several different units for expressing a length. <br />
-                        Many CSS properties take "length" values, such as <span className={styles.cssprop}>width</span>, <span className={styles.cssprop}>margin</span>, <span className={styles.cssprop}>padding</span>, <span className={styles.cssprop}>font-size</span>, etc. <br />
+                        Many CSS properties take &quot;length&quot; values, such as <span className={styles.cssprop}>width</span>, <span className={styles.cssprop}>margin</span>, <span className={styles.cssprop}>padding</span>, <span className={styles.cssprop}>font-size</span>, etc. <br />
                         Length is a number followed by a length unit, such as <span className={styles.cssprop}>10px</span>, <span className={styles.cssprop}>2em</span>, etc.</p>
                     <div className="embedDiv">
-                        <iframe height="450" style={{ width: 1100 }} scrolling="no" title="CSS Units" src="https://codepen.io/_michaeli/embed/KKodWoZ?default-tab=html%2Cresult&editable=true&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                        <iframe height="450" style={{ width: 1100 }} scrolling="no" title="CSS Units" src="https://codepen.io/_michaeli/embed/KKodWoZ?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen="true">
                             See the Pen <a href="https://codepen.io/_michaeli/pen/KKodWoZ">
                                 CSS Units</a> by Mi (<a href="https://codepen.io/_michaeli">@_michaeli</a>)
                             on <a href="https://codepen.io">CodePen</a>.
@@ -49,7 +49,7 @@ const CssUnitRef = () => {
                         </p>
                         <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
                     </div> */}
-                    
+
                     <div className={styles.extraborder}>
                         <p><span className={styles.boldtext}>Note</span>: A whitespace cannot appear between the number and the unit. However, if the value is <span className={styles.cssprop}>0</span>, the unit can be omitted. <br />
                             For some CSS properties, negative lengths are allowed. <br />

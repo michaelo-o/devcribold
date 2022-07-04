@@ -18,7 +18,7 @@ const CssFunRef = () => {
 
     useEffect(() => {
         setsearch("")
-    }, [cssfunref])
+    })
 
 
     return (
