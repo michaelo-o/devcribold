@@ -55,6 +55,7 @@
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+    word-wrap: break-word;
 }
 
 .reftable tr:nth-child(even) {
@@ -63,12 +64,14 @@
 
 /* Search Bar */
 
-.search [type="text"]::placeholder {
+.search [type="text"]::placeholder,
+.attrsearch [type="text"]::placeholder {
     text-align: center;
     font-size: larger;
 }
 
-.search [type="text"] {
+.search [type="text"],
+.attrsearch [type="text"] {
     width: 85%;
     border: 1px solid #a86705;
     box-sizing: border-box;
@@ -76,7 +79,56 @@
     border-radius: 10px 10px 0 0;
 }
 
-.search [type="text"]:focus {
+.attrsearch [type="text"] {
+    width: 95% !important;
+}
+
+.search [type="text"]:focus,
+.attrsearch [type="text"]:focus {
     outline: none;
     border: 3px solid #a86705;
+}
+
+/* Color Tables */
+
+.coltable {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    /* margin-right: auto; */
+    position: relative;
+}
+
+.coltable th {
+    text-align: left;
+}
+
+.coltable th,
+.coltable td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+/* Attribute table */
+
+.attrtable {
+    font-family: Consolas,
+        Menlo,
+        "courier new",
+        monospace;
+    border-collapse: collapse;
+    width: 95%;
+}
+
+.attrtable td,
+.attrtable th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    max-width: 500px !important;
+    word-wrap: break-word;
+}
+
+.attrtable tr:nth-child(even) {
+    background-color: #1d2a35;
 }

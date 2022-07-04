@@ -17,10 +17,10 @@ const HtmlRefLSb = () => {
                     <Link href="/references/html/UnsupportedHtmlTags">
                         <a>Unsupported/Deprecated Tags</a>
                     </Link>
-                    <Link href="/references/html/HtmlTagRef">
+                    <Link href="/references/html/HtmlColRef">
                         <a>HTML Color Reference</a>
                     </Link>
-                    <Link href="/references/html/HtmlTagRef">
+                    <Link href="/references/html/HtmlAttrRef">
                         <a>HTML Attribute Reference</a>
                     </Link>
                     <Link href="/references/html/HtmlTagRef">
