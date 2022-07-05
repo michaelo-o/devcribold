@@ -38,7 +38,7 @@ const JsArrayRef = () => {
                     <h2>JavaScript Array Methods and Properties</h2>
                     <p>The Array object is used to store multiple values in a single variable:</p>
                     <div className="embedDiv">
-                        <iframe height="300" style={{ width: 1100 }} scrolling="no" title="Js Array Ref" src="https://codepen.io/_michaeli/embed/JjLYxOY?default-tab=js%2Cresult&editable=true&theme-id=dark" frameborder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                        <iframe height="300" style={{ width: 1100 }} scrolling="no" title="Js Array Ref" src="https://codepen.io/_michaeli/embed/JjLYxOY?default-tab=js%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
                             See the Pen <Link href="https://codepen.io/_michaeli/pen/JjLYxOY"><a>
                                 Js Array Ref</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                             on <Link href="https://codepen.io"><a>CodePen.</a></Link>

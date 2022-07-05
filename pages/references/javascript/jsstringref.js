@@ -37,10 +37,10 @@ const JsStringRef = () => {
                 <div className={styles.pagecontent}>
                     <h1>JavaScript String Reference</h1>
                     <h2>JavaScript Strings</h2>
-                    <p>A JavaScript string stores a series of characters like "John Doe". <br />
+                    <p>A JavaScript string stores a series of characters like &quot;John Doe&quot;. <br />
                         A string can be any text inside double or single quotes:</p>
                     <div className="embedDiv">
-                        <iframe height="300" style={{ width: 1100 }} scrolling="no" title="Js Array Ref" src="https://codepen.io/_michaeli/embed/dymYaeN?default-tab=js%2Cresult&editable=true&theme-id=dark" frameborder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                        <iframe height="300" style={{ width: 1100 }} scrolling="no" title="Js Array Ref" src="https://codepen.io/_michaeli/embed/dymYaeN?default-tab=js%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
                             See the Pen <Link href="https://codepen.io/_michaeli/pen/JjLYxOY"><a>
                                 Js String Ref</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                             on <Link href="https://codepen.io"><a>CodePen.</a></Link>

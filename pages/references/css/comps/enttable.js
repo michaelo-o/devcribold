@@ -18,7 +18,7 @@ const EntTable = () => {
                     <td>EXCLAMATION MARK</td>
                 </tr>
                 <tr>
-                    <td>"</td>
+                    <td>&quot;</td>
                     <td>0022</td>
                     <td>QUOTATION MARK</td>
                 </tr>
@@ -43,7 +43,7 @@ const EntTable = () => {
                     <td>AMPERSAND</td>
                 </tr>
                 <tr>
-                    <td>'</td>
+                    <td>&apos;</td>
                     <td>0027</td>
                     <td>APOSTROPHE</td>
                 </tr>

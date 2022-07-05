@@ -30,7 +30,7 @@ const JsClassRef = () => {
                     <h2>JavaScript Classes</h2>
                     <p>A <span className={styles.cssprop}>Class</span> is a type of function, but instead of using the keyword <span className={styles.cssprop}>function</span> to initiate it, we use the keyword <span className={styles.cssprop}>class</span>, and the properties are assigned inside a <span className={styles.cssprop}>constructor()</span> method:</p>
                     <div className="embedDiv">
-                        <iframe height="400" style={{ width: 1100 }} scrolling="no" title="Js Classes" src="https://codepen.io/_michaeli/embed/dymYaMG?default-tab=js%2Cresult&editable=true&theme-id=dark" frameborder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                        <iframe height="400" style={{ width: 1100 }} scrolling="no" title="Js Classes" src="https://codepen.io/_michaeli/embed/dymYaMG?default-tab=js%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
                             See the Pen <Link href="https://codepen.io/_michaeli/pen/dymYaMG"><a>
                                 Js Classes</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                             on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -38,7 +38,7 @@ const JsClassRef = () => {
                     </div>
                     <div className={styles.extraborder}>
                         <p>The <span className={styles.cssprop}>constructor()</span> method is a special method for creating and initializing objects created within a class. <br />
-                            The <span className={styles.cssprop}>constructor()</span> method is called automatically when a class is initiated, and it has to have the exact name "constructor", in fact, if you do not have a constructor method, JavaScript will add an invisible and empty constructor method. <br />
+                            The <span className={styles.cssprop}>constructor()</span> method is called automatically when a class is initiated, and it has to have the exact name &quot;constructor&quot;, in fact, if you do not have a constructor method, JavaScript will add an invisible and empty constructor method. <br />
                             <span className={styles.boldtext}>Note</span>: A class cannot have more than one constructor() method. This will throw a <span className={styles.cssprop}>SyntaxError</span>. <br />
                             You can use the <span className={styles.cssprop}>super()</span> method to call the constructor of a parent class </p>
                     </div>
