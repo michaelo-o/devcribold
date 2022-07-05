@@ -35,7 +35,7 @@ const CssUnitRef = () => {
                         Length is a number followed by a length unit, such as <span className={styles.cssprop}>10px</span>, <span className={styles.cssprop}>2em</span>, etc.</p>
                    
                     {<div>
-                        <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="KKodWoZ" data-editable="true" data-user="_michaeli" style={{" height":"300px","boxSizing":"border-box","display":"flex","alignItems":"center","justifyContent":"center","border":"2px solid","margin":"1em 0","padding":"1em"}}>
+                        <p className="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="KKodWoZ" data-editable="true" data-user="_michaeli" style={{" height":"300px","boxSizing":"border-box","display":"flex","alignItems":"center","justifyContent":"center","border":"2px solid","margin":"1em 0","padding":"1em"}}>
                             <span>See the Pen <a href="https://codepen.io/_michaeli/pen/KKodWoZ">
                                 CSS Units</a> by Mi (<a href="https://codepen.io/_michaeli">@_michaeli</a>)
                                 on <a href="https://codepen.io">CodePen</a>.</span>
