@@ -18,8 +18,7 @@ const CssPropRef = () => {
 
     useEffect(() => {
         setsearch("")
-    })
-
+    }, [])
 
     return (
         <>

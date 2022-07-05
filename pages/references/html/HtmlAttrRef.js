@@ -18,7 +18,7 @@ const HtmlAttrRef = () => {
 
     useEffect(() => {
         setsearch("")
-    }, [htmlattrref])
+    }, [])
 
     return (
         <>

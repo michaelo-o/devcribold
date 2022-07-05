@@ -18,7 +18,7 @@ const HtmlTagRef = () => {
 
     useEffect(() => {
         setsearch("")
-    }, [htmltagref])
+    }, [])
 
 
     return (

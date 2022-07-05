@@ -18,7 +18,7 @@ const UnsupportedHtmlTags = () => {
 
     useEffect(() => {
         setsearch("")
-    }, [unsupportedTags])
+    }, [])
 
     return (
         <>
