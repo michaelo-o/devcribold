@@ -1,15 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
-import styles from "../referencesgeneral.module.css"
-import CssRefLSb from "./comps/CssRefLSb";
-import RefFooter from "../RefFooter"
 // default imports
-import csspropref from "../../../jsons/cssref/CssProp.json"
+import styles from "../referencesgeneral.module.css"
+import HtmlRefLSb from "./comps/HtmlRefLSb";
+import RefFooter from "../RefFooter"
+import unsupportedTags from "../../../jsons/htmlref/UnsupportedTags.json"
 import { useState, useEffect } from "react";
 
 
-const CssPropRef = () => {
+const UnsupportedHtmlTags = () => {
 
 
     const [search, setsearch] = useState("")
@@ -24,22 +24,21 @@ const CssPropRef = () => {
         <>
 
             <Head>
-                <title>CSS Property Reference | Dev Crib</title>
+                <title>Unsupported & Deprecated HTML Tags | Dev Crib</title>
                 <meta name="description" content="Dev Crib" />
             </Head>
 
             <div className={styles.genrefbackground}>
 
-                <CssRefLSb />
+                <HtmlRefLSb />
 
                 <div className={styles.pagecontent}>
-                    <h1>CSS Property Reference</h1>
-                    <h2>CSS Properties Listed Alphabetically</h2>
-                    {/* Search Bar */}
+                    <h1>Unsupported & Deprecated HTML Tags</h1>
+                    <h2>Unsupported & Deprecated HTML Tags Listed Alphabetically</h2>
                     <form className={styles.search}>
                         <input
                             type="text"
-                            placeholder="Search a Property.."
+                            placeholder="Search a Tag.."
                             onChange={(event) => setsearch(event.target.value)}
 
                         />
@@ -47,35 +46,34 @@ const CssPropRef = () => {
                     <div>
                         <table className={styles.reftable}>
                             <tr>
-                                <th>Property</th>
+                                <th>Tag</th>
                                 <th>Description</th>
                             </tr>
-                            {csspropref.filter((cssprop) => {
+                            {unsupportedTags.filter((unsupportedTag) => {
                                 if (search === "") {
-                                    return cssprop;
+                                    return unsupportedTag;
                                 } else if (
-                                    cssprop?.Property.toLowerCase().includes(search.toLowerCase())
+                                    unsupportedTag?.html_tag.toLowerCase().includes(search.toLowerCase())
                                 ) {
-                                    return cssprop;
+                                    return unsupportedTag;
                                 } else if (
-                                    cssprop?.Property.toLowerCase().includes(search.toLowerCase())
+                                    unsupportedTag?.html_tag.toLowerCase().includes(search.toLowerCase())
                                 ) return setnoRes('No Results')
-                            }).map(cssprop => (
-                                <tr key={cssprop.id}>
-                                    <td>{cssprop['Property']}</td>
-                                    <td>{cssprop['Description']}</td>
+                            }).map(unsupportedTag => (
+                                <tr key={unsupportedTag.id}>
+                                    <td>{unsupportedTag['html_tag']}</td>
+                                    <td>{unsupportedTag['tag_description']}</td>
                                 </tr>
                             ))}
                         </table>
                     </div>
-
-
                     <RefFooter />
                 </div>
-            </div>
 
+                
+            </div>
         </>
     );
 }
 
-export default CssPropRef;
+export default UnsupportedHtmlTags;

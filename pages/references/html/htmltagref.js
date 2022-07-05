@@ -2,14 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 import styles from "../referencesgeneral.module.css"
-import CssRefLSb from "./comps/CssRefLSb";
+import HtmlRefLSb from "./comps/HtmlRefLSb";
 import RefFooter from "../RefFooter"
 // default imports
-import csspropref from "../../../jsons/cssref/CssProp.json"
+import htmltagref from "../../../jsons/htmlref/htmltagref.json"
 import { useState, useEffect } from "react";
 
 
-const CssPropRef = () => {
+const HtmlTagRef = () => {
 
 
     const [search, setsearch] = useState("")
@@ -20,26 +20,27 @@ const CssPropRef = () => {
         setsearch("")
     }, [])
 
+
     return (
         <>
 
             <Head>
-                <title>CSS Property Reference | Dev Crib</title>
+                <title>HTML Tag Reference | Dev Crib</title>
                 <meta name="description" content="Dev Crib" />
             </Head>
 
             <div className={styles.genrefbackground}>
 
-                <CssRefLSb />
+                <HtmlRefLSb />
 
                 <div className={styles.pagecontent}>
-                    <h1>CSS Property Reference</h1>
-                    <h2>CSS Properties Listed Alphabetically</h2>
+                    <h1>HTML Tag Reference</h1>
+                    <h2>HTML Tags Listed Alphabetically</h2>
                     {/* Search Bar */}
                     <form className={styles.search}>
                         <input
                             type="text"
-                            placeholder="Search a Property.."
+                            placeholder="Search a Tag.."
                             onChange={(event) => setsearch(event.target.value)}
 
                         />
@@ -47,23 +48,23 @@ const CssPropRef = () => {
                     <div>
                         <table className={styles.reftable}>
                             <tr>
-                                <th>Property</th>
+                                <th>Tag</th>
                                 <th>Description</th>
                             </tr>
-                            {csspropref.filter((cssprop) => {
+                            {htmltagref.filter((htmltag) => {
                                 if (search === "") {
-                                    return cssprop;
+                                    return htmltag;
                                 } else if (
-                                    cssprop?.Property.toLowerCase().includes(search.toLowerCase())
+                                    htmltag?.html_tag.toLowerCase().includes(search.toLowerCase())
                                 ) {
-                                    return cssprop;
+                                    return htmltag;
                                 } else if (
-                                    cssprop?.Property.toLowerCase().includes(search.toLowerCase())
+                                    htmltag?.html_tag.toLowerCase().includes(search.toLowerCase())
                                 ) return setnoRes('No Results')
-                            }).map(cssprop => (
-                                <tr key={cssprop.id}>
-                                    <td>{cssprop['Property']}</td>
-                                    <td>{cssprop['Description']}</td>
+                            }).map(htmltag => (
+                                <tr key={htmltag.id}>
+                                    <td>{htmltag['html_tag']}</td>
+                                    <td>{htmltag['tag_description']}</td>
                                 </tr>
                             ))}
                         </table>
@@ -78,4 +79,4 @@ const CssPropRef = () => {
     );
 }
 
-export default CssPropRef;
+export default HtmlTagRef;

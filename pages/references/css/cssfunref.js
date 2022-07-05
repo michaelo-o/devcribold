@@ -13,12 +13,12 @@ const CssFunRef = () => {
 
 
     const [search, setsearch] = useState("")
-    const [noRes, setnoRes] = useState('Tag Not Found')
+    const [noRes, setnoRes] = useState("")
 
 
     useEffect(() => {
         setsearch("")
-    })
+    }, [])
 
 
     return (
@@ -61,7 +61,7 @@ const CssFunRef = () => {
                                     return cssfun;
                                 } else if (
                                     cssfun?.Function.toLowerCase().includes(search.toLowerCase())
-                                ) return setnoRes('No Results')
+                                )  return setnoRes("No Results")
                             }).map(cssfun => (
                                 <tr key={cssfun.id}>
                                     <td>{cssfun['Function']}</td>

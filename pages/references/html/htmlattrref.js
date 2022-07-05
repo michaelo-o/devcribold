@@ -1,16 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
-import styles from "../referencesgeneral.module.css"
-import CssRefLSb from "./comps/CssRefLSb";
-import RefFooter from "../RefFooter"
 // default imports
-import csspropref from "../../../jsons/cssref/CssProp.json"
+import styles from "../referencesgeneral.module.css"
+import HtmlRefLSb from "./comps/HtmlRefLSb";
+import RefFooter from "../RefFooter"
+import htmlattrref from "../../../jsons/htmlref/htmlattrref.json"
 import { useState, useEffect } from "react";
 
 
-const CssPropRef = () => {
 
+const HtmlAttrRef = () => {
 
     const [search, setsearch] = useState("")
     const [noRes, setnoRes] = useState('Tag Not Found')
@@ -24,51 +24,52 @@ const CssPropRef = () => {
         <>
 
             <Head>
-                <title>CSS Property Reference | Dev Crib</title>
+                <title>HTML Attribute Reference | Dev Crib</title>
                 <meta name="description" content="Dev Crib" />
             </Head>
 
             <div className={styles.genrefbackground}>
 
-                <CssRefLSb />
+                <HtmlRefLSb />
 
                 <div className={styles.pagecontent}>
-                    <h1>CSS Property Reference</h1>
-                    <h2>CSS Properties Listed Alphabetically</h2>
-                    {/* Search Bar */}
-                    <form className={styles.search}>
+                    <h1>HTML Attribute Reference</h1>
+                    <h2>HTML attributes and Elements they can be used within</h2>
+
+                    <form className={styles.attrsearch}>
                         <input
                             type="text"
-                            placeholder="Search a Property.."
+                            placeholder="Search an Attribute.."
                             onChange={(event) => setsearch(event.target.value)}
 
                         />
                     </form>
                     <div>
-                        <table className={styles.reftable}>
+                        <table className={styles.attrtable}>
                             <tr>
-                                <th>Property</th>
+                                <th>Attribute</th>
+                                <th>Belongs To</th>
                                 <th>Description</th>
                             </tr>
-                            {csspropref.filter((cssprop) => {
+                            {htmlattrref.filter((htmlattr) => {
                                 if (search === "") {
-                                    return cssprop;
+                                    return htmlattr;
                                 } else if (
-                                    cssprop?.Property.toLowerCase().includes(search.toLowerCase())
+                                    htmlattr?.Attribute.toLowerCase().includes(search.toLowerCase())
                                 ) {
-                                    return cssprop;
+                                    return htmlattr;
                                 } else if (
-                                    cssprop?.Property.toLowerCase().includes(search.toLowerCase())
+                                    htmlattr?.Attribute.toLowerCase().includes(search.toLowerCase())
                                 ) return setnoRes('No Results')
-                            }).map(cssprop => (
-                                <tr key={cssprop.id}>
-                                    <td>{cssprop['Property']}</td>
-                                    <td>{cssprop['Description']}</td>
+                            }).map(htmlattr => (
+                                <tr key={htmlattr.id}>
+                                    <td>{htmlattr['Attribute']}</td>
+                                    <td>{htmlattr['Belongs to']}</td>
+                                    <td>{htmlattr['Description']}</td>
                                 </tr>
                             ))}
                         </table>
                     </div>
-
 
                     <RefFooter />
                 </div>
@@ -78,4 +79,4 @@ const CssPropRef = () => {
     );
 }
 
-export default CssPropRef;
+export default HtmlAttrRef;
