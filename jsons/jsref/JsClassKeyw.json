@@ -1,0 +1,17 @@
+[
+ {
+  "Keyword": "extends",
+  "Description": "Extends a class (inherit)",
+  "id": 1
+ },
+ {
+  "Keyword": "static",
+  "Description": "Defines a static method for a class",
+  "id": 2
+ },
+ {
+  "Keyword": "super",
+  "Description": "Refers to the parent class",
+  "id": 3
+ }
+]

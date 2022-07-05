@@ -190,7 +190,7 @@ export default function Home() {
             <Link href="#">
               <a> <h4>Learn JavaScript</h4></a>
             </Link>
-            <Link href="#">
+            <Link href="/references/javascript/jsmethref">
               <a> <h4>JavaScript References</h4></a>
             </Link>
           </div>

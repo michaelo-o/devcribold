@@ -37,7 +37,7 @@ const CssUnitRef = () => {
                     <div className="embedDiv">
                         <iframe height="450" style={{ width: 1100 }} scrolling="no" title="CSS Units" src="https://codepen.io/_michaeli/embed/KKodWoZ?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
                             See the Pen <Link href="https://codepen.io/_michaeli/pen/KKodWoZ"><a>
-                                CSS Units</a></Link> by Mi (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
+                                CSS Units</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                             on <Link href="https://codepen.io"><a>CodePen.</a></Link>
                         </iframe>
                     </div>

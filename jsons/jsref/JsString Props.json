@@ -1,0 +1,17 @@
+[
+ {
+  "Property": "constructor",
+  "Description": "Returns the string's constructor function",
+  "id": 1
+ },
+ {
+  "Property": "length",
+  "Description": "Returns the length of a string",
+  "id": 2
+ },
+ {
+  "Property": "prototype",
+  "Description": "Allows you to add properties and methods to an object",
+  "id": 3
+ }
+]

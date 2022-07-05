@@ -1,0 +1,67 @@
+[
+ {
+  "Function": "decodeURI()",
+  "Description": "Decodes a URI",
+  "id": 1
+ },
+ {
+  "Function": "decodeURI, Component()",
+  "Description": "Decodes a URI component",
+  "id": 2
+ },
+ {
+  "Function": "encodeURI()",
+  "Description": "Encodes a URI",
+  "id": 3
+ },
+ {
+  "Function": "encodeURI, Component()",
+  "Description": "Encodes a URI component",
+  "id": 4
+ },
+ {
+  "Function": "escape()",
+  "Description": "Deprecated. Use instead: encodeURI(), encodeURIComponent()",
+  "id": 5
+ },
+ {
+  "Function": "eval()",
+  "Description": "Evaluates a string and executes it as if it was script code",
+  "id": 6
+ },
+ {
+  "Function": "isFinite()",
+  "Description": "Determines whether a value is a finite, legal number",
+  "id": 7
+ },
+ {
+  "Function": "isNaN()",
+  "Description": "Determines whether a value is an illegal number",
+  "id": 8
+ },
+ {
+  "Function": "Number()",
+  "Description": "Converts an object's value to a number",
+  "id": 9
+ },
+ {
+  "Function": "parseFloat()",
+  "Description": "Parses a string and returns a floating point number",
+  "id": 10
+ },
+ {
+  "Function": "parseInt()",
+  "Description": "Parses a string and returns an integer",
+  "id": 11
+ },
+ {
+  "Function": "String()",
+  "Description": "Converts an object's value to a string",
+  "id": 12
+ },
+ {
+  "Function": "unescape()",
+  "Description": "Deprecated. Use instead: decodeURI(), decodeURIComponent()",
+  "id": 13
+ }
+]

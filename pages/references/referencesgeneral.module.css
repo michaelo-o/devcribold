@@ -46,6 +46,11 @@
     margin-bottom: 1px;
 }
 
+.pagecontent h4 {
+    font-weight: lighter;
+    margin-bottom: 2px;
+}
+
 .pagecontent p {
     margin-top: 1px;
     font-size: large;
@@ -104,23 +109,33 @@
 }
 
 .search [type="text"],
-.attrsearch [type="text"] {
-    width: 85%;
+.attrsearch [type="text"],
+.mrefsearch [type="text"] {
     border: 1px solid #a86705;
     box-sizing: border-box;
     padding: 1% 2%;
     border-radius: 10px 10px 0 0;
 }
 
+.search [type="text"] {
+    width: 85%;
+}
+
 .attrsearch [type="text"] {
     width: 95% !important;
 }
 
+.mrefsearch [type="text"] {
+    width: 93.5% !important;
+}
+
 .search [type="text"]:focus,
-.attrsearch [type="text"]:focus {
+.attrsearch [type="text"]:focus,
+.mrefsearch [type="text"]:focus {
     outline: none;
     border: 3px solid #a86705;
 }
+
 
 /* Color Tables */
 
@@ -141,7 +156,11 @@
 .coltable th,
 .coltable td {
     border: 1px solid #dddddd;
-    padding: 8px;
+    padding: 15px 8px 15px 8px;
+}
+
+.coltable tr:nth-child(even) {
+    background-color: #1d2a35;
 }
 
 /* Attribute table */
@@ -174,4 +193,55 @@
 .extraborder {
     border-bottom: 1px dotted #a86705;
     padding: 0 0 20px 0;
+}
+
+/* Js Mehtods Table */
+
+.jsmethtable {
+    font-family: Consolas,
+        Menlo,
+        "courier new",
+        monospace;
+    border-collapse: collapse;
+    width: 85%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.jsmethtable td,
+.jsmethtable th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    word-wrap: break-word;
+    max-width: 420px !important;
+}
+
+.jsmethtable tr:nth-child(even) {
+    background-color: #1d2a35;
+}
+
+/* CSS Entities Table */
+.entTable {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    /* margin-right: auto; */
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.entTable th {
+    text-align: left;
+}
+
+.entTable th,
+.entTable td {
+    border: 1px solid #dddddd;
+    padding: 15px 8px 15px 8px;
+}
+
+.entTable tr:nth-child(even) {
+    background-color: #1d2a35;
 }

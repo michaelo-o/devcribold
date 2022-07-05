@@ -2,14 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 import styles from "../referencesgeneral.module.css"
-import CssRefLSb from "./comps/CssRefLSb";
+import JsRefLSb from "./comps/JsRefLSb";
 import RefFooter from "../RefFooter"
 // default imports
-import cssfunref from "../../../jsons/cssref/CssFunctions.json"
 import { useState, useEffect } from "react";
+import jsmethref from "../../../jsons/jsref/JsPropMethRef.json";
 
 
-const CssFunRef = () => {
+const JsMethRef = () => {
 
 
     const [search, setsearch] = useState("")
@@ -25,47 +25,48 @@ const CssFunRef = () => {
         <>
 
             <Head>
-                <title>CSS Function Reference | Dev Crib</title>
+                <title>JavaScript Method Reference | Dev Crib</title>
                 <meta name="description" content="Dev Crib" />
             </Head>
 
             <div className={styles.genrefbackground}>
 
-                <CssRefLSb />
+                <JsRefLSb />
 
                 <div className={styles.pagecontent}>
-                    <h1>CSS Function Reference</h1>
-                    <h2>CSS Functions</h2>
-                    <p>CSS functions are used as a value for various CSS properties.</p>
+                    <h1>JavaScript Method Reference</h1>
+                    <h2>JavaScript Properties/Methods Listed Alphabetically</h2>
                     {/* Search Bar */}
-                    <form className={styles.search}>
+                    <form className={styles.mrefsearch}>
                         <input
                             type="text"
-                            placeholder="Search a Function.."
+                            placeholder="Search a Property/Method.."
                             onChange={(event) => setsearch(event.target.value)}
 
                         />
                     </form>
                     <div>
-                        <table className={styles.reftable}>
+                        <table className={styles.jsmethtable}>
                             <tr>
-                                <th>Function</th>
+                                <th>Property/Method</th>
                                 <th>Description</th>
+                                <th>Belongs To</th>
                             </tr>
-                            {cssfunref.filter((cssfun) => {
+                            {jsmethref.filter((jsmeth) => {
                                 if (search === "") {
-                                    return cssfun;
+                                    return jsmeth;
                                 } else if (
-                                    cssfun?.Function.toLowerCase().includes(search.toLowerCase())
+                                    jsmeth?.Property/Method.toLowerCase().includes(search.toLowerCase())
                                 ) {
-                                    return cssfun;
+                                    return jsmeth;
                                 } else if (
-                                    cssfun?.Function.toLowerCase().includes(search.toLowerCase())
+                                    jsmeth?.Property/Method.toLowerCase().includes(search.toLowerCase())
                                 ) return setnoRes("No Results")
-                            }).map(cssfun => (
-                                <tr key={cssfun.id}>
-                                    <td>{cssfun['Function']}</td>
-                                    <td>{cssfun['Description']}</td>
+                            }).map(jsmeth => (
+                                <tr key={jsmeth.id}>
+                                    <td>{jsmeth['Property/Method']}</td>
+                                    <td>{jsmeth['Description']}</td>
+                                    <td>{jsmeth['Belongs To']}</td>
                                 </tr>
                             ))}
                         </table>
@@ -80,4 +81,4 @@ const CssFunRef = () => {
     );
 }
 
-export default CssFunRef;
+export default JsMethRef;

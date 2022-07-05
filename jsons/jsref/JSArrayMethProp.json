@@ -1,0 +1,167 @@
+[
+ {
+  "Name": "concat()",
+  "Description": "Joins arrays and returns an array with the joined arrays",
+  "id": 1
+ },
+ {
+  "Name": "constructor",
+  "Description": "Returns the function that created the Array object's prototype",
+  "id": 2
+ },
+ {
+  "Name": "copyWithin()",
+  "Description": "Copies array elements within the array, to and from specified positions",
+  "id": 3
+ },
+ {
+  "Name": "entries()",
+  "Description": "Returns a key\/value pair Array Iteration Object",
+  "id": 4
+ },
+ {
+  "Name": "every()",
+  "Description": "Checks if every element in an array pass a test",
+  "id": 5
+ },
+ {
+  "Name": "fill()",
+  "Description": "Fill the elements in an array with a static value",
+  "id": 6
+ },
+ {
+  "Name": "filter()",
+  "Description": "Creates a new array with every element in an array that pass a test",
+  "id": 7
+ },
+ {
+  "Name": "find()",
+  "Description": "Returns the value of the first element in an array that pass a test",
+  "id": 8
+ },
+ {
+  "Name": "findIndex()",
+  "Description": "Returns the index of the first element in an array that pass a test",
+  "id": 9
+ },
+ {
+  "Name": "forEach()",
+  "Description": "Calls a function for each array element",
+  "id": 10
+ },
+ {
+  "Name": "from()",
+  "Description": "Creates an array from an object",
+  "id": 11
+ },
+ {
+  "Name": "includes()",
+  "Description": "Check if an array contains the specified element",
+  "id": 12
+ },
+ {
+  "Name": "indexOf()",
+  "Description": "Search the array for an element and returns its position",
+  "id": 13
+ },
+ {
+  "Name": "isArray()",
+  "Description": "Checks whether an object is an array",
+  "id": 14
+ },
+ {
+  "Name": "join()",
+  "Description": "Joins all elements of an array into a string",
+  "id": 15
+ },
+ {
+  "Name": "keys()",
+  "Description": "Returns a Array Iteration Object, containing the keys of the original array",
+  "id": 16
+ },
+ {
+  "Name": "lastIndexOf()",
+  "Description": "Search the array for an element, starting at the end, and returns its position",
+  "id": 17
+ },
+ {
+  "Name": "length",
+  "Description": "Sets or returns the number of elements in an array",
+  "id": 18
+ },
+ {
+  "Name": "map()",
+  "Description": "Creates a new array with the result of calling a function for each array element",
+  "id": 19
+ },
+ {
+  "Name": "pop()",
+  "Description": "Removes the last element of an array, and returns that element",
+  "id": 20
+ },
+ {
+  "Name": "prototype",
+  "Description": "Allows you to add properties and methods to an Array object",
+  "id": 21
+ },
+ {
+  "Name": "push()",
+  "Description": "Adds new elements to the end of an array, and returns the new length",
+  "id": 22
+ },
+ {
+  "Name": "reduce()",
+  "Description": "Reduce the values of an array to a single value (going left-to-right)",
+  "id": 23
+ },
+ {
+  "Name": "reduceRight()",
+  "Description": "Reduce the values of an array to a single value (going right-to-left)",
+  "id": 24
+ },
+ {
+  "Name": "reverse()",
+  "Description": "Reverses the order of the elements in an array",
+  "id": 25
+ },
+ {
+  "Name": "shift()",
+  "Description": "Removes the first element of an array, and returns that element",
+  "id": 26
+ },
+ {
+  "Name": "slice()",
+  "Description": "Selects a part of an array, and returns the new array",
+  "id": 27
+ },
+ {
+  "Name": "some()",
+  "Description": "Checks if any of the elements in an array pass a test",
+  "id": 28
+ },
+ {
+  "Name": "sort()",
+  "Description": "Sorts the elements of an array",
+  "id": 29
+ },
+ {
+  "Name": "splice()",
+  "Description": "Adds\/Removes elements from an array",
+  "id": 30
+ },
+ {
+  "Name": "toString()",
+  "Description": "Converts an array to a string, and returns the result",
+  "id": 31
+ },
+ {
+  "Name": "unshift()",
+  "Description": "Adds new elements to the beginning of an array, and returns the new length",
+  "id": 32
+ },
+ {
+  "Name": "valueOf()",
+  "Description": "Returns the primitive value of an array",
+  "id": 33
+ }
+]

@@ -117,7 +117,7 @@ const Navbar = () => {
                     <div id="backtotop">
                     </div>
                     <Link href="/">
-                        <a>
+                        <a onClick={closeButton}>
                             <Image src="/devcrib2.png" alt="site logo" width={128} height={77} />
                         </a>
                     </Link>

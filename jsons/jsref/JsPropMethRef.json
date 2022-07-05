@@ -1,0 +1,3674 @@
+[
+ {
+  "Property\/Method": "abs()",
+  "Description": "Returns the absolute value of x",
+  "Belongs To": "Math",
+  "id": 1
+ },
+ {
+  "Property\/Method": "accessKey",
+  "Description": "Sets or returns the accesskey attribute of an element",
+  "Belongs To": "Element",
+  "id": 2
+ },
+ {
+  "Property\/Method": "acos()",
+  "Description": "Returns the arccosine of x, in radians",
+  "Belongs To": "Math",
+  "id": 3
+ },
+ {
+  "Property\/Method": "acosh()",
+  "Description": "Returns the hyperbolic arccosine of x",
+  "Belongs To": "Math",
+  "id": 4
+ },
+ {
+  "Property\/Method": "activeElement",
+  "Description": "Returns the currently focused element in the document",
+  "Belongs To": "Document",
+  "id": 5
+ },
+ {
+  "Property\/Method": "addEventListener()",
+  "Description": "Attaches an event handler to the document",
+  "Belongs To": "Document, Element",
+  "id": 6
+ },
+ {
+  "Property\/Method": "adoptNode()",
+  "Description": "Adopts a node from another document",
+  "Belongs To": "Document",
+  "id": 7
+ },
+ {
+  "Property\/Method": "alert()",
+  "Description": "Displays an alert box with a message and an OK button",
+  "Belongs To": "Window",
+  "id": 8
+ },
+ {
+  "Property\/Method": "altKey",
+  "Description": "Returns whether the \"ALT\" key was pressed when the mouse event was triggered",
+  "Belongs To": "MouseEvent, KeyboardEvent, TouchEvent",
+  "id": 9
+ },
+ {
+  "Property\/Method": "anchors",
+  "Description": "Returns a collection of all <a> elements in the document that have a name attribute",
+  "Belongs To": "Document",
+  "id": 10
+ },
+ {
+  "Property\/Method": "animationName",
+  "Description": "Returns the name of the animation",
+  "Belongs To": "AnimationEvent",
+  "id": 11
+ },
+ {
+  "Property\/Method": "appCodeName",
+  "Description": "Returns the code name of the browser",
+  "Belongs To": "Navigator",
+  "id": 12
+ },
+ {
+  "Property\/Method": "appendChild()",
+  "Description": "Adds a new child node, to an element, as the last child node",
+  "Belongs To": "Element",
+  "id": 13
+ },
+ {
+  "Property\/Method": "applets",
+  "Description": "Returns a collection of all <applet> elements in the document",
+  "Belongs To": "Document",
+  "id": 14
+ },
+ {
+  "Property\/Method": "appName",
+  "Description": "Returns the name of the browser",
+  "Belongs To": "Navigator",
+  "id": 15
+ },
+ {
+  "Property\/Method": "appVersion",
+  "Description": "Returns the version information of the browser",
+  "Belongs To": "Navigator",
+  "id": 16
+ },
+ {
+  "Property\/Method": "asin()",
+  "Description": "Returns the arcsine of x, in radians",
+  "Belongs To": "Math",
+  "id": 17
+ },
+ {
+  "Property\/Method": "asinh()",
+  "Description": "Returns the hyperbolic arcsine of x",
+  "Belongs To": "Math",
+  "id": 18
+ },
+ {
+  "Property\/Method": "assert()",
+  "Description": "Writes an error message to the console if the assertion is false",
+  "Belongs To": "Console",
+  "id": 19
+ },
+ {
+  "Property\/Method": "assign()",
+  "Description": "Loads a new document",
+  "Belongs To": "Location",
+  "id": 20
+ },
+ {
+  "Property\/Method": "atan()",
+  "Description": "Returns the arctangent of x as a numeric value between -PI\/2 and PI\/2 radians",
+  "Belongs To": "Math",
+  "id": 21
+ },
+ {
+  "Property\/Method": "atan2()",
+  "Description": "Returns the arctangent of the quotient of its arguments",
+  "Belongs To": "Math",
+  "id": 22
+ },
+ {
+  "Property\/Method": "atanh()",
+  "Description": "Returns the hyperbolic arctangent of x",
+  "Belongs To": "Math",
+  "id": 23
+ },
+ {
+  "Property\/Method": "atob()",
+  "Description": "Decodes a base-64 encoded string",
+  "Belongs To": "Window",
+  "id": 24
+ },
+ {
+  "Property\/Method": "attributes",
+  "Description": "Returns a NamedNodeMap of an element's attributes",
+  "Belongs To": "Element",
+  "id": 25
+ },
+ {
+  "Property\/Method": "availHeight",
+  "Description": "Returns the height of the screen (excluding the Windows Taskbar)",
+  "Belongs To": "Screen",
+  "id": 26
+ },
+ {
+  "Property\/Method": "availWidth",
+  "Description": "Returns the width of the screen (excluding the Windows Taskbar)",
+  "Belongs To": "Screen",
+  "id": 27
+ },
+ {
+  "Property\/Method": "back()",
+  "Description": "Loads the previous URL in the history list",
+  "Belongs To": "History",
+  "id": 28
+ },
+ {
+  "Property\/Method": "baseURI",
+  "Description": "Returns the absolute base URI of a document",
+  "Belongs To": "Document",
+  "id": 29
+ },
+ {
+  "Property\/Method": "blur()",
+  "Description": "Removes focus from an element",
+  "Belongs To": "Element, Window",
+  "id": 30
+ },
+ {
+  "Property\/Method": "body",
+  "Description": "Sets or returns the document's body (the <body> element)",
+  "Belongs To": "Document",
+  "id": 31
+ },
+ {
+  "Property\/Method": "break",
+  "Description": "Exits a switch or a loop",
+  "Belongs To": "Statements",
+  "id": 32
+ },
+ {
+  "Property\/Method": "btoa()",
+  "Description": "Encodes a string in base-64",
+  "Belongs To": "Window",
+  "id": 33
+ },
+ {
+  "Property\/Method": "bubbles",
+  "Description": "Returns whether or not a specific event is a bubbling event",
+  "Belongs To": "Event",
+  "id": 34
+ },
+ {
+  "Property\/Method": "button",
+  "Description": "Returns which mouse button was pressed when the mouse event was triggered",
+  "Belongs To": "MouseEvent",
+  "id": 35
+ },
+ {
+  "Property\/Method": "buttons",
+  "Description": "Returns which mouse buttons were pressed when the mouse event was triggered",
+  "Belongs To": "MouseEvent",
+  "id": 36
+ },
+ {
+  "Property\/Method": "cancelable",
+  "Description": "Returns whether or not an event can have its default action prevented",
+  "Belongs To": "Event",
+  "id": 37
+ },
+ {
+  "Property\/Method": "cbrt()",
+  "Description": "Returns the cubic root of x",
+  "Belongs To": "Math",
+  "id": 38
+ },
+ {
+  "Property\/Method": "ceil()",
+  "Description": "Returns x, rounded upwards to the nearest integer",
+  "Belongs To": "Math",
+  "id": 39
+ },
+ {
+  "Property\/Method": "changeTouches",
+  "Description": "Returns a list of all the touch objects whose state changed between the previous touch and this touch",
+  "Belongs To": "TouchEvent",
+  "id": 40
+ },
+ {
+  "Property\/Method": "characterSet",
+  "Description": "Returns the character encoding for the document",
+  "Belongs To": "Document",
+  "id": 41
+ },
+ {
+  "Property\/Method": "charAt()",
+  "Description": "Returns the character at the specified index (position)",
+  "Belongs To": "String",
+  "id": 42
+ },
+ {
+  "Property\/Method": "charCode",
+  "Description": "Returns the Unicode character code of the key that triggered the onkeypress event",
+  "Belongs To": "KeyboardEvent",
+  "id": 43
+ },
+ {
+  "Property\/Method": "charCodeAt()",
+  "Description": "Returns the Unicode of the character at the specified index",
+  "Belongs To": "String",
+  "id": 44
+ },
+ {
+  "Property\/Method": "charset",
+  "Description": "Deprecated. Use characterSet instead. Returns the character encoding for the document",
+  "Belongs To": "Document",
+  "id": 45
+ },
+ {
+  "Property\/Method": "childElementCount",
+  "Description": "Returns the number of child elements an element has",
+  "Belongs To": "Element",
+  "id": 46
+ },
+ {
+  "Property\/Method": "childNodes",
+  "Description": "Returns a collection of an element's child nodes (including text and comment nodes)",
+  "Belongs To": "Element",
+  "id": 47
+ },
+ {
+  "Property\/Method": "children",
+  "Description": "Returns a collection of an element's child element (excluding text and comment nodes)",
+  "Belongs To": "Element",
+  "id": 48
+ },
+ {
+  "Property\/Method": "classList",
+  "Description": "Returns the class name(s) of an element",
+  "Belongs To": "Element",
+  "id": 49
+ },
+ {
+  "Property\/Method": "class",
+  "Description": "Declares a class",
+  "Belongs To": "Statements",
+  "id": 50
+ },
+ {
+  "Property\/Method": "className",
+  "Description": "Sets or returns the value of the class attribute of an element",
+  "Belongs To": "Element",
+  "id": 51
+ },
+ {
+  "Property\/Method": "clear()",
+  "Description": "Clears the console",
+  "Belongs To": "Console, Storage",
+  "id": 52
+ },
+ {
+  "Property\/Method": "clearInterval()",
+  "Description": "Clears a timer set with setInterval()",
+  "Belongs To": "Window",
+  "id": 53
+ },
+ {
+  "Property\/Method": "clearTimeout()",
+  "Description": "Clears a timer set with setTimeout()",
+  "Belongs To": "Window",
+  "id": 54
+ },
+ {
+  "Property\/Method": "clearWatch()",
+  "Description": "Unregister location\/error monitoring handlers previously installed using Geolocation.watchPosition()",
+  "Belongs To": "Geolocation",
+  "id": 55
+ },
+ {
+  "Property\/Method": "click()",
+  "Description": "Simulates a mouse-click on an element",
+  "Belongs To": "Element",
+  "id": 56
+ },
+ {
+  "Property\/Method": "clientHeight",
+  "Description": "Returns the height of an element, including padding",
+  "Belongs To": "Element",
+  "id": 57
+ },
+ {
+  "Property\/Method": "clientLeft",
+  "Description": "Returns the width of the left border of an element",
+  "Belongs To": "Element",
+  "id": 58
+ },
+ {
+  "Property\/Method": "clientTop",
+  "Description": "Returns the width of the top border of an element",
+  "Belongs To": "Element",
+  "id": 59
+ },
+ {
+  "Property\/Method": "clientWidth",
+  "Description": "Returns the width of an element, including padding",
+  "Belongs To": "Element",
+  "id": 60
+ },
+ {
+  "Property\/Method": "clientX",
+  "Description": "Returns the horizontal coordinate of the mouse pointer, relative to the current window, when the mouse event was triggered",
+  "Belongs To": "MouseEvent, TouchEvent",
+  "id": 61
+ },
+ {
+  "Property\/Method": "clientY",
+  "Description": "Returns the vertical coordinate of the mouse pointer, relative to the current window, when the mouse event was triggered",
+  "Belongs To": "MouseEvent, TouchEvent",
+  "id": 62
+ },
+ {
+  "Property\/Method": "clipboardData",
+  "Description": "Returns an object containing the data affected by the clipboard operation",
+  "Belongs To": "ClipboardData",
+  "id": 63
+ },
+ {
+  "Property\/Method": "closed",
+  "Description": "Returns a Boolean value indicating whether a window has been closed or not",
+  "Belongs To": "Window",
+  "id": 64
+ },
+ {
+  "Property\/Method": "close()",
+  "Description": "Closes the output stream previously opened with document.open()",
+  "Belongs To": "Document, Window",
+  "id": 65
+ },
+ {
+  "Property\/Method": "closest()",
+  "Description": "Searches up the DOM tree for the closest element which matches a specified CSS selector",
+  "Belongs To": "Element",
+  "id": 66
+ },
+ {
+  "Property\/Method": "clz32(x)",
+  "Description": "Returns the number of leading zeros in a 32-bit binary representation of x",
+  "Belongs To": "Math",
+  "id": 67
+ },
+ {
+  "Property\/Method": "code",
+  "Description": "Returns the code of the key that triggered the event",
+  "Belongs To": "KeyboardEvent",
+  "id": 68
+ },
+ {
+  "Property\/Method": "colorDepth",
+  "Description": "Returns the bit depth of the color palette for displaying images",
+  "Belongs To": "Screen",
+  "id": 69
+ },
+ {
+  "Property\/Method": "compareDocumentPosition()",
+  "Description": "Compares the document position of two elements",
+  "Belongs To": "Element",
+  "id": 70
+ },
+ {
+  "Property\/Method": "compile()",
+  "Description": "Deprecated in version 1.5. Compiles a regular expression",
+  "Belongs To": "RegExp",
+  "id": 71
+ },
+ {
+  "Property\/Method": "composed",
+  "Description": "Returns whether the event is composed or not",
+  "Belongs To": "Event",
+  "id": 72
+ },
+ {
+  "Property\/Method": "concat()",
+  "Description": "Joins two or more arrays, and returns a copy of the joined arrays",
+  "Belongs To": "Array, String",
+  "id": 73
+ },
+ {
+  "Property\/Method": "confirm()",
+  "Description": "Displays a dialog box with a message and an OK and a Cancel button",
+  "Belongs To": "Window",
+  "id": 74
+ },
+ {
+  "Property\/Method": "const",
+  "Description": "Declares a variable with a constant value",
+  "Belongs To": "Statements",
+  "id": 75
+ },
+ {
+  "Property\/Method": "constructor()",
+  "Description": "Creates and initialize objects created within a class",
+  "Belongs To": "Classes",
+  "id": 76
+ },
+ {
+  "Property\/Method": "constructor",
+  "Description": "Returns the function that created the Array object's prototype",
+  "Belongs To": "Array, Boolean, Date, Number, RegExp",
+  "id": 77
+ },
+ {
+  "Property\/Method": "contains()",
+  "Description": "Returns true if a node is a descendant of a node, otherwise false",
+  "Belongs To": "Element",
+  "id": 78
+ },
+ {
+  "Property\/Method": "contentEditable",
+  "Description": "Sets or returns whether the content of an element is editable or not",
+  "Belongs To": "Element",
+  "id": 79
+ },
+ {
+  "Property\/Method": "continue",
+  "Description": "Breaks one iteration (in the loop) if a specified condition occurs, and continues with the next iteration in the loop",
+  "Belongs To": "Statements",
+  "id": 80
+ },
+ {
+  "Property\/Method": "console",
+  "Description": "Returns a reference to the Console object, which provides methods for logging information to the browser's console (See Console object)",
+  "Belongs To": "Window",
+  "id": 81
+ },
+ {
+  "Property\/Method": "cookie",
+  "Description": "Returns all name\/value pairs of cookies in the document",
+  "Belongs To": "Document",
+  "id": 82
+ },
+ {
+  "Property\/Method": "cookieEnabled",
+  "Description": "Determines whether cookies are enabled in the browser",
+  "Belongs To": "Navigator",
+  "id": 83
+ },
+ {
+  "Property\/Method": "coordinates",
+  "Description": "Returns the position and altitude of the device on Earth",
+  "Belongs To": "Geolocation",
+  "id": 84
+ },
+ {
+  "Property\/Method": "copyWithin()",
+  "Description": "Copies array elements within the array, to and from specified positions",
+  "Belongs To": "Array",
+  "id": 85
+ },
+ {
+  "Property\/Method": "cos(x)",
+  "Description": "Returns the cosine of x (x is in radians)",
+  "Belongs To": "Math",
+  "id": 86
+ },
+ {
+  "Property\/Method": "cosh(x)",
+  "Description": "Returns the hyperbolic cosine of x",
+  "Belongs To": "Math",
+  "id": 87
+ },
+ {
+  "Property\/Method": "count()",
+  "Description": "Logs the number of times that this particular call to count() has been called",
+  "Belongs To": "Console",
+  "id": 88
+ },
+ {
+  "Property\/Method": "createAttribute()",
+  "Description": "Creates an attribute node",
+  "Belongs To": "Document",
+  "id": 89
+ },
+ {
+  "Property\/Method": "createComment()",
+  "Description": "Creates a Comment node with the specified text",
+  "Belongs To": "Document",
+  "id": 90
+ },
+ {
+  "Property\/Method": "createDocumentFragment()",
+  "Description": "Creates an empty DocumentFragment node",
+  "Belongs To": "Document",
+  "id": 91
+ },
+ {
+  "Property\/Method": "createElement()",
+  "Description": "Creates an Element node",
+  "Belongs To": "Document",
+  "id": 92
+ },
+ {
+  "Property\/Method": "createEvent()",
+  "Description": "Creates a new event",
+  "Belongs To": "Document, Event",
+  "id": 93
+ },
+ {
+  "Property\/Method": "createTextNode()",
+  "Description": "Creates a Text node",
+  "Belongs To": "Document",
+  "id": 94
+ },
+ {
+  "Property\/Method": "ctrlKey",
+  "Description": "Returns whether the \"CTRL\" key was pressed when the mouse event was triggered",
+  "Belongs To": "MouseEvent, KeyboardEvent, TouchEvent",
+  "id": 95
+ },
+ {
+  "Property\/Method": "currentTarget",
+  "Description": "Returns the element whose event listeners triggered the event",
+  "Belongs To": "Event",
+  "id": 96
+ },
+ {
+  "Property\/Method": "data",
+  "Description": "Returns the inserted characters",
+  "Belongs To": "InputEvent",
+  "id": 97
+ },
+ {
+  "Property\/Method": "dataTransfer",
+  "Description": "Returns an object containing the data being dragged\/dropped, or inserted\/deleted",
+  "Belongs To": "DragEvent, InputEvent",
+  "id": 98
+ },
+ {
+  "Property\/Method": "debugger",
+  "Description": "Stops the execution of JavaScript, and calls (if available) the debugging function",
+  "Belongs To": "Statements",
+  "id": 99
+ },
+ {
+  "Property\/Method": "decodeURI()",
+  "Description": "Decodes a URI",
+  "Belongs To": "Global",
+  "id": 100
+ },
+ {
+  "Property\/Method": "decodeURIComponent()",
+  "Description": "Decodes a URI component",
+  "Belongs To": "Global",
+  "id": 101
+ },
+ {
+  "Property\/Method": "defaultPrevented",
+  "Description": "Returns whether or not the preventDefault() method was called for the event",
+  "Belongs To": "Event",
+  "id": 102
+ },
+ {
+  "Property\/Method": "defaultStatus",
+  "Description": "Sets or returns the default text in the statusbar of a window",
+  "Belongs To": "Window",
+  "id": 103
+ },
+ {
+  "Property\/Method": "defaultView",
+  "Description": "Returns the window object associated with a document, or null if none is available.",
+  "Belongs To": "Document",
+  "id": 104
+ },
+ {
+  "Property\/Method": "delete",
+  "Description": "Deletes a property from an object",
+  "Belongs To": "Operators",
+  "id": 105
+ },
+ {
+  "Property\/Method": "deltaX",
+  "Description": "Returns the horizontal scroll amount of a mouse wheel (x-axis)",
+  "Belongs To": "WheelEvent",
+  "id": 106
+ },
+ {
+  "Property\/Method": "deltaY",
+  "Description": "Returns the vertical scroll amount of a mouse wheel (y-axis)",
+  "Belongs To": "WheelEvent",
+  "id": 107
+ },
+ {
+  "Property\/Method": "deltaZ",
+  "Description": "Returns the scroll amount of a mouse wheel for the z-axis",
+  "Belongs To": "WheelEvent",
+  "id": 108
+ },
+ {
+  "Property\/Method": "deltaMode",
+  "Description": "Returns a number that represents the unit of measurements for delta values (pixels, lines or pages)",
+  "Belongs To": "WheelEvent",
+  "id": 109
+ },
+ {
+  "Property\/Method": "designMode",
+  "Description": "Controls whether the entire document should be editable or not.",
+  "Belongs To": "Document",
+  "id": 110
+ },
+ {
+  "Property\/Method": "detail",
+  "Description": "Returns a number that indicates how many times the mouse was clicked",
+  "Belongs To": "UiEvent",
+  "id": 111
+ },
+ {
+  "Property\/Method": "do ... while",
+  "Description": "Executes a block of statements and repeats the block while a condition is true",
+  "Belongs To": "Statements",
+  "id": 112
+ },
+ {
+  "Property\/Method": "doctype",
+  "Description": "Returns the Document Type Declaration associated with the document",
+  "Belongs To": "Document",
+  "id": 113
+ },
+ {
+  "Property\/Method": "document",
+  "Description": "Returns the Document object for the window (See Document object)",
+  "Belongs To": "Window",
+  "id": 114
+ },
+ {
+  "Property\/Method": "documentElement",
+  "Description": "Returns the Document Element of the document (the <html> element)",
+  "Belongs To": "Document",
+  "id": 115
+ },
+ {
+  "Property\/Method": "documentMode",
+  "Description": "Returns the mode used by the browser to render the document",
+  "Belongs To": "Document",
+  "id": 116
+ },
+ {
+  "Property\/Method": "documentURI",
+  "Description": "Sets or returns the location of the document",
+  "Belongs To": "Document",
+  "id": 117
+ },
+ {
+  "Property\/Method": "domain",
+  "Description": "Returns the domain name of the server that loaded the document",
+  "Belongs To": "Document",
+  "id": 118
+ },
+ {
+  "Property\/Method": "domConfig",
+  "Description": "Obsolete. Returns the DOM configuration of the document",
+  "Belongs To": "Document",
+  "id": 119
+ },
+ {
+  "Property\/Method": "elapsedTime",
+  "Description": "Returns the number of seconds an animation has been running",
+  "Belongs To": "AnimationEvent",
+  "id": 120
+ },
+ {
+  "Property\/Method": "elapsedTime",
+  "Description": "Returns the number of seconds a transition has been running",
+  "Belongs To": null,
+  "id": 121
+ },
+ {
+  "Property\/Method": "embeds",
+  "Description": "Returns a collection of all <embed> elements the document",
+  "Belongs To": "Document",
+  "id": 122
+ },
+ {
+  "Property\/Method": "encodeURI()",
+  "Description": "Encodes a URI",
+  "Belongs To": "Global",
+  "id": 123
+ },
+ {
+  "Property\/Method": "encodeURIComponent()",
+  "Description": "Encodes a URI component",
+  "Belongs To": "Global",
+  "id": 124
+ },
+ {
+  "Property\/Method": "E",
+  "Description": "Returns Euler's number (approx. 2.718)",
+  "Belongs To": "Math",
+  "id": 125
+ },
+ {
+  "Property\/Method": "endsWith()",
+  "Description": "Checks whether a string ends with specified string\/characters",
+  "Belongs To": "String",
+  "id": 126
+ },
+ {
+  "Property\/Method": "entries()",
+  "Description": "Returns a key\/value pair Array Iteration Object",
+  "Belongs To": "Array",
+  "id": 127
+ },
+ {
+  "Property\/Method": "error()",
+  "Description": "Outputs an error message to the console",
+  "Belongs To": "Console",
+  "id": 128
+ },
+ {
+  "Property\/Method": "escape()",
+  "Description": "Deprecated in version 1.5. Use encodeURI() or encodeURIComponent() instead",
+  "Belongs To": "Global",
+  "id": 129
+ },
+ {
+  "Property\/Method": "eval()",
+  "Description": "Evaluates a string and executes it as if it was script code",
+  "Belongs To": "Global",
+  "id": 130
+ },
+ {
+  "Property\/Method": "eventPhase",
+  "Description": "Returns which phase of the event flow is currently being evaluated",
+  "Belongs To": "Event",
+  "id": 131
+ },
+ {
+  "Property\/Method": "every()",
+  "Description": "Checks if every element in an array pass a test",
+  "Belongs To": "Array",
+  "id": 132
+ },
+ {
+  "Property\/Method": "exec()",
+  "Description": "Tests for a match in a string. Returns the first match",
+  "Belongs To": "RegExp",
+  "id": 133
+ },
+ {
+  "Property\/Method": "execCommand()",
+  "Description": "Invokes the specified clipboard operation on the element currently having focus.",
+  "Belongs To": "Document",
+  "id": 134
+ },
+ {
+  "Property\/Method": "exitFullscreen()",
+  "Description": "Cancels an element in fullscreen mode",
+  "Belongs To": "Element",
+  "id": 135
+ },
+ {
+  "Property\/Method": "exp(x)",
+  "Description": "Returns the value of Ex",
+  "Belongs To": "Math",
+  "id": 136
+ },
+ {
+  "Property\/Method": "expm1(x)",
+  "Description": "Returns the value of Ex minus 1",
+  "Belongs To": "Math",
+  "id": 137
+ },
+ {
+  "Property\/Method": "export",
+  "Description": "Export functions so they can be used for imports in external modules, and other scripts",
+  "Belongs To": null,
+  "id": 138
+ },
+ {
+  "Property\/Method": "extends",
+  "Description": "Extends a class (inherit)",
+  "Belongs To": "Classes",
+  "id": 139
+ },
+ {
+  "Property\/Method": null,
+  "Description": null,
+  "Belongs To": null,
+  "id": 140
+ },
+ {
+  "Property\/Method": "dir",
+  "Description": "Sets or returns the value of the dir attribute of an element",
+  "Belongs To": "Element",
+  "id": 141
+ },
+ {
+  "Property\/Method": "fill()",
+  "Description": "Fill the elements in an array with a static value",
+  "Belongs To": "Array",
+  "id": 142
+ },
+ {
+  "Property\/Method": "filter()",
+  "Description": "Creates a new array with every element in an array that pass a test",
+  "Belongs To": "Array",
+  "id": 143
+ },
+ {
+  "Property\/Method": "find()",
+  "Description": "Returns the value of the first element in an array that pass a test",
+  "Belongs To": "Array",
+  "id": 144
+ },
+ {
+  "Property\/Method": "findIndex()",
+  "Description": "Returns the index of the first element in an array that pass a test",
+  "Belongs To": "Array",
+  "id": 145
+ },
+ {
+  "Property\/Method": "floor()",
+  "Description": "Returns x, rounded downwards to the nearest integer",
+  "Belongs To": "Math",
+  "id": 146
+ },
+ {
+  "Property\/Method": "focus()",
+  "Description": "Gives focus to an element",
+  "Belongs To": "Element, Window",
+  "id": 147
+ },
+ {
+  "Property\/Method": "for",
+  "Description": "Marks a block of statements to be executed as long as a condition is true",
+  "Belongs To": "Statements",
+  "id": 148
+ },
+ {
+  "Property\/Method": "for ... in",
+  "Description": "Marks a block of statements to be executed for each element of an object (or array)",
+  "Belongs To": "Statements",
+  "id": 149
+ },
+ {
+  "Property\/Method": "forEach()",
+  "Description": "Calls a function for each array element",
+  "Belongs To": "Array",
+  "id": 150
+ },
+ {
+  "Property\/Method": "forms",
+  "Description": "Returns a collection of all <form> elements in the document",
+  "Belongs To": "Document",
+  "id": 151
+ },
+ {
+  "Property\/Method": "forward()",
+  "Description": "Loads the next URL in the history list",
+  "Belongs To": "History",
+  "id": 152
+ },
+ {
+  "Property\/Method": "frameElement",
+  "Description": "Returns the <iframe> element in which the current window is inserted",
+  "Belongs To": "Window",
+  "id": 153
+ },
+ {
+  "Property\/Method": "frames",
+  "Description": "Returns all <iframe> elements in the current window",
+  "Belongs To": "Window",
+  "id": 154
+ },
+ {
+  "Property\/Method": "from()",
+  "Description": "Creates an array from an object",
+  "Belongs To": "Array",
+  "id": 155
+ },
+ {
+  "Property\/Method": "fromCharCode()",
+  "Description": "Converts Unicode values to characters",
+  "Belongs To": "String",
+  "id": 156
+ },
+ {
+  "Property\/Method": "fround()",
+  "Description": "Returns the nearest (32-bit single precision) float representation of a number",
+  "Belongs To": "Math",
+  "id": 157
+ },
+ {
+  "Property\/Method": "fullscreenElement",
+  "Description": "Returns the current element that is displayed in fullscreen mode",
+  "Belongs To": "Document",
+  "id": 158
+ },
+ {
+  "Property\/Method": "fullscreenEnabled()",
+  "Description": "Returns a Boolean value indicating whether the document can be viewed in fullscreen mode",
+  "Belongs To": "Document",
+  "id": 159
+ },
+ {
+  "Property\/Method": "function",
+  "Description": "Declares a function",
+  "Belongs To": "Statements",
+  "id": 160
+ },
+ {
+  "Property\/Method": "geolocation",
+  "Description": "Returns a Geolocation object that can be used to locate the user's position",
+  "Belongs To": "Navigator",
+  "id": 161
+ },
+ {
+  "Property\/Method": "getDate()",
+  "Description": "Returns the day of the month (from 1-31)",
+  "Belongs To": "Date",
+  "id": 162
+ },
+ {
+  "Property\/Method": "getDay()",
+  "Description": "Returns the day of the week (from 0-6)",
+  "Belongs To": "Date",
+  "id": 163
+ },
+ {
+  "Property\/Method": "getAttribute()",
+  "Description": "Returns the specified attribute value of an element node",
+  "Belongs To": "Element",
+  "id": 164
+ },
+ {
+  "Property\/Method": "getAttributeNode()",
+  "Description": "Returns the specified attribute node",
+  "Belongs To": "Element",
+  "id": 165
+ },
+ {
+  "Property\/Method": "getBoundingClientRect()",
+  "Description": "Returns the size of an element and its position relative to the viewport",
+  "Belongs To": "Element",
+  "id": 166
+ },
+ {
+  "Property\/Method": "getComputedStyle()",
+  "Description": "Gets the current computed CSS styles applied to an element",
+  "Belongs To": "Window",
+  "id": 167
+ },
+ {
+  "Property\/Method": "getCurrentPosition()",
+  "Description": "Returns the current position of the device",
+  "Belongs To": "Geolocation",
+  "id": 168
+ },
+ {
+  "Property\/Method": "getElementById()",
+  "Description": "Returns the element that has the ID attribute with the specified value",
+  "Belongs To": "Document",
+  "id": 169
+ },
+ {
+  "Property\/Method": "getElementsByClassName()",
+  "Description": "Returns a NodeList containing all elements with the specified class name",
+  "Belongs To": "Document, Element",
+  "id": 170
+ },
+ {
+  "Property\/Method": "getElementsByName()",
+  "Description": "Returns a NodeList containing all elements with a specified name",
+  "Belongs To": "Document",
+  "id": 171
+ },
+ {
+  "Property\/Method": "getElementsByTagName()",
+  "Description": "Returns a NodeList containing all elements with the specified tag name",
+  "Belongs To": "Document, Element",
+  "id": 172
+ },
+ {
+  "Property\/Method": "getFullYear()",
+  "Description": "Returns the year",
+  "Belongs To": "Date",
+  "id": 173
+ },
+ {
+  "Property\/Method": "getHours()",
+  "Description": "Returns the hour (from 0-23)",
+  "Belongs To": "Date",
+  "id": 174
+ },
+ {
+  "Property\/Method": "getItem()",
+  "Description": "Returns the value of the specified key name",
+  "Belongs To": "Storage",
+  "id": 175
+ },
+ {
+  "Property\/Method": "getMilliseconds()",
+  "Description": "Returns the milliseconds (from 0-999)",
+  "Belongs To": "Date",
+  "id": 176
+ },
+ {
+  "Property\/Method": "getMinutes()",
+  "Description": "Returns the minutes (from 0-59)",
+  "Belongs To": "Date",
+  "id": 177
+ },
+ {
+  "Property\/Method": "getModifierState()",
+  "Description": "Returns an array containing target ranges that will be affected by the insertion\/deletion",
+  "Belongs To": "MouseEvent",
+  "id": 178
+ },
+ {
+  "Property\/Method": "getMonth()",
+  "Description": "Returns the month (from 0-11)",
+  "Belongs To": "Date",
+  "id": 179
+ },
+ {
+  "Property\/Method": "getNamedItem()",
+  "Description": "Returns a specified attribute node from a NamedNodeMap",
+  "Belongs To": "Attribute",
+  "id": 180
+ },
+ {
+  "Property\/Method": "getSeconds()",
+  "Description": "Returns the seconds (from 0-59)",
+  "Belongs To": "Date",
+  "id": 181
+ },
+ {
+  "Property\/Method": "getSelection()",
+  "Description": "Returns a Selection object representing the range of text selected by the user",
+  "Belongs To": "Window",
+  "id": 182
+ },
+ {
+  "Property\/Method": "getTargetRanges()",
+  "Description": "Returns an array containing target ranges that will be affected by the insertion\/deletion",
+  "Belongs To": "InputEvent",
+  "id": 183
+ },
+ {
+  "Property\/Method": "getTime()",
+  "Description": "Returns the number of milliseconds since midnight Jan 1 1970, and a specified date",
+  "Belongs To": "Date",
+  "id": 184
+ },
+ {
+  "Property\/Method": "getTimezoneOffset()",
+  "Description": "Returns the time difference between UTC time and local time, in minutes",
+  "Belongs To": "Date",
+  "id": 185
+ },
+ {
+  "Property\/Method": "getUTCDate()",
+  "Description": "Returns the day of the month, according to universal time (from 1-31)",
+  "Belongs To": "Date",
+  "id": 186
+ },
+ {
+  "Property\/Method": "getUTCDay()",
+  "Description": "Returns the day of the week, according to universal time (from 0-6)",
+  "Belongs To": "Date",
+  "id": 187
+ },
+ {
+  "Property\/Method": "getUTCFullYear()",
+  "Description": "Returns the year, according to universal time",
+  "Belongs To": "Date",
+  "id": 188
+ },
+ {
+  "Property\/Method": "getUTCHours()",
+  "Description": "Returns the hour, according to universal time (from 0-23)",
+  "Belongs To": "Date",
+  "id": 189
+ },
+ {
+  "Property\/Method": "getUTCMilliseconds()",
+  "Description": "Returns the milliseconds, according to universal time (from 0-999)",
+  "Belongs To": "Date",
+  "id": 190
+ },
+ {
+  "Property\/Method": "getUTCMinutes()",
+  "Description": "Returns the minutes, according to universal time (from 0-59)",
+  "Belongs To": "Date",
+  "id": 191
+ },
+ {
+  "Property\/Method": "getUTCMonth()",
+  "Description": "Returns the month, according to universal time (from 0-11)",
+  "Belongs To": "Date",
+  "id": 192
+ },
+ {
+  "Property\/Method": "getUTCSeconds()",
+  "Description": "Returns the seconds, according to universal time (from 0-59)",
+  "Belongs To": "Date",
+  "id": 193
+ },
+ {
+  "Property\/Method": "getYear()",
+  "Description": "Deprecated. Use the getFullYear() method instead",
+  "Belongs To": "Date",
+  "id": 194
+ },
+ {
+  "Property\/Method": "global",
+  "Description": "Checks whether the \"g\" modifier is set",
+  "Belongs To": "RegExp",
+  "id": 195
+ },
+ {
+  "Property\/Method": "go()",
+  "Description": "Loads a specific URL from the history list",
+  "Belongs To": "History",
+  "id": 196
+ },
+ {
+  "Property\/Method": "group()",
+  "Description": "Creates a new inline group in the console. This indents following console messages by an additional level, until console.groupEnd() is called",
+  "Belongs To": "Console",
+  "id": 197
+ },
+ {
+  "Property\/Method": "groupCollapsed()",
+  "Description": "Creates a new inline group in the console. However, the new group is created collapsed. The user will need to use the disclosure button to expand it",
+  "Belongs To": "Console",
+  "id": 198
+ },
+ {
+  "Property\/Method": "groupEnd()",
+  "Description": "Exits the current inline group in the console",
+  "Belongs To": "Console",
+  "id": 199
+ },
+ {
+  "Property\/Method": "hasAttribute()",
+  "Description": "Returns true if an element has the specified attribute, otherwise false",
+  "Belongs To": "Element",
+  "id": 200
+ },
+ {
+  "Property\/Method": "hasAttributes()",
+  "Description": "Returns true if an element has any attributes, otherwise false",
+  "Belongs To": "Element",
+  "id": 201
+ },
+ {
+  "Property\/Method": "hasChildNodes()",
+  "Description": "Returns true if an element has any child nodes, otherwise false",
+  "Belongs To": "Element",
+  "id": 202
+ },
+ {
+  "Property\/Method": "hasFocus()",
+  "Description": "Returns a Boolean value indicating whether the document has focus",
+  "Belongs To": "Document",
+  "id": 203
+ },
+ {
+  "Property\/Method": "hash",
+  "Description": "Sets or returns the anchor part (#) of a URL",
+  "Belongs To": "Location",
+  "id": 204
+ },
+ {
+  "Property\/Method": "head",
+  "Description": "Returns the <head> element of the document",
+  "Belongs To": "Document",
+  "id": 205
+ },
+ {
+  "Property\/Method": "height",
+  "Description": "Returns the total height of the screen",
+  "Belongs To": "Screen",
+  "id": 206
+ },
+ {
+  "Property\/Method": "history",
+  "Description": "Returns the History object for the window (See History object)",
+  "Belongs To": "Window",
+  "id": 207
+ },
+ {
+  "Property\/Method": "host",
+  "Description": "Sets or returns the hostname and port number of a URL",
+  "Belongs To": "Location",
+  "id": 208
+ },
+ {
+  "Property\/Method": "hostname",
+  "Description": "Sets or returns the hostname of a URL",
+  "Belongs To": "Location",
+  "id": 209
+ },
+ {
+  "Property\/Method": "href",
+  "Description": "Sets or returns the entire URL",
+  "Belongs To": "Location",
+  "id": 210
+ },
+ {
+  "Property\/Method": "id",
+  "Description": "Sets or returns the value of the id attribute of an element",
+  "Belongs To": "Element",
+  "id": 211
+ },
+ {
+  "Property\/Method": "if ... else ... else if",
+  "Description": "Marks a block of statements to be executed depending on a condition",
+  "Belongs To": "Statements",
+  "id": 212
+ },
+ {
+  "Property\/Method": "ignoreCase",
+  "Description": "Checks whether the \"i\" modifier is set",
+  "Belongs To": "RegExp",
+  "id": 213
+ },
+ {
+  "Property\/Method": "images",
+  "Description": "Returns a collection of all <img> elements in the document",
+  "Belongs To": "Document",
+  "id": 214
+ },
+ {
+  "Property\/Method": "implementation",
+  "Description": "Returns the DOMImplementation object that handles this document",
+  "Belongs To": "Document",
+  "id": 215
+ },
+ {
+  "Property\/Method": "import",
+  "Description": "Import functions exported from an external module, and another script",
+  "Belongs To": null,
+  "id": 216
+ },
+ {
+  "Property\/Method": "importNode()",
+  "Description": "Imports a node from another document",
+  "Belongs To": "Document",
+  "id": 217
+ },
+ {
+  "Property\/Method": "in",
+  "Description": "Returns true if the specified property is in the specified object, otherwise false",
+  "Belongs To": "Operators",
+  "id": 218
+ },
+ {
+  "Property\/Method": "includes()",
+  "Description": "Check if an array contains the specified element",
+  "Belongs To": "Array, String",
+  "id": 219
+ },
+ {
+  "Property\/Method": "indexOf()",
+  "Description": "Search the array for an element and returns its position",
+  "Belongs To": "Array, String",
+  "id": 220
+ },
+ {
+  "Property\/Method": "Infinity",
+  "Description": "A numeric value that represents positive\/negative infinity",
+  "Belongs To": "Global",
+  "id": 221
+ },
+ {
+  "Property\/Method": "info()",
+  "Description": "Outputs an informational message to the console",
+  "Belongs To": "Console",
+  "id": 222
+ },
+ {
+  "Property\/Method": "innerHeight",
+  "Description": "Returns the height of the window's content area (viewport) including scrollbars",
+  "Belongs To": "Window",
+  "id": 223
+ },
+ {
+  "Property\/Method": "innerHTML",
+  "Description": "Sets or returns the content of an element",
+  "Belongs To": "Element",
+  "id": 224
+ },
+ {
+  "Property\/Method": "innerText",
+  "Description": "Sets or returns the text content of a node and its descendants",
+  "Belongs To": "Element",
+  "id": 225
+ },
+ {
+  "Property\/Method": "innerWidth",
+  "Description": "Returns the width of a window's content area (viewport) including scrollbars",
+  "Belongs To": "Window",
+  "id": 226
+ },
+ {
+  "Property\/Method": "inputEncoding",
+  "Description": "Returns the encoding, character set, used for the document",
+  "Belongs To": "Document",
+  "id": 227
+ },
+ {
+  "Property\/Method": "inputType",
+  "Description": "Returns the type of the change (i.e \"inserting\" or \"deleting\")",
+  "Belongs To": "InputEvent",
+  "id": 228
+ },
+ {
+  "Property\/Method": "insertAdjacentElement()",
+  "Description": "Inserts a HTML element at the specified position relative to the current element",
+  "Belongs To": "Element",
+  "id": 229
+ },
+ {
+  "Property\/Method": "insertAdjacentHTML()",
+  "Description": "Inserts a HTML formatted text at the specified position relative to the current element",
+  "Belongs To": "Element",
+  "id": 230
+ },
+ {
+  "Property\/Method": "insertAdjacentText()",
+  "Description": "Inserts text into the specified position relative to the current element",
+  "Belongs To": "Element",
+  "id": 231
+ },
+ {
+  "Property\/Method": "insertBefore()",
+  "Description": "Inserts a new child node before a specified, existing, child node",
+  "Belongs To": "Element",
+  "id": 232
+ },
+ {
+  "Property\/Method": "instanceof",
+  "Description": "Returns true if the specified object is an instance of the specified object",
+  "Belongs To": "Operators",
+  "id": 233
+ },
+ {
+  "Property\/Method": "isArray()",
+  "Description": "Checks whether an object is an array",
+  "Belongs To": "Array",
+  "id": 234
+ },
+ {
+  "Property\/Method": "isComposing",
+  "Description": "Returns whether the state of the event is composing or not",
+  "Belongs To": "InputEvent, KeyboardEvent",
+  "id": 235
+ },
+ {
+  "Property\/Method": "isContentEditable",
+  "Description": "Returns true if the content of an element is editable, otherwise false",
+  "Belongs To": "Element",
+  "id": 236
+ },
+ {
+  "Property\/Method": "isDefaultNamespace()",
+  "Description": "Returns true if a specified namespaceURI is the default, otherwise false",
+  "Belongs To": "Element",
+  "id": 237
+ },
+ {
+  "Property\/Method": "isEqualNode()",
+  "Description": "Checks if two elements are equal",
+  "Belongs To": "Element",
+  "id": 238
+ },
+ {
+  "Property\/Method": "isFinite()",
+  "Description": "Determines whether a value is a finite, legal number",
+  "Belongs To": "Global, Number",
+  "id": 239
+ },
+ {
+  "Property\/Method": "isId",
+  "Description": "Returns true if the attribute is of type Id, otherwise it returns false",
+  "Belongs To": "Attribute",
+  "id": 240
+ },
+ {
+  "Property\/Method": "isInteger()",
+  "Description": "Checks whether a value is an integer",
+  "Belongs To": "Number",
+  "id": 241
+ },
+ {
+  "Property\/Method": "isNaN()",
+  "Description": "Determines whether a value is an illegal number",
+  "Belongs To": "Global, Number",
+  "id": 242
+ },
+ {
+  "Property\/Method": "isSafeInteger()",
+  "Description": "Checks whether a value is a safe integer",
+  "Belongs To": "Number",
+  "id": 243
+ },
+ {
+  "Property\/Method": "isSameNode()",
+  "Description": "Checks if two elements are the same node",
+  "Belongs To": "Element",
+  "id": 244
+ },
+ {
+  "Property\/Method": "isSupported()",
+  "Description": "Returns true if a specified feature is supported on the element",
+  "Belongs To": "Element",
+  "id": 245
+ },
+ {
+  "Property\/Method": "isTrusted",
+  "Description": "Returns whether or not an event is trusted",
+  "Belongs To": "Event",
+  "id": 246
+ },
+ {
+  "Property\/Method": "item()",
+  "Description": "Returns the attribute node at a specified index in a NamedNodeMap",
+  "Belongs To": "Attribute, HTMLCollection",
+  "id": 247
+ },
+ {
+  "Property\/Method": "join()",
+  "Description": "Joins all elements of an array into a string",
+  "Belongs To": "Array",
+  "id": 248
+ },
+ {
+  "Property\/Method": "key",
+  "Description": "Returns the key value of the key represented by the event",
+  "Belongs To": "KeyboardEvent, StorageEvent",
+  "id": 249
+ },
+ {
+  "Property\/Method": "key()",
+  "Description": "Returns the name of the nth key in the storage",
+  "Belongs To": "Storage",
+  "id": 250
+ },
+ {
+  "Property\/Method": "keyCode",
+  "Description": "Returns the Unicode character code of the key that triggered the onkeypress event, or the Unicode key code of the key that triggered the onkeydown or onkeyup event",
+  "Belongs To": "KeyboardEvent",
+  "id": 251
+ },
+ {
+  "Property\/Method": "keys()",
+  "Description": "Returns a Array Iteration Object, containing the keys of the original array",
+  "Belongs To": "Array",
+  "id": 252
+ },
+ {
+  "Property\/Method": "lang",
+  "Description": "Sets or returns the value of the lang attribute of an element",
+  "Belongs To": "Element",
+  "id": 253
+ },
+ {
+  "Property\/Method": "language",
+  "Description": "Returns the language of the browser",
+  "Belongs To": "Navigator",
+  "id": 254
+ },
+ {
+  "Property\/Method": "lastChild",
+  "Description": "Returns the last child node of an element",
+  "Belongs To": "Element",
+  "id": 255
+ },
+ {
+  "Property\/Method": "lastElementChild",
+  "Description": "Returns the last child element of an element",
+  "Belongs To": "Element",
+  "id": 256
+ },
+ {
+  "Property\/Method": "lastIndex",
+  "Description": "Specifies the index at which to start the next match",
+  "Belongs To": "RegExp",
+  "id": 257
+ },
+ {
+  "Property\/Method": "lastIndexOf()",
+  "Description": "Search the array for an element, starting at the end, and returns its position",
+  "Belongs To": "Array, String",
+  "id": 258
+ },
+ {
+  "Property\/Method": "lastModified",
+  "Description": "Returns the date and time the document was last modified",
+  "Belongs To": "Document",
+  "id": 259
+ },
+ {
+  "Property\/Method": "length",
+  "Description": "Sets or returns the number of elements in an array",
+  "Belongs To": "Array, Attribute, History, HTMLCollection, Window, Storage",
+  "id": 260
+ },
+ {
+  "Property\/Method": "lengthComputable",
+  "Description": "Returns whether the length of the progress can be computable or not",
+  "Belongs To": "ProgressEvent",
+  "id": 261
+ },
+ {
+  "Property\/Method": "let",
+  "Description": "Declares a variable inside brackets {} scope",
+  "Belongs To": "Statements",
+  "id": 262
+ },
+ {
+  "Property\/Method": "links",
+  "Description": "Returns a collection of all <a> and <area> elements in the document that have a href attribute",
+  "Belongs To": "Document",
+  "id": 263
+ },
+ {
+  "Property\/Method": "LN2",
+  "Description": "Returns the natural logarithm of 2 (approx. 0.693)",
+  "Belongs To": "Math",
+  "id": 264
+ },
+ {
+  "Property\/Method": "LN10",
+  "Description": "Returns the natural logarithm of 10 (approx. 2.302)",
+  "Belongs To": "Math",
+  "id": 265
+ },
+ {
+  "Property\/Method": "loaded",
+  "Description": "Returns how much work has been loaded",
+  "Belongs To": "ProgressEvent",
+  "id": 266
+ },
+ {
+  "Property\/Method": "localeCompare()",
+  "Description": "Compares two strings in the current locale",
+  "Belongs To": "String",
+  "id": 267
+ },
+ {
+  "Property\/Method": "localStorage",
+  "Description": "Allows to save key\/value pairs in a web browser. Stores the data with no expiration date",
+  "Belongs To": "Window",
+  "id": 268
+ },
+ {
+  "Property\/Method": "location",
+  "Description": "Returns the location of a key on the keyboard or device",
+  "Belongs To": "KeyboardEvent",
+  "id": 269
+ },
+ {
+  "Property\/Method": "location",
+  "Description": "Returns the Location object for the window (See Location object)",
+  "Belongs To": "Window",
+  "id": 270
+ },
+ {
+  "Property\/Method": "log()",
+  "Description": "Returns the natural logarithm of a number",
+  "Belongs To": "Math, Console",
+  "id": 271
+ },
+ {
+  "Property\/Method": "log10()",
+  "Description": "Returns the base-10 logarithm of a number",
+  "Belongs To": "Math",
+  "id": 272
+ },
+ {
+  "Property\/Method": "log1p()",
+  "Description": "Returns the natural logarithm of 1 + a number",
+  "Belongs To": "Math",
+  "id": 273
+ },
+ {
+  "Property\/Method": "log2()",
+  "Description": "Returns the base-2 logarithm of a number",
+  "Belongs To": "Math",
+  "id": 274
+ },
+ {
+  "Property\/Method": "LOG2E",
+  "Description": "Returns the base-2 logarithm of E (approx. 1.442)",
+  "Belongs To": "Math",
+  "id": 275
+ },
+ {
+  "Property\/Method": "LOG10E",
+  "Description": "Returns the base-10 logarithm of E (approx. 0.434)",
+  "Belongs To": "Math",
+  "id": 276
+ },
+ {
+  "Property\/Method": "map()",
+  "Description": "Creates a new array with the result of calling a function for each array element",
+  "Belongs To": "Array",
+  "id": 277
+ },
+ {
+  "Property\/Method": "match()",
+  "Description": "Searches a string for a match against a regular expression, and returns the matches",
+  "Belongs To": "String",
+  "id": 278
+ },
+ {
+  "Property\/Method": "matches()",
+  "Description": "Returns a Boolean value indicating whether an element is matched by a specific CSS selector or not",
+  "Belongs To": "Element",
+  "id": 279
+ },
+ {
+  "Property\/Method": "matchMedia()",
+  "Description": "Returns a MediaQueryList object representing the specified CSS media query string",
+  "Belongs To": "Window",
+  "id": 280
+ },
+ {
+  "Property\/Method": "max()",
+  "Description": "Returns the number with the highest value",
+  "Belongs To": "Math",
+  "id": 281
+ },
+ {
+  "Property\/Method": "MAX_VALUE",
+  "Description": "Returns the largest number possible in JavaScript",
+  "Belongs To": "Number",
+  "id": 282
+ },
+ {
+  "Property\/Method": "message",
+  "Description": "Sets or returns an error message (a string)",
+  "Belongs To": "Error",
+  "id": 283
+ },
+ {
+  "Property\/Method": "metaKey",
+  "Description": "Returns whether the \"META\" key was pressed when an event was triggered",
+  "Belongs To": "MouseEvent, KeyboardEvent, TouchEvent",
+  "id": 284
+ },
+ {
+  "Property\/Method": "min()",
+  "Description": "Returns the number with the lowest value",
+  "Belongs To": "Math",
+  "id": 285
+ },
+ {
+  "Property\/Method": "multiline",
+  "Description": "Checks whether the \"m\" modifier is set",
+  "Belongs To": "RegExp",
+  "id": 286
+ },
+ {
+  "Property\/Method": "MIN_VALUE",
+  "Description": "Returns the smallest number possible in JavaScript",
+  "Belongs To": "Number",
+  "id": 287
+ },
+ {
+  "Property\/Method": "moveBy()",
+  "Description": "Moves a window relative to its current position",
+  "Belongs To": "Window",
+  "id": 288
+ },
+ {
+  "Property\/Method": "moveTo()",
+  "Description": "Moves a window to the specified position",
+  "Belongs To": "Window",
+  "id": 289
+ },
+ {
+  "Property\/Method": "MovementX",
+  "Description": "Returns the horizontal coordinate of the mouse pointer relative to the position of the last mousemove event",
+  "Belongs To": "MouseEvent",
+  "id": 290
+ },
+ {
+  "Property\/Method": "MovementY",
+  "Description": "Returns the vertical coordinate of the mouse pointer relative to the position of the last mousemove event",
+  "Belongs To": "MouseEvent",
+  "id": 291
+ },
+ {
+  "Property\/Method": "name",
+  "Description": "Sets or returns an error name",
+  "Belongs To": "Error, Attribute, Window",
+  "id": 292
+ },
+ {
+  "Property\/Method": "namedItem()",
+  "Description": "Returns the element with the specified ID, or name, in an HTMLCollection",
+  "Belongs To": "HTMLCollection",
+  "id": 293
+ },
+ {
+  "Property\/Method": "namespaceURI",
+  "Description": "Returns the namespace URI of an element",
+  "Belongs To": "Element",
+  "id": 294
+ },
+ {
+  "Property\/Method": "NaN",
+  "Description": "\"Not-a-Number\" value",
+  "Belongs To": "Global, Number",
+  "id": 295
+ },
+ {
+  "Property\/Method": "navigator",
+  "Description": "Returns the Navigator object for the window (See Navigator object)",
+  "Belongs To": "Window",
+  "id": 296
+ },
+ {
+  "Property\/Method": "NEGATIVE_INFINITY",
+  "Description": "Represents negative infinity (returned on overflow)",
+  "Belongs To": "Number",
+  "id": 297
+ },
+ {
+  "Property\/Method": "new",
+  "Description": "Creates an instance of a constructor",
+  "Belongs To": null,
+  "id": 298
+ },
+ {
+  "Property\/Method": "newURL",
+  "Description": "Returns the URL of the document, after the hash has been changed",
+  "Belongs To": "HasChangeEvent",
+  "id": 299
+ },
+ {
+  "Property\/Method": "newValue",
+  "Description": "Returns the new value of the changed storage item",
+  "Belongs To": "StorageEvent",
+  "id": 300
+ },
+ {
+  "Property\/Method": "nextSibling",
+  "Description": "Returns the next node at the same node tree level",
+  "Belongs To": "Element",
+  "id": 301
+ },
+ {
+  "Property\/Method": "nextElementSibling",
+  "Description": "Returns the next element at the same node tree level",
+  "Belongs To": "Element",
+  "id": 302
+ },
+ {
+  "Property\/Method": "nodeName",
+  "Description": "Returns the name of a node",
+  "Belongs To": "Element",
+  "id": 303
+ },
+ {
+  "Property\/Method": "nodeType",
+  "Description": "Returns the node type of a node",
+  "Belongs To": "Element",
+  "id": 304
+ },
+ {
+  "Property\/Method": "nodeValue",
+  "Description": "Sets or returns the value of a node",
+  "Belongs To": "Element",
+  "id": 305
+ },
+ {
+  "Property\/Method": "normalize()",
+  "Description": "Removes empty Text nodes, and joins adjacent nodes",
+  "Belongs To": "Document, Element",
+  "id": 306
+ },
+ {
+  "Property\/Method": "normalizeDocument()",
+  "Description": "Removes empty Text nodes, and joins adjacent nodes",
+  "Belongs To": "Document",
+  "id": 307
+ },
+ {
+  "Property\/Method": "now()",
+  "Description": "Returns the number of milliseconds since midnight Jan 1, 1970",
+  "Belongs To": "Date",
+  "id": 308
+ },
+ {
+  "Property\/Method": "Number()",
+  "Description": "Converts an object's value to a number",
+  "Belongs To": "Global",
+  "id": 309
+ },
+ {
+  "Property\/Method": "offsetHeight",
+  "Description": "Returns the height of an element, including padding, border and scrollbar",
+  "Belongs To": "Element",
+  "id": 310
+ },
+ {
+  "Property\/Method": "offsetWidth",
+  "Description": "Returns the width of an element, including padding, border and scrollbar",
+  "Belongs To": "Element",
+  "id": 311
+ },
+ {
+  "Property\/Method": "offsetLeft",
+  "Description": "Returns the horizontal offset position of an element",
+  "Belongs To": "Element",
+  "id": 312
+ },
+ {
+  "Property\/Method": "offsetParent",
+  "Description": "Returns the offset container of an element",
+  "Belongs To": "Element",
+  "id": 313
+ },
+ {
+  "Property\/Method": "offsetTop",
+  "Description": "Returns the vertical offset position of an element",
+  "Belongs To": "Element",
+  "id": 314
+ },
+ {
+  "Property\/Method": "offsetX",
+  "Description": "Returns the horizontal coordinate of the mouse pointer relative to the position of the edge of the target element",
+  "Belongs To": "MouseEvent",
+  "id": 315
+ },
+ {
+  "Property\/Method": "offsetY",
+  "Description": "Returns the vertical coordinate of the mouse pointer relative to the position of the edge of the target element",
+  "Belongs To": "MouseEvent",
+  "id": 316
+ },
+ {
+  "Property\/Method": "oldURL",
+  "Description": "Returns the URL of the document, before the hash was changed",
+  "Belongs To": "HasChangeEvent",
+  "id": 317
+ },
+ {
+  "Property\/Method": "oldValue",
+  "Description": "Returns the old value of the changed storage item",
+  "Belongs To": "StorageEvent",
+  "id": 318
+ },
+ {
+  "Property\/Method": "onabort",
+  "Description": "The event occurs when the loading of a media is aborted",
+  "Belongs To": "UiEvent, Event",
+  "id": 319
+ },
+ {
+  "Property\/Method": "onafterprint",
+  "Description": "The event occurs when a page has started printing, or if the print dialogue box has been closed",
+  "Belongs To": "Event",
+  "id": 320
+ },
+ {
+  "Property\/Method": "onanimationend",
+  "Description": "The event occurs when a CSS animation has completed",
+  "Belongs To": "AnimationEvent",
+  "id": 321
+ },
+ {
+  "Property\/Method": "onanimationiteration",
+  "Description": "The event occurs when a CSS animation is repeated",
+  "Belongs To": "AnimationEvent",
+  "id": 322
+ },
+ {
+  "Property\/Method": "onanimationstart",
+  "Description": "The event occurs when a CSS animation has started",
+  "Belongs To": "AnimationEvent",
+  "id": 323
+ },
+ {
+  "Property\/Method": "onbeforeprint",
+  "Description": "The event occurs when a page is about to be printed",
+  "Belongs To": "Event",
+  "id": 324
+ },
+ {
+  "Property\/Method": "onbeforeunload",
+  "Description": "The event occurs before the document is about to be unloaded",
+  "Belongs To": "UiEvent, Event",
+  "id": 325
+ },
+ {
+  "Property\/Method": "onblur",
+  "Description": "The event occurs when an element loses focus",
+  "Belongs To": "FocusEvent",
+  "id": 326
+ },
+ {
+  "Property\/Method": "oncanplay",
+  "Description": "The event occurs when the browser can start playing the media (when it has buffered enough to begin)",
+  "Belongs To": "Event",
+  "id": 327
+ },
+ {
+  "Property\/Method": "oncanplaythrough",
+  "Description": "The event occurs when the browser can play through the media without stopping for buffering",
+  "Belongs To": "Event",
+  "id": 328
+ },
+ {
+  "Property\/Method": "onchange",
+  "Description": "The event occurs when the content of a form element, the selection, or the checked state have changed (for <input>, <select>, and <textarea>)",
+  "Belongs To": "Event",
+  "id": 329
+ },
+ {
+  "Property\/Method": "onclick",
+  "Description": "The event occurs when the user clicks on an element",
+  "Belongs To": "MouseEvent",
+  "id": 330
+ },
+ {
+  "Property\/Method": "oncontextmenu",
+  "Description": "The event occurs when the user right-clicks on an element to open a context menu",
+  "Belongs To": "MouseEvent",
+  "id": 331
+ },
+ {
+  "Property\/Method": "oncopy",
+  "Description": "The event occurs when the user copies the content of an element",
+  "Belongs To": "ClipboardEvent",
+  "id": 332
+ },
+ {
+  "Property\/Method": "oncut",
+  "Description": "The event occurs when the user cuts the content of an element",
+  "Belongs To": "ClipboardEvent",
+  "id": 333
+ },
+ {
+  "Property\/Method": "ondblclick",
+  "Description": "The event occurs when the user double-clicks on an element",
+  "Belongs To": "MouseEvent",
+  "id": 334
+ },
+ {
+  "Property\/Method": "ondrag",
+  "Description": "The event occurs when an element is being dragged",
+  "Belongs To": "DragEvent",
+  "id": 335
+ },
+ {
+  "Property\/Method": "ondragend",
+  "Description": "The event occurs when the user has finished dragging an element",
+  "Belongs To": "DragEvent",
+  "id": 336
+ },
+ {
+  "Property\/Method": "ondragenter",
+  "Description": "The event occurs when the dragged element enters the drop target",
+  "Belongs To": "DragEvent",
+  "id": 337
+ },
+ {
+  "Property\/Method": "ondragleave",
+  "Description": "The event occurs when the dragged element leaves the drop target",
+  "Belongs To": "DragEvent",
+  "id": 338
+ },
+ {
+  "Property\/Method": "ondragover",
+  "Description": "The event occurs when the dragged element is over the drop target",
+  "Belongs To": "DragEvent",
+  "id": 339
+ },
+ {
+  "Property\/Method": "ondragstart",
+  "Description": "The event occurs when the user starts to drag an element",
+  "Belongs To": "DragEvent",
+  "id": 340
+ },
+ {
+  "Property\/Method": "ondrop",
+  "Description": "The event occurs when the dragged element is dropped on the drop target",
+  "Belongs To": "DragEvent",
+  "id": 341
+ },
+ {
+  "Property\/Method": "ondurationchange",
+  "Description": "The event occurs when the duration of the media is changed",
+  "Belongs To": "Event",
+  "id": 342
+ },
+ {
+  "Property\/Method": "onemptied",
+  "Description": "The event occurs when something bad happens and the media file is suddenly unavailable (like unexpectedly disconnects)",
+  "Belongs To": null,
+  "id": 343
+ },
+ {
+  "Property\/Method": "onended",
+  "Description": "The event occurs when the media has reach the end (useful for messages like \"thanks for listening\")",
+  "Belongs To": "Event",
+  "id": 344
+ },
+ {
+  "Property\/Method": "onerror",
+  "Description": "The event occurs when an error occurs while loading an external file",
+  "Belongs To": "ProgressEvent, UiEvent, Event",
+  "id": 345
+ },
+ {
+  "Property\/Method": "onfocus",
+  "Description": "The event occurs when an element gets focus",
+  "Belongs To": "FocusEvent",
+  "id": 346
+ },
+ {
+  "Property\/Method": "onfocusin",
+  "Description": "The event occurs when an element is about to get focus",
+  "Belongs To": "FocusEvent",
+  "id": 347
+ },
+ {
+  "Property\/Method": "onfocusout",
+  "Description": "The event occurs when an element is about to lose focus",
+  "Belongs To": "FocusEvent",
+  "id": 348
+ },
+ {
+  "Property\/Method": "onfullscreenchange",
+  "Description": "The event occurs when an element is displayed in fullscreen mode",
+  "Belongs To": "Event",
+  "id": 349
+ },
+ {
+  "Property\/Method": "onfullscreenerror",
+  "Description": "The event occurs when an element can not be displayed in fullscreen mode",
+  "Belongs To": "Event",
+  "id": 350
+ },
+ {
+  "Property\/Method": "onhashchange",
+  "Description": "The event occurs when there has been changes to the anchor part of a URL",
+  "Belongs To": "HashChangeEvent",
+  "id": 351
+ },
+ {
+  "Property\/Method": "oninput",
+  "Description": "The event occurs when an element gets user input",
+  "Belongs To": "InputEvent, Event",
+  "id": 352
+ },
+ {
+  "Property\/Method": "oninvalid",
+  "Description": "The event occurs when an element is invalid",
+  "Belongs To": "Event",
+  "id": 353
+ },
+ {
+  "Property\/Method": "onkeydown",
+  "Description": "The event occurs when the user is pressing a key",
+  "Belongs To": "KeyboardEvent",
+  "id": 354
+ },
+ {
+  "Property\/Method": "onkeypress",
+  "Description": "The event occurs when the user presses a key",
+  "Belongs To": "KeyboardEvent",
+  "id": 355
+ },
+ {
+  "Property\/Method": "onkeyup",
+  "Description": "The event occurs when the user releases a key",
+  "Belongs To": "KeyboardEvent",
+  "id": 356
+ },
+ {
+  "Property\/Method": "onLine",
+  "Description": "Determines whether the browser is online",
+  "Belongs To": "Navigator",
+  "id": 357
+ },
+ {
+  "Property\/Method": "onload",
+  "Description": "The event occurs when an object has loaded",
+  "Belongs To": "UiEvent, Event",
+  "id": 358
+ },
+ {
+  "Property\/Method": "onloadeddata",
+  "Description": "The event occurs when media data is loaded",
+  "Belongs To": "Event",
+  "id": 359
+ },
+ {
+  "Property\/Method": "onloadedmetadata",
+  "Description": "The event occurs when meta data (like dimensions and duration) are loaded",
+  "Belongs To": "Event",
+  "id": 360
+ },
+ {
+  "Property\/Method": "onloadstart",
+  "Description": "The event occurs when the browser starts looking for the specified media",
+  "Belongs To": "ProgressEvent",
+  "id": 361
+ },
+ {
+  "Property\/Method": "onmessage",
+  "Description": "The event occurs when a message is received through the event source",
+  "Belongs To": "Event",
+  "id": 362
+ },
+ {
+  "Property\/Method": "onmousedown",
+  "Description": "The event occurs when the user presses a mouse button over an element",
+  "Belongs To": "MouseEvent",
+  "id": 363
+ },
+ {
+  "Property\/Method": "onmouseenter",
+  "Description": "The event occurs when the pointer is moved onto an element",
+  "Belongs To": "MouseEvent",
+  "id": 364
+ },
+ {
+  "Property\/Method": "onmouseleave",
+  "Description": "The event occurs when the pointer is moved out of an element",
+  "Belongs To": "MouseEvent",
+  "id": 365
+ },
+ {
+  "Property\/Method": "onmousemove",
+  "Description": "The event occurs when the pointer is moving while it is over an element",
+  "Belongs To": "MouseEvent",
+  "id": 366
+ },
+ {
+  "Property\/Method": "onmouseover",
+  "Description": "The event occurs when the pointer is moved onto an element, or onto one of its children",
+  "Belongs To": "MouseEvent",
+  "id": 367
+ },
+ {
+  "Property\/Method": "onmouseout",
+  "Description": "The event occurs when a user moves the mouse pointer out of an element, or out of one of its children",
+  "Belongs To": "MouseEvent",
+  "id": 368
+ },
+ {
+  "Property\/Method": "onmouseup",
+  "Description": "The event occurs when a user releases a mouse button over an element",
+  "Belongs To": "MouseEvent",
+  "id": 369
+ },
+ {
+  "Property\/Method": "onmousewheel",
+  "Description": "Deprecated. Use the wheel event instead",
+  "Belongs To": "WheelEvent",
+  "id": 370
+ },
+ {
+  "Property\/Method": "onoffline",
+  "Description": "The event occurs when the browser starts to work offline",
+  "Belongs To": "Event",
+  "id": 371
+ },
+ {
+  "Property\/Method": "ononline",
+  "Description": "The event occurs when the browser starts to work online",
+  "Belongs To": "Event",
+  "id": 372
+ },
+ {
+  "Property\/Method": "onopen",
+  "Description": "The event occurs when a connection with the event source is opened",
+  "Belongs To": "Event",
+  "id": 373
+ },
+ {
+  "Property\/Method": "onpagehide",
+  "Description": "The event occurs when the user navigates away from a webpage",
+  "Belongs To": "PageTransitionEvent",
+  "id": 374
+ },
+ {
+  "Property\/Method": "onpageshow",
+  "Description": "The event occurs when the user navigates to a webpage",
+  "Belongs To": "PageTransitionEvent",
+  "id": 375
+ },
+ {
+  "Property\/Method": "onpaste",
+  "Description": "The event occurs when the user pastes some content in an element",
+  "Belongs To": "ClipboardEvent",
+  "id": 376
+ },
+ {
+  "Property\/Method": "onpause",
+  "Description": "The event occurs when the media is paused either by the user or programmatically",
+  "Belongs To": "Event",
+  "id": 377
+ },
+ {
+  "Property\/Method": "onplay",
+  "Description": "The event occurs when the media has been started or is no longer paused",
+  "Belongs To": "Event",
+  "id": 378
+ },
+ {
+  "Property\/Method": "onplaying",
+  "Description": "The event occurs when the media is playing after having been paused or stopped for buffering",
+  "Belongs To": "Event",
+  "id": 379
+ },
+ {
+  "Property\/Method": "onpopstate",
+  "Description": "The event occurs when the window's history changes",
+  "Belongs To": "PopStateEvent",
+  "id": 380
+ },
+ {
+  "Property\/Method": "onprogress",
+  "Description": "The event occurs when the browser is in the process of getting the media data (downloading the media)",
+  "Belongs To": "Event",
+  "id": 381
+ },
+ {
+  "Property\/Method": "onratechange",
+  "Description": "The event occurs when the playing speed of the media is changed",
+  "Belongs To": "Event",
+  "id": 382
+ },
+ {
+  "Property\/Method": "onresize",
+  "Description": "The event occurs when the document view is resized",
+  "Belongs To": "UiEvent, Event",
+  "id": 383
+ },
+ {
+  "Property\/Method": "onreset",
+  "Description": "The event occurs when a form is reset",
+  "Belongs To": "Event",
+  "id": 384
+ },
+ {
+  "Property\/Method": "onscroll",
+  "Description": "The event occurs when an element's scrollbar is being scrolled",
+  "Belongs To": "UiEvent, Event",
+  "id": 385
+ },
+ {
+  "Property\/Method": "onsearch",
+  "Description": "The event occurs when the user writes something in a search field (for <input=\"search\">)",
+  "Belongs To": "Event",
+  "id": 386
+ },
+ {
+  "Property\/Method": "onseeked",
+  "Description": "The event occurs when the user is finished moving\/skipping to a new position in the media",
+  "Belongs To": "Event",
+  "id": 387
+ },
+ {
+  "Property\/Method": "onseeking",
+  "Description": "The event occurs when the user starts moving\/skipping to a new position in the media",
+  "Belongs To": "Event",
+  "id": 388
+ },
+ {
+  "Property\/Method": "onselect",
+  "Description": "The event occurs after the user selects some text (for <input> and <textarea>)",
+  "Belongs To": "UiEvent, Event",
+  "id": 389
+ },
+ {
+  "Property\/Method": "onshow",
+  "Description": "The event occurs when a <menu> element is shown as a context menu",
+  "Belongs To": "Event",
+  "id": 390
+ },
+ {
+  "Property\/Method": "onstalled",
+  "Description": "The event occurs when the browser is trying to get media data, but data is not available",
+  "Belongs To": "Event",
+  "id": 391
+ },
+ {
+  "Property\/Method": "onstorage",
+  "Description": "The event occurs when a Web Storage area is updated",
+  "Belongs To": "StorageEvent",
+  "id": 392
+ },
+ {
+  "Property\/Method": "onsubmit",
+  "Description": "The event occurs when a form is submitted",
+  "Belongs To": "Event",
+  "id": 393
+ },
+ {
+  "Property\/Method": "onsuspend",
+  "Description": "The event occurs when the browser is intentionally not getting media data",
+  "Belongs To": "Event",
+  "id": 394
+ },
+ {
+  "Property\/Method": "ontimeupdate",
+  "Description": "The event occurs when the playing position has changed (like when the user fast forwards to a different point in the media)",
+  "Belongs To": "Event",
+  "id": 395
+ },
+ {
+  "Property\/Method": "ontoggle",
+  "Description": "The event occurs when the user opens or closes the <details> element",
+  "Belongs To": "Event",
+  "id": 396
+ },
+ {
+  "Property\/Method": "ontouchcancel",
+  "Description": "The event occurs when the touch is interrupted",
+  "Belongs To": "TouchEvent",
+  "id": 397
+ },
+ {
+  "Property\/Method": "ontouchend",
+  "Description": "The event occurs when a finger is removed from a touch screen",
+  "Belongs To": "TouchEvent",
+  "id": 398
+ },
+ {
+  "Property\/Method": "ontouchmove",
+  "Description": "The event occurs when a finger is dragged across the screen",
+  "Belongs To": "TouchEvent",
+  "id": 399
+ },
+ {
+  "Property\/Method": "ontouchstart",
+  "Description": "The event occurs when a finger is placed on a touch screen",
+  "Belongs To": "TouchEvent",
+  "id": 400
+ },
+ {
+  "Property\/Method": "ontransitionend",
+  "Description": "The event occurs when a CSS transition has completed",
+  "Belongs To": "TransitionEvent",
+  "id": 401
+ },
+ {
+  "Property\/Method": "onunload",
+  "Description": "The event occurs once a page has unloaded (for <body>)",
+  "Belongs To": "UiEvent, Event",
+  "id": 402
+ },
+ {
+  "Property\/Method": "onvolumechange",
+  "Description": "The event occurs when the volume of the media has changed (includes setting the volume to \"mute\")",
+  "Belongs To": "Event",
+  "id": 403
+ },
+ {
+  "Property\/Method": "onwaiting",
+  "Description": "The event occurs when the media has paused but is expected to resume (like when the media pauses to buffer more data)",
+  "Belongs To": "Event",
+  "id": 404
+ },
+ {
+  "Property\/Method": "onwheel",
+  "Description": "The event occurs when the mouse wheel rolls up or down over an element",
+  "Belongs To": "WheelEvent",
+  "id": 405
+ },
+ {
+  "Property\/Method": "open()",
+  "Description": "Opens an HTML output stream to collect output from document.write()",
+  "Belongs To": "Document, Window",
+  "id": 406
+ },
+ {
+  "Property\/Method": "opener",
+  "Description": "Returns a reference to the window that created the window",
+  "Belongs To": "Window",
+  "id": 407
+ },
+ {
+  "Property\/Method": "origin",
+  "Description": "Returns the protocol, hostname and port number of a URL",
+  "Belongs To": "Location",
+  "id": 408
+ },
+ {
+  "Property\/Method": "outerHeight",
+  "Description": "Returns the height of the browser window, including toolbars\/scrollbars",
+  "Belongs To": "Window",
+  "id": 409
+ },
+ {
+  "Property\/Method": "outerHTML",
+  "Description": "Sets or returns the outer content of an element",
+  "Belongs To": "Element",
+  "id": 410
+ },
+ {
+  "Property\/Method": "outerText",
+  "Description": "Sets or returns the text outer content of a node and its descendants",
+  "Belongs To": "Element",
+  "id": 411
+ },
+ {
+  "Property\/Method": "outerWidth",
+  "Description": "Returns the width of the browser window, including toolbars\/scrollbars",
+  "Belongs To": "Window",
+  "id": 412
+ },
+ {
+  "Property\/Method": "ownerDocument",
+  "Description": "Returns the root element (document object) for an element",
+  "Belongs To": "Element",
+  "id": 413
+ },
+ {
+  "Property\/Method": "pageX",
+  "Description": "Returns the horizontal coordinate of the mouse pointer, relative to the document, when the mouse event was triggered",
+  "Belongs To": "MouseEvent",
+  "id": 414
+ },
+ {
+  "Property\/Method": "pageXOffset",
+  "Description": "Returns the pixels the current document has been scrolled (horizontally) from the upper left corner of the window",
+  "Belongs To": "Window",
+  "id": 415
+ },
+ {
+  "Property\/Method": "pageY",
+  "Description": "Returns the vertical coordinate of the mouse pointer, relative to the document, when the mouse event was triggered",
+  "Belongs To": "MouseEvent",
+  "id": 416
+ },
+ {
+  "Property\/Method": "pageYOffset",
+  "Description": "Returns the pixels the current document has been scrolled (vertically) from the upper left corner of the window",
+  "Belongs To": "Window",
+  "id": 417
+ },
+ {
+  "Property\/Method": "parent",
+  "Description": "Returns the parent window of the current window",
+  "Belongs To": "Window",
+  "id": 418
+ },
+ {
+  "Property\/Method": "parentNode",
+  "Description": "Returns the parent node of an element",
+  "Belongs To": "Element",
+  "id": 419
+ },
+ {
+  "Property\/Method": "parentElement",
+  "Description": "Returns the parent element node of an element",
+  "Belongs To": "Element",
+  "id": 420
+ },
+ {
+  "Property\/Method": "parse()",
+  "Description": "Parses a date string and returns the number of milliseconds since January 1, 1970",
+  "Belongs To": "Date, JSON",
+  "id": 421
+ },
+ {
+  "Property\/Method": "parseFloat()",
+  "Description": "Parses a string and returns a floating point number",
+  "Belongs To": "Global",
+  "id": 422
+ },
+ {
+  "Property\/Method": "parseInt()",
+  "Description": "Parses a string and returns an integer",
+  "Belongs To": "Global",
+  "id": 423
+ },
+ {
+  "Property\/Method": "pathname",
+  "Description": "Sets or returns the path name of a URL",
+  "Belongs To": "Location",
+  "id": 424
+ },
+ {
+  "Property\/Method": "persisted",
+  "Description": "Returns whether the webpage was cached by the browser",
+  "Belongs To": "PageTransitionEvent",
+  "id": 425
+ },
+ {
+  "Property\/Method": "PI",
+  "Description": "Returns PI (approx. 3.14)",
+  "Belongs To": "Math",
+  "id": 426
+ },
+ {
+  "Property\/Method": "pixelDepth",
+  "Description": "Returns the color resolution (in bits per pixel) of the screen",
+  "Belongs To": "Screen",
+  "id": 427
+ },
+ {
+  "Property\/Method": "platform",
+  "Description": "Returns for which platform the browser is compiled",
+  "Belongs To": "Navigator",
+  "id": 428
+ },
+ {
+  "Property\/Method": "pop()",
+  "Description": "Removes the last element of an array, and returns that element",
+  "Belongs To": "Array",
+  "id": 429
+ },
+ {
+  "Property\/Method": "port",
+  "Description": "Sets or returns the port number of a URL",
+  "Belongs To": "Location",
+  "id": 430
+ },
+ {
+  "Property\/Method": "position",
+  "Description": "Returns the position of the concerned device at a given time",
+  "Belongs To": "Geolocation",
+  "id": 431
+ },
+ {
+  "Property\/Method": "positionError",
+  "Description": "Returns the reason of an error occurring when using the geolocating device",
+  "Belongs To": "Geolocation",
+  "id": 432
+ },
+ {
+  "Property\/Method": "positionOptions",
+  "Description": "Describes an object containing option properties to pass as a parameter of Geolocation.getCurrentPosition() and Geolocation.watchPosition()",
+  "Belongs To": "Geolocation",
+  "id": 433
+ },
+ {
+  "Property\/Method": "POSITIVE_INFINITY",
+  "Description": "Represents infinity (returned on overflow)",
+  "Belongs To": "Number",
+  "id": 434
+ },
+ {
+  "Property\/Method": "preventDefault()",
+  "Description": "Cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur",
+  "Belongs To": "Event",
+  "id": 435
+ },
+ {
+  "Property\/Method": "print()",
+  "Description": "Prints the content of the current window",
+  "Belongs To": "Window",
+  "id": 436
+ },
+ {
+  "Property\/Method": "product",
+  "Description": "Returns the engine name of the browser",
+  "Belongs To": "Navigator",
+  "id": 437
+ },
+ {
+  "Property\/Method": "propertyName",
+  "Description": "Returns the name of the CSS property associated with the animation or transition",
+  "Belongs To": "AnimationEvent, TransitionEvent",
+  "id": 438
+ },
+ {
+  "Property\/Method": "protocol",
+  "Description": "Sets or returns the protocol of a URL",
+  "Belongs To": "Location",
+  "id": 439
+ },
+ {
+  "Property\/Method": "prototype",
+  "Description": "Allows you to add properties and methods to an Array object",
+  "Belongs To": "Array, Boolean, Date",
+  "id": 440
+ },
+ {
+  "Property\/Method": "pseudoElement",
+  "Description": "Returns the name of the pseudo-element of the animation or transition",
+  "Belongs To": "AnimationEvent, TransitionEvent",
+  "id": 441
+ },
+ {
+  "Property\/Method": "push()",
+  "Description": "Adds new elements to the end of an array, and returns the new length",
+  "Belongs To": "Array",
+  "id": 442
+ },
+ {
+  "Property\/Method": "querySelector()",
+  "Description": "Returns the first element that matches a specified CSS selector(s) in the document",
+  "Belongs To": "Document, Element",
+  "id": 443
+ },
+ {
+  "Property\/Method": "querySelectorAll()",
+  "Description": "Returns a static NodeList containing all elements that matches a specified CSS selector(s) in the document",
+  "Belongs To": "Document, Element",
+  "id": 444
+ },
+ {
+  "Property\/Method": "random()",
+  "Description": "Returns a random number between 0 and 1",
+  "Belongs To": "Math",
+  "id": 445
+ },
+ {
+  "Property\/Method": "readyState",
+  "Description": "Returns the (loading) status of the document",
+  "Belongs To": "Document",
+  "id": 446
+ },
+ {
+  "Property\/Method": "reduce()",
+  "Description": "Reduce the values of an array to a single value (going left-to-right)",
+  "Belongs To": "Array",
+  "id": 447
+ },
+ {
+  "Property\/Method": "reduceRight()",
+  "Description": "Reduce the values of an array to a single value (going right-to-left)",
+  "Belongs To": "Array",
+  "id": 448
+ },
+ {
+  "Property\/Method": "referrer",
+  "Description": "Returns the URL of the document that loaded the current document",
+  "Belongs To": "Document",
+  "id": 449
+ },
+ {
+  "Property\/Method": "region",
+  "Description": null,
+  "Belongs To": "MouseEvent",
+  "id": 450
+ },
+ {
+  "Property\/Method": "reload()",
+  "Description": "Reloads the current document",
+  "Belongs To": "Location",
+  "id": 451
+ },
+ {
+  "Property\/Method": "remove()",
+  "Description": "Removes the element from the DOM",
+  "Belongs To": "Element",
+  "id": 452
+ },
+ {
+  "Property\/Method": "removeAttribute()",
+  "Description": "Removes a specified attribute from an element",
+  "Belongs To": "Element",
+  "id": 453
+ },
+ {
+  "Property\/Method": "removeAttributeNode()",
+  "Description": "Removes a specified attribute node, and returns the removed node",
+  "Belongs To": "Element",
+  "id": 454
+ },
+ {
+  "Property\/Method": "removeChild()",
+  "Description": "Removes a child node from an element",
+  "Belongs To": "Element",
+  "id": 455
+ },
+ {
+  "Property\/Method": "removeEventListener()",
+  "Description": "Removes an event handler that has been attached with the addEventListener() method",
+  "Belongs To": "Element",
+  "id": 456
+ },
+ {
+  "Property\/Method": "removeItem()",
+  "Description": "Removes that key from the storage",
+  "Belongs To": "Storage",
+  "id": 457
+ },
+ {
+  "Property\/Method": "repeat",
+  "Description": "Returns whether a key is being hold down repeatedly, or not",
+  "Belongs To": "KeyboardEvent",
+  "id": 458
+ },
+ {
+  "Property\/Method": "repeat()",
+  "Description": "Returns a new string with a specified number of copies of an existing string",
+  "Belongs To": "String",
+  "id": 459
+ },
+ {
+  "Property\/Method": "replace()",
+  "Description": "Searches a string for a specified value, or a regular expression, and returns a new string where the specified values are replaced",
+  "Belongs To": "String, Location",
+  "id": 460
+ },
+ {
+  "Property\/Method": "replaceChild()",
+  "Description": "Replaces a child node in an element",
+  "Belongs To": "Element",
+  "id": 461
+ },
+ {
+  "Property\/Method": "requestAnimationFrame()",
+  "Description": "Requests the browser to call a function to update an animation before the next repaint",
+  "Belongs To": "Window",
+  "id": 462
+ },
+ {
+  "Property\/Method": "requestFullscreen()",
+  "Description": "Shows an element in fullscreen mode",
+  "Belongs To": "Element",
+  "id": 463
+ },
+ {
+  "Property\/Method": "resizeBy()",
+  "Description": "Resizes the window by the specified pixels",
+  "Belongs To": "Window",
+  "id": 464
+ },
+ {
+  "Property\/Method": "resizeTo()",
+  "Description": "Resizes the window to the specified width and height",
+  "Belongs To": "Window",
+  "id": 465
+ },
+ {
+  "Property\/Method": "return",
+  "Description": "Stops the execution of a function and returns a value from that function",
+  "Belongs To": "Statements",
+  "id": 466
+ },
+ {
+  "Property\/Method": "reverse()",
+  "Description": "Reverses the order of the elements in an array",
+  "Belongs To": "Array",
+  "id": 467
+ },
+ {
+  "Property\/Method": "round()",
+  "Description": "Rounds x to the nearest integer",
+  "Belongs To": "Math",
+  "id": 468
+ },
+ {
+  "Property\/Method": "pow()",
+  "Description": "Returns the value of x to the power of y",
+  "Belongs To": "Math",
+  "id": 469
+ },
+ {
+  "Property\/Method": "previousSibling",
+  "Description": "Returns the previous node at the same node tree level",
+  "Belongs To": "Element",
+  "id": 470
+ },
+ {
+  "Property\/Method": "previousElementSibling",
+  "Description": "Returns the previous element at the same node tree level",
+  "Belongs To": "Element",
+  "id": 471
+ },
+ {
+  "Property\/Method": "prompt()",
+  "Description": "Displays a dialog box that prompts the visitor for input",
+  "Belongs To": "Window",
+  "id": 472
+ },
+ {
+  "Property\/Method": "prototype",
+  "Description": "Allows you to add properties and methods to an object",
+  "Belongs To": "Number",
+  "id": 473
+ },
+ {
+  "Property\/Method": "relatedTarget",
+  "Description": "Returns the element related to the element that triggered the mouse event",
+  "Belongs To": "MouseEvent, FocusEvent",
+  "id": 474
+ },
+ {
+  "Property\/Method": "removeEventListener()",
+  "Description": "Removes an event handler from the document (that has been attached with the addEventListener() method)",
+  "Belongs To": "Document",
+  "id": 475
+ },
+ {
+  "Property\/Method": "removeNamedItem()",
+  "Description": "Removes a specified attribute node",
+  "Belongs To": "Attribute",
+  "id": 476
+ },
+ {
+  "Property\/Method": "renameNode()",
+  "Description": "Renames the specified node",
+  "Belongs To": "Document",
+  "id": 477
+ },
+ {
+  "Property\/Method": "screen",
+  "Description": "Returns the Screen object for the window (See Screen object)",
+  "Belongs To": "Window",
+  "id": 478
+ },
+ {
+  "Property\/Method": "screenLeft",
+  "Description": "Returns the horizontal coordinate of the window relative to the screen",
+  "Belongs To": "Window",
+  "id": 479
+ },
+ {
+  "Property\/Method": "screenTop",
+  "Description": "Returns the vertical coordinate of the window relative to the screen",
+  "Belongs To": "Window",
+  "id": 480
+ },
+ {
+  "Property\/Method": "screenX",
+  "Description": "Returns the horizontal coordinate of the window\/mouse pointer relative to the screen",
+  "Belongs To": "Window, MouseEvent",
+  "id": 481
+ },
+ {
+  "Property\/Method": "screenY",
+  "Description": "Returns the vertical coordinate of the window\/mouse pointer relative to the screen",
+  "Belongs To": "Window, MouseEvent",
+  "id": 482
+ },
+ {
+  "Property\/Method": "scripts",
+  "Description": "Returns a collection of <script> elements in the document",
+  "Belongs To": "Document",
+  "id": 483
+ },
+ {
+  "Property\/Method": "scroll()",
+  "Description": "Deprecated. This method has been replaced by the scrollTo() method.",
+  "Belongs To": "Window",
+  "id": 484
+ },
+ {
+  "Property\/Method": "scrollBy()",
+  "Description": "Scrolls the document by the specified number of pixels",
+  "Belongs To": "Window",
+  "id": 485
+ },
+ {
+  "Property\/Method": "scrollHeight",
+  "Description": "Returns the entire height of an element, including padding",
+  "Belongs To": "Element",
+  "id": 486
+ },
+ {
+  "Property\/Method": "scrollIntoView()",
+  "Description": "Scrolls the specified element into the visible area of the browser window",
+  "Belongs To": "Element",
+  "id": 487
+ },
+ {
+  "Property\/Method": "scrollLeft",
+  "Description": "Sets or returns the number of pixels an element's content is scrolled horizontally",
+  "Belongs To": "Element",
+  "id": 488
+ },
+ {
+  "Property\/Method": "scrollTo()",
+  "Description": "Scrolls the document to the specified coordinates",
+  "Belongs To": "Window",
+  "id": 489
+ },
+ {
+  "Property\/Method": "scrollTop",
+  "Description": "Sets or returns the number of pixels an element's content is scrolled vertically",
+  "Belongs To": "Element",
+  "id": 490
+ },
+ {
+  "Property\/Method": "scrollWidth",
+  "Description": "Returns the entire width of an element, including padding",
+  "Belongs To": "Element",
+  "id": 491
+ },
+ {
+  "Property\/Method": "scrollX",
+  "Description": "An alias of pageXOffset",
+  "Belongs To": "Window",
+  "id": 492
+ },
+ {
+  "Property\/Method": "scrollY",
+  "Description": "An alias of pageYOffset",
+  "Belongs To": "Window",
+  "id": 493
+ },
+ {
+  "Property\/Method": "search",
+  "Description": "Sets or returns the querystring part of a URL",
+  "Belongs To": "Location",
+  "id": 494
+ },
+ {
+  "Property\/Method": "search()",
+  "Description": "Searches a string for a specified value, or regular expression, and returns the position of the match",
+  "Belongs To": "String",
+  "id": 495
+ },
+ {
+  "Property\/Method": "self",
+  "Description": "Returns the current window",
+  "Belongs To": "Window",
+  "id": 496
+ },
+ {
+  "Property\/Method": "sessionStorage",
+  "Description": "Allows to save key\/value pairs in a web browser. Stores the data for one session",
+  "Belongs To": "Window",
+  "id": 497
+ },
+ {
+  "Property\/Method": "setAttribute()",
+  "Description": "Sets or changes the specified attribute, to the specified value",
+  "Belongs To": "Element",
+  "id": 498
+ },
+ {
+  "Property\/Method": "setAttributeNode()",
+  "Description": "Sets or changes the specified attribute node",
+  "Belongs To": "Element",
+  "id": 499
+ },
+ {
+  "Property\/Method": "setDate()",
+  "Description": "Sets the day of the month of a date object",
+  "Belongs To": "Date",
+  "id": 500
+ },
+ {
+  "Property\/Method": "setFullYear()",
+  "Description": "Sets the year of a date object",
+  "Belongs To": "Date",
+  "id": 501
+ },
+ {
+  "Property\/Method": "setHours()",
+  "Description": "Sets the hour of a date object",
+  "Belongs To": "Date",
+  "id": 502
+ },
+ {
+  "Property\/Method": "setInterval()",
+  "Description": "Calls a function or evaluates an expression at specified intervals (in milliseconds)",
+  "Belongs To": "Window",
+  "id": 503
+ },
+ {
+  "Property\/Method": "setItem()",
+  "Description": "Adds that key to the storage, or update that key's value if it already exists",
+  "Belongs To": "Storage",
+  "id": 504
+ },
+ {
+  "Property\/Method": "setMilliseconds()",
+  "Description": "Sets the milliseconds of a date object",
+  "Belongs To": "Date",
+  "id": 505
+ },
+ {
+  "Property\/Method": "setMinutes()",
+  "Description": "Set the minutes of a date object",
+  "Belongs To": "Date",
+  "id": 506
+ },
+ {
+  "Property\/Method": "setMonth()",
+  "Description": "Sets the month of a date object",
+  "Belongs To": "Date",
+  "id": 507
+ },
+ {
+  "Property\/Method": "setNamedItem()",
+  "Description": "Sets the specified attribute node (by name)",
+  "Belongs To": "Attribute",
+  "id": 508
+ },
+ {
+  "Property\/Method": "setSeconds()",
+  "Description": "Sets the seconds of a date object",
+  "Belongs To": "Date",
+  "id": 509
+ },
+ {
+  "Property\/Method": "setTime()",
+  "Description": "Sets a date to a specified number of milliseconds after\/before January 1, 1970",
+  "Belongs To": "Date",
+  "id": 510
+ },
+ {
+  "Property\/Method": "setTimeout()",
+  "Description": "Calls a function or evaluates an expression after a specified number of milliseconds",
+  "Belongs To": "Window",
+  "id": 511
+ },
+ {
+  "Property\/Method": "setUTCDate()",
+  "Description": "Sets the day of the month of a date object, according to universal time",
+  "Belongs To": "Date",
+  "id": 512
+ },
+ {
+  "Property\/Method": "setUTCFullYear()",
+  "Description": "Sets the year of a date object, according to universal time",
+  "Belongs To": "Date",
+  "id": 513
+ },
+ {
+  "Property\/Method": "setUTCHours()",
+  "Description": "Sets the hour of a date object, according to universal time",
+  "Belongs To": "Date",
+  "id": 514
+ },
+ {
+  "Property\/Method": "setUTCMilliseconds()",
+  "Description": "Sets the milliseconds of a date object, according to universal time",
+  "Belongs To": "Date",
+  "id": 515
+ },
+ {
+  "Property\/Method": "setUTCMinutes()",
+  "Description": "Set the minutes of a date object, according to universal time",
+  "Belongs To": "Date",
+  "id": 516
+ },
+ {
+  "Property\/Method": "setUTCMonth()",
+  "Description": "Sets the month of a date object, according to universal time",
+  "Belongs To": "Date",
+  "id": 517
+ },
+ {
+  "Property\/Method": "setUTCSeconds()",
+  "Description": "Set the seconds of a date object, according to universal time",
+  "Belongs To": "Date",
+  "id": 518
+ },
+ {
+  "Property\/Method": "setYear()",
+  "Description": "Deprecated. Use the setFullYear() method instead",
+  "Belongs To": "Date",
+  "id": 519
+ },
+ {
+  "Property\/Method": "shift()",
+  "Description": "Removes the first element of an array, and returns that element",
+  "Belongs To": "Array",
+  "id": 520
+ },
+ {
+  "Property\/Method": "shiftKey",
+  "Description": "Returns whether the \"SHIFT\" key was pressed when an event was triggered",
+  "Belongs To": "MouseEvent, KeyboardEvent, TouchEvent",
+  "id": 521
+ },
+ {
+  "Property\/Method": "sign(x)",
+  "Description": "Returns the sign of a number (checks whether it is positive, negative or zero)",
+  "Belongs To": "Math",
+  "id": 522
+ },
+ {
+  "Property\/Method": "sin()",
+  "Description": "Returns the sine of x (x is in radians)",
+  "Belongs To": "Math",
+  "id": 523
+ },
+ {
+  "Property\/Method": "sinh()",
+  "Description": "Returns the hyperbolic sine of x",
+  "Belongs To": "Math",
+  "id": 524
+ },
+ {
+  "Property\/Method": "slice()",
+  "Description": "Selects a part of an array, and returns the new array",
+  "Belongs To": "Array, String",
+  "id": 525
+ },
+ {
+  "Property\/Method": "some()",
+  "Description": "Checks if any of the elements in an array pass a test",
+  "Belongs To": "Array",
+  "id": 526
+ },
+ {
+  "Property\/Method": "sort()",
+  "Description": "Sorts the elements of an array",
+  "Belongs To": "Array",
+  "id": 527
+ },
+ {
+  "Property\/Method": "source",
+  "Description": "Returns the text of the RegExp pattern",
+  "Belongs To": "RegExp",
+  "id": 528
+ },
+ {
+  "Property\/Method": "specified",
+  "Description": "Returns true if the attribute has been specified, otherwise it returns false",
+  "Belongs To": "Attribute",
+  "id": 529
+ },
+ {
+  "Property\/Method": "splice()",
+  "Description": "Adds\/Removes elements from an array",
+  "Belongs To": "Array",
+  "id": 530
+ },
+ {
+  "Property\/Method": "split()",
+  "Description": "Splits a string into an array of substrings",
+  "Belongs To": "String",
+  "id": 531
+ },
+ {
+  "Property\/Method": "static",
+  "Description": "Defines a static method for a class",
+  "Belongs To": "Classes",
+  "id": 532
+ },
+ {
+  "Property\/Method": "startsWith()",
+  "Description": "Checks whether a string begins with specified characters",
+  "Belongs To": "String",
+  "id": 533
+ },
+ {
+  "Property\/Method": "state",
+  "Description": "Returns an object containing a copy of the history entries",
+  "Belongs To": "PopStateEvent",
+  "id": 534
+ },
+ {
+  "Property\/Method": "String()",
+  "Description": "Converts an object's value to a string",
+  "Belongs To": "Global",
+  "id": 535
+ },
+ {
+  "Property\/Method": "stop()",
+  "Description": "Stops the window from loading",
+  "Belongs To": "Window",
+  "id": 536
+ },
+ {
+  "Property\/Method": "stopImmediatePropagation()",
+  "Description": "Prevents other listeners of the same event from being called",
+  "Belongs To": "Event",
+  "id": 537
+ },
+ {
+  "Property\/Method": "stopPropagation()",
+  "Description": "Prevents further propagation of an event during event flow",
+  "Belongs To": "Event",
+  "id": 538
+ },
+ {
+  "Property\/Method": "stringify()",
+  "Description": "Convert a JavaScript object to a JSON string",
+  "Belongs To": "JSON",
+  "id": 539
+ },
+ {
+  "Property\/Method": "sqrt()",
+  "Description": "Returns the square root of x",
+  "Belongs To": "Math",
+  "id": 540
+ },
+ {
+  "Property\/Method": "SQRT1_2",
+  "Description": "Returns the square root of 1\/2 (approx. 0.707)",
+  "Belongs To": "Math",
+  "id": 541
+ },
+ {
+  "Property\/Method": "SQRT2",
+  "Description": "Returns the square root of 2 (approx. 1.414)",
+  "Belongs To": "Math",
+  "id": 542
+ },
+ {
+  "Property\/Method": "status",
+  "Description": "Sets or returns the text in the statusbar of a window",
+  "Belongs To": "Window",
+  "id": 543
+ },
+ {
+  "Property\/Method": "strictErrorChecking",
+  "Description": "Sets or returns whether error-checking is enforced or not",
+  "Belongs To": "Document",
+  "id": 544
+ },
+ {
+  "Property\/Method": "storageArea",
+  "Description": "Returns an object representing the affected storage object",
+  "Belongs To": "StorageEvent",
+  "id": 545
+ },
+ {
+  "Property\/Method": "style",
+  "Description": "Sets or returns the value of the style attribute of an element",
+  "Belongs To": "Element",
+  "id": 546
+ },
+ {
+  "Property\/Method": "substr()",
+  "Description": "Extracts the characters from a string, beginning at a specified start position, and through the specified number of character",
+  "Belongs To": "String",
+  "id": 547
+ },
+ {
+  "Property\/Method": "substring()",
+  "Description": "Extracts the characters from a string, between two specified indices",
+  "Belongs To": "String",
+  "id": 548
+ },
+ {
+  "Property\/Method": "super",
+  "Description": "Refers to the parent class",
+  "Belongs To": "Classes",
+  "id": 549
+ },
+ {
+  "Property\/Method": "switch",
+  "Description": "Marks a block of statements to be executed depending on different cases",
+  "Belongs To": "Statements",
+  "id": 550
+ },
+ {
+  "Property\/Method": "table()",
+  "Description": "Displays tabular data as a table",
+  "Belongs To": "Console",
+  "id": 551
+ },
+ {
+  "Property\/Method": "tabIndex",
+  "Description": "Sets or returns the value of the tabindex attribute of an element",
+  "Belongs To": "Element",
+  "id": 552
+ },
+ {
+  "Property\/Method": "tagName",
+  "Description": "Returns the tag name of an element",
+  "Belongs To": "Element",
+  "id": 553
+ },
+ {
+  "Property\/Method": "tan()",
+  "Description": "Returns the tangent of an angle",
+  "Belongs To": "Math",
+  "id": 554
+ },
+ {
+  "Property\/Method": "tanh()",
+  "Description": "Returns the hyperbolic tangent of a number",
+  "Belongs To": "Math",
+  "id": 555
+ },
+ {
+  "Property\/Method": "target",
+  "Description": "Returns the element that triggered the event",
+  "Belongs To": "Event",
+  "id": 556
+ },
+ {
+  "Property\/Method": "targetTouches",
+  "Description": "Returns a list of all the touch objects that are in contact with the surface and where the touchstart event occured on the same target element as the current target element",
+  "Belongs To": "TouchEvent",
+  "id": 557
+ },
+ {
+  "Property\/Method": "test()",
+  "Description": "Tests for a match in a string. Returns true or false",
+  "Belongs To": "RegExp",
+  "id": 558
+ },
+ {
+  "Property\/Method": "textContent",
+  "Description": "Sets or returns the textual content of a node and its descendants",
+  "Belongs To": "Element",
+  "id": 559
+ },
+ {
+  "Property\/Method": "this",
+  "Description": "Refers to the object it belongs to",
+  "Belongs To": null,
+  "id": 560
+ },
+ {
+  "Property\/Method": "throw",
+  "Description": "Throws (generates) an error",
+  "Belongs To": "Statements",
+  "id": 561
+ },
+ {
+  "Property\/Method": "time()",
+  "Description": "Starts a timer (can track how long an operation takes)",
+  "Belongs To": "Console",
+  "id": 562
+ },
+ {
+  "Property\/Method": "timeEnd()",
+  "Description": "Stops a timer that was previously started by console.time()",
+  "Belongs To": "Console",
+  "id": 563
+ },
+ {
+  "Property\/Method": "timeStamp",
+  "Description": "Returns the time (in milliseconds relative to the epoch) at which the event was created",
+  "Belongs To": "Event",
+  "id": 564
+ },
+ {
+  "Property\/Method": "title",
+  "Description": "Sets or returns the title of the document",
+  "Belongs To": "Document, Element",
+  "id": 565
+ },
+ {
+  "Property\/Method": "toDateString()",
+  "Description": "Converts the date portion of a Date object into a readable string",
+  "Belongs To": "Date",
+  "id": 566
+ },
+ {
+  "Property\/Method": "toGMTString()",
+  "Description": "Deprecated. Use the toUTCString() method instead",
+  "Belongs To": "Date",
+  "id": 567
+ },
+ {
+  "Property\/Method": "toExponential()",
+  "Description": "Converts a number into an exponential notation",
+  "Belongs To": "Number",
+  "id": 568
+ },
+ {
+  "Property\/Method": "toFixed(x)",
+  "Description": "Formats a number with x numbers of digits after the decimal point",
+  "Belongs To": "Number",
+  "id": 569
+ },
+ {
+  "Property\/Method": "toJSON()",
+  "Description": "Returns the date as a string, formatted as a JSON date",
+  "Belongs To": "Date",
+  "id": 570
+ },
+ {
+  "Property\/Method": "toISOString()",
+  "Description": "Returns the date as a string, using the ISO standard",
+  "Belongs To": "Date",
+  "id": 571
+ },
+ {
+  "Property\/Method": "toLocaleDateString()",
+  "Description": "Returns the date portion of a Date object as a string, using locale conventions",
+  "Belongs To": "Date",
+  "id": 572
+ },
+ {
+  "Property\/Method": "toLocaleLowerCase()",
+  "Description": "Converts a string to lowercase letters, according to the host's locale",
+  "Belongs To": "String",
+  "id": 573
+ },
+ {
+  "Property\/Method": "toLocaleString()",
+  "Description": "Converts a Date object to a string, using locale conventions",
+  "Belongs To": "Date",
+  "id": 574
+ },
+ {
+  "Property\/Method": "toLocaleTimeString()",
+  "Description": "Returns the time portion of a Date object as a string, using locale conventions",
+  "Belongs To": "Date",
+  "id": 575
+ },
+ {
+  "Property\/Method": "toLocaleUpperCase()",
+  "Description": "Converts a string to uppercase letters, according to the host's locale",
+  "Belongs To": "String",
+  "id": 576
+ },
+ {
+  "Property\/Method": "toLowerCase()",
+  "Description": "Converts a string to lowercase letters",
+  "Belongs To": "String",
+  "id": 577
+ },
+ {
+  "Property\/Method": "top",
+  "Description": "Returns the topmost browser window",
+  "Belongs To": "Window",
+  "id": 578
+ },
+ {
+  "Property\/Method": "toPrecision(x)",
+  "Description": "Formats a number to x length",
+  "Belongs To": "Number",
+  "id": 579
+ },
+ {
+  "Property\/Method": "toString()",
+  "Description": "Converts an array to a string, and returns the result",
+  "Belongs To": "Array, Boolean, Date, Number, RegExp, String, Element",
+  "id": 580
+ },
+ {
+  "Property\/Method": "total",
+  "Description": "Returns the total amount of work that will be loaded",
+  "Belongs To": "ProgressEvent",
+  "id": 581
+ },
+ {
+  "Property\/Method": "toTimeString()",
+  "Description": "Converts the time portion of a Date object to a string",
+  "Belongs To": "Date",
+  "id": 582
+ },
+ {
+  "Property\/Method": "touches",
+  "Description": "Returns a list of all the touch objects that are currently in contact with the surface",
+  "Belongs To": "TouchEvent",
+  "id": 583
+ },
+ {
+  "Property\/Method": "toUpperCase()",
+  "Description": "Converts a string to uppercase letters",
+  "Belongs To": "String",
+  "id": 584
+ },
+ {
+  "Property\/Method": "toUTCString()",
+  "Description": "Converts a Date object to a string, according to universal time",
+  "Belongs To": "Date",
+  "id": 585
+ },
+ {
+  "Property\/Method": "trace()",
+  "Description": "Outputs a stack trace to the console",
+  "Belongs To": "Console",
+  "id": 586
+ },
+ {
+  "Property\/Method": "transitionend",
+  "Description": "The event occurs when a CSS transition has completed",
+  "Belongs To": "TransitionEvent",
+  "id": 587
+ },
+ {
+  "Property\/Method": "trim()",
+  "Description": "Removes whitespace from both ends of a string",
+  "Belongs To": "String",
+  "id": 588
+ },
+ {
+  "Property\/Method": "trunc()",
+  "Description": "Returns the integer part of a number (x)",
+  "Belongs To": "Math",
+  "id": 589
+ },
+ {
+  "Property\/Method": "try ... catch ... finally",
+  "Description": "Marks the block of statements to be executed when an error occurs in a try block, and implements error handling",
+  "Belongs To": "Statements",
+  "id": 590
+ },
+ {
+  "Property\/Method": "type",
+  "Description": "Returns the name of the event",
+  "Belongs To": "Event",
+  "id": 591
+ },
+ {
+  "Property\/Method": "typeof",
+  "Description": "Returns the type of a variable, object, function or expression",
+  "Belongs To": "Operators",
+  "id": 592
+ },
+ {
+  "Property\/Method": "undefined",
+  "Description": "Indicates that a variable has not been assigned a value",
+  "Belongs To": "Global",
+  "id": 593
+ },
+ {
+  "Property\/Method": "unescape()",
+  "Description": "Deprecated in version 1.5. Use decodeURI() or decodeURIComponent() instead",
+  "Belongs To": "Global",
+  "id": 594
+ },
+ {
+  "Property\/Method": "unshift()",
+  "Description": "Adds new elements to the beginning of an array, and returns the new length",
+  "Belongs To": "Array",
+  "id": 595
+ },
+ {
+  "Property\/Method": "url",
+  "Description": "Returns the URL of the changed item's document",
+  "Belongs To": "StorageEvent",
+  "id": 596
+ },
+ {
+  "Property\/Method": "URL",
+  "Description": "Returns the full URL of the HTML document",
+  "Belongs To": "Document",
+  "id": 597
+ },
+ {
+  "Property\/Method": "userAgent",
+  "Description": "Returns the user-agent header sent by the browser to the server",
+  "Belongs To": "Navigator",
+  "id": 598
+ },
+ {
+  "Property\/Method": "UTC()",
+  "Description": "Returns the number of milliseconds in a date since midnight of January 1, 1970, according to UTC time",
+  "Belongs To": "Date",
+  "id": 599
+ },
+ {
+  "Property\/Method": "value",
+  "Description": "Sets or returns the value of the attribute",
+  "Belongs To": "Attribute",
+  "id": 600
+ },
+ {
+  "Property\/Method": "valueOf()",
+  "Description": "Returns the primitive value of an array",
+  "Belongs To": "Array, Boolean, Date, Number, String",
+  "id": 601
+ },
+ {
+  "Property\/Method": "var",
+  "Description": "Declares a variable",
+  "Belongs To": "Statements",
+  "id": 602
+ },
+ {
+  "Property\/Method": "warn()",
+  "Description": "Outputs a warning message to the console",
+  "Belongs To": "Console",
+  "id": 603
+ },
+ {
+  "Property\/Method": "watchPosition()",
+  "Description": "Returns a watch ID value that then can be used to unregister the handler by passing it to the Geolocation.clearWatch() method",
+  "Belongs To": "Geolocation",
+  "id": 604
+ },
+ {
+  "Property\/Method": "which",
+  "Description": "Returns which mouse button was pressed when the mouse event was triggered",
+  "Belongs To": "MouseEvent, KeyboardEvent",
+  "id": 605
+ },
+ {
+  "Property\/Method": "width",
+  "Description": "Returns the total width of the screen",
+  "Belongs To": "Screen",
+  "id": 606
+ },
+ {
+  "Property\/Method": "view",
+  "Description": "Returns a reference to the Window object where the event occurred",
+  "Belongs To": "UiEvent",
+  "id": 607
+ },
+ {
+  "Property\/Method": "void",
+  "Description": "Evaluates an expression and returns undefined",
+  "Belongs To": "Operators",
+  "id": 608
+ },
+ {
+  "Property\/Method": "while",
+  "Description": "Marks a block of statements to be executed while a condition is true",
+  "Belongs To": "Statements",
+  "id": 609
+ },
+ {
+  "Property\/Method": "write()",
+  "Description": "Writes HTML expressions or JavaScript code to a document",
+  "Belongs To": "Document",
+  "id": 610
+ },
+ {
+  "Property\/Method": "writeln()",
+  "Description": "Same as write(), but adds a newline character after each statement",
+  "Belongs To": "Document",
+  "id": 611
+ },
+ {
+  "Property\/Method": "yield",
+  "Description": "Pauses and resumes a generator function",
+  "Belongs To": "Operators",
+  "id": 612
+ }
+]

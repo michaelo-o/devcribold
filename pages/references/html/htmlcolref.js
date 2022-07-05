@@ -37,40 +37,9 @@ const HtmlColRef = () => {
                     <h1>HTML Color Reference</h1>
                     <h2>Color Names Supported by All Browsers</h2>
                     <p>All modern browsers support the following 140 color names. It is highly recommended using hexadecimal color codes or the RGB values. Also note that in addition to HTML, these names are also supported in CSS and SVG.</p>
-                    {/* Search Bar */}
-                    {/* <form className={styles.search}>
-                        <input
-                            type="text"
-                            placeholder="Search a Tag.."
-                            onChange={(event) => setsearch(event.target.value)}
-
-                        />
-                    </form> */}
+                  
                     <div>
-                        {/* <table className={styles.reftable}>
-                            <tr>
-                                <th>Tag</th>
-                                <th>Description</th>
-                            </tr>
-                            {htmltagref
-                            .filter((htmltag) => {
-                                if (search === "") {
-                                    return htmltag;
-                                } else if (
-                                    htmltag?.html_tag.toLowerCase().includes(search.toLowerCase())
-                                ) {
-                                    return htmltag;
-                                } else if (
-                                    htmltag?.html_tag.toLowerCase().includes(search.toLowerCase())
-                                ) return setnoRes('No Results')
-                            })
-                            .map(htmltag => (
-                                <tr key={htmltag.id}>
-                                    <td>{htmltag['html_tag']}</td>
-                                    <td>{htmltag['tag_description']}</td>
-                                </tr>
-                            ))}
-                        </table> */}
+                    
 
                         <table className={styles.coltable}>
                             <tbody>

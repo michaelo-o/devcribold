@@ -23,8 +23,8 @@ const CssRefLSb = () => {
                     <Link href="/references/css/cssunitref">
                         <a>CSS Unit Reference</a>
                     </Link>
-                    <Link href="/references/css/csspropref">
-                        <a>CSS Default Values</a>
+                    <Link href="/references/css/cssentities">
+                        <a>CSS Entities</a>
                     </Link>
                 </div>
             </div>

@@ -20,8 +20,8 @@ const NavRefCss = (props) => {
                 <Link href="/references/css/cssunitref">
                     <a><h3 onClick={references}>CSS Unit Reference</h3></a>
                 </Link>
-                <Link href="#">
-                    <a><h3 onClick={references}>CSS Default Values</h3></a>
+                <Link href="/references/css/cssentities">
+                    <a><h3 onClick={references}>CSS Entities</h3></a>
                 </Link>
             </div>
         </>

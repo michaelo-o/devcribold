@@ -1,0 +1,17 @@
+[
+ {
+  "Property": "Infinity",
+  "Description": "A numeric value that represents positive\/negative infinity",
+  "id": 1
+ },
+ {
+  "Property": "NaN",
+  "Description": "\"Not-a-Number\" value",
+  "id": 2
+ },
+ {
+  "Property": "undefined",
+  "Description": "Indicates that a variable has not been assigned a value",
+  "id": 3
+ }
+]

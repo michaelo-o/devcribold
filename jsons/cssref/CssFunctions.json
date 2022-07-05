@@ -1,87 +1,87 @@
 [
- {
-  "Function": "attr()",
-  "Description": "Returns the value of an attribute of the selected element",
-  "id": 1
- },
- {
-  "Function": "calc()",
-  "Description": "Allows you to perform calculations to determine CSS property values",
-  "id": 2
- },
- {
-  "Function": "conic-gradient()",
-  "Description": "Creates a conic gradient",
-  "id": 3
- },
- {
-  "Function": "counter()",
-  "Description": "Returns the current value of the named counter",
-  "id": 4
- },
- {
-  "Function": "cubic-bezier()",
-  "Description": "Defines a Cubic Bezier curve",
-  "id": 5
- },
- {
-  "Function": "hsl()",
-  "Description": "Defines colors using the Hue-Saturation-Lightness model (HSL)",
-  "id": 6
- },
- {
-  "Function": "hsla()",
-  "Description": "Defines colors using the Hue-Saturation-Lightness-Alpha model (HSLA)",
-  "id": 7
- },
- {
-  "Function": "linear-gradient()",
-  "Description": "Creates a linear gradient",
-  "id": 8
- },
- {
-  "Function": "max()",
-  "Description": "Uses the largest value, from a comma-separated list of values, as the property value",
-  "id": 9
- },
- {
-  "Function": "min()",
-  "Description": "Uses the smallest value, from a comma-separated list of values, as the property value",
-  "id": 10
- },
- {
-  "Function": "radial-gradient()",
-  "Description": "Creates a radial gradient",
-  "id": 11
- },
- {
-  "Function": "repeating-conic-gradient()",
-  "Description": "Repeats a conic gradient",
-  "id": 12
- },
- {
-  "Function": "repeating-linear-gradient()",
-  "Description": "Repeats a linear gradient",
-  "id": 13
- },
- {
-  "Function": "repeating-radial-gradient()",
-  "Description": "Repeats a radial gradient",
-  "id": 14
- },
- {
-  "Function": "rgb()",
-  "Description": "Defines colors using the Red-Green-Blue model (RGB)",
-  "id": 15
- },
- {
-  "Function": "rgba()",
-  "Description": "Defines colors using the Red-Green-Blue-Alpha model (RGBA)",
-  "id": 16
- },
- {
-  "Function": "var()",
-  "Description": "Inserts the value of a custom property",
-  "id": 17
- }
+    {
+        "Function": "attr()",
+        "Description": "Returns the value of an attribute of the selected element",
+        "id": 1
+    },
+    {
+        "Function": "calc()",
+        "Description": "Allows you to perform calculations to determine CSS property values",
+        "id": 2
+    },
+    {
+        "Function": "conic-gradient()",
+        "Description": "Creates a conic gradient",
+        "id": 3
+    },
+    {
+        "Function": "counter()",
+        "Description": "Returns the current value of the named counter",
+        "id": 4
+    },
+    {
+        "Function": "cubic-bezier()",
+        "Description": "Defines a Cubic Bezier curve",
+        "id": 5
+    },
+    {
+        "Function": "hsl()",
+        "Description": "Defines colors using the Hue-Saturation-Lightness model (HSL)",
+        "id": 6
+    },
+    {
+        "Function": "hsla()",
+        "Description": "Defines colors using the Hue-Saturation-Lightness-Alpha model (HSLA)",
+        "id": 7
+    },
+    {
+        "Function": "linear-gradient()",
+        "Description": "Creates a linear gradient",
+        "id": 8
+    },
+    {
+        "Function": "max()",
+        "Description": "Uses the largest value, from a comma-separated list of values, as the property value",
+        "id": 9
+    },
+    {
+        "Function": "min()",
+        "Description": "Uses the smallest value, from a comma-separated list of values, as the property value",
+        "id": 10
+    },
+    {
+        "Function": "radial-gradient()",
+        "Description": "Creates a radial gradient",
+        "id": 11
+    },
+    {
+        "Function": "repeating-conic-gradient()",
+        "Description": "Repeats a conic gradient",
+        "id": 12
+    },
+    {
+        "Function": "repeating-linear-gradient()",
+        "Description": "Repeats a linear gradient",
+        "id": 13
+    },
+    {
+        "Function": "repeating-radial-gradient()",
+        "Description": "Repeats a radial gradient",
+        "id": 14
+    },
+    {
+        "Function": "rgb()",
+        "Description": "Defines colors using the Red-Green-Blue model (RGB)",
+        "id": 15
+    },
+    {
+        "Function": "rgba()",
+        "Description": "Defines colors using the Red-Green-Blue-Alpha model (RGBA)",
+        "id": 16
+    },
+    {
+        "Function": "var()",
+        "Description": "Inserts the value of a custom property",
+        "id": 17
+    }
 ]

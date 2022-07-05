@@ -1,0 +1,127 @@
+[
+ {
+  "Method": "charAt()",
+  "Description": "Returns the character at a specified index (position)",
+  "id": 1
+ },
+ {
+  "Method": "charCodeAt()",
+  "Description": "Returns the Unicode of the character at a specified index",
+  "id": 2
+ },
+ {
+  "Method": "concat()",
+  "Description": "Returns two or more joined strings",
+  "id": 3
+ },
+ {
+  "Method": "endsWith()",
+  "Description": "Returns if a string ends with a specified value",
+  "id": 4
+ },
+ {
+  "Method": "fromCharCode()",
+  "Description": "Returns Unicode values as characters",
+  "id": 5
+ },
+ {
+  "Method": "includes()",
+  "Description": "Returns if a string contains a specified value",
+  "id": 6
+ },
+ {
+  "Method": "indexOf()",
+  "Description": "Returns the index (position) of the first occurrence of a value in a string",
+  "id": 7
+ },
+ {
+  "Method": "lastIndexOf()",
+  "Description": "Returns the index (position) of the last occurrence of a value in a string",
+  "id": 8
+ },
+ {
+  "Method": "localeCompare()",
+  "Description": "Compares two strings in the current locale",
+  "id": 9
+ },
+ {
+  "Method": "match()",
+  "Description": "Searches a string for a value, or a regular expression, and returns the matches",
+  "id": 10
+ },
+ {
+  "Method": "repeat()",
+  "Description": "Returns a new string with a number of copies of a string",
+  "id": 11
+ },
+ {
+  "Method": "replace()",
+  "Description": "Searches a string for a value, or a regular expression, and returns a string where the values are replaced",
+  "id": 12
+ },
+ {
+  "Method": "search()",
+  "Description": "Searches a string for a value, or regular expression, and returns the index (position) of the match",
+  "id": 13
+ },
+ {
+  "Method": "slice()",
+  "Description": "Extracts a part of a string and returns a new string",
+  "id": 14
+ },
+ {
+  "Method": "split()",
+  "Description": "Splits a string into an array of substrings",
+  "id": 15
+ },
+ {
+  "Method": "startsWith()",
+  "Description": "Checks whether a string begins with specified characters",
+  "id": 16
+ },
+ {
+  "Method": "substr()",
+  "Description": "Extracts a number of characters from a string, from a start index (position)",
+  "id": 17
+ },
+ {
+  "Method": "substring()",
+  "Description": "Extracts characters from a string, between two specified indices (positions)",
+  "id": 18
+ },
+ {
+  "Method": "toLocaleLowerCase()",
+  "Description": "Returns a string converted to lowercase letters, using the host's locale",
+  "id": 19
+ },
+ {
+  "Method": "toLocaleUpperCase()",
+  "Description": "Returns a string converted to uppercase letters, using the host's locale",
+  "id": 20
+ },
+ {
+  "Method": "toLowerCase()",
+  "Description": "Returns a string converted to lowercase letters",
+  "id": 21
+ },
+ {
+  "Method": "toString()",
+  "Description": "Returns a string or a string object as a string",
+  "id": 22
+ },
+ {
+  "Method": "toUpperCase()",
+  "Description": "Returns a string converted to uppercase letters",
+  "id": 23
+ },
+ {
+  "Method": "trim()",
+  "Description": "Returns a string with removed whitespaces",
+  "id": 24
+ },
+ {
+  "Method": "valueOf()",
+  "Description": "Returns the primitive value of a string or a string object",
+  "id": 25
+ }
+]
