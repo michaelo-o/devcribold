@@ -79,7 +79,7 @@ const Test = () => {
                     <p> &#10216; img src=&quot;w3schools.png&quot; <input type="text"
                         onChange={(event) => setanswer3(event.target.value)} required /> = &quot; w3schools Logo &quot; &#10217;{answer3S}</p>
                     {TestTaken ? (
-                        <h1>Submitted! Here's Your Score;</h1>
+                        <h1>Submitted!Here&apos;s Your Score;</h1>
                     ) : (
                         <input
                             type="submit"

@@ -35,15 +35,12 @@ const Test = () => {
         console.log(ans3);
     }
     const redo = () => {
-        setscore(0)
-        setAns({
-            ans1: "",
-            ans2: "",
-            ans3: "",
-        }).then
-        console.log(ans1);
-        console.log(ans2);
-        console.log(ans3);
+        setscore(0);
+        setTimeout(() => {
+            setAns(blankAns)
+
+        }, 500);
+
     }
 
 
