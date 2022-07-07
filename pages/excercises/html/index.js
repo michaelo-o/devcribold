@@ -26,7 +26,7 @@ const HtmlExcercise = () => {
                     <div className={styles.htmlstexc}>
                         <h1>Start HTML Excercises</h1>
                         <h2>Goodluck!</h2>
-                        <Link href="/excercises/html/attributes">
+                        <Link href="/excercises/html/htmlexcercises">
                             <a><h3>Start Excercise</h3>
                             </a>
                         </Link>

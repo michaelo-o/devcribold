@@ -215,3 +215,97 @@
     border: solid 2px #0d1721;
     color: #0d1721;
 }
+
+/* Question styling */
+
+.quesbg {
+    background-color: #1d2a35;
+    color: #ffffff;
+    font-family: Consolas,
+        Menlo,
+        "courier new",
+        monospace;
+    width: fit-content;
+    padding: 50px 20% 50px 5%;
+    text-align: left;
+    border-radius: 15px;
+}
+
+.quesbg [type="text"] {
+    width: 60px;
+    padding: 1px 2px;
+    font-family: Consolas,
+        Menlo,
+        "courier new",
+        monospace;
+    font-size: large;
+}
+
+.quesbg [type="submit"],
+.showAns,
+.redo {
+    margin-top: 50px;
+    width: fit-content;
+    padding: 10px 25px;
+    border-radius: 15px;
+    color: #ffffff;
+    border: none;
+    font-size: large;
+    font-family: 'Source Sans Pro',
+        sans-serif;
+    font-weight: bolder;
+}
+
+.quesbg [type="submit"] {
+    background-color: #006400;
+}
+
+.quesbg [type="submit"]:hover {
+    cursor: pointer;
+    border: 1px solid #006400;
+}
+
+.showAns {
+    background-color: #ee9209;
+}
+
+.redo {
+    background-color: #8b0000;
+}
+
+.showAns:hover,
+.redo:hover {
+    background-color: #8b0000;
+    cursor: pointer;
+    border: 1px solid #8b0000;
+    transition: ease-in-out 1s;
+}
+
+.excStatus {
+    text-align: center;
+    border: 1px solid #a86705;
+    padding: 5px 10px;
+    width: max-content;
+}
+
+.Submit_Show {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stickyans {
+    margin-left: auto;
+}
+
+/* wrong and right ans */
+
+.wrongAns{
+    background-color: #8b0000;
+    color: white;
+    padding: 3px;
+}
+.rightAns{
+    background-color: #006400;
+    color: white;
+}

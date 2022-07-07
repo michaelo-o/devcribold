@@ -95,7 +95,6 @@ export default Test;
 //     const [answer1S, setanswer1S] = useState("")
 //     const [answer2S, setanswer2S] = useState("")
 //     const [answer3S, setanswer3S] = useState("")
-//     const [TestStatus, setTestStatus] = useState("Test Not Taken")
 
 //     const markQuiz = (event) => {
 //         event.preventDefault();

@@ -9,7 +9,6 @@ import NavTutJs from './NavTut/NavTutJs'
 import NavRefJs from './NavRef/NavRefJs'
 import NavRefCss from './NavRef/NavRefCss'
 import NavRefHtml from './NavRef/NavRefHtml'
-import NavQuiz from './NavEx/NavQuiz'
 import NavExc from './NavEx/NavExc'
 
 
@@ -172,10 +171,11 @@ const Navbar = () => {
                         <div className={styles.tutmodal}>
                             <button onClick={closeButton} className={styles.xbutton}><Image src="/x-square.svg" width={35} height={35} alt="Home" /></button>
                             <div className={styles.innertutm}>
-                                <h1>Excercises</h1>
+                                <Link href="/excercises/">
+                                    <h1 className={styles.excgrayback}>Excercises</h1>
+                                </Link>
                                 <div className={styles.inouter}>
                                     <NavExc excercises={excercises} />
-                                    <NavQuiz excercises={excercises} />
                                 </div>
                             </div>
                         </div>

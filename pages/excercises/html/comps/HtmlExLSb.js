@@ -22,44 +22,44 @@ const HtmlExLSb = (props) => {
                         <span className={styles.cursor}><Image src="/x-square.svg" onClick={sidebarToggle} width={35} height={35} alt="Home" /></span>
                     </span> */}
                     <h2>HTML Excercises</h2>
-                    <Link href="/excercises/html/">
-                        <a>HTML Attributes  </a>
+                    <Link href="#attrex">
+                        <a>HTML Attributes Excercise</a>
                     </Link>
-                    <Link href="/excercises/html/">
-                        <a>HTML Headings  </a>
+                    <Link href="#headex">
+                        <a>HTML Headings Excercise</a>
                     </Link>
-                    <Link href="/excercises/html/">
-                        <a>HTML Parragraphs  </a>
+                    <Link href="#">
+                        <a>HTML Parragraphs Excercise</a>
                     </Link>
-                    <Link href="/excercises/html/">
-                        <a>HTML Styles  </a>
+                    <Link href="#">
+                        <a>HTML Styles Excercise</a>
                     </Link>
-                    <Link href="/excercises/html/">
-                        <a>HTML Formatting  </a>
+                    <Link href="#">
+                        <a>HTML Formatting Excercise</a>
                     </Link>
-                    <Link href="/excercises/html/">
-                        <a>HTML Quotations  </a>
+                    <Link href="#">
+                        <a>HTML Quotations Excercise</a>
                     </Link>
-                    <Link href="/excercises/html/">
-                        <a>HTML Comments  </a>
+                    <Link href="#">
+                        <a>HTML Comments Excercise</a>
                     </Link>
-                    <Link href="/excercises/html/">
-                        <a>HTML CSS  </a>
+                    <Link href="#">
+                        <a>HTML CSS Excercise</a>
                     </Link>
-                    <Link href="/excercises/html/">
-                        <a>HTML Links  </a>
+                    <Link href="#">
+                        <a>HTML Links Excercise</a>
                     </Link>
-                    <Link href="/excercises/html/">
-                        <a>HTML Images  </a>
+                    <Link href="#">
+                        <a>HTML Images Excercise</a>
                     </Link>
-                    <Link href="/excercises/html/">
-                        <a>HTML Tables  </a>
+                    <Link href="#">
+                        <a>HTML Tables Excercise</a>
                     </Link>
-                    <Link href="/excercises/html/">
-                        <a>HTML List  </a>
+                    <Link href="#">
+                        <a>HTML List Excercise</a>
                     </Link>
-                    <Link href="/excercises/html/">
-                        <a>HTML Classes  </a>
+                    <Link href="#">
+                        <a>HTML Classes Excercise</a>
                     </Link>
 
                 </div>

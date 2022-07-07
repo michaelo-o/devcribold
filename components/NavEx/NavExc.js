@@ -9,9 +9,6 @@ const NavExc = (props) => {
     return (
         <>
             <div>
-                <Link href="/excercises/">
-                    <h2 onClick={excercises} className={styles.excgrayback}>Excercises</h2>
-                </Link>
                 <Link href="/excercises/html/">
                     <a><h3 onClick={excercises}>HTML Excercise</h3></a>
                 </Link>
