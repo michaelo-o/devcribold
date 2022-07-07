@@ -172,7 +172,7 @@ const Navbar = () => {
                             <button onClick={closeButton} className={styles.xbutton}><Image src="/x-square.svg" width={35} height={35} alt="Home" /></button>
                             <div className={styles.innertutm}>
                                 <Link href="/excercises/">
-                                    <h1 className={styles.excgrayback}>Excercises</h1>
+                                    <h1 className={styles.excgrayback} onClick={excercises}>Excercises</h1>
                                 </Link>
                                 <div className={styles.inouter}>
                                     <NavExc excercises={excercises} />

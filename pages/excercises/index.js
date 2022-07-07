@@ -18,6 +18,11 @@ import PageContentFooter from "../../components/PageContentFooter";
 const ExercisesHome = () => {
     return (
         <>
+            <Head>
+                <title>DevCrib Excercises | Dev Crib</title>
+                <meta name="description" content="Dev Crib" />
+            </Head>
+
 
             <div className={styles.genexcbackground}>
                 <ExLSb />
@@ -28,7 +33,7 @@ const ExercisesHome = () => {
                     <div className={styles.extraborder}>
                         <h3>Excercises</h3>
                         <p>There a variety of exercises (with answers) for each tutorial. <br />
-                            Try to solve an exercise by editing some code.Get a &quot; hint&quot; if you&apos;re stuck, or show the answer to see what you&apos;ve done wrong.</p>
+                            Try to solve an exercise by editing some code.After Submitting, you can show the answer to see what you&apos;ve done wrong.</p>
                     </div>
 
                     <div className={styles.htmlex}>

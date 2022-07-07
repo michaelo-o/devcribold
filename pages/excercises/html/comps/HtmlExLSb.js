@@ -28,7 +28,7 @@ const HtmlExLSb = (props) => {
                     <Link href="#headex">
                         <a>HTML Headings Excercise</a>
                     </Link>
-                    <Link href="#">
+                    <Link href="#parex">
                         <a>HTML Parragraphs Excercise</a>
                     </Link>
                     <Link href="#">

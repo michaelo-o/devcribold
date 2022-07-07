@@ -6,7 +6,7 @@ import styles from "../excercises/exlsb.module.css"
 
 
 const ExLSb = () => {
-    return ( 
+    return (
         <>
             <div className={styles.refleftsidebar}>
                 <div className={styles.reflfsbcont}>
@@ -23,7 +23,7 @@ const ExLSb = () => {
                 </div>
             </div>
         </>
-     );
+    );
 }
- 
+
 export default ExLSb
