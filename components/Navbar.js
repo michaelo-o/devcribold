@@ -9,7 +9,7 @@ import NavTutJs from './NavTut/NavTutJs'
 import NavRefJs from './NavRef/NavRefJs'
 import NavRefCss from './NavRef/NavRefCss'
 import NavRefHtml from './NavRef/NavRefHtml'
-import NavQuiz from './NavEx/navQuiz'
+import NavQuiz from './NavEx/NavQuiz'
 import NavExc from './NavEx/NavExc'
 
 
