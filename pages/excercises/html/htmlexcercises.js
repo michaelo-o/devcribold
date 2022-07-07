@@ -168,7 +168,7 @@ const AttributesEx = () => {
                         <form onSubmit={handleSubmit}>
                             <h2 id="attrex">HTML Attributes Excercise</h2>
 
-                            <p>1) Add a "tooltip" to the paragraph below with the text &quot;About DevCrib&quot;.</p>
+                            <p>1) Add a &quot; tooltip&quot; to the paragraph below with the text &quot;About DevCrib&quot;.</p>
                             <p> &lt;p<input value={ans1} name="ans1" onChange={onChange} type="text"
                             />=&quot;About DevCrib&quot;&gt;DevCrib is a Web Developer Site&lt;p&gt; {Ans1Status}</p>
                             <br />
