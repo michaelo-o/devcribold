@@ -4,9 +4,9 @@ import Head from "next/head";
 // default imports
 import styles from "../referencesgeneral.module.css"
 import HtmlRefLSb from "./comps/HtmlRefLSb";
-import RefFooter from "../RefFooter"
 import htmlattrref from "../../../jsons/htmlref/htmlattrref.json"
 import { useState, useEffect } from "react";
+import PageContentFooter from "../../../components/PageContentFooter";
 
 
 
@@ -71,7 +71,7 @@ const HtmlAttrRef = () => {
                         </table>
                     </div>
 
-                    <RefFooter />
+                    <PageContentFooter />
                 </div>
             </div>
 

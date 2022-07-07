@@ -3,10 +3,10 @@ import Link from "next/link";
 import Head from "next/head";
 import styles from "../referencesgeneral.module.css"
 import HtmlRefLSb from "./comps/HtmlRefLSb";
-import RefFooter from "../RefFooter"
 import MediaMet from "../../../jsons/htmlref/MediaMethods.json"
 import MediaProp from "../../../jsons/htmlref/MediaProps.json"
 import MediaEv from "../../../jsons/htmlref/MediaEvents.json"
+import PageContentFooter from "../../../components/PageContentFooter";
 
 
 
@@ -74,7 +74,7 @@ const HtmlMediaRef = () => {
                         </table>
                     </div>
 
-                    <RefFooter />
+                    <PageContentFooter />
                 </div>
             </div>
         </>

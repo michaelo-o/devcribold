@@ -9,24 +9,26 @@ import Footer from '../components/Footer'
 export default function Home() {
 
   // HTML ANGLE BRACKET
-  const BracketOpen = '<';
-  const BracketClose = '>';
 
-  const BrO = <span className="tagcolor">{BracketOpen}</span>;
-  const BrC = <span className="tagcolor">{BracketClose}</span>;
+  const BrO = <span className="tagcolor">&lt;</span>;
+  const BrC = <span className="tagcolor">&gt;</span>;
 
 
   // CSS CURLY BRACKET
 
-  const CurlyBracketOpen = '{';
-  const CurlyBracketClose = '}';
-
-  const CBrO = <span className="curlybracket">{CurlyBracketOpen}</span>;
-  const CBrC = <span className="curlybracket">{CurlyBracketClose}</span>;
+  const CBrO = <span className="curlybracket">&#123;</span>;
+  const CBrC = <span className="curlybracket">&#125;</span>;
 
   // &#39;  ---  '
 
-  //  &#34; --- " 
+  //  &#34; --- "
+
+  // &#123; Left Curly Bracket
+  // &#125; right Curly Bracket
+
+
+  // <	&lt;	&#60;	&#x3C;	less than
+  // >	&gt;	&#62;	&#x3E;	greater than
 
   return (
     <>

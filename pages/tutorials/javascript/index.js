@@ -5,9 +5,9 @@ import Head from "next/head";
 import styles from "../tutorialgeneral.module.css"
 import templates from "../../../jsons/template.json"
 import { useState } from "react";
-import PageContentFooter from "../PageContentFooter";
 import StickyNav from "./comps/StickyNav";
 import JsLeftSidebar from "./comps/JsLeftSidebar";
+import PageContentFooter from "../../../components/PageContentFooter";
 
 
 const LearnJs = () => {

@@ -4,9 +4,9 @@ import Head from "next/head";
 // default imports
 import styles from "../referencesgeneral.module.css"
 import HtmlRefLSb from "./comps/HtmlRefLSb";
-import RefFooter from "../RefFooter"
 import unsupportedTags from "../../../jsons/htmlref/UnsupportedTags.json"
 import { useState, useEffect } from "react";
+import PageContentFooter from "../../../components/PageContentFooter";
 
 
 const UnsupportedHtmlTags = () => {
@@ -67,7 +67,7 @@ const UnsupportedHtmlTags = () => {
                             ))}
                         </table>
                     </div>
-                    <RefFooter />
+                    <PageContentFooter />
                 </div>
 
                 

@@ -3,9 +3,9 @@ import Link from "next/link";
 import Head from "next/head";
 import styles from "../referencesgeneral.module.css"
 import CssRefLSb from "./comps/CssRefLSb";
-import RefFooter from "../RefFooter"
 // default imports
 import cssSelref from "../../../jsons/cssref/CssSelector.json"
+import PageContentFooter from "../../../components/PageContentFooter";
 
 
 const CssSelRef = () => {
@@ -46,7 +46,7 @@ const CssSelRef = () => {
                     </div>
 
 
-                    <RefFooter />
+                    <PageContentFooter />
                 </div>
             </div>
 

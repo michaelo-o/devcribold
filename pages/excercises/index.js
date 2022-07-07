@@ -1,116 +1,98 @@
-import { useState } from "react";
-
-const Test = () => {
-
-    const [TestTaken, setTestTaken] = useState(false)
-    const [score, setscore] = useState(0)
-
-    const [answer1, setanswer1] = useState("")
-    const [answer2, setanswer2] = useState("")
-    const [answer3, setanswer3] = useState("")
-    const [answer1S, setanswer1S] = useState("")
-    const [answer2S, setanswer2S] = useState("")
-    const [answer3S, setanswer3S] = useState("")
-    const [TestStatus, setTestStatus] = useState("Test Not Taken")
-
-    const markQuiz = (event) => {
-        event.preventDefault();
-        setTestTaken(true)
-        if (answer1 === "alt") {
-            setscore(++score);
-        } //change colors of all these bs
-        else {
-            setanswer1S("Wrong")
-        }
-        //ans2
-        if (answer2 === "axe") {
-            setscore(++score);
-        } //change colors of all these bs
-        else {
-            setanswer2S("Wrong")
-        }
-        //ans3
-        if (answer3 === "hol") {
-            setscore(++score);
-        }
-        //change colors of all these bs
-        else {
-            setanswer3S("Wrong")
-        }
-    }
-
-    // const ClearAns = (event) => {
-    //     event.preventDefault();
-    //     setanswer1({ ..."" })
-    //     setanswer2({ ..."" })
-    //     setanswer3({ ..."" })
-    // }
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
+import styles from "../excercises/excercisesgen.module.css"
+import ExLSb from "./ExLSb";
+import PageContentFooter from "../../components/PageContentFooter";
+// default imports
 
 
-    const Redo = (event) => {
-        event.preventDefault();
-        setTestTaken(false)
-        setTestStatus("Redoing Test...")
-
-        setanswer1("")
-        setanswer2("")
-        setanswer3("")
+// &#123; Left Curly Bracket
+// &#125; right Curly Bracket
 
 
-        setscore(0)
-
-        setanswer1S("")
-        setanswer2S("")
-        setanswer3S("").then(ClearAns);
+// <	&lt;	&#60;	&#x3C;	less than
+// >	&gt;	&#62;	&#x3E;	greater than
 
 
-    }
-
+const ExercisesHome = () => {
     return (
         <>
-            <div>
 
-                <form onSubmit={markQuiz}>
-                    <h1>IMportant Note: Answer All Questions!</h1>
-                    <p> &#10216; img src=&quot;w3schools.png&quot; <input type="text"
-                        onChange={(event) => setanswer1(event.target.value)} required /> = &quot; w3schools Logo &quot; &#10217; {answer1S}</p>
-                    <p> &#10216; img src=&quot;w3schools.png&quot; <input type="text"
-                        onChange={(event) => setanswer2(event.target.value)} required /> = &quot; w3schools Logo &quot; &#10217;{answer2S}</p>
-                    <p> &#10216; img src=&quot;w3schools.png&quot; <input type="text"
-                        onChange={(event) => setanswer3(event.target.value)} required /> = &quot; w3schools Logo &quot; &#10217;{answer3S}</p>
-                    {TestTaken ? (
-                        <h1>Submitted!Here&apos;s Your Score;</h1>
-                    ) : (
-                        <input
-                            type="submit"
-                            className="submitbutton"
-                            value="Submit Quiz"
-                        />
-                    )}
-                </form>
+            <div className={styles.genexcbackground}>
+                <ExLSb />
 
-
-                {TestTaken ? (
-                    <div>
-                        <h1>{score}/3</h1>
-                        <button onClick={Redo}>Redo Quiz</button>
+                <div className={styles.pagecontent}>
+                    <h1>DevCrib Excercises</h1>
+                    <h2>Test Your Skills!</h2>
+                    <div className={styles.extraborder}>
+                        <h3>Excercises</h3>
+                        <p>There a variety of exercises (with answers) for each tutorial. <br />
+                            Try to solve an exercise by editing some code. Get a "hint" if you're stuck, or show the answer to see what you've done wrong.</p>
                     </div>
-                ) : (
-                    <h1>{TestStatus}</h1>
-                )
-                }
+
+                    <div className={styles.htmlex}>
+                        <h1>HTML</h1>
+
+                        <Link href="/excercises/html/">
+                            <a><h3>Start Excercise</h3>
+                            </a>
+                        </Link>
+
+                    </div>
+                    <div className={styles.cssex}>
+                        <h1>CSS</h1>
+
+                        <Link href="#">
+                            <a><h3>Start Excercise</h3>
+                            </a>
+                        </Link>
+
+                    </div>
+                    <div className={styles.jsex}>
+                        <h1>JavaScript</h1>
+
+                        <Link href="#">
+                            <a><h3>Start Excercise</h3>
+                            </a>
+                        </Link>
+
+                    </div>
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <PageContentFooter />
+                </div>
             </div>
-
-
-
-
         </>
     );
 }
 
-export default Test;
+export default ExercisesHome;

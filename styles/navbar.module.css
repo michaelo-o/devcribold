@@ -140,6 +140,19 @@
     color: #ee9209;
 }
 
+.excgrayback {
+    background-color: #0d1721;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.excgrayback:hover {
+    cursor: pointer;
+    background-color: #a86705;
+    color: #0d1721;
+}
+
 .xbutton {
     background-color: transparent;
     position: relative;
@@ -153,7 +166,7 @@
 
 .xbutton:hover {
     cursor: pointer;
-    background-color: #da8608;
+    background-color: #0d1721;
     color: white;
 }
 
@@ -256,7 +269,7 @@
         /* display: none; */
     }
 
-    .mobilenavstuffinner{
+    .mobilenavstuffinner {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -339,7 +352,7 @@
 
     .mobilexbutton:hover {
         cursor: pointer;
-        background-color: #da8608;
+        background-color: #0d1721;
         color: white;
     }
 

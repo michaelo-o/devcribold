@@ -3,10 +3,10 @@ import Link from "next/link";
 import Head from "next/head";
 import styles from "../referencesgeneral.module.css"
 import CssRefLSb from "./comps/CssRefLSb";
-import RefFooter from "../RefFooter"
 // default imports
 import cssfunref from "../../../jsons/cssref/CssFunctions.json"
 import { useState, useEffect } from "react";
+import PageContentFooter from "../../../components/PageContentFooter";
 
 
 const CssFunRef = () => {
@@ -72,7 +72,7 @@ const CssFunRef = () => {
                     </div>
 
 
-                    <RefFooter />
+                    <PageContentFooter />
                 </div>
             </div>
 

@@ -3,13 +3,13 @@ import Link from "next/link";
 import Head from "next/head";
 import styles from "../referencesgeneral.module.css"
 import CssRefLSb from "./comps/CssRefLSb";
-import RefFooter from "../RefFooter"
 // default imports
 import cssunitref from "../../../jsons/cssref/CssProp.json"
 import { useState, useEffect } from "react";
 import abslen from "../../../jsons/cssref/AbsLen.json"
 import relLen from "../../../jsons/cssref/RelLen.json"
 import Bsupport from "../../../jsons/cssref/BrowserSup.json"
+import PageContentFooter from "../../../components/PageContentFooter";
 
 
 
@@ -108,7 +108,7 @@ const CssUnitRef = () => {
                         </table>
                     </div>
 
-                    <RefFooter />
+                    <PageContentFooter />
                 </div>
 
             </div>

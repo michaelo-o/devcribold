@@ -3,11 +3,11 @@ import Link from "next/link";
 import Head from "next/head";
 import styles from "../referencesgeneral.module.css"
 import JsRefLSb from "./comps/JsRefLSb";
-import RefFooter from "../RefFooter"
 // default imports
 import { useState, useEffect } from "react";
 import jsglobalmeth from "../../../jsons/jsref/JsGlobalMeth.json";
 import jssglobalprop from "../../../jsons/jsref/JsGlobalProp.json";
+import PageContentFooter from "../../../components/PageContentFooter";
 
 
 const JsStringRef = () => {
@@ -60,8 +60,7 @@ const JsStringRef = () => {
                         </table>
                     </div>
 
-
-                    <RefFooter />
+                    <PageContentFooter />
                 </div>
             </div>
 

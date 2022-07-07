@@ -5,7 +5,7 @@ import Head from "next/head";
 import styles from "../tutorialgeneral.module.css"
 import templates from "../../../jsons/template.json"
 import { useState } from "react";
-import PageContentFooter from "../PageContentFooter";
+import PageContentFooter from "../../../components/PageContentFooter";
 import StickyNav from "./comps/StickyNav";
 import CssLeftSidebar from "./comps/CssLeftSidebar";
 

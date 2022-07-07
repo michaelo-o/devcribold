@@ -3,7 +3,6 @@ import Link from "next/link";
 import Head from "next/head";
 import styles from "../referencesgeneral.module.css"
 import HtmlRefLSb from "./comps/HtmlRefLSb";
-import RefFooter from "../RefFooter"
 // default imports
 import WinEventAttr from "../../../jsons/htmlref/WindowEventAttr.json"
 import FormEvent from "../../../jsons/htmlref/FormEventAttr.json"
@@ -12,6 +11,7 @@ import MouseEvent from "../../../jsons/htmlref/MouseEventAttr.json"
 import DragEvent from "../../../jsons/htmlref/DragEventAttr.json"
 import ClipEvent from "../../../jsons/htmlref/ClipboardEventAttr.json"
 import MediaEvent from "../../../jsons/htmlref/MediaEventAttr.json"
+import PageContentFooter from "../../../components/PageContentFooter";
 
 
 
@@ -21,7 +21,7 @@ const HtmlEventrzef = () => {
     // HTML ANGLE BRACKET
     const BracketOpen = '<';
     const BracketClose = '>';
-    
+
     return (
         <>
             <Head>
@@ -37,8 +37,8 @@ const HtmlEventrzef = () => {
                     <h1>HTML Event Reference</h1>
                     <h2>Global Event Attributes.</h2>
                     <div className={styles.extraborder}>
-                    <p>HTML has the ability to let events trigger actions in a browser, like starting a JavaScript when a user clicks on an element.<br />
-                    Below are the global event attributes that can be added to HTML elements to define event actions.</p>
+                        <p>HTML has the ability to let events trigger actions in a browser, like starting a JavaScript when a user clicks on an element.<br />
+                            Below are the global event attributes that can be added to HTML elements to define event actions.</p>
                     </div>
                     <h3>Window Event Attributes</h3>
                     <p>Events triggered for the window object (applies to the &#10216;body&#10217; tag):</p>
@@ -164,7 +164,7 @@ const HtmlEventrzef = () => {
                     </div>
 
 
-                    <RefFooter />
+                    <PageContentFooter />
                 </div>
             </div>
 

@@ -3,10 +3,10 @@ import Link from "next/link";
 import Head from "next/head";
 import styles from "../referencesgeneral.module.css"
 import JsRefLSb from "./comps/JsRefLSb";
-import RefFooter from "../RefFooter"
 // default imports
 import { useState, useEffect } from "react";
 import jsmethref from "../../../jsons/jsref/JsPropMethRef.json";
+import PageContentFooter from "../../../components/PageContentFooter";
 
 
 const JsMethRef = () => {
@@ -72,8 +72,7 @@ const JsMethRef = () => {
                         </table>
                     </div>
 
-
-                    <RefFooter />
+<PageContentFooter />
                 </div>
             </div>
 

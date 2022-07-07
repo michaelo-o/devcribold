@@ -3,8 +3,8 @@ import Link from "next/link";
 import Head from "next/head";
 import styles from "../referencesgeneral.module.css"
 import CssRefLSb from "./comps/CssRefLSb";
-import RefFooter from "../RefFooter"
 import EntTable from "./comps/enttable";
+import PageContentFooter from "../../../components/PageContentFooter";
 // default imports
 
 const CssEntities = () => {
@@ -36,7 +36,7 @@ const CssEntities = () => {
                         </tbody>
                     </table>
 
-                    <RefFooter />
+                    <PageContentFooter />
                 </div>
 
             </div>

@@ -1,0 +1,217 @@
+/* base styles */
+.root {
+    --useful: #b93428;
+    --use: #FF9999;
+    --midaqua: mediumaquamarine;
+    --greyel: greenyellow;
+    --orange1: #a86705;
+    --orange2: #ee9209;
+    --blue2: #1d2a35;
+    --blue3: #0d1721;
+    --htmlorange: #e54d26;
+    --cssblue: #3799d6;
+    --jsyellow: #f7df1d;
+}
+
+
+.genexcbackground {
+    background-color: #0d1721;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    line-height: 1.5;
+}
+
+/* Main Column? */
+
+.pagecontent {
+    background-color: transparent;
+    margin: 0;
+    width: 80%;
+    padding: 0 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pagecontent h1,
+.pagecontent h2 {
+    font-weight: lighter;
+}
+
+.pagecontent h2 {
+    border-bottom: .5px solid #a86705;
+}
+
+.pagecontent h3 {
+    font-size: 25px;
+    font-weight: lighter;
+    margin-bottom: 1px;
+}
+
+.pagecontent h4 {
+    font-weight: lighter;
+    margin-bottom: 2px;
+}
+
+.pagecontent p {
+    margin-top: 1px;
+    font-size: large;
+    margin-bottom: 3px;
+}
+
+.cssprop {
+    color: #ee9209 !important;
+    background-color: #1d2a35;
+    padding: .5px;
+}
+
+.h1btmborder {
+    border-bottom: .5px solid #a86705;
+}
+
+.h3margintop {
+    margin-top: 1px;
+}
+
+.boldtext {
+    font-weight: bolder;
+}
+
+/* Extra Border */
+.extraborder {
+    border-bottom: 1px dotted #a86705;
+    padding: 0 0 20px 0;
+}
+
+/* Excercise Starters */
+
+.htmlex,
+.cssex,
+.jsex {
+    text-align: center;
+    padding: 75px 200px 75px 200px;
+    width: max-content;
+    margin-top: 20px;
+    border-radius: 15px;
+    color: #0d1721;
+}
+
+.htmlex h1,
+.cssex h1,
+.jsex h1 {
+    font-weight: bolder !important;
+    font-size: 50px;
+}
+
+.htmlex h3,
+.cssex h3,
+.jsex h3 {
+    font-weight: bolder !important;
+    font-size: 35px;
+    background-color: #0d1721;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+}
+
+.htmlex a,
+.cssex a,
+.jsex a {
+    text-decoration: none;
+}
+
+.htmlex h3:hover,
+.cssex h3:hover,
+.jsex h3:hover {
+    /* text-decoration: none; */
+    background-color: transparent;
+    border: solid 2px #0d1721;
+    color: #0d1721;
+}
+
+.htmlex {
+    background-color: #e54d26;
+    margin-right: auto;
+}
+
+.cssex {
+    background-color: #3799d6;
+    margin-left: auto;
+}
+
+.jsex {
+    background-color: #f7df1d;
+    margin-right: auto;
+
+}
+
+.sTgle {
+    padding: 20px 10px 10px;
+}
+
+.sTgle:hover {
+    cursor: pointer;
+}
+
+/* Footer 100% */
+.footer100 {
+    background-color: #0d1721;
+    color: white;
+    width: 98%;
+    padding: 0 1%;
+}
+
+
+/* Start Excercise Tab */
+
+.htmlstexc,
+.cssstexc,
+.jsstexc {
+    border-radius: 15px;
+    padding: 25px 50px;
+    text-align: left;
+    width: 700px;
+    margin-top: 20px;
+    color: #0d1721;
+}
+
+.htmlstexc h1,
+.cssstexc h1,
+.jsstexc h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.htmlstexc {
+    background-color: #e54d26;
+}
+
+.htmlstexc h3,
+.cssex h3,
+.jsstexc h3 {
+    font-weight: bolder !important;
+    font-size: 35px;
+    background-color: #0d1721;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+    max-width: fit-content;
+}
+
+.htmlstexc a,
+.cssex a,
+.jsstexc a {
+    text-decoration: none;
+}
+
+.htmlstexc h3:hover,
+.cssstexc h3:hover,
+.jsstexc h3:hover {
+    /* text-decoration: none; */
+    background-color: transparent;
+    border: solid 2px #0d1721;
+    color: #0d1721;
+}

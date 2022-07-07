@@ -9,6 +9,8 @@ import NavTutJs from './NavTut/NavTutJs'
 import NavRefJs from './NavRef/NavRefJs'
 import NavRefCss from './NavRef/NavRefCss'
 import NavRefHtml from './NavRef/NavRefHtml'
+import NavQuiz from './NavEx/navQuiz'
+import NavExc from './NavEx/NavExc'
 
 
 const Navbar = () => {
@@ -130,7 +132,7 @@ const Navbar = () => {
                         <Image src="/cup.png" width={25} height={25} alt="Close" />
                     ) : <Image src="/cdown.png" width={25} height={25} alt="Open" />}
                     </p>
-                    <p onClick={excercises}>Exercises {ExccaretChange ? (
+                    <p onClick={excercises}>Excercises {ExccaretChange ? (
                         <Image src="/cup.png" width={25} height={25} alt="Close" />
                     ) : <Image src="/cdown.png" width={25} height={25} alt="Open" />}
                     </p>
@@ -140,7 +142,7 @@ const Navbar = () => {
                 <div className={styles.leftnavstuffunder}>
                     {openTutorial ? (
                         <div className={styles.tutmodal}>
-                            <button onClick={closeButton} className={styles.xbutton}><h2>X</h2></button>
+                            <button onClick={closeButton} className={styles.xbutton}><Image src="/x-square.svg" width={35} height={35} alt="Home" /></button>
                             <div className={styles.innertutm}>
                                 <h1>Tutorials</h1>
                                 <div className={styles.inouter}>
@@ -154,7 +156,7 @@ const Navbar = () => {
                     }
                     {openReferences ? (
                         <div className={styles.tutmodal}>
-                            <button onClick={closeButton} className={styles.xbutton}><h2>X</h2></button>
+                            <button onClick={closeButton} className={styles.xbutton}><Image src="/x-square.svg" width={35} height={35} alt="Home" /></button>
                             <div className={styles.innertutm}>
                                 <h1>References</h1>
                                 <div className={styles.inouter}>
@@ -168,11 +170,12 @@ const Navbar = () => {
                     }
                     {openExcercises ? (
                         <div className={styles.tutmodal}>
-                            <button onClick={closeButton} className={styles.xbutton}><h2>X</h2></button>
+                            <button onClick={closeButton} className={styles.xbutton}><Image src="/x-square.svg" width={35} height={35} alt="Home" /></button>
                             <div className={styles.innertutm}>
                                 <h1>Excercises</h1>
                                 <div className={styles.inouter}>
-                                    <h1>Coming Soon...</h1>
+                                    <NavExc excercises={excercises} />
+                                    <NavQuiz excercises={excercises} />
                                 </div>
                             </div>
                         </div>
@@ -218,7 +221,7 @@ const Navbar = () => {
                 <div>
                     {openMenu ? (
                         <div className={styles.mobiletutmodal}>
-                            <button onClick={mobilemenuback} className={styles.mobilexbutton}><h2>X</h2></button>
+                            <button onClick={mobilemenuback} className={styles.mobilexbutton}><Image src="/x-square.svg" width={35} height={35} alt="Home" /></button>
                             <div className={styles.mobileinnertutm}>
                                 <h1>Menu</h1>
                                 <div className={styles.mobileinouter}>

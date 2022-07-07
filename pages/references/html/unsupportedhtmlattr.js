@@ -4,8 +4,8 @@ import Head from "next/head";
 // default imports
 import styles from "../referencesgeneral.module.css"
 import HtmlRefLSb from "./comps/HtmlRefLSb";
-import RefFooter from "../RefFooter"
 import UnsupportedAttr from "../../../jsons/htmlref/UnsupportedAttr.json"
+import PageContentFooter from "../../../components/PageContentFooter";
 
 
 const UnsupportedHtmlAttr = () => {
@@ -43,7 +43,7 @@ const UnsupportedHtmlAttr = () => {
                             ))}
                         </table>
                     </div>
-                    <RefFooter />
+                    <PageContentFooter />
                 </div>
 
 

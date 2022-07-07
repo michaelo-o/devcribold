@@ -3,11 +3,11 @@ import Link from "next/link";
 import Head from "next/head";
 import styles from "../referencesgeneral.module.css"
 import JsRefLSb from "./comps/JsRefLSb";
-import RefFooter from "../RefFooter"
 // default imports
 import { useState, useEffect } from "react";
 import jsclassmeth from "../../../jsons/jsref/JsClassMeth.json";
 import jsclasskey from "../../../jsons/jsref/JsClassKeyw.json";
+import PageContentFooter from "../../../components/PageContentFooter";
 
 
 const JsClassRef = () => {
@@ -74,8 +74,7 @@ const JsClassRef = () => {
                             ))}
                         </table>
                     </div>
-
-                    <RefFooter />
+                    <PageContentFooter />
                 </div>
             </div>
 
