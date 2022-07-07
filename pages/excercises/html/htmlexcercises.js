@@ -217,8 +217,7 @@ const AttributesEx = () => {
                             <h2 id="attrex">HTML Attributes Excercise</h2>
 
                             <p>1) Add a &quot; tooltip&quot; to the paragraph below with the text &quot;About DevCrib&quot;.</p> <br />
-                            <p> &lt;p<input value={ans1} name="ans1" onChange={onChange} type="text"
-                                role="textbox" contenteditable />=&quot;About DevCrib&quot;&gt;DevCrib is a Web Developer Site&lt;p&gt; {Ans1Status}</p>
+                            <p> &lt;p<input value={ans1} name="ans1" onChange={onChange} type="text" />=&quot;About DevCrib&quot;&gt;DevCrib is a Web Developer Site&lt;p&gt; {Ans1Status}</p>
                             <br />
 
                             <p>2) Set the size of the image to 250 pixels wide and 400 pixels tall.</p> <br />
