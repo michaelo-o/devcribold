@@ -66,7 +66,7 @@ const Introdution = () => {
                             <li>The <span className={styles.exptag}>&lt;html&gt;</span> element is the root element of an HTML page</li>
                             <li>The <span className={styles.exptag}>&lt;head&gt;</span> element contains meta information about the HTML page </li>
                             <li>The <span className={styles.exptag}>&lt;title&gt;</span> element specifies a title for the HTML page (which is shown in the browser&apos;s title bar or in the page&apos;s tab) </li>
-                            <li> The <span className={styles.exptag}>&lt;body&gt;</span> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. </li>
+                            <li> The <span className={styles.exptag}>&lt;body&gt;</span> element defines the document&apos;s body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. </li>
                             <li> The <span className={styles.exptag}>&lt;h1&gt;</span> element defines a large heading </li>
                             <li>The <span className={styles.exptag}>&lt;p&gt;</span> element defines a paragraph </li>
                         </ul>

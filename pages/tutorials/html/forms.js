@@ -130,7 +130,7 @@ const Forms = () => {
                         <h2>The Submit Button </h2>
                         <p>The <span className={styles.exptag}>&lt;input type=&quot;submit&quot;&gt;</span> defines a button for submitting the form data to a form-handler. <br />
                             The form-handler is typically a file on the server with a script for processing input data. <br />
-                            The form-handler is specified in the form's <span className={styles.exptag}>action</span> attribute. </p>
+                            The form-handler is specified in the form&apos;s <span className={styles.exptag}>action</span> attribute. </p>
                         <div className="embedDiv">
                             <iframe height="400" style={{ width: 1100 }}
                                 scrolling="no" title="Submit Button" src="https://codepen.io/_michaeli/embed/yLKOPJr?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
