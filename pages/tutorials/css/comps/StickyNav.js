@@ -9,7 +9,7 @@ const StickyNav = () => {
         <>
             <div className={styles.stickytab}>
                 <Link href="/">
-                    <a>Home</a>
+                    <a><Image src="/home.svg" width={25} height={25} alt="Home" /></a>
                 </Link>
                 <Link href="/tutorials/html/">
                     <a>HTML</a>

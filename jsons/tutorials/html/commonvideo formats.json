@@ -1,0 +1,80 @@
+[
+ {
+  "Format": "MPEG",
+  "File": ".mpg",
+  "Description": "MPEG. Developed by the Moving Pictures Expert Group. The first popular video format on the web. Not supported anymore in HTML.",
+  "id": 1
+ },
+ {
+  "Format": null,
+  "File": ".mpeg",
+  "Description": null,
+  "id": 2
+ },
+ {
+  "Format": "AVI",
+  "File": ".avi",
+  "Description": "AVI (Audio Video Interleave). Developed by Microsoft. Commonly used in video cameras and TV hardware. Plays well on Windows computers, but not in web browsers.",
+  "id": 3
+ },
+ {
+  "Format": "WMV",
+  "File": ".wmv",
+  "Description": "WMV (Windows Media Video). Developed by Microsoft. Commonly used in video cameras and TV hardware. Plays well on Windows computers, but not in web browsers.",
+  "id": 4
+ },
+ {
+  "Format": "QuickTime",
+  "File": ".mov",
+  "Description": "QuickTime. Developed by Apple. Commonly used in video cameras and TV hardware. Plays well on Apple computers, but not in web browsers.",
+  "id": 5
+ },
+ {
+  "Format": "RealVideo",
+  "File": ".rm",
+  "Description": "RealVideo. Developed by Real Media to allow video streaming with low bandwidths. Does not play in web browsers.",
+  "id": 6
+ },
+ {
+  "Format": null,
+  "File": ".ram",
+  "Description": null,
+  "id": 7
+ },
+ {
+  "Format": "Flash",
+  "File": ".swf",
+  "Description": "Flash. Developed by Macromedia. Often requires an extra component (plug-in) to play in web browsers.",
+  "id": 8
+ },
+ {
+  "Format": null,
+  "File": ".flv",
+  "Description": null,
+  "id": 9
+ },
+ {
+  "Format": "Ogg",
+  "File": ".ogg",
+  "Description": "Theora Ogg. Developed by the Xiph.Org Foundation. Supported by HTML.",
+  "id": 10
+ },
+ {
+  "Format": "WebM",
+  "File": ".webm",
+  "Description": "WebM. Developed by Mozilla, Opera, Adobe, and Google. Supported by HTML.",
+  "id": 11
+ },
+ {
+  "Format": "MPEG-4",
+  "File": ".mp4",
+  "Description": "MP4. Developed by the Moving Pictures Expert Group. Commonly used in video cameras and TV hardware. Supported by all browsers and  recommended by YouTube. ",
+  "id": 12
+ },
+ {
+  "Format": "or MP4",
+  "File": null,
+  "Description": null,
+  "id": 13
+ }
+]

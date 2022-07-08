@@ -7,6 +7,9 @@
     --orange2: #ee9209;
     --blue2: #1d2a35;
     --blue3: #0d1721;
+    --htmlorange: #e54d26;
+    --cssblue: #3799d6;
+    --jsyellow: #f7df1d;
 }
 
 .gentutbackground {
@@ -17,7 +20,7 @@
     display: flex;
     /* flex-wrap: wrap; */
     flex-direction: row;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 /* Main Column? */
@@ -29,4 +32,120 @@
     padding: 0 1%;
     display: flex;
     flex-direction: column;
+}
+
+.pagecontent h1 {
+    font-size: 50px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.pagecontent h1,
+.pagecontent h2 {
+    font-weight: lighter;
+}
+
+.pagecontent h2 {
+    border-bottom: .5px solid #a86705;
+}
+
+.pagecontent h3 {
+    font-size: 25px;
+    font-weight: lighter;
+    margin-bottom: 1px;
+}
+
+.pagecontent h4 {
+    font-weight: lighter;
+    margin-bottom: 2px;
+}
+
+.pagecontent p {
+    margin-top: 1px;
+    font-size: large;
+    margin-bottom: 3px;
+}
+
+.exptag {
+    color: #ee9209 !important;
+    background-color: #1d2a35;
+    padding: 1px;
+    padding-bottom: 0;
+    width: max-content;
+}
+
+
+
+.h1btmborder {
+    border-bottom: .5px solid #a86705;
+}
+
+.h3margintop {
+    margin-top: 1px;
+}
+
+.boldtext {
+    font-weight: bolder;
+}
+
+.lightbackground{
+    background-color: #1d2a35;
+    padding: 2%;
+    width: 70%;
+    border-radius: 15px;
+    margin-top: 0;
+
+}
+
+.pagecontent a {
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+}
+
+/* Extra Border */
+.extraborder {
+    border-bottom: 1px dotted #a86705;
+    padding: 0 0 20px 0;
+}
+
+/* Link buttons */
+.graybut{
+    background-color: #1d2a35;
+    text-decoration: none;
+    padding: 5px;
+    width: max-content;
+    border-radius: 10px;
+}
+
+/* Reference Tables */
+.reftable {
+    font-family: Consolas,
+        Menlo,
+        "courier new",
+        monospace;
+    border-collapse: collapse;
+    width: 85%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.reftable td,
+.reftable th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    word-wrap: break-word;
+}
+
+.reftable tr:nth-child(even) {
+    background-color: #1d2a35;
+}
+
+.h1sticky{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

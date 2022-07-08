@@ -1,0 +1,27 @@
+[
+ {
+  "Type": "<input type=\"text\">",
+  "Description": "Displays a single-line text input field",
+  "id": 1
+ },
+ {
+  "Type": "<input type=\"radio\">",
+  "Description": "Displays a radio button (for selecting one of many choices)",
+  "id": 2
+ },
+ {
+  "Type": "<input type=\"checkbox\">",
+  "Description": "Displays a checkbox (for selecting zero or more of many choices)",
+  "id": 3
+ },
+ {
+  "Type": "<input type=\"submit\">",
+  "Description": "Displays a submit button (for submitting the form)",
+  "id": 4
+ },
+ {
+  "Type": "<input type=\"button\">",
+  "Description": "Displays a clickable button",
+  "id": 5
+ }
+]

@@ -1,0 +1,67 @@
+[
+ {
+  "Year": 1989,
+  "Version": "Tim Berners-Lee invented www",
+  "id": 1
+ },
+ {
+  "Year": 1991,
+  "Version": "Tim Berners-Lee invented HTML",
+  "id": 2
+ },
+ {
+  "Year": 1993,
+  "Version": "Dave Raggett drafted HTML+",
+  "id": 3
+ },
+ {
+  "Year": 1995,
+  "Version": "HTML Working Group defined HTML 2.0",
+  "id": 4
+ },
+ {
+  "Year": 1997,
+  "Version": "W3C Recommendation: HTML 3.2",
+  "id": 5
+ },
+ {
+  "Year": 1999,
+  "Version": "W3C Recommendation: HTML 4.01",
+  "id": 6
+ },
+ {
+  "Year": 2000,
+  "Version": "W3C Recommendation: XHTML 1.0",
+  "id": 7
+ },
+ {
+  "Year": 2008,
+  "Version": "WHATWG HTML5 First Public Draft",
+  "id": 8
+ },
+ {
+  "Year": 2012,
+  "Version": "WHATWG HTML5 Living Standard",
+  "id": 9
+ },
+ {
+  "Year": 2014,
+  "Version": "W3C Recommendation: HTML5",
+  "id": 10
+ },
+ {
+  "Year": 2016,
+  "Version": "W3C Candidate Recommendation: HTML 5.1",
+  "id": 11
+ },
+ {
+  "Year": 2017,
+  "Version": "W3C Recommendation: HTML5.1 2nd Edition",
+  "id": 12
+ },
+ {
+  "Year": 2017,
+  "Version": "W3C Recommendation: HTML5.2",
+  "id": 13
+ }
+]

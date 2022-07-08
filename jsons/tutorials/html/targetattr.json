@@ -1,0 +1,27 @@
+[
+ {
+  "Value": "_blank",
+  "Description": "The response is displayed in a new window or tab",
+  "id": 1
+ },
+ {
+  "Value": "_self",
+  "Description": "The response is displayed in the current window",
+  "id": 2
+ },
+ {
+  "Value": "_parent",
+  "Description": "The response is displayed in the parent frame",
+  "id": 3
+ },
+ {
+  "Value": "_top",
+  "Description": "The response is displayed in the full body of the window",
+  "id": 4
+ },
+ {
+  "Value": "framename",
+  "Description": "The response is displayed in a named iframe",
+  "id": 5
+ }
+]
