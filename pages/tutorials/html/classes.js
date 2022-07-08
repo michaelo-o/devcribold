@@ -43,7 +43,7 @@ const Classes = () => {
                     <div className={styles.extraborder}>
                         <h2>Using the Class Attribute</h2>
                         <p>The class attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name. <br /> <br />
-                            In the following example we have three <span className={styles.exptag}>&lt;div&gt;</span> elements with a class attribute with the value of "city". All of the three <span className={styles.exptag}>&lt;div&gt;</span> elements will be styled equally according to the .city style definition in the head section:</p>
+                            In the following example we have three <span className={styles.exptag}>&lt;div&gt;</span> elements with a class attribute with the value of &quot;city&quot;. All of the three <span className={styles.exptag}>&lt;div&gt;</span> elements will be styled equally according to the .city style definition in the head section:</p>
                         <div className="embedDiv">
                             <iframe height="550" style={{ width: 1100 }}
                                 scrolling="no" title="HTML Classes" src="https://codepen.io/_michaeli/embed/zYWqENy?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
@@ -83,7 +83,7 @@ const Classes = () => {
                     <div className={styles.extraborder}>
                         <h2>Different Elements Can Share Same Class</h2>
                         <p>Different HTML elements can point to the same class name. <br /> <br />
-                            In the following example, both <span className={styles.exptag}>&lt;h2&gt;</span> and <span className={styles.exptag}>&lt;p&gt;</span> points to the "city" class and will share the same style:</p>
+                            In the following example, both <span className={styles.exptag}>&lt;h2&gt;</span> and <span className={styles.exptag}>&lt;p&gt;</span> points to the &quot;city&quot; class and will share the same style:</p>
                         <div className="embedDiv">
                             <iframe height="550" style={{ width: 1100 }}
                                 scrolling="no" title="Different Elements Can Share Same Class" src="https://codepen.io/_michaeli/embed/oNqxGqg?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>

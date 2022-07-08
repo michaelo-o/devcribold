@@ -47,7 +47,7 @@ const Introdution = () => {
                             <li>HTML describes the structure of a Web page</li>
                             <li>HTML consists of a series of elements</li>
                             <li>HTML elements tell the browser how to display the content</li>
-                            <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+                            <li>HTML elements label pieces of content such as &quot;this is a heading&quot;, &quot;this is a paragraph&quot;, &quot;this is a link&quot;, etc.</li>
                         </ul>
                     </div>
                     <div className={styles.extraborder}>
@@ -65,7 +65,7 @@ const Introdution = () => {
                             <li>The <span className={styles.exptag}>&lt;!DOCTYPE html&gt;</span> declaration defines that this document is an HTML5 document </li>
                             <li>The <span className={styles.exptag}>&lt;html&gt;</span> element is the root element of an HTML page</li>
                             <li>The <span className={styles.exptag}>&lt;head&gt;</span> element contains meta information about the HTML page </li>
-                            <li>The <span className={styles.exptag}>&lt;title&gt;</span> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab) </li>
+                            <li>The <span className={styles.exptag}>&lt;title&gt;</span> element specifies a title for the HTML page (which is shown in the browser&apos;s title bar or in the page&apos;s tab) </li>
                             <li> The <span className={styles.exptag}>&lt;body&gt;</span> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. </li>
                             <li> The <span className={styles.exptag}>&lt;h1&gt;</span> element defines a large heading </li>
                             <li>The <span className={styles.exptag}>&lt;p&gt;</span> element defines a paragraph </li>
