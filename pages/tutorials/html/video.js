@@ -24,7 +24,7 @@ const Video = () => {
     const cbrc = <span className="curlybracket">&#125;</span>;
 
 
-    // <span class={styles.exptag}>
+    // <span className={styles.exptag}>
 
     return (
         <>
@@ -53,7 +53,7 @@ const Video = () => {
                     </div>
 
                     <h2>The HTML &lt;video&gt; Element</h2>
-                    <p>To show a video in HTML, use the <span class={styles.exptag}>&lt;video&gt;</span> element:</p>
+                    <p>To show a video in HTML, use the <span className={styles.exptag}>&lt;video&gt;</span> element:</p>
                     <div className="embedDiv">
                         <iframe height="350" style={{ "width": "75%" }}
                             scrolling="no" title="The HTML &lt;video&gt; Element" src="https://codepen.io/_michaeli/embed/ZExWmvE?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
@@ -63,18 +63,18 @@ const Video = () => {
                         </iframe>
                     </div>
                     <h2>How it Works</h2>
-                    <p>The <span class={styles.exptag}>controls</span> attribute adds video controls, like play, pause, and volume.</p>
-                    <p>It is a good idea to always include <span class={styles.exptag}>width</span> and <span class={styles.exptag}>height</span> attributes. If height and width are not set, the page
+                    <p>The <span className={styles.exptag}>controls</span> attribute adds video controls, like play, pause, and volume.</p>
+                    <p>It is a good idea to always include <span className={styles.exptag}>width</span> and <span className={styles.exptag}>height</span> attributes. If height and width are not set, the page
                         might flicker while the video loads.</p>
-                    <p>The <span class={styles.exptag}>&lt;source&gt;</span> element allows you to specify alternative video
+                    <p>The <span className={styles.exptag}>&lt;source&gt;</span> element allows you to specify alternative video
                         files which the browser may choose from. The browser will use the first recognized format.</p>
-                    <p>The text between the <span class={styles.exptag}>&lt;video&gt;</span> and <span class={styles.exptag}>&lt;/video&gt;</span> tags will only be displayed
+                    <p>The text between the <span className={styles.exptag}>&lt;video&gt;</span> and <span className={styles.exptag}>&lt;/video&gt;</span> tags will only be displayed
                         in browsers that do not
-                        support the <span class={styles.exptag}>&lt;video&gt;</span> element.</p>
+                        support the <span className={styles.exptag}>&lt;video&gt;</span> element.</p>
 
                     <h2>HTML &lt;video&gt; Autoplay</h2>
-                    <p>To start a video automatically, use the <span class={styles.exptag}>autoplay</span> attribute:</p>
-                    <p>Add <span class={styles.exptag}>muted</span> after <span class={styles.exptag}> autoplay</span> to let your video start playing automatically (but muted):</p>
+                    <p>To start a video automatically, use the <span className={styles.exptag}>autoplay</span> attribute:</p>
+                    <p>Add <span className={styles.exptag}>muted</span> after <span className={styles.exptag}> autoplay</span> to let your video start playing automatically (but muted):</p>
                     <p><strong>Note:</strong> Chromium browsers do not allow autoplay in most cases. However, muted autoplay is always allowed.</p>
 
                     <div className="embedDiv">
@@ -89,8 +89,8 @@ const Video = () => {
 
                         <h2>Browser Support</h2>
                         <p>The numbers in the table specify the first browser version that fully supports the
-                            <span class={styles.exptag}>&lt;video&gt;</span> element.</p>
-                        <table class={styles.reftable}>
+                            <span className={styles.exptag}>&lt;video&gt;</span> element.</p>
+                        <table className={styles.reftable}>
                             <tr>
                                 <th>Element</th>
                                 <th>Chrome</th>
@@ -143,7 +143,7 @@ const Video = () => {
                         ))}
                     </table>
                     <h2>HTML Video - Methods, Properties, and Events</h2>
-                    <p>The HTML DOM defines methods, properties, and events for the <code class="w3-codespan">&lt;video&gt;</code> element.</p>
+                    <p>The HTML DOM defines methods, properties, and events for the <span className={styles.exptag}>&lt;video&gt;</span> element.</p>
                     <p>This allows you to load, play, and pause videos, as well as setting duration and volume.</p>
                     <p>There are also DOM events that can notify you when a video begins to play, is paused, etc.</p>
                     <div className={styles.extraborder}>

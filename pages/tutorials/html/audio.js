@@ -25,7 +25,7 @@ const Audio = () => {
     const cbrc = <span className="curlybracket">&#125;</span>;
 
 
-    // <span class={styles.exptag}>
+    // <span className={styles.exptag}>
 
     return (
         <>
@@ -55,7 +55,7 @@ const Audio = () => {
                     <div className={styles.extraborder}>
 
                         <h2>The HTML &lt;audio&gt; Element</h2>
-                        <p>To play an audio file in HTML, use the <span class={styles.exptag}>&lt;audio&gt;</span> element:</p>
+                        <p>To play an audio file in HTML, use the <span className={styles.exptag}>&lt;audio&gt;</span> element:</p>
                         <div className="embedDiv">
                             <iframe height="350" style={{ "width": "70%" }}
                                 scrolling="no" title="The HTML &lt;audio&gt; Element" src="https://codepen.io/_michaeli/embed/ZExWmvE?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
@@ -68,15 +68,15 @@ const Audio = () => {
                     <div className={styles.extraborder}>
 
                         <h2>How it Works</h2>
-                        <p>The <span class={styles.exptag}>controls</span> attribute adds audio controls, like play, pause, and volume.</p>
-                        <p>The <span class={styles.exptag}>&lt;source&gt;</span> element allows you to specify alternative audio files which the browser may choose from. The browser will use the first recognized format.</p>
-                        <p>The text between the <span class={styles.exptag}>&lt;audio&gt;</span> and <span class={styles.exptag}>&lt;/audio&gt;</span> tags will only be displayed in browsers that do not support the <span class={styles.exptag}>&lt;audio&gt;</span> element.</p>
+                        <p>The <span className={styles.exptag}>controls</span> attribute adds audio controls, like play, pause, and volume.</p>
+                        <p>The <span className={styles.exptag}>&lt;source&gt;</span> element allows you to specify alternative audio files which the browser may choose from. The browser will use the first recognized format.</p>
+                        <p>The text between the <span className={styles.exptag}>&lt;audio&gt;</span> and <span className={styles.exptag}>&lt;/audio&gt;</span> tags will only be displayed in browsers that do not support the <span className={styles.exptag}>&lt;audio&gt;</span> element.</p>
                     </div>
                     <div className={styles.extraborder}>
 
                         <h2>HTML &lt;audio&gt; Autoplay</h2>
-                        <p>To start an audio file automatically, use the <span class={styles.exptag}>autoplay</span> attribute:</p>
-                        <p>Add <span class={styles.exptag}>muted</span> after <span class={styles.exptag}> autoplay</span> to let your audio file start playing automatically (but muted):</p>
+                        <p>To start an audio file automatically, use the <span className={styles.exptag}>autoplay</span> attribute:</p>
+                        <p>Add <span className={styles.exptag}>muted</span> after <span className={styles.exptag}> autoplay</span> to let your audio file start playing automatically (but muted):</p>
                         <p><strong>Note:</strong> Chromium browsers do not allow autoplay in most cases. However, muted autoplay is always allowed.</p>
 
                         <div className="embedDiv">
@@ -92,8 +92,8 @@ const Audio = () => {
 
                         <h2>Browser Support</h2>
                         <p>The numbers in the table specify the first browser version that fully supports the
-                            <span class={styles.exptag}>&lt;audio&gt;</span> element.</p>
-                        <table class={styles.reftable}>
+                            <span className={styles.exptag}>&lt;audio&gt;</span> element.</p>
+                        <table className={styles.reftable}>
                             <tr>
                                 <th>Element</th>
                                 <th>Chrome</th>
@@ -150,8 +150,8 @@ const Audio = () => {
                             ))}
                         </table>
                     </div>
-                    <h2>HTML audio - Methods, Properties, and Events</h2>
-                    <p>The HTML DOM defines methods, properties, and events for the <code class="w3-codespan">&lt;audio&gt;</code> element.</p>
+                    <h2>HTML Audio - Methods, Properties, and Events</h2>
+                    <p>The HTML DOM defines methods, properties, and events for the <span className={styles.exptag}>&lt;audio&gt;</span> element.</p>
                     <p>This allows you to load, play, and pause audios, as well as setting duration and volume.</p>
                     <p>There are also DOM events that can notify you when a audio begins to play, is paused, etc.</p>
 
