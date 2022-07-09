@@ -37,6 +37,16 @@ const Introdution = () => {
                 <div className={styles.pagecontent}>
                     <StickyNav />
 
+                    <div className={styles.nextbutcont}>
+                        <Link href="/tutorials/html/">
+                            <a className={styles.prevbut}>Previous</a>
+                        </Link>
+                        <Link href="/tutorials/html/editors">
+                            <a className={styles.nextbut}>Next</a>
+                        </Link>
+                    </div>
+
+
                     <h1>HTML Introduction</h1>
                     <h3>HTML is the standard markup language for creating Web pages.</h3>
                     <div className={styles.extraborder}>
@@ -53,7 +63,7 @@ const Introdution = () => {
                     <div className={styles.extraborder}>
                         <h2>A Simple HTML Document</h2>
                         <div className="embedDiv">
-                            <iframe height="350" style={{ width: 1100 }}
+                            <iframe height="350" style={{ "width": "75%" }}
                                 scrolling="no" title="Html Example" src="https://codepen.io/_michaeli/embed/jOzqLMW?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/jOzqLMW"><a>
                                     Html Example</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)

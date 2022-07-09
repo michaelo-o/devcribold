@@ -11,12 +11,11 @@
     border-right: 1px solid #a86705;
     margin-left: auto;
     z-index: 1;
-
     width: 25%;
 }
 
 .currentlang {
-    background-color: #e68e0b !important;
+    background-color: #e68e0a !important;
     color: #0d1721 !important;
     margin: 0;
 }

@@ -1,0 +1,37 @@
+[
+ {
+  "Browser": "Edge\/IE",
+  "MP3": "YES",
+  "WAV": "YES*",
+  "OGG": "YES*",
+  "id": 1
+ },
+ {
+  "Browser": "Chrome",
+  "MP3": "YES",
+  "WAV": "YES",
+  "OGG": "YES",
+  "id": 2
+ },
+ {
+  "Browser": "Firefox",
+  "MP3": "YES",
+  "WAV": "YES",
+  "OGG": "YES",
+  "id": 3
+ },
+ {
+  "Browser": "Safari",
+  "MP3": "YES",
+  "WAV": "YES",
+  "OGG": "NO",
+  "id": 4
+ },
+ {
+  "Browser": "Opera",
+  "MP3": "YES",
+  "WAV": "YES",
+  "OGG": "YES",
+  "id": 5
+ }
+]

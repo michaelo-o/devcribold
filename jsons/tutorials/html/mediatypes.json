@@ -1,0 +1,17 @@
+[
+ {
+  "File Format": "MP4",
+  "Media Type": "video\/mp4",
+  "id": 1
+ },
+ {
+  "File Format": "WebM",
+  "Media Type": "video\/webm",
+  "id": 2
+ },
+ {
+  "File Format": "Ogg",
+  "Media Type": "video\/ogg",
+  "id": 3
+ }
+]

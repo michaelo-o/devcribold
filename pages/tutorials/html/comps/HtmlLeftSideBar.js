@@ -1,7 +1,5 @@
 import styles from "../../leftsidebar.module.css"
-import Image from "next/image";
 import Link from "next/link";
-import Head from "next/head";
 
 
 
@@ -148,20 +146,20 @@ const HtmlLeftSidebar = () => {
                     <Link href="/tutorials/html/media">
                         <a>Media</a>
                     </Link>
-                    <Link href="/tutorials/html/">
+                    <Link href="/tutorials/html/video">
                         <a>Video </a>
                     </Link>
-                    <Link href="/tutorials/html/">
+                    <Link href="/tutorials/html/audio">
                         <a>Audio </a>
                     </Link>
-                    <Link href="/tutorials/html/">
+                    <Link href="/tutorials/html/plugins">
                         <a>Plug-Ins </a>
                     </Link>
-                    <Link href="/tutorials/html/">
+                    <Link href="/tutorials/html/youtube">
                         <a>YouTube </a>
                     </Link>
                     <h2>HTML Examples</h2>
-                    <Link href="/tutorials/html/">
+                    <Link href="/tutorials/html/examples">
                         <a>Examples </a>
                     </Link>
                 </div>

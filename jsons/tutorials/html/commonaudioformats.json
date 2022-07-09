@@ -1,27 +1,15 @@
 [
  {
   "Format": "MIDI",
-  "File": ".mid",
+  "File": ".mid, .midi",
   "Description": "MIDI (Musical Instrument Digital Interface). Main format for all electronic music devices like synthesizers and PC sound cards. MIDI files do not contain sound, but digital notes that can be played by electronics. Plays well on all computers and music hardware, but not in web browsers.",
   "id": 1
  },
  {
-  "Format": null,
-  "File": ".midi",
-  "Description": null,
-  "id": 2
- },
- {
   "Format": "RealAudio",
-  "File": ".rm",
+  "File": ".rm, .ram",
   "Description": "RealAudio. Developed by Real Media to allow streaming of audio with low bandwidths. Does not play in web browsers.",
   "id": 3
- },
- {
-  "Format": null,
-  "File": ".ram",
-  "Description": null,
-  "id": 4
  },
  {
   "Format": "WMA",

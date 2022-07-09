@@ -40,6 +40,16 @@ const FormAttr = () => {
                     <StickyNav />
                     <h1>HTML Form Attributes</h1>
 
+                    <div className={styles.nextbutcont}>
+                        <Link href="/tutorials/html/forms">
+                            <a className={styles.prevbut}>Previous</a>
+                        </Link>
+                        <Link href="/tutorials/html/formelements">
+                            <a className={styles.nextbut}>Next</a>
+                        </Link>
+                    </div>
+
+
                     <p>the different attributes for the HTML <span className={styles.exptag}>&lt;form&gt;</span> element..</p>
                     <div className={styles.extraborder}>
                         <h2>The Action Attribute</h2>
@@ -47,7 +57,7 @@ const FormAttr = () => {
                             Usually, the form data is sent to a file on the server when the user clicks on the submit button. <br /> <br />
                             In the example below, the form data is sent to a file called &quot;action_page.php&quot;. This file contains a server-side script that handles the form data:</p>
                         <div className="embedDiv">
-                            <iframe height="400" style={{ width: 1100 }}
+                            <iframe height="400" style={{ "width": "75%" }}
                                 scrolling="no" title="Submit Button" src="https://codepen.io/_michaeli/embed/yLKOPJr?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/yLKOPJr"><a>
                                     Submit Button</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
@@ -75,7 +85,7 @@ const FormAttr = () => {
                             ))}
                         </table>
                         <div className="embedDiv">
-                            <iframe height="400" style={{ width: 1100 }}
+                            <iframe height="400" style={{ "width": "75%" }}
                                 scrolling="no" title="The form target attribute" src="https://codepen.io/_michaeli/embed/MWVyOrW?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/MWVyOrW"><a>
                                     The form target attribute</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
@@ -122,7 +132,7 @@ const FormAttr = () => {
 
                     <h3>Examples on The Method, Autocomplete and Novalidate Attributes</h3>
                     <div className="embedDiv">
-                        <iframe height="700" style={{ width: 1100 }}
+                        <iframe height="700" style={{ "width": "75%" }}
                             scrolling="no" title="The Method, Autocomplete and Novalidate Attributes" src="https://codepen.io/_michaeli/embed/bGvpYxZ?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
                             See the Pen <Link href="https://codepen.io/_michaeli/pen/bGvpYxZ"><a>
                                 The Method, Autocomplete and Novalidate Attributes</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)

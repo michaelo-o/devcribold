@@ -39,6 +39,16 @@ const Media = () => {
 
                     <h1>HTML Multimedia</h1>
 
+                    <div className={styles.nextbutcont}>
+                        <Link href="/tutorials/html/inputformattr">
+                            <a className={styles.prevbut}>Previous</a>
+                        </Link>
+                        <Link href="/tutorials/html/video">
+                            <a className={styles.nextbut}>Next</a>
+                        </Link>
+                    </div>
+
+
                     <h2>What is Multimedia?</h2>
                     <p>Multimedia comes in many different formats. It can be almost anything you can
                         hear or see, like images, music,
@@ -101,8 +111,8 @@ const Media = () => {
                             </tr>
                         ))}
                     </table>
-                        
-                            
+
+
 
                     <PageContentFooter />
                 </div>

@@ -40,6 +40,7 @@
     padding-top: 0;
     margin-bottom: 0;
     padding-bottom: 0;
+    line-height: 1 !important;
 }
 
 .pagecontent h1,
@@ -49,6 +50,8 @@
 
 .pagecontent h2 {
     border-bottom: .5px solid #a86705;
+    margin-top: 0;
+    padding-top: 10px;
 }
 
 .pagecontent h3 {
@@ -90,7 +93,7 @@
     font-weight: bolder;
 }
 
-.lightbackground{
+.lightbackground {
     background-color: #1d2a35;
     padding: 2%;
     width: 70%;
@@ -112,12 +115,55 @@
 }
 
 /* Link buttons */
-.graybut{
+.graybut {
     background-color: #1d2a35;
     text-decoration: none;
     padding: 5px;
     width: max-content;
     border-radius: 10px;
+}
+
+/* NextPrev Buttons */
+.nextbut {
+    background-color: #e68e0a;
+    text-decoration: none;
+    padding: 5% 25%;
+    width: 100%;
+    border: 1px solid #e68e0a;
+    margin: 0;
+    text-align: center;
+}
+
+.prevbut {
+    background-color: #e68e0a;
+    text-decoration: none;
+    padding: 5% 11%;
+    width: 100%;
+    border: 1px solid #e68e0a;
+    margin: 0;
+    text-align: center;
+}
+
+.nextbut:hover,
+.prevbut:hover {
+    color: #ffffff;
+    border: 1px solid #e68e0a;
+    background-color: #0d1721;
+    transition: ease-in-out .5s;
+}
+
+.nextbutcont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    position: sticky;
+    top: 37%;
+    right: 0;
+    margin-left: auto;
+    z-index: 1;
+    padding: 0;
+    margin-top: 0;
 }
 
 /* Reference Tables */
@@ -144,7 +190,7 @@
     background-color: #1d2a35;
 }
 
-.h1sticky{
+.h1sticky {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 import styles from "../tutorialgeneral.module.css"
@@ -39,6 +38,13 @@ const LearnHtml = () => {
                 <div className={styles.pagecontent}>
                     <StickyNav />
 
+                    <div className={styles.nextbutcont}>
+                        <Link href="/tutorials/html/intro">
+                            <a className={styles.nextbut}>Next</a>
+                        </Link>
+                    </div>
+
+
                     <h1>HTML Tutorial</h1>
                     <div className={styles.extraborder}>
                         <p className={styles.lightbackground}>
@@ -52,7 +58,7 @@ const LearnHtml = () => {
                         <span className={styles.boldtext}>Note</span>: Edits made in the embedded code are not permanent and would be cleared upon refreshing the page.
                     </p>
                     <div className="embedDiv">
-                        <iframe height="300" style={{ width: 1100 }}
+                        <iframe height="300" style={{ "width": "75%" }}
                             scrolling="no" title="Html Example" src="https://codepen.io/_michaeli/embed/jOzqLMW?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
                             See the Pen <Link href="https://codepen.io/_michaeli/pen/jOzqLMW"><a>
                                 Html Example</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)

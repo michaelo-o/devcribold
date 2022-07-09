@@ -1,0 +1,37 @@
+[
+ {
+  "Browser": "Edge",
+  "MP4": "YES",
+  "WebM": "YES",
+  "Ogg": "YES",
+  "id": 1
+ },
+ {
+  "Browser": "Chrome",
+  "MP4": "YES",
+  "WebM": "YES",
+  "Ogg": "YES",
+  "id": 2
+ },
+ {
+  "Browser": "Firefox",
+  "MP4": "YES",
+  "WebM": "YES",
+  "Ogg": "YES",
+  "id": 3
+ },
+ {
+  "Browser": "Safari",
+  "MP4": "YES",
+  "WebM": "YES",
+  "Ogg": "NO",
+  "id": 4
+ },
+ {
+  "Browser": "Opera",
+  "MP4": "YES",
+  "WebM": "YES",
+  "Ogg": "YES",
+  "id": 5
+ }
+]
