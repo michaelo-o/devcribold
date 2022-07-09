@@ -21,7 +21,7 @@ const YouTube = () => {
     const cbrc = <span className="curlybracket">&#125;</span>;
 
 
-    // <span class={styles.exptag}>
+    // <span className={styles.exptag}>
 
     return (
         <>
@@ -97,10 +97,8 @@ const YouTube = () => {
                             page, by adding  <span className={styles.exptag}>autoplay=1</span> to the YouTube URL.
                             However, automatically starting a video is annoying for your visitors!</p>
 
-                        <div class="w3-panel w3-note">
                             <p><strong>Note:</strong> Chromium browsers do not
                                 allow autoplay in most cases. However, muted autoplay is always allowed.</p>
-                        </div>
 
                         <p>Add  <span className={styles.exptag}>mute=1</span> after  <span className={styles.exptag}>
                             autoplay=1</span> to let your video start playing automatically (but muted).</p>
