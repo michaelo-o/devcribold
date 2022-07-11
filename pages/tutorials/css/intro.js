@@ -87,9 +87,7 @@ const CssIntro = () => {
                         page, became a long and expensive process.</p>
                     <p>To solve this problem, the World Wide Web Consortium (W3C) created CSS.</p>
                     <p>CSS removed the style formatting from the HTML page!</p>
-                    <div class="w3-note w3-panel">
-                        <p>If you don't know what HTML is, we suggest that you read our <a href="/html/default.asp">HTML Tutorial</a>.</p>
-                    </div>
+                        <p>If you don&apos;t know what HTML is, we suggest that you read our <a href="/html/default.asp">HTML Tutorial</a>.</p>
 
 
                     <h2>CSS Saves a Lot of Work!</h2>

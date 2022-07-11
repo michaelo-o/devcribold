@@ -61,7 +61,7 @@ const CssRoundedCorners = () => {
                     <h2>CSS border-radius Property</h2>
                     <p>The CSS
                         <span className={styles.exptag}>border-radius</span> property defines the radius of an
-                        element's corners.</p>
+                        element&apos;s corners.</p>
                     <p><strong>Tip:</strong> This property allows you to add rounded corners to
                         elements!</p>
                     <p>Here are three examples:</p>

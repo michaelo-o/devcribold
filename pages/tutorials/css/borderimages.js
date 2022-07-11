@@ -101,7 +101,7 @@ const BorderImages = () => {
 
 
                     <h2>CSS Border Image Properties</h2>
-                    <table class="ws-table-all notranslate">
+                    <table className={styles.reftable}>
                         <tr>
                             <th style={{ "width": "30%" }}>Property</th>
                             <th>Description</th>

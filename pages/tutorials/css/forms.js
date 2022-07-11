@@ -83,7 +83,7 @@ const CssForms = () => {
 
                     <p>Note that we have set the <span className={styles.exptag}>box-sizing</span> property to
                         <span className={styles.exptag}>border-box</span>. This makes sure that the padding and eventually borders are included in the
-                        total width and height of the elements.  <br />Read more about the <span className={styles.exptag}>box-sizing</span> property in our <a href="css3_box-sizing.asp">CSS Box Sizing</a> chapter.</p>
+                        total width and height of the elements.  <br />Read more about the <span className={styles.exptag}>box-sizing</span> property in our CSS Box Sizing chapter.</p>
 
 
 
@@ -127,14 +127,14 @@ const CssForms = () => {
                     <h2>Animated Search Input</h2>
                     <p>In this example we use the CSS <span className={styles.exptag}>transition</span> property to animate
                         the width of the search input when it gets focus. You will learn more about the <span className={styles.exptag}>
-                            transition</span> property later, in our <a href="css3_transitions.asp">CSS Transitions</a> chapter.</p>
+                            transition</span> property later, in our CSS Transitions chapter.</p>
 
 
 
 
 
                     <h2>Styling Textareas</h2>
-                    <p><strong>Tip:</strong> Use the <span className={styles.exptag}>resize</span> property to prevent textareas from being resized (disable the "grabber" in the bottom right corner):</p>
+                    <p><strong>Tip:</strong> Use the <span className={styles.exptag}>resize</span> property to prevent textareas from being resized (disable the &quot;grabber&quot; in the bottom right corner):</p>
 
 
 
