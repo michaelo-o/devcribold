@@ -1,0 +1,38 @@
+[
+    {
+        "Selector": "#id",
+        "Example": "#firstname",
+        "Example description": "Selects the element with id=\"firstname\"",
+        "id": 1
+    },
+    {
+        "Selector": ".class",
+        "Example": ".intro",
+        "Example description": "Selects all elements with class=\"intro\"",
+        "id": 2
+    },
+    {
+        "Selector": "element.class",
+        "Example": "p.intro",
+        "Example description": "Selects only &lt;p&gt; elements with class=\"intro\"",
+        "id": 3
+    },
+    {
+        "Selector": "*",
+        "Example": "*",
+        "Example description": "Selects all elements",
+        "id": 4
+    },
+    {
+        "Selector": "element",
+        "Example": "p",
+        "Example description": "Selects all &lt;p&gt; elements",
+        "id": 5
+    },
+    {
+        "Selector": "element,element,..",
+        "Example": "div, p",
+        "Example description": "Selects all &lt;div&gt; elements and all &lt;p&gt; elements",
+        "id": 6
+    }
+]

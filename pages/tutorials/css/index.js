@@ -13,14 +13,14 @@ const LearnCss = () => {
 
     // HTML ANGLE BRACKET
 
-    const BrO = <span className="tagcolor">&lt;</span>;
-    const BrC = <span className="tagcolor">&gt;</span>;
+    const bro = <span className="tagcolor">&lt;</span>;
+    const brc = <span className="tagcolor">&gt;</span>;
 
 
     // CSS CURLY BRACKET
 
-    const CBrO = <span className="curlybracket">&#123;</span>;
-    const CBrC = <span className="curlybracket">&#125;</span>;
+    const cbro = <span className="curlybracket">&#123;</span>;
+    const cbrc = <span className="curlybracket">&#125;</span>;
 
 
 
@@ -38,7 +38,7 @@ const LearnCss = () => {
 
                 <div className={styles.pagecontent}>
                     <StickyNav />
-
+                    <h1>CSS Tutorial</h1>
                     <div className={styles.nextbutcont}>
                         <Link href="/tutorials/css/intro">
                             <a className={styles.nextbut}>Next</a>
@@ -46,7 +46,7 @@ const LearnCss = () => {
                     </div>
 
 
-                    <h1>CSS Tutorial</h1>
+
                     <div className={styles.extraborder}>
                         <p className={styles.lightbackground}>
                             CSS is the language we use to style an HTML document.<br /> <br />

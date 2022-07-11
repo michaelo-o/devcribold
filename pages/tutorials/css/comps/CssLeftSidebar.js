@@ -17,13 +17,13 @@ const CssLeftSidebar = () => {
                         <a>CSS Home</a>
                     </Link>
                     <h2>CSS Basic</h2>
-                    <Link href="/tutorials/css/tutorial">
+                    <Link href="/tutorials/css/intro">
                         <a>Introduction </a>
                     </Link>
-                    <Link href="/tutorials/css/tutorial">
+                    <Link href="/tutorials/css/syntax">
                         <a>Syntax </a>
                     </Link>
-                    <Link href="/tutorials/css/tutorial">
+                    <Link href="/tutorials/css/selectors">
                         <a>Selectors </a>
                     </Link>
                     <Link href="/tutorials/css/tutorial">
@@ -50,7 +50,7 @@ const CssLeftSidebar = () => {
                     <Link href="/tutorials/css/tutorial">
                         <a>Comments </a>
                     </Link>
-                    <Link href="/tutorials/css/tutorial">
+                    <Link href="/tutorials/css/colors">
                         <a>Colors </a>
                     </Link>
                     <Link href="/tutorials/css/tutorial">
@@ -92,14 +92,14 @@ const CssLeftSidebar = () => {
                     <Link href="/tutorials/css/tutorial">
                         <a>Dropdowns </a>
                     </Link>
-                    <Link href="/tutorials/css/tutorial">
+                    <Link href="/tutorials/css/forms">
                         <a>Forms </a>
                     </Link>
                     <h2>CSS Advanced</h2>
-                    <Link href="/tutorials/css/tutorial">
+                    <Link href="/tutorials/css/roundedcorners">
                         <a>Rounded Corners </a>
                     </Link>
-                    <Link href="/tutorials/css/tutorial">
+                    <Link href="/tutorials/css/borderimages">
                         <a>Border Images </a>
                     </Link>
                     <Link href="/tutorials/css/tutorial">
@@ -130,7 +130,7 @@ const CssLeftSidebar = () => {
                         <a>Flexbox </a>
                     </Link>
                     <h2>CSS Responsive</h2>
-                    <Link href="/tutorials/css/tutorial">
+                    <Link href="/tutorials/css/rwd">
                         <a>Intro & Viewport </a>
                     </Link>
                     <Link href="/tutorials/css/tutorial">

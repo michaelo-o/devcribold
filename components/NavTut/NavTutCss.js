@@ -11,19 +11,16 @@ const NavTutCss = (props) => {
                 <Link href="/tutorials/css/">
                     <a><h3 onClick={tutorial}>Learn CSS Basic</h3></a>
                 </Link>
-                <Link href="#">
+                <Link href="/tutorials/css/roundedcorners">
                     <a><h3 onClick={tutorial}>Learn CSS Advanced</h3></a>
                 </Link>
-                <Link href="#">
+                <Link href="/tutorials/css/colors">
                     <a><h3 onClick={tutorial}>Learn CSS Colors</h3></a>
                 </Link>
-                <Link href="#">
-                    <a><h3 onClick={tutorial}>Learn CSS Grid</h3></a>
-                </Link>
-                <Link href="#">
+                <Link href="/tutorials/css/rwd">
                     <a><h3 onClick={tutorial}>Learn CSS RWD</h3></a>
                 </Link>
-                <Link href="#">
+                <Link href="/tutorials/css/examples">
                     <a><h3 onClick={tutorial}>CSS Examples</h3></a>
                 </Link>
             </div>

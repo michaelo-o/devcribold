@@ -7,7 +7,7 @@ import StickyNav from "./comps/StickyNav";
 import HtmlLeftSidebar from "./comps/HtmlLeftSideBar";
 // default imports
 import taglist from "../../../jsons/tutorials/html/taglist.json"
-import history from "../../../jsons/tutorials/html/html history.json"
+import history from "../../../jsons/tutorials/html/hgbxztml history.json"
 
 const Introdution = () => {
 
