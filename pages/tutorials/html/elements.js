@@ -125,7 +125,7 @@ const Elements = () => {
 
 
                     <p>The <span className={styles.exptag}>&lt;body&gt;</span> element defines the
-                        document's body.</p>
+                        document&apos;s body.</p>
                     <p>It has a start tag <span className={styles.exptag}>&lt;body&gt;</span> and an end tag <span className={styles.exptag}>&lt;/body&gt;</span>.</p>
                     <p>Then, inside the <span className={styles.exptag}>&lt;body&gt;</span> element there
                         are two other elements:
@@ -163,7 +163,7 @@ const Elements = () => {
 
 
                     <h2>HTML Tag Reference</h2>
-                    <p>DevCrib's tag reference contains additional information about these tags and their attributes.</p>
+                    <p>DevCrib&apos;s tag reference contains additional information about these tags and their attributes.</p>
                     <Link href="/references/html/htmltagref">
                         <a ><h3 className={styles.graybut}>Go To HTML Tag Reference...</h3></a>
                     </Link>

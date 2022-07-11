@@ -51,7 +51,7 @@ const Basic = () => {
 
 
                     <p  >In this chapter we will show some basic HTML examples.</p>
-                    <p  >Don't worry if we use tags you have not learned about yet.</p>
+                    <p  >Don&apos;t worry if we use tags you have not learned about yet.</p>
                      
 
                     <h2>HTML Documents</h2>
@@ -87,7 +87,7 @@ const Basic = () => {
                     <h2>HTML Links</h2>
                     <p>HTML links are defined with the <span className={styles.exptag}>&lt;a&gt;</span> tag:</p>
                   
-                    <p>The link's destination is specified in the <span className={styles.exptag}>href</span> attribute.&nbsp;</p>
+                    <p>The link&apos;s destination is specified in the <span className={styles.exptag}>href</span> attribute.&nbsp;</p>
                     <p>Attributes are used to provide additional information about HTML elements.</p>
                     <p>You will learn more about attributes in a later chapter.</p>
                    
