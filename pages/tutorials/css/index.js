@@ -3,7 +3,8 @@ import Head from "next/head";
 import styles from "../tutorialgeneral.module.css"
 import PageContentFooter from "../../../components/PageContentFooter";
 import StickyNav from "./comps/StickyNav";
-import CssLeftSidebar from "./comps/CssLeftSideBar";
+import CssLeftSidebar from "./comps/CssLeftSidebar";
+
 // default imports
 
 
