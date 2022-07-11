@@ -50,7 +50,7 @@ const FormAttr = () => {
                     </div>
 
 
-                    <p>the different attributes for the HTML <span className={styles.exptag}>&lt;form&gt;</span> element..</p>
+                    <p>The different attributes for the HTML <span className={styles.exptag}>&lt;form&gt;</span> element..</p>
                     <div className={styles.extraborder}>
                         <h2>The Action Attribute</h2>
                         <p>The <span className={styles.exptag}>action</span> attribute defines the action to be performed when the form is submitted. <br />

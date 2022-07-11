@@ -115,7 +115,7 @@ const Introdution = () => {
                         <h2>Web Browsers</h2>
                         <p>The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly. <br />
                             A browser does not display the HTML tags, but uses them to determine how to display the document:</p>
-                        <Image src="/img_chrome.png" width={600} height={350} />
+                        <Image src="/img_chrome.png" width={600} height={350} alt="Browser Demo" />
                     </div>
                     <h2>HTML History</h2>
                     <p>Since the early days of the World Wide Web, there have been many versions of HTML:</p>
