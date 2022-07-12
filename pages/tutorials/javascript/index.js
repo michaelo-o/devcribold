@@ -38,7 +38,7 @@ const LearnJs = () => {
 
                     <div className={styles.extraborder}>
                         <p className={styles.lightbackground}>
-                            JavaScript is the world's most popular programming language.  <br /> <br />
+                            JavaScript is the world&apos;s most popular programming language.  <br /> <br />
                             JavaScript is the programming language of the Web. <br /> <br />
                             JavaScript is easy to learn. 
                         </p>

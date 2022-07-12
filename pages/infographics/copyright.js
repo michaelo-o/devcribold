@@ -35,7 +35,7 @@ const Copyright = () => {
                     </div>
                     <div className={styles.extraborder}>
                         <h2>Code Editor</h2>
-                        <p>The online code editor used in DevCrib is Codepen. An online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It functions as an online code editor and open-source learning environment, where developers can create code snippets, called "pens," and test them.</p>
+                        <p>The online code editor used in DevCrib is Codepen. An online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It functions as an online code editor and open-source learning environment, where developers can create code snippets, called &quot;pens,&quot; and test them.</p>
                         <Link href="https://codepen.io/"><a><h3 className={styles.graybut}>Go to Codpen...</h3></a></Link>
                     </div>
                     <div className={styles.extraborder}>

@@ -42,6 +42,7 @@ const AttributesEx = () => {
     const [Ans18Status, setAns18Status] = useState("")
     const [Ans19to20Status, setAns19to20Status] = useState("")
     const [Ans21Status, setAns21Status] = useState("")
+    const [Ans22Status, setAns22Status] = useState("")
 
 
 
@@ -55,6 +56,7 @@ const AttributesEx = () => {
         setAns18Status("")
         setAns19to20Status("")
         setAns21Status("")
+        setAns22Status("")
     }
 
 
@@ -66,7 +68,7 @@ const AttributesEx = () => {
     const [ExcStatus, setExcStatus] = useState("Excercises Not Attempted")
     const [ExcAttempted, setExcAttempted] = useState(false)
 
-    const [{ ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans10, ans11, ans12, ans13, ans14, ans15, ans16, ans17, ans18, ans19, ans20, ans21 }, setAns] = useState(blankAns);
+    const [{ ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans10, ans11, ans12, ans13, ans14, ans15, ans16, ans17, ans18, ans19, ans20, ans21, ans22 }, setAns] = useState(blankAns);
 
     const onChange = (event) => {
         const { name, value } = event.target;
@@ -163,7 +165,15 @@ const AttributesEx = () => {
         else {
             setAns21Status(wrongA)
         }
-
+        if (ans22 === "<br>") {
+            setAttrscore(++Attrscore);
+            setAns21Status(rightA)
+        } else if (ans22 === "") {
+            setAns22Status(noA)
+        }
+        else {
+            setAns22Status(wrongA)
+        }
 
 
     }
@@ -206,7 +216,6 @@ const AttributesEx = () => {
             </Head>
             <div className={styles.genexcbackground}>
 
-                <HtmlExLSb />
 
                 <div className={styles.pagecontent}>
                     <h1>HTML Excercises</h1>
@@ -214,8 +223,6 @@ const AttributesEx = () => {
 
                     <div className={styles.quesbg}>
                         <form onSubmit={handleSubmit}>
-                            <h2 id="attrex">HTML Attributes Excercise</h2>
-
                             <p>1) Add a &quot; tooltip&quot; to the paragraph below with the text &quot;About DevCrib&quot;.</p> <br />
                             <p> &lt;p<input value={ans1} name="ans1" onChange={onChange} type="text" />=&quot;About DevCrib&quot;&gt;DevCrib is a Web Developer Site&lt;p&gt; {Ans1Status}</p>
                             <br />
@@ -229,14 +236,12 @@ const AttributesEx = () => {
                             />&quot;https://www.google.com&quot;&gt;This is a link&lt;/a&gt;{Ans4Status}</p>
                             <br />
 
-                            <h2 id="headex">HTML Headings Excercise</h2>
-
-                            <p>1) Use the correct HTML tag to add a heading with the text &quot;London&quot;.</p> <br />
+                            <p>4) Use the correct HTML tag to add a heading with the text &quot;London&quot;.</p> <br />
                             <p><input value={ans5} name="ans5" onChange={onChange} type="text" />  {Ans5Status}</p>
                             <p>&lt;p&gt;London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.&lt;/p&gt;
                             </p> <br />
 
-                            <p>2) Add six headings to the document with the text &quot;Hello&quot;. <br />
+                            <p>5) Add six headings to the document with the text &quot;Hello&quot;. <br />
                                 Start with the most important heading (the largest) and end with the least important heading (the smallest).</p> <br />
 
                             <p><input value={ans6} name="ans6" onChange={onChange} type="text" />  </p>
@@ -247,7 +252,7 @@ const AttributesEx = () => {
                             <p><input value={ans11} name="ans11" onChange={onChange} type="text" />  {Ans6to11Status}</p>
                             <br />
 
-                            <p>3) Mark up the text with appropriate tags: <br />
+                            <p>6) Mark up the text with appropriate tags: <br />
 
                                 &quot;Universal Studios Presents&quot; is the most important heading. <br /> <br />
 
@@ -259,12 +264,10 @@ const AttributesEx = () => {
 
                             <p><input value={ans12} name="ans12" onChange={onChange} type="text" />Universal Studios Presents<input value={ans13} name="ans13" onChange={onChange} type="text" />  </p>
                             <p><input value={ans14} name="ans14" onChange={onChange} type="text" />Jurassic Park<input value={ans15} name="ans15" onChange={onChange} type="text" />  </p>
-                            <p><input value={ans16} name="ans16" onChange={onChange} type="text" />On the Island of Isla Nublar, a new park has been built: Jurassic Park is a theme park of cloned dinosaurs!!<input value={ans17} name="ans17" onChange={onChange} type="text" />  {Ans12to17Status}</p>
+                            <p><input value={ans16} name="ans16" onChange={onChange} type="text" />On the Island of Isla Nublar, a new park has been built: Jurassic Park is a theme park of cloned dinosaurs!!<input value={ans17} name="ans17" onChange={onChange} type="text" />  {Ans12to17Status}</p> <br />
 
 
-                            <h2 id="parex">HTML Paragraphs Excercise</h2>
-
-                            <p>1) Use the correct HTML tag to add a paragraph with the text &quot;Hello World!&quot;.</p> <br />
+                            <p>7) Use the correct HTML tag to add a paragraph with the text &quot;Hello World!&quot;.</p> <br />
                             <p>
                                 &lt;html&gt; <br />
                                 &lt;body&gt;  <br />
@@ -275,12 +278,15 @@ const AttributesEx = () => {
 
                             <br />
 
-                            <p>2) Clean up this document with proper end tags.</p> <br />
+                            <p>8) Clean up this document with proper end tags.</p> <br />
                             <p>&lt;h1&gt;This is a Heading <input value={ans19} name="ans19" onChange={onChange} type="text" /> <br />
                                 &lt;p&gt;This is a paragraph.<input value={ans20} name="ans20" onChange={onChange} type="text" />  {Ans19to20Status}<br /> </p>
                             <br />
-                            <p>3) Add a line break in the middle of the paragraph:</p> <br />
-                            <p>&lt;p&gt;My Bonnie lies<input value={ans21} name="ans21" onChange={onChange} type="text" />over the ocean.&lt;/p&gt;{Ans21Status}</p>
+                            <p>9) Add a line break in the middle of the paragraph:</p> <br />
+                            <p>&lt;p&gt;My Bonnie lies<input value={ans21} name="ans21" onChange={onChange} type="text" />over the ocean.&lt;/p&gt;{Ans21Status}</p> <br />
+
+                            <p>10) Add a line break in the middle of the paragraph:</p> <br />
+                            <p>&lt;p&gt;My Bonnie lies<input value={ans22} name="ans22" onChange={onChange} type="text" />over the ocean.&lt;/p&gt;{Ans22Status}</p>
 
 
 
@@ -310,7 +316,7 @@ const AttributesEx = () => {
 
                         {ExcAttempted ? (
                             <div>
-                                <h1 className={styles.excStatus}>{Attrscore}/9</h1>
+                                <h1 className={styles.excStatus}>{Attrscore}/10</h1>
                                 <button onClick={Redo} className={styles.redo}>Redo Excercises</button>
                             </div>
                         ) : (

@@ -30,7 +30,7 @@ const TermsOfService = () => {
                     <div className={styles.extraborder}>
 
                         <h2>Overview</h2>
-                        <p>Throughout the site, the terms &quot;we&quot;, &quot;us&quot; and &quot;our&quot; refer to DevCrib's developer and Editors.</p>
+                        <p>Throughout the site, the terms &quot; we&quot;, &quot; us&quot; and &quot; our&quot; refer to DevCrib&apos;s developer and Editors.</p>
                         <p>By visiting our site and/or purchasing something from us, you engage in our
                             &quot;Service&quot; and agree to be bound by the following terms and conditions (&quot;Terms of
                             Service&quot;, &quot;Terms&quot;), including those additional terms and conditions and policies

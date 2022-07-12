@@ -29,7 +29,7 @@ const PrivacyPolicy = () => {
                     <h1>Privacy Policy</h1>
                     <div className={styles.extraborder}>
                         <h2>Do not track</h2>
-                        <p>Please note that we do not alter our Site's data collection and use practices
+                        <p>Please note that we do not alter our Site&apos;s data collection and use practices
                             when we see a Do Not Track signal from your browser.</p>
                     </div>
                     <div className={styles.extraborder}>
