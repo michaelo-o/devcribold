@@ -42,7 +42,7 @@ const AttributesEx = () => {
     const [Ans18Status, setAns18Status] = useState("")
     const [Ans19to20Status, setAns19to20Status] = useState("")
     const [Ans21Status, setAns21Status] = useState("")
-    const [Ans22Status, setAns22Status] = useState("")
+    const [Ans22to23Status, setAns22to23Status] = useState("")
 
 
 
@@ -56,7 +56,7 @@ const AttributesEx = () => {
         setAns18Status("")
         setAns19to20Status("")
         setAns21Status("")
-        setAns22Status("")
+        setAns22to23Status("")
     }
 
 
@@ -68,7 +68,7 @@ const AttributesEx = () => {
     const [ExcStatus, setExcStatus] = useState("Excercises Not Attempted")
     const [ExcAttempted, setExcAttempted] = useState(false)
 
-    const [{ ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans10, ans11, ans12, ans13, ans14, ans15, ans16, ans17, ans18, ans19, ans20, ans21, ans22 }, setAns] = useState(blankAns);
+    const [{ ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans10, ans11, ans12, ans13, ans14, ans15, ans16, ans17, ans18, ans19, ans20, ans21, ans22, ans23 }, setAns] = useState(blankAns);
 
     const onChange = (event) => {
         const { name, value } = event.target;
@@ -122,7 +122,7 @@ const AttributesEx = () => {
             setAttrscore(++Attrscore);
             setAns6to11Status(rightA)
         }
-        else if (ans6 && ans7 && ans8 && ans9 && ans10 && ans11 === "") {
+        else if (ans6 === "" && ans7 === "" && ans8 === "" && ans9 === "" && ans10 === "" && ans11 === "") {
             setAns6to11Status(noA)
         }
         else {
@@ -132,7 +132,7 @@ const AttributesEx = () => {
             setAttrscore(++Attrscore);
             setAns12to17Status(rightA)
         }
-        else if (ans6, ans7, ans8, ans9, ans10, ans11 === "") {
+        else if (ans6 === "" && ans7 === "" && ans8 === "" && ans9 === "" && ans10 === "" && ans11 === "") {
             setAns12to17Status(noA)
         }
         else {
@@ -150,7 +150,7 @@ const AttributesEx = () => {
         if (ans19 === "</h1>" && ans20 === "</p>") {
             setAttrscore(++Attrscore);
             setAns19to20Status(rightA)
-        } else if (ans19 && ans20 === "") {
+        } else if (ans19 === "" && ans20 === "") {
             setAns19to20Status(noA)
         }
         else {
@@ -165,14 +165,14 @@ const AttributesEx = () => {
         else {
             setAns21Status(wrongA)
         }
-        if (ans22 === "<br>") {
+        if (ans22 === "<li>" && ans23 === "</li>") {
             setAttrscore(++Attrscore);
-            setAns21Status(rightA)
-        } else if (ans22 === "") {
-            setAns22Status(noA)
+            setAns22to23Status(rightA)
+        } else if (ans22 === "" && ans23 === "") {
+            setAns22to23Status(noA)
         }
         else {
-            setAns22Status(wrongA)
+            setAns22to23Status(wrongA)
         }
 
 
@@ -264,7 +264,7 @@ const AttributesEx = () => {
 
                             <p><input value={ans12} name="ans12" onChange={onChange} type="text" />Universal Studios Presents<input value={ans13} name="ans13" onChange={onChange} type="text" />  </p>
                             <p><input value={ans14} name="ans14" onChange={onChange} type="text" />Jurassic Park<input value={ans15} name="ans15" onChange={onChange} type="text" />  </p>
-                            <p><input value={ans16} name="ans16" onChange={onChange} type="text" />On the Island of Isla Nublar, a new park has been built: Jurassic Park is a theme park of cloned dinosaurs!!<input value={ans17} name="ans17" onChange={onChange} type="text" />  {Ans12to17Status}</p> <br />
+                            <p><input value={ans16} name="ans16" onChange={onChange} type="text" />On the Island of Isla Nublar, a new park has been built: Jurassic Park is a theme park of cloned dinosaurs!!<input value={ans17} name="ans17" onChange={onChange} type="text" />  </p> {Ans12to17Status} <br /> <br />
 
 
                             <p>7) Use the correct HTML tag to add a paragraph with the text &quot;Hello World!&quot;.</p> <br />
@@ -285,8 +285,13 @@ const AttributesEx = () => {
                             <p>9) Add a line break in the middle of the paragraph:</p> <br />
                             <p>&lt;p&gt;My Bonnie lies<input value={ans21} name="ans21" onChange={onChange} type="text" />over the ocean.&lt;/p&gt;{Ans21Status}</p> <br />
 
-                            <p>10) Add a line break in the middle of the paragraph:</p> <br />
-                            <p>&lt;p&gt;My Bonnie lies<input value={ans22} name="ans22" onChange={onChange} type="text" />over the ocean.&lt;/p&gt;{Ans22Status}</p>
+                            <p>10) Add a list item with the text "Coffee" inside the &lt;ul&gt;.</p> <br />
+
+                            <p>&lt;ul&gt;
+                                <br />
+                                <input value={ans22} name="ans22" onChange={onChange} type="text" />Coffee<input value={ans23} name="ans23" onChange={onChange} type="text" /> {Ans22to23Status}
+                                <br />
+                                &lt;/ul&gt; </p>
 
 
 
