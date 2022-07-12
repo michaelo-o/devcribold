@@ -27,7 +27,7 @@ const ExercisesHome = () => {
             <div className={styles.genexcbackground}>
                 <ExLSb />
 
-                <div className={styles.pagecontent}>
+                <div className={styles.exhomepagecontent}>
                     <h1>DevCrib Excercises</h1>
                     <h2>Test Your Skills!</h2>
                     <div className={styles.extraborder}>
@@ -63,35 +63,6 @@ const ExercisesHome = () => {
                         </Link>
 
                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                     <PageContentFooter />
                 </div>

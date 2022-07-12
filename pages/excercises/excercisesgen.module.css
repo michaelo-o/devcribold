@@ -37,27 +37,43 @@
     text-align: center;
 }
 
+.exhomepagecontent {
+    background-color: transparent;
+    margin: 0;
+    width: 80%;
+    padding: 0 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+
 .pagecontent h1,
-.pagecontent h2 {
+.pagecontent h2,
+.exhomepagecontent h1,
+.exhomepagecontent h2 {
     font-weight: lighter;
 }
 
-.pagecontent h2 {
+.pagecontent h2,
+.exhomepagecontent h2 {
     border-bottom: .5px solid #a86705;
 }
 
-.pagecontent h3 {
+.pagecontent h3,
+.exhomepagecontent h3 {
     font-size: 25px;
     font-weight: lighter;
     margin-bottom: 1px;
 }
 
-.pagecontent h4 {
+.pagecontent h4,
+.exhomepagecontenth4 {
     font-weight: lighter;
     margin-bottom: 2px;
 }
 
-.pagecontent p {
+.pagecontent p,
+.exhomepagecontent p {
     margin-top: 1px;
     font-size: large;
     margin-bottom: 3px;
@@ -93,7 +109,7 @@
 .cssex,
 .jsex {
     text-align: center;
-    padding: 75px 200px 75px 200px;
+    padding: 75px 200px;
     width: max-content;
     margin-top: 20px;
     border-radius: 15px;
@@ -190,8 +206,17 @@
     background-color: #e54d26;
 }
 
+.cssstexc {
+    background-color: #3799d6;
+}
+
+.jsstexc {
+    background-color: #f7df1d;
+
+}
+
 .htmlstexc h3,
-.cssex h3,
+.cssstexc h3,
 .jsstexc h3 {
     font-weight: bolder !important;
     font-size: 35px;
@@ -203,7 +228,7 @@
 }
 
 .htmlstexc a,
-.cssex a,
+.cssstexc a,
 .jsstexc a {
     text-decoration: none;
 }
