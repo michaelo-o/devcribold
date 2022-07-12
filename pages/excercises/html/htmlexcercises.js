@@ -285,7 +285,7 @@ const AttributesEx = () => {
                             <p>9) Add a line break in the middle of the paragraph:</p> <br />
                             <p>&lt;p&gt;My Bonnie lies<input value={ans21} name="ans21" onChange={onChange} type="text" />over the ocean.&lt;/p&gt;{Ans21Status}</p> <br />
 
-                            <p>10) Add a list item with the text "Coffee" inside the &lt;ul&gt;.</p> <br />
+                            <p>10) Add a list item with the text &quot;Coffee&quot; inside the &lt;ul&gt;.</p> <br />
 
                             <p>&lt;ul&gt;
                                 <br />
