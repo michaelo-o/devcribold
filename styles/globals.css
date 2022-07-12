@@ -232,6 +232,28 @@ body {
   overflow: auto;
 }
 
+/* Scrollbar Styling */
+
+/* width */
+.innerrlhexample::-webkit-scrollbar, .innerllcexample::-webkit-scrollbar, .innerrljexample::-webkit-scrollbar  {
+  width: 10px;
+}
+
+/* Track */
+.innerrlhexample::-webkit-scrollbar-track, .innerllcexample::-webkit-scrollbar-track, .innerrljexample::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.innerrlhexample::-webkit-scrollbar-thumb, .innerllcexample::-webkit-scrollbar-thumb, .innerrljexample::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.innerrlhexample::-webkit-scrollbar-thumb:hover, .innerllcexample::-webkit-scrollbar-thumb:hover, .innerrljexample::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .learncss {
   background-color: #0d1721 !important;
   color: white;

@@ -3,8 +3,6 @@ import Link from "next/link";
 import Head from "next/head";
 // default imports
 import styles from "../tutorialgeneral.module.css"
-import templates from "../../../jsons/template.json"
-import { useState } from "react";
 import StickyNav from "./comps/StickyNav";
 import JsLeftSidebar from "./comps/JsLeftSidebar";
 import PageContentFooter from "../../../components/PageContentFooter";
@@ -28,57 +26,47 @@ const LearnJs = () => {
 
                 <div className={styles.pagecontent}>
                     <StickyNav />
-                    <div className="fdas">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum error veritatis ea suscipit ad impedit quis amet quam necessitatibus adipisci magnam, commodi sed quibusdam saepe! Porro atque corrupti aliquid nostrum?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero delectus saepe fugit molestias iste amet ad consequuntur voluptatum facere, odio recusandae tempora similique! Officia facilis, libero harum omnis sit accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia suscipit corrupti incidunt ducimus eveniet ratione odio eaque ad perspiciatis repellat asperiores nam, aut quia ex a tempore qui? Quibusdam, debitis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam sapiente possimus amet odit recusandae tempora voluptate temporibus iure error, natus obcaecati. Mollitia dolor quas saepe modi rem nam laudantium dicta.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt fuga dignissimos, quos corporis facere magni aliquam aspernatur hic! Ipsam nihil neque dolor fugit illum est reprehenderit architecto corrupti, totam nam!
-                        </p>
-                        <div className="dggd">
-                            {templates.map(cmsl => (
-                                <div key={cmsl.id}>
-                                    <p>{cmsl['first_name']}</p>
-                                </div>
-                            ))}
-                        </div>
+                   
+                    <h1>JavaScript Tutorial</h1>
+
+                    <div className={styles.nextbutcont}>
+                        <Link href="/tutorials/javascript/intro">
+                            <a className={styles.nextbut}>Next</a>
+                        </Link>
                     </div>
 
+
+                    <div className={styles.extraborder}>
+                        <p className={styles.lightbackground}>
+                            JavaScript is the world's most popular programming language.  <br /> <br />
+                            JavaScript is the programming language of the Web. <br /> <br />
+                            JavaScript is easy to learn. 
+                        </p>
+                    </div>
+                    <h2>Easy Learning with Embedded &quot;Codepen&quot; Editor</h2>
+                    <p>The Embedded Editor makes it easy for you to edit the JavaScript code and view the resuilt without having to leave the website. <br />
+                        <span className={styles.boldtext}>Note</span>: Edits made in the embedded code are not permanent and would be cleared upon refreshing the page.
+                    </p>
+                    <div className="embedDiv">
+                        <iframe height="400" style={{ "width": "75%" }}
+                            scrolling="no" title="JavaScript Demo" src="https://codepen.io/_michaeli/embed/BarLQVz?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                            See the Pen <Link href="https://codepen.io/_michaeli/pen/BarLQVz"><a>
+                                JavaScript Demo</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
+                            on <Link href="https://codepen.io"><a>CodePen.</a></Link>
+                        </iframe>
+                    </div>
+                    <div className={styles.extraborder}>
+                        <h2>Why Study JavaScript?</h2>
+                        <p>JavaScript is one of the <strong>3 languages</strong> all web developers <strong>
+                            must</strong>
+                            learn:</p>
+                        <p>&nbsp;&nbsp; 1. <strong>HTML</strong> to define the content of web pages</p>
+                        <p>&nbsp;&nbsp; 2. <strong>CSS</strong> to specify the layout of web pages</p>
+                        <p>&nbsp;&nbsp; 3. <strong>JavaScript</strong> to program the behavior of web pages </p>
+                    </div>
+                    
                     <PageContentFooter />
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

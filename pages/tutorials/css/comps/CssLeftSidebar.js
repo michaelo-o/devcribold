@@ -156,7 +156,7 @@ const CssLeftSidebar = () => {
                         <a>Grid Item </a>
                     </Link>
                     <h2>CSS Examples</h2>
-                    <Link href="/tutorials/css/tutorial">
+                    <Link href="/tutorials/css/examples">
                         <a>Examples</a>
                     </Link>
                 </div>

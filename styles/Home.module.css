@@ -60,6 +60,28 @@
   overflow: auto;
 }
 
+/* Scrollbar Styling */
+
+/* width */
+.innerrltcexample::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.innerrltcexample::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.innerrltcexample::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.innerrltcexample::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .lltc h1 {
   font-size: 75px;
   margin: 2px 0 -20px;
@@ -166,8 +188,39 @@
   padding: 24px;
 }
 
+
+/* code Editor reveal */
+
+.codeedit {
+  background-color: #0d1721;
+  padding: 20px 5% 20px 5%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.codeedit h1 {
+  font-size: 70px;
+}
+
+.codeedit p {
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.codeedit a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+
+
 /* MOBILE STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 @media only screen and (max-width: 700px) {
+
+  .codeedit {
+    padding: 10px;
+  }
+
 
   .learntocode {
     display: flex;

@@ -58,7 +58,7 @@ export default function Home() {
                   {BrO}html{BrC} <br />
                   <br />
                   {BrO}head{BrC} <br />
-                  {BrO}title{BrC}<span>HTML Tutorial</span>{BrO}/title{BrC} <br />
+                  {BrO}title{BrC}<span>Code Tutorial</span>{BrO}/title{BrC} <br /> <br />
                   {BrO}style{BrC} <br />
                   <span className="inlinecss">
                     body {CBrO}  <br />
@@ -66,7 +66,7 @@ export default function Home() {
                     {CBrC}
                     <br />
                     <br />
-                    #datesample {CBrO}  <br />
+                    #jsSample {CBrO}  <br />
                     <span className="cselector">font-size:</span> <span className="cssvalue">28px</span>;  <br />
                     <span className="cselector">font-family:</span> <span className="cssvalue">&#34;Source Sans Pro&#34;</span>;  <br />
                     {CBrC}
@@ -74,15 +74,15 @@ export default function Home() {
                   {BrO}/style{BrC} <br />
                   <p className="inlinejs">
                     {BrO}script{BrC} <br />
-                    <span className="jsvh">function</span> myFunction() &#123; <br />
-                    <span className="tabbedjs"><span className="jsvh">let</span> x = document.getElementById(<span className="jsfunval">&#34;demo&#34;</span>); <br /></span>
+                    <span className="jsvh">function</span> myFunction()<span className="tabbedjs">&#123;</span> <br />
+                    <span className="tabbedjs"><span className="jsvh">let</span> x = document.getElementById(<span className="jsfunval">&#34;jsSample&#34;</span>); <br /></span>
                     <span className="tabbedjs">x.style.fontSize = <span className="jsfunval">&#34;25px&#34;</span>; <br /></span>
                     <span className="tabbedjs"> x.style.color = <span className="jsfunval">&#34;red&#34;</span>; <br />
                     </span>
-                    {CBrC} <br />
+                    {CBrC}; <br />
                     <br />
-                    <span className="jsvh">const</span><span> d =</span> <span className="jsvh">new</span> <span>Date();</span> <br />
-                    <span><span className="jsvh">let</span> x = document.getElementById(<span className="jsfunval">&#34;datesample&#34;</span>).innerHTML = d;</span> <br />
+                    {/* <span className="jsvh">const</span><span> d =</span> <span className="jsvh">new</span> <span>Date();</span> <br />
+                    <span><span className="jsvh">let</span> x = document.getElementById(<span className="jsfunval">&#34;datesample&#34;</span>).innerHTML = d;</span> <br /> */}
                     {BrO}/script{BrC}
                   </p>
                   {BrO}/head{BrC} <br />
@@ -92,8 +92,12 @@ export default function Home() {
                   <br />
                   {BrO}h1{BrC}<span>This is a heading</span>{BrO}/h1{BrC} <br />
                   {BrO}h2{BrC}<span>This is a Sub-heading</span>{BrO}/h2{BrC} <br />
+                  {BrO}h3{BrC}<span>This code snippet contains HTML, CSS and JavaScript</span>{BrO}/h3{BrC} <br />
+
                   <br />
-                  {BrO}p{BrC}<span>This is a paragraph.</span>{BrO}/p{BrC}
+                  {BrO}p{BrC}<span>This is a paragraph.</span>{BrO}/p{BrC} <br />
+
+                  {BrO}p <span className="inlinecss">id=&quot;jsSample&quot;</span>{BrC}<span>Click the button below to change the layout of this paragraph</span>{BrO}/p{BrC}
                   <p className="inlinejs">
                     {BrO}button <span className="jsvh">onclick</span>=&#34;myFunction()&#34;{BrC}<span>Click Me!</span>{BrO}/button{BrC}
                   </p>
@@ -174,7 +178,7 @@ export default function Home() {
             <h1>Learn</h1>
             <h1>CSS</h1>
             <h3>The stlying language that beautifies all Web Pages</h3>
-            <Link href="#">
+            <Link href="/tutorials/css/">
               <a> <h4>Learn CSS</h4></a>
             </Link>
             <Link href="/references/css/csspropref">
@@ -189,7 +193,7 @@ export default function Home() {
             <h1>Learn</h1>
             <h1>JavaScript</h1>
             <h3>The scripting language used for programming Web Pages</h3>
-            <Link href="#">
+            <Link href="/tutorials/javascript/">
               <a> <h4>Learn JavaScript</h4></a>
             </Link>
             <Link href="/references/javascript/jsmethref">
@@ -222,7 +226,7 @@ export default function Home() {
         </div>
 
 
-        <div className={styles.comingsoon}>
+        {/* <div className={styles.comingsoon}>
           <div className={styles.cmshead}>
             <h1>Coming Soon...</h1>
           </div>
@@ -234,28 +238,22 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </div> */}
+
+        <div className={styles.codeedit}>
+          <h1>Code Editor</h1>
+          <h3>With the embedded <Link href="https://codepen.io/"><a target="_blank">Codepen</a></Link> online code editor, you can edit code and view the result in your browser.</h3>
+          <div className="embedDiv">
+            <iframe height="550" style={{ "width": "90%" }}
+              scrolling="no" title="Code Sample" src="https://codepen.io/_michaeli/embed/rNdMLao?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+              See the Pen <Link href="https://codepen.io/_michaeli/pen/rNdMLao"><a>
+                Code Sample</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
+              on <Link href="https://codepen.io"><a>CodePen.</a></Link>
+            </iframe>
+          </div>
         </div>
+
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
       <Footer />

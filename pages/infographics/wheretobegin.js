@@ -44,7 +44,7 @@ const WheretoBegin = () => {
                         <div className={styles.w2bhtmlticket5}>
                             <h3>Create your first web page</h3>
                             <p>The first thing you have to learn, is HTML, which is the standard markup language for creating web pages. </p>
-                            <Link href="#">
+                            <Link href="/tutorials/html/">
                                 <a> <h4>Learn HTML</h4></a>
                             </Link>
                         </div>
@@ -52,7 +52,7 @@ const WheretoBegin = () => {
                             <h1>1</h1>
                             <h1>HTML</h1>
                             <h3>Create your first web page</h3>
-                            <Link href="#">
+                            <Link href="/tutorials/html/">
                                 <a> <h4>Learn HTML</h4></a>
                             </Link>
                         </div>
@@ -80,7 +80,7 @@ const WheretoBegin = () => {
                         <div className={styles.w2bcssticket5}>
                             <h3>Style your web page</h3>
                             <p>The next step is to learn CSS, to set the layout of your web page with beautiful colors, fonts, and much more.</p>
-                            <Link href="#">
+                            <Link href="/tutorials/css/">
                                 <a> <h4>Learn CSS</h4></a>
                             </Link>
                         </div>
@@ -88,7 +88,7 @@ const WheretoBegin = () => {
                             <h1>2</h1>
                             <h1>CSS</h1>
                             <h3>Style your web page</h3>
-                            <Link href="#">
+                            <Link href="/tutorials/css/">
                                 <a> <h4>Learn CSS</h4></a>
                             </Link>
                         </div>
@@ -116,7 +116,7 @@ const WheretoBegin = () => {
                         <div className={styles.w2bjsticket5}>
                             <h3>Make your web page interactive</h3>
                             <p>After studying HTML and CSS, you should learn JavaScript to create dynamic and interactive web pages for your users.</p>
-                            <Link href="#">
+                            <Link href="/tutorials/javascript/">
                                 <a> <h4>Learn JavaScript</h4></a>
                             </Link>
                         </div>
@@ -124,7 +124,7 @@ const WheretoBegin = () => {
                             <h1 style={{ fontSize: "50px" }}>3</h1>
                             <h1>JavaScript</h1>
                             <h3>Make your web page interactive</h3>
-                            <Link href="#">
+                            <Link href="/tutorials/javascript/">
                                 <a> <h4>Learn JavaScript</h4></a>
                             </Link>
                         </div>
