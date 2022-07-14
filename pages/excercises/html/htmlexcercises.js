@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import blankAnswer from "../../../jsons/excercises/html/blankAns.json"
 import correctAnswer from "../../../jsons/excercises/html/correctAns.json"
 import { useAuthContext } from "../../../hooks/useAuthContext";
- import { useRouter } from 'next/router';
+import { useRouter } from 'next/router';
 
 
 // &#123; Left Curly Bracket
@@ -211,6 +211,14 @@ const HtmlEx = () => {
 
     }
 
+    const redirect = () => {
+        setTimeout(() => {
+            // router.go(-1)
+            // router.go(1)
+            router.push('/')
+        }, 50)
+    }
+
 
     return (
         <>
@@ -220,13 +228,7 @@ const HtmlEx = () => {
             </Head>
             <div className={styles.genexcbackground}>
 
-                {!user && useEffect(() => {
-                    setTimeout(() => {
-                        // router.go(-1)
-                        // router.go(1)
-                        router.push('/login/')
-                    }, 50)
-                })}
+                {!user && redirect()}
 
                 {user &&
 
