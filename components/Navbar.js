@@ -197,7 +197,12 @@ const Navbar = () => {
                 <Link href="https://ko-fi.com/michae_l#paypalModal">
                     <a target="_blank" className={styles.paidc}>Support The Dev 🙂☕</a>
                 </Link>
-                <p className={styles.login}>Log In</p>
+                <Link href="/login/">
+                    <a className={styles.login}>Log In</a>
+                </Link>
+                <Link href="/signup/">
+                    <a className={styles.login}>Sign Up</a>
+                </Link>
             </div>
             <div className={styles.mobilenavstuff}>
                 <div className={styles.mobilenavstuffinner}>
