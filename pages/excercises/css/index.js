@@ -3,13 +3,11 @@ import Link from "next/link";
 import Head from "next/head";
 import PageContentFooter from "../../../components/PageContentFooter";
 import { useAuthContext } from "../../../hooks/useAuthContext";
-import { useRouter } from 'next/router';
 
 
 
 const CssExcercise = () => {
 
-    const router = useRouter()
 
     const { user } = useAuthContext()
 
@@ -22,11 +20,7 @@ const CssExcercise = () => {
             </Head>
             <div className={styles.genexcbackground}>
 
-                {!user && setTimeout(() => {
-                    // router.go(-1)
-                    // router.go(1)
-                    router.push('/login/')
-                }, 50)}
+               
 
                 {user &&
                     <div className={styles.pagecontent}>

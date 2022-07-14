@@ -4,7 +4,7 @@ import PageContentFooter from "../../../components/PageContentFooter";
 import { useState } from "react";
 import blankAnswer from "../../../jsons/excercises/html/blankAns.json"
 import correctAnswer from "../../../jsons/excercises/html/correctAns.json"
-import { useRouter } from 'next/router';
+// import { useRouter } from 'next/router';
 import { useAuthContext } from "../../../hooks/useAuthContext";
 
 
@@ -20,7 +20,7 @@ import { useAuthContext } from "../../../hooks/useAuthContext";
 
 const CssEx = () => {
 
-    const router = useRouter()
+    // const router = useRouter()
 
     const { user } = useAuthContext()
 
@@ -219,11 +219,11 @@ const CssEx = () => {
             </Head>
             <div className={styles.genexcbackground}>
 
-                {!user && setTimeout(() => {
+                {/* {!user && setTimeout(() => {
                     // router.go(-1)
                     // router.go(1)
                     router.push('/login/')
-                }, 50)}
+                }, 50)} */}
 
                 {user &&
 
