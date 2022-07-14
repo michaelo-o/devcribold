@@ -1,10 +1,11 @@
 import styles from "../excercisesgen.module.css";
 import Head from "next/head";
 import PageContentFooter from "../../../components/PageContentFooter";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import blankAnswer from "../../../jsons/excercises/html/blankAns.json"
 import correctAnswer from "../../../jsons/excercises/html/correctAns.json"
 import { useAuthContext } from "../../../hooks/useAuthContext";
+ import { useRouter } from 'next/router';
 
 
 // &#123; Left Curly Bracket
@@ -18,6 +19,7 @@ import { useAuthContext } from "../../../hooks/useAuthContext";
 
 
 const HtmlEx = () => {
+    const router = useRouter()
 
 
     const { user } = useAuthContext()
@@ -218,6 +220,13 @@ const HtmlEx = () => {
             </Head>
             <div className={styles.genexcbackground}>
 
+                {!user && useEffect(() => {
+                    setTimeout(() => {
+                        // router.go(-1)
+                        // router.go(1)
+                        router.push('/login/')
+                    }, 50)
+                })}
 
                 {user &&
 
