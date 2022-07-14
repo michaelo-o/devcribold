@@ -8,7 +8,9 @@
     background-color: #1d2a35 !important;
     color: white;
 }
-
+.navbar a {
+    text-decoration: none;
+}
 .leftnavstuff {
     display: flex;
     flex-direction: column;

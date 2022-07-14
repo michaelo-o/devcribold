@@ -10,7 +10,8 @@ import NavRefJs from './NavRef/NavRefJs'
 import NavRefCss from './NavRef/NavRefCss'
 import NavRefHtml from './NavRef/NavRefHtml'
 import NavExc from './NavEx/NavExc'
-
+import { useLogout } from '../hooks/useLogout'
+import { useAuthContext } from '../hooks/useAuthContext'
 
 const Navbar = () => {
 
@@ -108,6 +109,11 @@ const Navbar = () => {
     }
 
 
+    const { user } = useAuthContext()
+
+    const { logout } = useLogout()
+    const { authIsReady } = useAuthContext()
+
     return (
         <nav className={styles.navbar}>
             <Head>
@@ -197,12 +203,28 @@ const Navbar = () => {
                 <Link href="https://ko-fi.com/michae_l#paypalModal">
                     <a target="_blank" className={styles.paidc}>Support The Dev 🙂☕</a>
                 </Link>
-                <Link href="/login/">
-                    <a className={styles.login}>Log In</a>
-                </Link>
-                <Link href="/signup/">
-                    <a className={styles.login}>Sign Up</a>
-                </Link>
+
+                {authIsReady && (
+                    <>
+                {!user && (
+                    <>
+                        <Link href="/login/">
+                            <a className={styles.login}>Log In</a>
+                        </Link>
+                        <Link href="/signup/">
+                            <a className={styles.login}>Sign Up</a>
+                        </Link>
+                    </>)}
+
+
+                {user && (
+                    <>
+                        <p>Hello, {user.displayName}</p>
+                        <p className={styles.login} onClick={logout}>Log Out</p>
+                    </>
+                )}
+
+                </>)}
             </div>
             <div className={styles.mobilenavstuff}>
                 <div className={styles.mobilenavstuffinner}>

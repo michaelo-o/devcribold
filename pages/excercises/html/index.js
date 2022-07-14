@@ -3,8 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 import PageContentFooter from "../../../components/PageContentFooter";
+import { useAuthContext } from "../../../hooks/useAuthContext";
+
 
 const HtmlExcercise = () => {
+
+    const { user } = useAuthContext()
+   
     return (
         <>
             <Head>
@@ -12,7 +17,8 @@ const HtmlExcercise = () => {
                 <meta name="description" content="Dev Crib" />
             </Head>
             <div className={styles.genexcbackground}>
-
+                {
+                    user &&
                 <div className={styles.pagecontent}>
                     <h1>HTML Excercises</h1>
                     <h2>INSTRUCTIONS!</h2>
@@ -32,7 +38,7 @@ const HtmlExcercise = () => {
                         </Link>
                     </div>
                 </div>
-
+ }
             </div>
             <div className={styles.footer100}>
                 <PageContentFooter />

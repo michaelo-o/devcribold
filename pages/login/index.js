@@ -1,25 +1,24 @@
 import styles from './Login.module.css'
 import { useState } from 'react';
 import Head from 'next/head'
-
+import { useLogin } from '../../hooks/useLogin';
 
 const Login = () => {
-
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
+    const { login, error, isPending } = useLogin()
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        console.log(email, password)
+        login(email, password)
     }
-
 
     return (
         <>
-        <Head>
+            <Head>
                 <title>Login | Dev Crib</title>
                 <meta name="description" content="Dev Crib" />
-        </Head>
+            </Head>
             <form onSubmit={handleSubmit} className={styles['login-form']}>
                 <h2>login</h2>
                 <label>
@@ -38,9 +37,10 @@ const Login = () => {
                         value={password}
                     />
                 </label>
-                <button className="btn">Login</button>
+                {!isPending && <button className="btn">Login</button>}
+                {isPending && <button className="btn" disabled>loading</button>}
+                {error && <p>{error}</p>}
             </form>
-
         </>
     );
 }
