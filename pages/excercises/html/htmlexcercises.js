@@ -1,9 +1,6 @@
 import styles from "../excercisesgen.module.css";
-import Image from "next/image";
-import Link from "next/link";
 import Head from "next/head";
 import PageContentFooter from "../../../components/PageContentFooter";
-import HtmlExLSb from "./comps/HtmlExLSb";
 import { useState } from "react";
 import blankAnswer from "../../../jsons/excercises/html/blankAns.json"
 import correctAnswer from "../../../jsons/excercises/html/correctAns.json"
