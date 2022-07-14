@@ -1,9 +1,6 @@
 import styles from "../excercisesgen.module.css";
-import Image from "next/image";
-import Link from "next/link";
 import Head from "next/head";
 import PageContentFooter from "../../../components/PageContentFooter";
-import HtmlExLSb from "./comps/HtmlExLSb";
 import { useState } from "react";
 import blankAnswer from "../../../jsons/excercises/html/blankAns.json"
 import correctAnswer from "../../../jsons/excercises/html/correctAns.json"
@@ -19,7 +16,7 @@ import correctAnswer from "../../../jsons/excercises/html/correctAns.json"
 // DEFAULT IMPORTS
 
 
-const HtmlEx = () => {
+const CssEx = () => {
 
 
     const wrongA = <span className={styles.wrongAns}>Wrong Answer</span>
@@ -211,14 +208,14 @@ const HtmlEx = () => {
     return (
         <>
             <Head>
-                <title>HTML Excercises | Dev Crib</title>
+                <title>CSS Excercises | Dev Crib</title>
                 <meta name="description" content="Dev Crib" />
             </Head>
             <div className={styles.genexcbackground}>
 
 
                 <div className={styles.pagecontent}>
-                    <h1>HTML Excercises</h1>
+                    <h1>CSS Excercises</h1>
 
 
                     <div className={styles.quesbg}>
@@ -236,7 +233,7 @@ const HtmlEx = () => {
                             />&quot;https://www.google.com&quot;&gt;This is a link&lt;/a&gt;{Ans4Status}</p>
                             <br />
 
-                            <p>4) Use the correct HTML tag to add a heading with the text &quot;London&quot;.</p> <br />
+                            <p>4) Use the correct CSS tag to add a heading with the text &quot;London&quot;.</p> <br />
                             <p><input value={ans5} name="ans5" onChange={onChange} type="text" />  {Ans5Status}</p>
                             <p>&lt;p&gt;London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.&lt;/p&gt;
                             </p> <br />
@@ -267,7 +264,7 @@ const HtmlEx = () => {
                             <p><input value={ans16} name="ans16" onChange={onChange} type="text" />On the Island of Isla Nublar, a new park has been built: Jurassic Park is a theme park of cloned dinosaurs!!<input value={ans17} name="ans17" onChange={onChange} type="text" />  </p> {Ans12to17Status} <br /> <br />
 
 
-                            <p>7) Use the correct HTML tag to add a paragraph with the text &quot;Hello World!&quot;.</p> <br />
+                            <p>7) Use the correct CSS tag to add a paragraph with the text &quot;Hello World!&quot;.</p> <br />
                             <p>
                                 &lt;html&gt; <br />
                                 &lt;body&gt;  <br />
@@ -360,4 +357,4 @@ const HtmlEx = () => {
     );
 }
 
-export default HtmlEx;
+export default CssEx;
