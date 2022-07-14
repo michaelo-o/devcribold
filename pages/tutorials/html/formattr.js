@@ -58,7 +58,7 @@ const FormAttr = () => {
                             In the example below, the form data is sent to a file called &quot;action_page.php&quot;. This file contains a server-side script that handles the form data:</p>
                         <div className="embedDiv">
                             <iframe height="400" style={{ "width": "75%" }}
-                                scrolling="no" title="Submit Button" src="https://codepen.io/_michaeli/embed/yLKOPJr?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="Submit Button" src="https://codepen.io/_michaeli/embed/yLKOPJr?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/yLKOPJr"><a>
                                     Submit Button</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -86,7 +86,7 @@ const FormAttr = () => {
                         </table>
                         <div className="embedDiv">
                             <iframe height="400" style={{ "width": "75%" }}
-                                scrolling="no" title="The form target attribute" src="https://codepen.io/_michaeli/embed/MWVyOrW?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="The form target attribute" src="https://codepen.io/_michaeli/embed/MWVyOrW?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/MWVyOrW"><a>
                                     The form target attribute</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -133,7 +133,7 @@ const FormAttr = () => {
                     <h3>Examples on The Method, Autocomplete and Novalidate Attributes</h3>
                     <div className="embedDiv">
                         <iframe height="700" style={{ "width": "75%" }}
-                            scrolling="no" title="The Method, Autocomplete and Novalidate Attributes" src="https://codepen.io/_michaeli/embed/bGvpYxZ?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                            scrolling="no" title="The Method, Autocomplete and Novalidate Attributes" src="https://codepen.io/_michaeli/embed/bGvpYxZ?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                             See the Pen <Link href="https://codepen.io/_michaeli/pen/bGvpYxZ"><a>
                                 The Method, Autocomplete and Novalidate Attributes</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                             on <Link href="https://codepen.io"><a>CodePen.</a></Link>

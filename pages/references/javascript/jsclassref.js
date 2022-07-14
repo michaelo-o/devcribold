@@ -30,7 +30,7 @@ const JsClassRef = () => {
                     <h2>JavaScript Classes</h2>
                     <p>A <span className={styles.cssprop}>Class</span> is a type of function, but instead of using the keyword <span className={styles.cssprop}>function</span> to initiate it, we use the keyword <span className={styles.cssprop}>class</span>, and the properties are assigned inside a <span className={styles.cssprop}>constructor()</span> method:</p>
                     <div className="embedDiv">
-                        <iframe height="400" style={{ width: 1100 }} scrolling="no" title="Js Classes" src="https://codepen.io/_michaeli/embed/dymYaMG?default-tab=js%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                        <iframe height="400" style={{ width: 1100 }} scrolling="no" title="Js Classes" src="https://codepen.io/_michaeli/embed/dymYaMG?default-tab=js%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                             See the Pen <Link href="https://codepen.io/_michaeli/pen/dymYaMG"><a>
                                 Js Classes</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                             on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -46,32 +46,36 @@ const JsClassRef = () => {
                     <h3>Class Methods</h3>
                     <div className={styles.extraborder}>
                         <table className={styles.reftable}>
-                            <tr>
-                                <th>Method</th>
-                                <th>Description</th>
-                            </tr>
-                            {jsclassmeth.map(jsclass => (
-                                <tr key={jsclass.id}>
-                                    <td>{jsclass['Method']}</td>
-                                    <td>{jsclass['Description']}</td>
+                            <tbody>
+                                <tr>
+                                    <th>Method</th>
+                                    <th>Description</th>
                                 </tr>
-                            ))}
+                                {jsclassmeth.map(jsclass => (
+                                    <tr key={jsclass.id}>
+                                        <td>{jsclass['Method']}</td>
+                                        <td>{jsclass['Description']}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
                         </table>
                     </div>
 
                     <h3>Class Keywords</h3>
                     <div className={styles.extraborder}>
                         <table className={styles.reftable}>
-                            <tr>
-                                <th>Keyword</th>
-                                <th>Description</th>
-                            </tr>
-                            {jsclasskey.map(jsclasskey => (
-                                <tr key={jsclasskey.id}>
-                                    <td>{jsclasskey['Keyword']}</td>
-                                    <td>{jsclasskey['Description']}</td>
+                            <tbody>
+                                <tr>
+                                    <th>Keyword</th>
+                                    <th>Description</th>
                                 </tr>
-                            ))}
+                                {jsclasskey.map(jsclasskey => (
+                                    <tr key={jsclasskey.id}>
+                                        <td>{jsclasskey['Keyword']}</td>
+                                        <td>{jsclasskey['Description']}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
                         </table>
                     </div>
                     <PageContentFooter />

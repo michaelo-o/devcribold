@@ -114,6 +114,9 @@ const Navbar = () => {
     const { logout } = useLogout()
     const { authIsReady } = useAuthContext()
 
+
+
+
     return (
         <nav className={styles.navbar}>
             <Head>
@@ -206,25 +209,25 @@ const Navbar = () => {
 
                 {authIsReady && (
                     <>
-                {!user && (
-                    <>
-                        <Link href="/login/">
-                            <a className={styles.login}>Log In</a>
-                        </Link>
-                        <Link href="/signup/">
-                            <a className={styles.login}>Sign Up</a>
-                        </Link>
+                        {!user && (
+                            <>
+                                <Link href="/login/">
+                                    <a className={styles.login} onClick={closeButton}>Log In</a>
+                                </Link>
+                                <Link href="/signup/">
+                                    <a className={styles.login} onClick={closeButton}>Sign Up</a>
+                                </Link>
+                            </>)}
+
+
+                        {user && (
+                            <>
+                                <p>Hello, {user.displayName}</p>
+                                <p className={styles.login} onClick={logout}>Log Out</p>
+                            </>
+                        )}
+
                     </>)}
-
-
-                {user && (
-                    <>
-                        <p>Hello, {user.displayName}</p>
-                        <p className={styles.login} onClick={logout}>Log Out</p>
-                    </>
-                )}
-
-                </>)}
             </div>
             <div className={styles.mobilenavstuff}>
                 <div className={styles.mobilenavstuffinner}>

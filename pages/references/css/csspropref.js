@@ -46,27 +46,30 @@ const CssPropRef = () => {
                     </form>
                     <div>
                         <table className={styles.reftable}>
-                            <tr>
-                                <th>Property</th>
-                                <th>Description</th>
-                            </tr>
-                            {csspropref.filter((cssprop) => {
-                                if (search === "") {
-                                    return cssprop;
-                                } else if (
-                                    cssprop?.Property.toLowerCase().includes(search.toLowerCase())
-                                ) {
-                                    return cssprop;
-                                } else if (
-                                    cssprop?.Property.toLowerCase().includes(search.toLowerCase())
-                                ) return setnoRes('No Results')
-                            }).map(cssprop => (
-                                <tr key={cssprop.id}>
-                                    <td>{cssprop['Property']}</td>
-                                    <td>{cssprop['Description']}</td>
+                            <tbody>
+                                <tr>
+                                    <th>Property</th>
+                                    <th>Description</th>
                                 </tr>
-                            ))}
+                                {csspropref.filter((cssprop) => {
+                                    if (search === "") {
+                                        return cssprop;
+                                    } else if (
+                                        cssprop?.Property.toLowerCase().includes(search.toLowerCase())
+                                    ) {
+                                        return cssprop;
+                                    } else if (
+                                        cssprop?.Property.toLowerCase().includes(search.toLowerCase())
+                                    ) return setnoRes('No Results')
+                                }).map(cssprop => (
+                                    <tr key={cssprop.id}>
+                                        <td>{cssprop['Property']}</td>
+                                        <td>{cssprop['Description']}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
                         </table>
+
                     </div>
 
 

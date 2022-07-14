@@ -54,7 +54,7 @@ const RWD = () => {
                     <div className={styles.extraborder}>
                         <div className="embedDiv">
                             <iframe height="700" style={{ "width": "80%" }}
-                                scrolling="no" title="CSS RWD" src="https://codepen.io/_michaeli/embed/JjLKmoB?default-tab=css&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="CSS RWD" src="https://codepen.io/_michaeli/embed/JjLKmoB?default-tab=css&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/JjLKmoB"><a>
                                     CSS RWD</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>

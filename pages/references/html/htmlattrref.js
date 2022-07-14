@@ -46,6 +46,7 @@ const HtmlAttrRef = () => {
                     </form>
                     <div>
                         <table className={styles.attrtable}>
+<tbody>
                             <tr>
                                 <th>Attribute</th>
                                 <th>Belongs To</th>
@@ -68,6 +69,7 @@ const HtmlAttrRef = () => {
                                     <td>{htmlattr['Description']}</td>
                                 </tr>
                             ))}
+                            </tbody>
                         </table>
                     </div>
 

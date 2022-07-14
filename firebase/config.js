@@ -3,12 +3,12 @@ import 'firebase/firestore'
 import 'firebase/auth'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAlWXg3g3EyIwx9HNGDt60MpxlZXeNDQx4",
-    authDomain: "my-money-9b328.firebaseapp.com",
-    projectId: "my-money-9b328",
-    storageBucket: "my-money-9b328.appspot.com",
-    messagingSenderId: "951239117287",
-    appId: "1:951239117287:web:22f04f78b178ba6b651542"
+    apiKey: "AIzaSyCpaC91_0-wlDGfvFf77LxnB12WpQ3_9cs",
+    authDomain: "devcrib-4d83d.firebaseapp.com",
+    projectId: "devcrib-4d83d",
+    storageBucket: "devcrib-4d83d.appspot.com",
+    messagingSenderId: "42065434121",
+    appId: "1:42065434121:web:1182bdf642c0e607b80ad8"
 };
 
 

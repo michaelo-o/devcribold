@@ -40,7 +40,7 @@ const JsStringRef = () => {
                     <p>A JavaScript string stores a series of characters like &quot;John Doe&quot;. <br />
                         A string can be any text inside double or single quotes:</p>
                     <div className="embedDiv">
-                        <iframe height="300" style={{ width: 1100 }} scrolling="no" title="Js Array Ref" src="https://codepen.io/_michaeli/embed/dymYaeN?default-tab=js%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                        <iframe height="300" style={{ width: 1100 }} scrolling="no" title="Js Array Ref" src="https://codepen.io/_michaeli/embed/dymYaeN?default-tab=js%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                             See the Pen <Link href="https://codepen.io/_michaeli/pen/JjLYxOY"><a>
                                 Js String Ref</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                             on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -53,10 +53,10 @@ const JsStringRef = () => {
                     <h3>String Properties and Methods</h3>
                     <p>Normally, strings like &quot;John Doe&quot;, cannot have methods or properties because they are not objects. <br />
                         But with JavaScript, methods and properties are also available to strings, because JavaScript treats strings as objects when executing methods and properties.</p>
-                        <p><span className={styles.boldtext}> <br />
-                            Note;</span>
-                            <br /> All string methods return a new value. <br />
-                            They do not change the original variable.</p>
+                    <p><span className={styles.boldtext}> <br />
+                        Note;</span>
+                        <br /> All string methods return a new value. <br />
+                        They do not change the original variable.</p>
                     {/* Search Bar */}
                     <form className={styles.search}>
                         <input
@@ -67,26 +67,28 @@ const JsStringRef = () => {
                     </form>
                     <div className={styles.extraborder}>
                         <table className={styles.reftable}>
-                            <tr>
-                                <th>Method</th>
-                                <th>Description</th>
-                            </tr>
-                            {jsstringmeth.filter((jsstring) => {
-                                if (search === "") {
-                                    return jsstring;
-                                } else if (
-                                    jsstring?.Method.toLowerCase().includes(search.toLowerCase())
-                                ) {
-                                    return jsstring;
-                                } else if (
-                                    jsstring?.Method.toLowerCase().includes(search.toLowerCase())
-                                ) return setnoRes("No Results")
-                            }).map(jsstring => (
-                                <tr key={jsstring.id}>
-                                    <td>{jsstring['Method']}</td>
-                                    <td>{jsstring['Description']}</td>
+                            <tbody>
+                                <tr>
+                                    <th>Method</th>
+                                    <th>Description</th>
                                 </tr>
-                            ))}
+                                {jsstringmeth.filter((jsstring) => {
+                                    if (search === "") {
+                                        return jsstring;
+                                    } else if (
+                                        jsstring?.Method.toLowerCase().includes(search.toLowerCase())
+                                    ) {
+                                        return jsstring;
+                                    } else if (
+                                        jsstring?.Method.toLowerCase().includes(search.toLowerCase())
+                                    ) return setnoRes("No Results")
+                                }).map(jsstring => (
+                                    <tr key={jsstring.id}>
+                                        <td>{jsstring['Method']}</td>
+                                        <td>{jsstring['Description']}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
                         </table>
                     </div>
                     <h3>JavaScript String Properties</h3>
@@ -105,7 +107,7 @@ const JsStringRef = () => {
                         </table>
                     </div>
 
-<PageContentFooter />
+                    <PageContentFooter />
                 </div>
             </div>
 

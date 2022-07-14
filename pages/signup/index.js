@@ -31,6 +31,7 @@ const Signup = () => {
                         type="email"
                         onChange={(e) => setEmail(e.target.value)}
                         value={email}
+                        autoComplete
                     />
                 </label>
                 <label>
@@ -39,6 +40,7 @@ const Signup = () => {
                         type="password"
                         onChange={(e) => setPassword(e.target.value)}
                         value={password}
+                        autoComplete
                     />
                 </label>
                 <label>
@@ -47,6 +49,7 @@ const Signup = () => {
                         type="text"
                         onChange={(e) => setDisplayName(e.target.value)}
                         value={displayName}
+                        autoComplete
                     />
                 </label>
                 {!isPending && <button className="btn">sign up</button>}

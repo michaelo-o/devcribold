@@ -4,6 +4,9 @@ import PageContentFooter from "../../../components/PageContentFooter";
 import { useState } from "react";
 import blankAnswer from "../../../jsons/excercises/html/blankAns.json"
 import correctAnswer from "../../../jsons/excercises/html/correctAns.json"
+import { useRouter } from 'next/router';
+import { useAuthContext } from "../../../hooks/useAuthContext";
+
 
 // &#123; Left Curly Bracket
 // &#125; right Curly Bracket
@@ -17,8 +20,10 @@ import correctAnswer from "../../../jsons/excercises/html/correctAns.json"
 
 const HtmlEx = () => {
 
+    const router = useRouter()
 
-   
+    const { user } = useAuthContext()
+
 
 
     const wrongA = <span className={styles.wrongAns}>Wrong Answer</span>
@@ -215,7 +220,14 @@ const HtmlEx = () => {
             </Head>
             <div className={styles.genexcbackground}>
 
-                
+                {!user && setTimeout(() => {
+                    // router.go(-1)
+                    // router.go(1)
+                    router.push('/login/')
+                }, 50)}
+
+                {user &&
+
                     <div className={styles.pagecontent}>
                         <h1>HTML Excercises</h1>
 
@@ -353,7 +365,7 @@ const HtmlEx = () => {
 
                         <PageContentFooter />
                     </div>
-               
+                }
             </div>
 
         </>

@@ -29,6 +29,7 @@ const UnsupportedHtmlAttr = () => {
                     <h2>Unsupported & Deprecated HTML attributes and the Elements they were used within</h2>
                     <div>
                         <table className={styles.attrtable}>
+<tbody>
                             <tr>
                                 <th>Attribute</th>
                                 <th>Belongs To</th>
@@ -41,6 +42,7 @@ const UnsupportedHtmlAttr = () => {
                                     <td>{unsupportedAttr['Description']}</td>
                                 </tr>
                             ))}
+                            </tbody>
                         </table>
                     </div>
                     <PageContentFooter />

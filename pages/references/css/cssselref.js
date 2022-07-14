@@ -30,18 +30,20 @@ const CssSelRef = () => {
 
                     <div>
                         <table className={styles.reftable}>
-                            <tr>
-                                <th>Selector</th>
-                                <th>Example</th>
-                                <th>Example description</th>
-                            </tr>
-                            {cssSelref.map(cssSel => (
-                                <tr key={cssSel.id}>
-                                    <td>{cssSel['Selector']}</td>
-                                    <td>{cssSel['Example']}</td>
-                                    <td>{cssSel['Example Description']}</td>
+                            <tbody>
+                                <tr>
+                                    <th>Selector</th>
+                                    <th>Example</th>
+                                    <th>Example description</th>
                                 </tr>
-                            ))}
+                                {cssSelref.map(cssSel => (
+                                    <tr key={cssSel.id}>
+                                        <td>{cssSel['Selector']}</td>
+                                        <td>{cssSel['Example']}</td>
+                                        <td>{cssSel['Example Description']}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
                         </table>
                     </div>
 

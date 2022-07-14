@@ -56,7 +56,7 @@ const Classes = () => {
                             In the following example we have three <span className={styles.exptag}>&lt;div&gt;</span> elements with a class attribute with the value of &quot;city&quot;. All of the three <span className={styles.exptag}>&lt;div&gt;</span> elements will be styled equally according to the .city style definition in the head section:</p>
                         <div className="embedDiv">
                             <iframe height="550" style={{ "width": "75%" }}
-                                scrolling="no" title="HTML Classes" src="https://codepen.io/_michaeli/embed/zYWqENy?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="HTML Classes" src="https://codepen.io/_michaeli/embed/zYWqENy?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/zYWqENy"><a>
                                     Html CLasses</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -69,7 +69,7 @@ const Classes = () => {
                         <h3>Below is an example to create a class named &quot;city&quot;;</h3>
                         <div className="embedDiv">
                             <iframe height="550" style={{ "width": "75%" }}
-                                scrolling="no" title="Class Example" src="https://codepen.io/_michaeli/embed/MWVyEoX?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="Class Example" src="https://codepen.io/_michaeli/embed/MWVyEoX?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/MWVyEoX"><a>
                                     Class Example</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -83,7 +83,7 @@ const Classes = () => {
                             In the following example, the first <span className={styles.exptag}>&lt;h2&gt;</span> element belongs to both the city class and also to the main class, and will get the CSS styles from both of the classes: </p>
                         <div className="embedDiv">
                             <iframe height="550" style={{ "width": "75%" }}
-                                scrolling="no" title="Multiple classes" src="https://codepen.io/_michaeli/embed/KKozXQR?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="Multiple classes" src="https://codepen.io/_michaeli/embed/KKozXQR?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/KKozXQR"><a>
                                     Multiple classes</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -96,7 +96,7 @@ const Classes = () => {
                             In the following example, both <span className={styles.exptag}>&lt;h2&gt;</span> and <span className={styles.exptag}>&lt;p&gt;</span> points to the &quot;city&quot; class and will share the same style:</p>
                         <div className="embedDiv">
                             <iframe height="550" style={{ "width": "75%" }}
-                                scrolling="no" title="Different Elements Can Share Same Class" src="https://codepen.io/_michaeli/embed/oNqxGqg?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="Different Elements Can Share Same Class" src="https://codepen.io/_michaeli/embed/oNqxGqg?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/oNqxGqg"><a>
                                     Different Elements Can Share Same Class</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>

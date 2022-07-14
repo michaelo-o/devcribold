@@ -49,7 +49,7 @@ const LearnJs = () => {
                     </p>
                     <div className="embedDiv">
                         <iframe height="400" style={{ "width": "75%" }}
-                            scrolling="no" title="JavaScript Demo" src="https://codepen.io/_michaeli/embed/BarLQVz?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                            scrolling="no" title="JavaScript Demo" src="https://codepen.io/_michaeli/embed/BarLQVz?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                             See the Pen <Link href="https://codepen.io/_michaeli/pen/BarLQVz"><a>
                                 JavaScript Demo</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                             on <Link href="https://codepen.io"><a>CodePen.</a></Link>

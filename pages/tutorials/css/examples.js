@@ -49,7 +49,7 @@ const Examples = () => {
                     <div className={styles.extraborder}>
                         <div className="embedDiv">
                             <iframe height="450" style={{ "width": "75%" }}
-                                scrolling="no" title="CSS Template with Flexbox 1" src="https://codepen.io/_michaeli/embed/dympORr?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="CSS Template with Flexbox 1" src="https://codepen.io/_michaeli/embed/dympORr?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/dympORr"><a>
                                     CSS Template with Flexbox 1</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -61,7 +61,7 @@ const Examples = () => {
                     <div className={styles.extraborder}>
                         <div className="embedDiv">
                             <iframe height="450" style={{ "width": "75%" }}
-                                scrolling="no" title="CSS Template with Flexbox 2" src="https://codepen.io/_michaeli/embed/vYRXyJq?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="CSS Template with Flexbox 2" src="https://codepen.io/_michaeli/embed/vYRXyJq?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/vYRXyJq"><a>
                                     CSS Template with Flexbox 2</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -72,7 +72,7 @@ const Examples = () => {
                     <div className={styles.extraborder}>
                         <div className="embedDiv">
                             <iframe height="450" style={{ "width": "75%" }}
-                                scrolling="no" title="Css Template 1" src="https://codepen.io/_michaeli/embed/XWEjNeq?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="Css Template 1" src="https://codepen.io/_michaeli/embed/XWEjNeq?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/XWEjNeq"><a>
                                     Css Template 1</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -83,7 +83,7 @@ const Examples = () => {
                     <div className={styles.extraborder}>
                         <div className="embedDiv">
                             <iframe height="450" style={{ "width": "75%" }}
-                                scrolling="no" title="Css Template 2" src="https://codepen.io/_michaeli/embed/BarLQJK?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="Css Template 2" src="https://codepen.io/_michaeli/embed/BarLQJK?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/BarLQJK"><a>
                                     Css Template 2</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>

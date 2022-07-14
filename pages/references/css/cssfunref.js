@@ -48,26 +48,29 @@ const CssFunRef = () => {
                     </form>
                     <div>
                         <table className={styles.reftable}>
-                            <tr>
-                                <th>Function</th>
-                                <th>Description</th>
-                            </tr>
-                            {cssfunref.filter((cssfun) => {
-                                if (search === "") {
-                                    return cssfun;
-                                } else if (
-                                    cssfun?.Function.toLowerCase().includes(search.toLowerCase())
-                                ) {
-                                    return cssfun;
-                                } else if (
-                                    cssfun?.Function.toLowerCase().includes(search.toLowerCase())
-                                ) return setnoRes("No Results")
-                            }).map(cssfun => (
-                                <tr key={cssfun.id}>
-                                    <td>{cssfun['Function']}</td>
-                                    <td>{cssfun['Description']}</td>
+                            <tbody>
+                                <tr>
+                                    <th>Function</th>
+                                    <th>Description</th>
                                 </tr>
-                            ))}
+                                {cssfunref.filter((cssfun) => {
+                                    if (search === "") {
+                                        return cssfun;
+                                    } else if (
+                                        cssfun?.Function.toLowerCase().includes(search.toLowerCase())
+                                    ) {
+                                        return cssfun;
+                                    } else if (
+                                        cssfun?.Function.toLowerCase().includes(search.toLowerCase())
+                                    ) return setnoRes("No Results")
+                                }).map(cssfun => (
+                                    <tr key={cssfun.id}>
+                                        <td>{cssfun['Function']}</td>
+                                        <td>{cssfun['Description']}</td>
+                                    </tr>
+
+                                ))}
+                            </tbody>
                         </table>
                     </div>
 

@@ -88,7 +88,7 @@ const Forms = () => {
 
                         <div className="embedDiv">
                             <iframe height="350" style={{ "width": "75%" }}
-                                scrolling="no" title="Text input fields" src="https://codepen.io/_michaeli/embed/JjLXrQd?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="Text input fields" src="https://codepen.io/_michaeli/embed/JjLXrQd?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/JjLXrQd"><a>
                                     Text input fields</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -116,7 +116,7 @@ const Forms = () => {
                             Radio buttons let a user select ONE of a limited number of choices.</p>
                         <div className="embedDiv">
                             <iframe height="400" style={{ "width": "75%" }}
-                                scrolling="no" title="Radio Buttons" src="https://codepen.io/_michaeli/embed/JjLXOoG?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="Radio Buttons" src="https://codepen.io/_michaeli/embed/JjLXOoG?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/JjLXOoG"><a>
                                     Radio Buttons</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -129,7 +129,7 @@ const Forms = () => {
                             Checkboxes let a user select ZERO or MORE options of a limited number of choices.</p>
                         <div className="embedDiv">
                             <iframe height="400" style={{ "width": "75%" }}
-                                scrolling="no" title="Checkboxes" src="https://codepen.io/_michaeli/embed/GRxZOpM?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="Checkboxes" src="https://codepen.io/_michaeli/embed/GRxZOpM?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/GRxZOpM"><a>
                                     Checkboxes</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -143,7 +143,7 @@ const Forms = () => {
                             The form-handler is specified in the form&apos;s <span className={styles.exptag}>action</span> attribute. </p>
                         <div className="embedDiv">
                             <iframe height="400" style={{ "width": "75%" }}
-                                scrolling="no" title="Submit Button" src="https://codepen.io/_michaeli/embed/yLKOPJr?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="Submit Button" src="https://codepen.io/_michaeli/embed/yLKOPJr?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/yLKOPJr"><a>
                                     Submit Button</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -157,7 +157,7 @@ const Forms = () => {
                             If the <span className={styles.exptag}>name</span> attribute is omitted, the value of the input field will not be sent at all. </p>
                         <div className="embedDiv">
                             <iframe height="400" style={{ "width": "75%" }}
-                                scrolling="no" title="The name Attribute" src="https://codepen.io/_michaeli/embed/wvmGPzx?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="The name Attribute" src="https://codepen.io/_michaeli/embed/wvmGPzx?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/wvmGPzx"><a>
                                     The name Attribute</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>

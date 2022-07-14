@@ -76,7 +76,7 @@ const FormElements = () => {
                             All the different values of the type attribute are covered in the next chapter: HTML Input Types. <br /></p>
                         <div className="embedDiv">
                             <iframe height="400" style={{ "width": "75%" }}
-                                scrolling="no" title="form input element" src="https://codepen.io/_michaeli/embed/RwMaxoE?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="form input element" src="https://codepen.io/_michaeli/embed/RwMaxoE?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/RwMaxoE"><a>
                                     form input element</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -117,7 +117,7 @@ const FormElements = () => {
                         <p>Use the multiple attribute to allow the user to select more than one value: </p>
                         <div className="embedDiv">
                             <iframe height="400" style={{ "width": "75%" }}
-                                scrolling="no" title="select element" src="https://codepen.io/_michaeli/embed/ZExWvee?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="select element" src="https://codepen.io/_michaeli/embed/ZExWvee?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/ZExWvee"><a>
                                     select element</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -140,7 +140,7 @@ const FormElements = () => {
                             You can also define the size of the text area by using CSS: <br /></p>
                         <div className="embedDiv">
                             <iframe height="400" style={{ "width": "75%" }}
-                                scrolling="no" title="textarea" src="https://codepen.io/_michaeli/embed/poLypPE?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="textarea" src="https://codepen.io/_michaeli/embed/poLypPE?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/poLypPE"><a>
                                     textarea</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -156,7 +156,7 @@ const FormElements = () => {
                             Note: Always specify the type attribute for the button element. Different browsers may use different default types for the button element. <br /></p>
                         <div className="embedDiv">
                             <iframe height="400" style={{ "width": "75%" }}
-                                scrolling="no" title="button" src="https://codepen.io/_michaeli/embed/jOzqYwq?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="button" src="https://codepen.io/_michaeli/embed/jOzqYwq?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/jOzqYwq"><a>
                                     button</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -172,7 +172,7 @@ const FormElements = () => {
                             The <span className={styles.exptag}>&lt;legend&gt;</span> element defines a caption for the <span className={styles.exptag}>&lt;fieldset&gt;</span> element. <br /></p>
                         <div className="embedDiv">
                             <iframe height="400" style={{ "width": "75%" }}
-                                scrolling="no" title="fieldset" src="https://codepen.io/_michaeli/embed/ExEKovo?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="fieldset" src="https://codepen.io/_michaeli/embed/ExEKovo?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/ExEKovo"><a>
                                     fieldset</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -191,7 +191,7 @@ const FormElements = () => {
                             The list attribute of the <span className={styles.exptag}>&lt;input&gt;</span> element, must refer to the id attribute of the <span className={styles.exptag}>&lt;datalist&gt;</span> element. <br /></p>
                         <div className="embedDiv">
                             <iframe height="400" style={{ "width": "75%" }}
-                                scrolling="no" title="datalist" src="https://codepen.io/_michaeli/embed/yLKOpzg?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="datalist" src="https://codepen.io/_michaeli/embed/yLKOpzg?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/yLKOpzg"><a>
                                     datalist</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -205,7 +205,7 @@ const FormElements = () => {
                         <p>The <span className={styles.exptag}>&lt;output&gt;</span> element represents the result of a calculation (like one performed by a script). <br /></p>
                         <div className="embedDiv">
                             <iframe height="400" style={{ "width": "75%" }}
-                                scrolling="no" title="output element" src="https://codepen.io/_michaeli/embed/PoRNEJM?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="output element" src="https://codepen.io/_michaeli/embed/PoRNEJM?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/PoRNEJM"><a>
                                     output element</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>

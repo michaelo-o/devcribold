@@ -4,8 +4,12 @@ import Link from "next/link";
 import Head from "next/head";
 import PageContentFooter from "../../../components/PageContentFooter";
 import { useAuthContext } from "../../../hooks/useAuthContext";
+import { useRouter } from 'next/router';
+
 
 const JSExcercise = () => {
+
+    const router = useRouter()
 
     const { user } = useAuthContext()
 
@@ -17,8 +21,15 @@ const JSExcercise = () => {
                 <meta name="description" content="Dev Crib" />
             </Head>
             <div className={styles.genexcbackground}>
-                {
-                    user &&
+                {!user && setTimeout(() => {
+                    // router.go(-1)
+                    // router.go(1)
+                    router.push('/login/')
+                }, 50)}
+
+
+
+                {user &&
                     <div className={styles.pagecontent}>
                         <h1>JavaScript Excercises</h1>
                         <h2>INSTRUCTIONS!</h2>

@@ -47,6 +47,7 @@ const HtmlTagRef = () => {
                     </form>
                     <div>
                         <table className={styles.reftable}>
+                        <tbody>
                             <tr>
                                 <th>Tag</th>
                                 <th>Description</th>
@@ -67,6 +68,7 @@ const HtmlTagRef = () => {
                                     <td>{htmltag['tag_description']}</td>
                                 </tr>
                             ))}
+                        </tbody>
                         </table>
                     </div>
 

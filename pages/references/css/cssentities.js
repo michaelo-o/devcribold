@@ -24,7 +24,7 @@ const CssEntities = () => {
                     <h2>Complete CSS Entity Reference</h2>
                     <p>If you use CSS to display any of these characters in HTML, you can use the CSS entity found in the table below.</p>
                     <div className="embedDiv">
-                        <iframe height="450" style={{ width: 1100 }} scrolling="no" title="CSS Entities" src="https://codepen.io/_michaeli/embed/wvmKQgZ?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                        <iframe height="450" style={{ width: 1100 }} scrolling="no" title="CSS Entities" src="https://codepen.io/_michaeli/embed/wvmKQgZ?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                             See the Pen <Link href="https://codepen.io/_michaeli/pen/wvmKQgZ"><a>
                                 CSS Entities</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                             on <Link href="https://codepen.io"><a>CodePen.</a></Link>

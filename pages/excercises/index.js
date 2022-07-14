@@ -19,7 +19,7 @@ const ExercisesHome = () => {
     return (
         <>
             <Head>
-                <title>DevCrib Excercises | Dev Crib</title>
+                <title>DevCrib Exercises | Dev Crib</title>
                 <meta name="description" content="Dev Crib" />
             </Head>
 
@@ -48,7 +48,7 @@ const ExercisesHome = () => {
                     <div className={styles.cssex}>
                         <h1>CSS</h1>
 
-                        <Link href="#">
+                        <Link href="/excercises/css/">
                             <a><h3>Start Excercise</h3>
                             </a>
                         </Link>
@@ -57,7 +57,7 @@ const ExercisesHome = () => {
                     <div className={styles.jsex}>
                         <h1>JavaScript</h1>
 
-                        <Link href="#">
+                        <Link href="/excercises/javascript/">
                             <a><h3>Start Excercise</h3>
                             </a>
                         </Link>

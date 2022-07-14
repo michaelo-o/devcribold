@@ -58,7 +58,7 @@ const Audio = () => {
                         <p>To play an audio file in HTML, use the <span className={styles.exptag}>&lt;audio&gt;</span> element:</p>
                         <div className="embedDiv">
                             <iframe height="350" style={{ "width": "70%" }}
-                                scrolling="no" title="The HTML &lt;audio&gt; Element" src="https://codepen.io/_michaeli/embed/ZExWmvE?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="The HTML &lt;audio&gt; Element" src="https://codepen.io/_michaeli/embed/ZExWmvE?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/ZExWmvE"><a>
                                     The HTML &lt;audio&gt; Element</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -81,7 +81,7 @@ const Audio = () => {
 
                         <div className="embedDiv">
                             <iframe height="350" style={{ "width": "70%" }}
-                                scrolling="no" title="Autoplay and AutoplayMuted" src="https://codepen.io/_michaeli/embed/ExEKOpy?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="Autoplay and AutoplayMuted" src="https://codepen.io/_michaeli/embed/ExEKOpy?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/ExEKOpy"><a>
                                     Autoplay and AutoplayMuted</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>

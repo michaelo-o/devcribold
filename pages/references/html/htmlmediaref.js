@@ -31,6 +31,7 @@ const HtmlMediaRef = () => {
                     <h3>HTML Media (Audio and Video) Methods</h3>
                     <div className={styles.extraborder}>
                         <table className={styles.reftable}>
+                            <tbody>
                             <tr>
                                 <th>Method</th>
                                 <th>Description</th>
@@ -41,11 +42,13 @@ const HtmlMediaRef = () => {
                                     <td>{MediaM['Description']}</td>
                                 </tr>
                             ))}
+                            </tbody>
                         </table>
                     </div>
                     <h3>HTML Media (Audio and Video) Properties</h3>
                     <div className={styles.extraborder}>
                         <table className={styles.reftable}>
+                            <tbody>
                             <tr>
                                 <th>Property</th>
                                 <th>Description</th>
@@ -56,11 +59,13 @@ const HtmlMediaRef = () => {
                                     <td>{MediaP['Description']}</td>
                                 </tr>
                             ))}
+                            </tbody>
                         </table>
                     </div>
                     <h3>HTML Media (Audio and Video) Events</h3>
                     <div className={styles.extraborder}>
                         <table className={styles.reftable}>
+                            <tbody>
                             <tr>
                                 <th>Event</th>
                                 <th>Description</th>
@@ -71,6 +76,7 @@ const HtmlMediaRef = () => {
                                     <td>{MediaE['Description']}</td>
                                 </tr>
                             ))}
+                            </tbody>
                         </table>
                     </div>
 

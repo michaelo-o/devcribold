@@ -82,7 +82,7 @@ const YouTube = () => {
 
                         <div className="embedDiv">
                             <iframe height="400" style={{ "width": "75%" }}
-                                scrolling="no" title="HTML Youtube" src="https://codepen.io/_michaeli/embed/MWVyLWO?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="HTML Youtube" src="https://codepen.io/_michaeli/embed/MWVyLWO?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/MWVyLWO"><a>
                                     HTML Youtube</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -105,7 +105,7 @@ const YouTube = () => {
 
                         <div className="embedDiv">
                             <iframe height="400" style={{ "width": "75%" }}
-                                scrolling="no" title="Autoplay+mute" src="https://codepen.io/_michaeli/embed/mdxPvwV?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="Autoplay+mute" src="https://codepen.io/_michaeli/embed/mdxPvwV?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/mdxPvwV"><a>
                                     Autoplay+mute</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -125,7 +125,7 @@ const YouTube = () => {
                         <p>Value 1: The video will loop (forever).</p>
                         <div className="embedDiv">
                             <iframe height="400" style={{ "width": "75%" }}
-                                scrolling="no" title="YoutubeLoop" src="https://codepen.io/_michaeli/embed/ZExWwyR?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="YoutubeLoop" src="https://codepen.io/_michaeli/embed/ZExWwyR?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/ZExWwyR"><a>
                                     YoutubeLoop</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -142,7 +142,7 @@ const YouTube = () => {
                         <p>Value 1 (default): Player controls display.</p>
                         <div className="embedDiv">
                             <iframe height="400" style={{ "width": "75%" }}
-                                scrolling="no" title="YouTubeControls" src="https://codepen.io/_michaeli/embed/WNzwPEE?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="YouTubeControls" src="https://codepen.io/_michaeli/embed/WNzwPEE?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/WNzwPEE"><a>
                                     YouTubeControls</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>

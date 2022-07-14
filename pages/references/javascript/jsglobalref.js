@@ -32,31 +32,35 @@ const JsStringRef = () => {
 
                     <div className={styles.extraborder}>
                         <table className={styles.reftable}>
-                            <tr>
-                                <th>Function</th>
-                                <th>Description</th>
-                            </tr>
-                            {jsglobalmeth.map(jsglobalmeth => (
-                                <tr key={jsglobalmeth.id}>
-                                    <td>{jsglobalmeth['Function']}</td>
-                                    <td>{jsglobalmeth['Description']}</td>
+                            <tbody>
+                                <tr>
+                                    <th>Function</th>
+                                    <th>Description</th>
                                 </tr>
-                            ))}
+                                {jsglobalmeth.map(jsglobalmeth => (
+                                    <tr key={jsglobalmeth.id}>
+                                        <td>{jsglobalmeth['Function']}</td>
+                                        <td>{jsglobalmeth['Description']}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
                         </table>
                     </div>
                     <h3>JavaScript Global Properties</h3>
                     <div className={styles.extraborder}>
                         <table className={styles.reftable}>
-                            <tr>
-                                <th>Property</th>
-                                <th>Description</th>
-                            </tr>
-                            {jssglobalprop.map(jssglobalprop => (
-                                <tr key={jssglobalprop.id}>
-                                    <td>{jssglobalprop['Property']}</td>
-                                    <td>{jssglobalprop['Description']}</td>
+                            <tbody>
+                                <tr>
+                                    <th>Property</th>
+                                    <th>Description</th>
                                 </tr>
-                            ))}
+                                {jssglobalprop.map(jssglobalprop => (
+                                    <tr key={jssglobalprop.id}>
+                                        <td>{jssglobalprop['Property']}</td>
+                                        <td>{jssglobalprop['Description']}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
                         </table>
                     </div>
 

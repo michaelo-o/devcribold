@@ -43,7 +43,7 @@ const JsTutorial = () => {
 
                         <div className="embedDiv">
                             <iframe height="550" style={{ "width": "80%" }}
-                                scrolling="no" title="JavaScript Examples" src="https://codepen.io/_michaeli/embed/mdxrONP?default-tab=html&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="JavaScript Examples" src="https://codepen.io/_michaeli/embed/mdxrONP?default-tab=html&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/mdxrONP"><a>
                                     JavaScript Examples</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>

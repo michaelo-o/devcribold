@@ -245,7 +245,7 @@ export default function Home() {
           <h3>With the embedded <Link href="https://codepen.io/"><a target="_blank">Codepen</a></Link> online code editor, you can edit code and view the result in your browser.</h3>
           <div className="embedDiv">
             <iframe height="550" style={{ "width": "90%" }}
-              scrolling="no" title="Code Sample" src="https://codepen.io/_michaeli/embed/rNdMLao?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+              scrolling="no" title="Code Sample" src="https://codepen.io/_michaeli/embed/rNdMLao?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
               See the Pen <Link href="https://codepen.io/_michaeli/pen/rNdMLao"><a>
                 Code Sample</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
               on <Link href="https://codepen.io"><a>CodePen.</a></Link>

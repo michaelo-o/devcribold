@@ -4,6 +4,8 @@ import PageContentFooter from "../../../components/PageContentFooter";
 import { useState } from "react";
 import blankAnswer from "../../../jsons/excercises/html/blankAns.json"
 import correctAnswer from "../../../jsons/excercises/html/correctAns.json"
+import { useRouter } from 'next/router';
+import { useAuthContext } from "../../../hooks/useAuthContext";
 
 
 // &#123; Left Curly Bracket
@@ -18,6 +20,9 @@ import correctAnswer from "../../../jsons/excercises/html/correctAns.json"
 
 const CssEx = () => {
 
+    const router = useRouter()
+
+    const { user } = useAuthContext()
 
     const wrongA = <span className={styles.wrongAns}>Wrong Answer</span>
     const rightA = <span className={styles.rightAns}>Right Answer</span>
@@ -151,6 +156,7 @@ const CssEx = () => {
             setAns19to20Status(noA)
         }
         else {
+        
             setAns19to20Status(wrongA)
         }
         if (ans21 === "<br>") {
@@ -213,6 +219,13 @@ const CssEx = () => {
             </Head>
             <div className={styles.genexcbackground}>
 
+                {!user && setTimeout(() => {
+                    // router.go(-1)
+                    // router.go(1)
+                    router.push('/login/')
+                }, 50)}
+
+                {user &&
 
                 <div className={styles.pagecontent}>
                     <h1>CSS Excercises</h1>
@@ -351,6 +364,7 @@ const CssEx = () => {
 
                     <PageContentFooter />
                 </div>
+}
             </div>
 
         </>

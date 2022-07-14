@@ -70,7 +70,7 @@ const About = () => {
                     <div className={styles.extraborder}>
                         <div className="embedDiv">
                             <iframe height="450" style={{ "width": "85%" }}
-                                scrolling="no" title="Code Sample" src="https://codepen.io/_michaeli/embed/rNdMLao?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="Code Sample" src="https://codepen.io/_michaeli/embed/rNdMLao?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/rNdMLao"><a>
                                     Code Sample</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>

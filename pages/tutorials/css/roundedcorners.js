@@ -69,7 +69,7 @@ const CssRoundedCorners = () => {
                     <div className={styles.extraborder}>
                         <div className="embedDiv">
                             <iframe height="450" style={{ "width": "75%" }}
-                                scrolling="no" title="CSS border-raduis prop1" src="https://codepen.io/_michaeli/embed/LYdZJgr?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="CSS border-raduis prop1" src="https://codepen.io/_michaeli/embed/LYdZJgr?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/LYdZJgr"><a>
                                     CSS border-raduis prop1</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -105,7 +105,7 @@ const CssRoundedCorners = () => {
                     <div className={styles.extraborder}>
                         <div className="embedDiv">
                             <iframe height="450" style={{ "width": "75%" }}
-                                scrolling="no" title="CSS border-raduis prop2" src="https://codepen.io/_michaeli/embed/gOeMdQJ?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="CSS border-raduis prop2" src="https://codepen.io/_michaeli/embed/gOeMdQJ?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/gOeMdQJ"><a>
                                     CSS border-raduis prop2</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>

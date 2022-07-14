@@ -81,7 +81,7 @@ const CssSelectors = () => {
                     <div className={styles.extraborder}>
                         <div className="embedDiv">
                             <iframe height="350" style={{ "width": "75%" }}
-                                scrolling="no" title="CSS Element Selector" src="https://codepen.io/_michaeli/embed/NWYrLxm?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="CSS Element Selector" src="https://codepen.io/_michaeli/embed/NWYrLxm?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/NWYrLxm"><a>
                                     CSS Element Selector</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -101,7 +101,7 @@ const CssSelectors = () => {
                     <div className={styles.extraborder}>
                         <div className="embedDiv">
                             <iframe height="350" style={{ "width": "75%" }}
-                                scrolling="no" title="CSS Id Selector" src="https://codepen.io/_michaeli/embed/abYZamJ?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="CSS Id Selector" src="https://codepen.io/_michaeli/embed/abYZamJ?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/abYZamJ"><a>
                                     CSS Id Selector</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -126,7 +126,7 @@ const CssSelectors = () => {
                     <div className={styles.extraborder}>
                         <div className="embedDiv">
                             <iframe height="350" style={{ "width": "75%" }}
-                                scrolling="no" title="CSS Class Selector" src="https://codepen.io/_michaeli/embed/MWVeqJK?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="CSS Class Selector" src="https://codepen.io/_michaeli/embed/MWVeqJK?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/MWVeqJK"><a>
                                     CSS Class Selector</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -142,7 +142,7 @@ const CssSelectors = () => {
                     <div className={styles.extraborder}>
                         <div className="embedDiv">
                             <iframe height="350" style={{ "width": "75%" }}
-                                scrolling="no" title="CSS Universal Selector" src="https://codepen.io/_michaeli/embed/OJvXopd?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="CSS Universal Selector" src="https://codepen.io/_michaeli/embed/OJvXopd?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/OJvXopd"><a>
                                     CSS Universal Selector</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>
@@ -165,7 +165,7 @@ const CssSelectors = () => {
                     <div className={styles.extraborder}>
                         <div className="embedDiv">
                             <iframe height="350" style={{ "width": "75%" }}
-                                scrolling="no" title="CSS Grouping Selector" src="https://codepen.io/_michaeli/embed/RwMRYgY?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency={true} allowFullScreen={true}>
+                                scrolling="no" title="CSS Grouping Selector" src="https://codepen.io/_michaeli/embed/RwMRYgY?default-tab=css%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
                                 See the Pen <Link href="https://codepen.io/_michaeli/pen/RwMRYgY"><a>
                                     CSS Grouping Selector</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
                                 on <Link href="https://codepen.io"><a>CodePen.</a></Link>

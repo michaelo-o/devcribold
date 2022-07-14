@@ -45,6 +45,7 @@ const UnsupportedHtmlTags = () => {
                     </form>
                     <div>
                         <table className={styles.reftable}>
+                            <tbody>
                             <tr>
                                 <th>Tag</th>
                                 <th>Description</th>
@@ -65,6 +66,7 @@ const UnsupportedHtmlTags = () => {
                                     <td>{unsupportedTag['tag_description']}</td>
                                 </tr>
                             ))}
+                            </tbody>
                         </table>
                     </div>
                     <PageContentFooter />

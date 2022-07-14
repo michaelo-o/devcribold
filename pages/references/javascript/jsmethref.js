@@ -47,32 +47,34 @@ const JsMethRef = () => {
                     </form>
                     <div>
                         <table className={styles.jsmethtable}>
-                            <tr>
-                                <th>Property/Method</th>
-                                <th>Description</th>
-                                <th>Belongs To</th>
-                            </tr>
-                            {jsmethref.filter((jsmeth) => {
-                                if (search === "") {
-                                    return jsmeth;
-                                } else if (
-                                    jsmeth?.Property/Method.toLowerCase().includes(search.toLowerCase())
-                                ) {
-                                    return jsmeth;
-                                } else if (
-                                    jsmeth?.Property/Method.toLowerCase().includes(search.toLowerCase())
-                                ) return setnoRes("No Results")
-                            }).map(jsmeth => (
-                                <tr key={jsmeth.id}>
-                                    <td>{jsmeth['Property/Method']}</td>
-                                    <td>{jsmeth['Description']}</td>
-                                    <td>{jsmeth['Belongs To']}</td>
+                            <tbody>
+                                <tr>
+                                    <th>Property/Method</th>
+                                    <th>Description</th>
+                                    <th>Belongs To</th>
                                 </tr>
-                            ))}
+                                {jsmethref.filter((jsmeth) => {
+                                    if (search === "") {
+                                        return jsmeth;
+                                    } else if (
+                                        jsmeth?.Property / Method.toLowerCase().includes(search.toLowerCase())
+                                    ) {
+                                        return jsmeth;
+                                    } else if (
+                                        jsmeth?.Property / Method.toLowerCase().includes(search.toLowerCase())
+                                    ) return setnoRes("No Results")
+                                }).map(jsmeth => (
+                                    <tr key={jsmeth.id}>
+                                        <td>{jsmeth['Property/Method']}</td>
+                                        <td>{jsmeth['Description']}</td>
+                                        <td>{jsmeth['Belongs To']}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
                         </table>
                     </div>
 
-<PageContentFooter />
+                    <PageContentFooter />
                 </div>
             </div>
 
