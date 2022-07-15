@@ -20,6 +20,8 @@ const JSExercise = () => {
         }, 50)
     }
 
+    { !user && redirect() }
+
     return (
         <>
             <Head>
@@ -29,7 +31,7 @@ const JSExercise = () => {
             <div className={styles.genexcbackground}>
 
 
-                {!user && redirect()}
+
 
 
                 {user &&

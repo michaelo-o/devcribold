@@ -18,8 +18,7 @@ import { useRouter } from 'next/router';
 // DEFAULT IMPORTS
 
 
-const HtmlEx = () => 
-{
+const HtmlEx = () => {
     const router = useRouter()
 
     const { user } = useAuthContext()
@@ -217,7 +216,7 @@ const HtmlEx = () =>
         }, 50)
     }
 
-
+    { !user && redirect() }
     return (
         <>
             <Head>
@@ -226,7 +225,7 @@ const HtmlEx = () =>
             </Head>
             <div className={styles.genexcbackground}>
 
-                {!user && redirect()}
+
 
                 {user &&
 

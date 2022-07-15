@@ -18,7 +18,7 @@ const HtmlExercise = () => {
             router.push('/login/')
         }, 50)
     }
-
+    { !user && redirect() }
     return (
         <>
             <Head>
@@ -27,7 +27,7 @@ const HtmlExercise = () => {
             </Head>
             <div className={styles.genexcbackground}>
 
-                {!user && redirect()}
+
 
                 {user &&
                     <div className={styles.pagecontent}>
