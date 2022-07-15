@@ -219,7 +219,7 @@ const JsEx = () => {
         }, 50)
     }
 
-    { !user && redirect() }
+     !user && redirect() 
 
     return (
         <>

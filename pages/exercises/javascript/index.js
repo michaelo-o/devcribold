@@ -20,7 +20,7 @@ const JSExercise = () => {
         }, 50)
     }
 
-    { !user && redirect() }
+     !user && redirect() 
 
     return (
         <>

@@ -18,7 +18,7 @@ const HtmlExercise = () => {
             router.push('/login/')
         }, 50)
     }
-    { !user && redirect() }
+     !user && redirect() 
     return (
         <>
             <Head>

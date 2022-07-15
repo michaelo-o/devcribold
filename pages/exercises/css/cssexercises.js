@@ -215,7 +215,7 @@ const CssEx = () => {
         }, 50)
     }
 
-    { !user && redirect() }
+     !user && redirect() 
     return (
         <>
             <Head>
