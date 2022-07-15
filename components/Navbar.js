@@ -17,11 +17,11 @@ const Navbar = () => {
 
     const [openTutorial, setopenTutorial] = useState(false)
     const [openReferences, setopenReferences] = useState(false)
-    const [openExcercises, setopenExcercises] = useState(false)
+    const [openExercises, setopenExercises] = useState(false)
     const [openMenu, setopenMenu] = useState(false)
     const [mobileTutorial, setmobileTutorial] = useState(false)
     const [mobileReference, setmobileReference] = useState(false)
-    const [mobileExcercise, setmobileExcercise] = useState(false)
+    const [mobileExercise, setmobileExercise] = useState(false)
     const [TutcaretChange, setTutcaretChange] = useState(false)
     const [RefcaretChange, setRefcaretChange] = useState(false)
     const [ExccaretChange, setExccaretChange] = useState(false)
@@ -29,7 +29,7 @@ const Navbar = () => {
 
     const tutorial = () => {
         setopenTutorial(!openTutorial)
-        setopenExcercises(false)
+        setopenExercises(false)
         setopenReferences(false)
         setTutcaretChange(!TutcaretChange)
         setExccaretChange(false)
@@ -39,14 +39,14 @@ const Navbar = () => {
     const references = () => {
         setopenReferences(!openReferences)
         setopenTutorial(false)
-        setopenExcercises(false)
+        setopenExercises(false)
         setRefcaretChange(!RefcaretChange)
         setExccaretChange(false)
         setTutcaretChange(false)
         // setopenMenu(false)
     }
-    const excercises = () => {
-        setopenExcercises(!openExcercises)
+    const exercises = () => {
+        setopenExercises(!openExercises)
         setopenTutorial(false)
         setopenReferences(false)
         setExccaretChange(!ExccaretChange)
@@ -57,7 +57,7 @@ const Navbar = () => {
 
     const closeButton = () => {
         setopenTutorial(false)
-        setopenExcercises(false)
+        setopenExercises(false)
         setopenReferences(false)
         setExccaretChange(false)
         setRefcaretChange(false)
@@ -72,7 +72,7 @@ const Navbar = () => {
 
     const mobilemenuback = () => {
         setmobileTutorial(false)
-        setmobileExcercise(false)
+        setmobileExercise(false)
         setmobileReference(false)
         setopenMenu(false)
         setExccaretChange(false)
@@ -84,7 +84,7 @@ const Navbar = () => {
     const mobtut = () => {
         setmobileTutorial(!mobileTutorial)
         setTutcaretChange(!TutcaretChange)
-        setmobileExcercise(false)
+        setmobileExercise(false)
         setmobileReference(false)
         setExccaretChange(false)
         setRefcaretChange(false)
@@ -94,13 +94,13 @@ const Navbar = () => {
         setmobileReference(!mobileReference)
         setRefcaretChange(!RefcaretChange)
         setmobileTutorial(false)
-        setmobileExcercise(false)
+        setmobileExercise(false)
         setExccaretChange(false)
         setTutcaretChange(false)
     }
 
     const mobex = () => {
-        setmobileExcercise(!mobileExcercise)
+        setmobileExercise(!mobileExercise)
         setExccaretChange(!ExccaretChange)
         setmobileTutorial(false)
         setmobileReference(false)
@@ -114,7 +114,10 @@ const Navbar = () => {
     const { logout } = useLogout()
     const { authIsReady } = useAuthContext()
 
-
+    const logoutClose = () => {
+        logout();
+        closeButton();
+    }
 
 
     return (
@@ -140,7 +143,7 @@ const Navbar = () => {
                         <Image src="/cup.png" width={25} height={25} alt="Close" />
                     ) : <Image src="/cdown.png" width={25} height={25} alt="Open" />}
                     </p>
-                    <p onClick={excercises}>Excercises {ExccaretChange ? (
+                    <p onClick={exercises}>Exercises {ExccaretChange ? (
                         <Image src="/cup.png" width={25} height={25} alt="Close" />
                     ) : <Image src="/cdown.png" width={25} height={25} alt="Open" />}
                     </p>
@@ -176,15 +179,15 @@ const Navbar = () => {
                         </div>
                     ) : null
                     }
-                    {openExcercises ? (
+                    {openExercises ? (
                         <div className={styles.tutmodal}>
                             <button onClick={closeButton} className={styles.xbutton}><Image src="/x-square.svg" width={35} height={35} alt="Home" /></button>
                             <div className={styles.innertutm}>
-                                <Link href="/excercises/">
-                                    <h1 className={styles.excgrayback} onClick={excercises}>Excercises</h1>
+                                <Link href="/exercises/">
+                                    <h1 className={styles.excgrayback} onClick={exercises}>Exercises</h1>
                                 </Link>
                                 <div className={styles.inouter}>
-                                    <NavExc excercises={excercises} />
+                                    <NavExc exercises={exercises} />
                                 </div>
                             </div>
                         </div>
@@ -223,7 +226,7 @@ const Navbar = () => {
                         {user && (
                             <>
                                 <p>Hello, {user.displayName}</p>
-                                <p className={styles.login} onClick={logout}>Log Out</p>
+                                <p className={styles.login} onClick={logoutClose}>Log Out</p>
                             </>
                         )}
 
@@ -281,7 +284,7 @@ const Navbar = () => {
                                         <Image src="/cup.png" width={25} height={25} alt="Close" />
                                     ) : <Image src="/cdown.png" width={25} height={25} alt="Open" />}
                                     </p>
-                                    {mobileExcercise ? (
+                                    {mobileExercise ? (
                                         <div className={styles.tutdpnc}>
                                             <h1>Coming Soon...</h1>
                                         </div>

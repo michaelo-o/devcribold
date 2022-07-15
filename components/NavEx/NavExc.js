@@ -4,19 +4,19 @@ import styles from "../../styles/navbar.module.css"
 
 const NavExc = (props) => {
 
-    const excercises = props.excercises
+    const exercises = props.exercises
 
     return (
         <>
             <div>
-                <Link href="/excercises/html/">
-                    <a><h3 onClick={excercises}>HTML Excercise</h3></a>
+                <Link href="/exercises/html/">
+                    <a><h3 onClick={exercises}>HTML Exercise</h3></a>
                 </Link>
-                <Link href="/excercises/css/">
-                    <a><h3 onClick={excercises}>CSS Excercise</h3></a>
+                <Link href="/exercises/css/">
+                    <a><h3 onClick={exercises}>CSS Exercise</h3></a>
                 </Link>
-                <Link href="/excercises/javascript/">
-                    <a><h3 onClick={excercises}>JavaScript Excercise</h3></a>
+                <Link href="/exercises/javascript/">
+                    <a><h3 onClick={exercises}>JavaScript Exercise</h3></a>
                 </Link>
             </div>
         </>

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 // default imports
-import styles from "../excercises/exlsb.module.css"
+import styles from "../exercises/exlsb.module.css"
 
 
 const ExLSb = () => {
@@ -10,15 +10,15 @@ const ExLSb = () => {
         <>
             <div className={styles.refleftsidebar}>
                 <div className={styles.reflfsbcont}>
-                    <h2>Excercises</h2>
-                    <Link href="/excercises/html/">
-                        <a>HTML Excercises  </a>
+                    <h2>Exercises</h2>
+                    <Link href="/exercises/html/">
+                        <a>HTML Exercises  </a>
                     </Link>
-                    <Link href="/excercises/css/">
-                        <a>CSS Excercises  </a>
+                    <Link href="/exercises/css/">
+                        <a>CSS Exercises  </a>
                     </Link>
-                    <Link href="/excercises/javascript/">
-                        <a>JavaScript Excercises  </a>
+                    <Link href="/exercises/javascript/">
+                        <a>JavaScript Exercises  </a>
                     </Link>
                 </div>
             </div>

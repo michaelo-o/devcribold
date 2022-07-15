@@ -1,30 +1,40 @@
-import styles from "../excercisesgen.module.css";
+import styles from "../exercisesgen.module.css";
+import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 import PageContentFooter from "../../../components/PageContentFooter";
 import { useAuthContext } from "../../../hooks/useAuthContext";
+import { useRouter } from 'next/router';
 
 
+const JSExercise = () => {
 
-const CssExcercise = () => {
-
+    const router = useRouter()
 
     const { user } = useAuthContext()
 
 
+    const redirect = () => {
+        setTimeout(() => {
+            router.push('/login/')
+        }, 50)
+    }
+
     return (
         <>
             <Head>
-                <title>CSS Excercises | Dev Crib</title>
+                <title>JavaScript Exercises | Dev Crib</title>
                 <meta name="description" content="Dev Crib" />
             </Head>
             <div className={styles.genexcbackground}>
 
-               
+
+                {!user && redirect()}
+
 
                 {user &&
                     <div className={styles.pagecontent}>
-                        <h1>CSS Excercises</h1>
+                        <h1>JavaScript Exercises</h1>
                         <h2>INSTRUCTIONS!</h2>
                         <div className={styles.extraborder}>
 
@@ -33,18 +43,17 @@ const CssExcercise = () => {
                                 You will get 1 point for each correct answer. <br />
                                 Your score and total score will be displayed after you submit.</p>
                         </div>
-                        <div className={styles.cssstexc}>
-                            <h1>Start CSS Excercises</h1>
+                        <div className={styles.jsstexc}>
+                            <h1>Start JavaScript Exercises</h1>
                             <h2>Goodluck!</h2>
-                            <Link href="/excercises/css/cssexcercises">
-                                <a><h3>Start Excercise</h3>
+                            <Link href="/exercises/javascript/jsexercises">
+                                <a><h3>Start Exercise</h3>
                                 </a>
                             </Link>
                         </div>
                     </div>
                 }
             </div>
-
             <div className={styles.footer100}>
                 <PageContentFooter />
             </div>
@@ -52,4 +61,4 @@ const CssExcercise = () => {
     );
 }
 
-export default CssExcercise;
+export default JSExercise;

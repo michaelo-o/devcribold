@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
-import styles from "../excercises/excercisesgen.module.css"
+import styles from "../exercises/exercisesgen.module.css"
 import ExLSb from "./ExLSb";
 import PageContentFooter from "../../components/PageContentFooter";
 // default imports
@@ -28,10 +28,10 @@ const ExercisesHome = () => {
                 <ExLSb />
 
                 <div className={styles.exhomepagecontent}>
-                    <h1>DevCrib Excercises</h1>
+                    <h1>DevCrib Exercises</h1>
                     <h2>Test Your Skills!</h2>
                     <div className={styles.extraborder}>
-                        <h3>Excercises</h3>
+                        <h3>Exercises</h3>
                         <p>There a variety of exercises (with answers) for each tutorial. <br />
                             Try to solve an exercise by editing some code.After Submitting, you can show the answer to see what you&apos;ve done wrong.</p>
                     </div>
@@ -39,8 +39,8 @@ const ExercisesHome = () => {
                     <div className={styles.htmlex}>
                         <h1>HTML</h1>
 
-                        <Link href="/excercises/html/">
-                            <a><h3>Start Excercise</h3>
+                        <Link href="/exercises/html/">
+                            <a><h3>Start Exercise</h3>
                             </a>
                         </Link>
 
@@ -48,8 +48,8 @@ const ExercisesHome = () => {
                     <div className={styles.cssex}>
                         <h1>CSS</h1>
 
-                        <Link href="/excercises/css/">
-                            <a><h3>Start Excercise</h3>
+                        <Link href="/exercises/css/">
+                            <a><h3>Start Exercise</h3>
                             </a>
                         </Link>
 
@@ -57,8 +57,8 @@ const ExercisesHome = () => {
                     <div className={styles.jsex}>
                         <h1>JavaScript</h1>
 
-                        <Link href="/excercises/javascript/">
-                            <a><h3>Start Excercise</h3>
+                        <Link href="/exercises/javascript/">
+                            <a><h3>Start Exercise</h3>
                             </a>
                         </Link>
 

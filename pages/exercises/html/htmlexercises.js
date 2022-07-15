@@ -1,9 +1,9 @@
-import styles from "../excercisesgen.module.css";
+import styles from "../exercisesgen.module.css";
 import Head from "next/head";
 import PageContentFooter from "../../../components/PageContentFooter";
 import { useState, useEffect } from "react";
-import blankAnswer from "../../../jsons/excercises/html/blankAns.json"
-import correctAnswer from "../../../jsons/excercises/html/correctAns.json"
+import blankAnswer from "../../../jsons/exercises/html/blankAns.json"
+import correctAnswer from "../../../jsons/exercises/html/correctAns.json"
 import { useAuthContext } from "../../../hooks/useAuthContext";
 import { useRouter } from 'next/router';
 
@@ -18,9 +18,9 @@ import { useRouter } from 'next/router';
 // DEFAULT IMPORTS
 
 
-const HtmlEx = () => {
+const HtmlEx = () => 
+{
     const router = useRouter()
-
 
     const { user } = useAuthContext()
 
@@ -31,7 +31,7 @@ const HtmlEx = () => {
     const noA = <span className={styles.wrongAns}>No Answer Given</span>
 
 
-    const RedoInProgress = <span>Redoing the Excercises...</span>
+    const RedoInProgress = <span>Redoing the Exercises...</span>
 
     const blankAns = blankAnswer;
 
@@ -69,7 +69,7 @@ const HtmlEx = () => {
 
     const [Attrscore, setAttrscore] = useState(0)
 
-    const [ExcStatus, setExcStatus] = useState("Excercises Not Attempted")
+    const [ExcStatus, setExcStatus] = useState("Exercises Not Attempted")
     const [ExcAttempted, setExcAttempted] = useState(false)
 
     const [{ ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans10, ans11, ans12, ans13, ans14, ans15, ans16, ans17, ans18, ans19, ans20, ans21, ans22, ans23 }, setAns] = useState(blankAns);
@@ -213,9 +213,7 @@ const HtmlEx = () => {
 
     const redirect = () => {
         setTimeout(() => {
-            // router.go(-1)
-            // router.go(1)
-            router.push('/')
+            router.push('/login/')
         }, 50)
     }
 
@@ -223,7 +221,7 @@ const HtmlEx = () => {
     return (
         <>
             <Head>
-                <title>HTML Excercises | Dev Crib</title>
+                <title>HTML Exercises | Dev Crib</title>
                 <meta name="description" content="Dev Crib" />
             </Head>
             <div className={styles.genexcbackground}>
@@ -233,7 +231,7 @@ const HtmlEx = () => {
                 {user &&
 
                     <div className={styles.pagecontent}>
-                        <h1>HTML Excercises</h1>
+                        <h1>HTML Exercises</h1>
 
 
                         <div className={styles.quesbg}>
@@ -337,7 +335,7 @@ const HtmlEx = () => {
                             {ExcAttempted ? (
                                 <div>
                                     <h1 className={styles.excStatus}>{Attrscore}/10</h1>
-                                    <button onClick={Redo} className={styles.redo}>Redo Excercises</button>
+                                    <button onClick={Redo} className={styles.redo}>Redo Exercises</button>
                                 </div>
                             ) : (
                                 <h1 className={styles.excStatus}>{ExcStatus}</h1>
