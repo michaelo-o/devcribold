@@ -26,6 +26,7 @@ const Navbar = () => {
     const [RefcaretChange, setRefcaretChange] = useState(false)
     const [ExccaretChange, setExccaretChange] = useState(false)
     const [MenucaretChange, setMenucaretChange] = useState(false)
+    const [mobileLogin, setmobileLogin] = useState(false)
 
     const tutorial = () => {
         setopenTutorial(!openTutorial)
@@ -108,6 +109,9 @@ const Navbar = () => {
         setTutcaretChange(false)
     }
 
+    const mobLogin = () => {
+        setmobileLogin(!mobileLogin)
+    }
 
     const { user } = useAuthContext()
 
@@ -248,7 +252,36 @@ const Navbar = () => {
                     <Link href="https://ko-fi.com/michae_l#paypalModal">
                         <a target="_blank" className={styles.paidc}>🙂☕</a>
                     </Link>
-                    <span className={styles.mobilelogin}><Image src="/user1-removebg-preview.png" width={65} height={45} alt="User" /></span>
+                    <span className={styles.mobilelogin}><Image src="/user1-removebg-preview.png" width={65} height={45} alt="User" onClick={mobLogin} /></span>
+                    {mobileLogin ? (
+                        <>
+                            {authIsReady && (
+                                <>
+                                    {!user && (
+                                        <>
+                                            <Link href="/login/">
+                                                <a className={styles.login} onClick={closeButton}>Log In</a>
+                                            </Link>
+                                            <Link href="/signup/">
+                                                <a className={styles.login} onClick={closeButton}>Sign Up</a>
+                                            </Link>
+                                        </>)}
+
+
+                                    {user && (
+                                        <>
+                                            <p>Hello, {user.displayName}</p>
+                                            <p className={styles.login} onClick={logoutClose}>Log Out</p>
+                                        </>
+                                    )}
+
+                                </>)}
+                        </>
+                    ) : null
+
+
+                    }
+
                 </div>
 
                 <div>
@@ -286,7 +319,7 @@ const Navbar = () => {
                                     </p>
                                     {mobileExercise ? (
                                         <div className={styles.tutdpnc}>
-                                            <h1>Coming Soon...</h1>
+                                            <NavExc exercises={exercises} />
                                         </div>
                                     ) : null}
                                 </div>
