@@ -12,6 +12,15 @@ const Templates = () => {
 
 
 
+const { user } = useAuthContext()
+
+const redirect = () => {
+        setTimeout(() => {
+            router.push('/login/')
+        }, 50)
+    }
+     !user && redirect() 
+
 
     return (
         <>
@@ -22,6 +31,9 @@ const Templates = () => {
 
 
             <div className={styles.genexcbackground}>
+
+     {user &&
+
 
 
                 <div className={styles.exhomepagecontent}>
@@ -57,6 +69,9 @@ const Templates = () => {
 
 
                     <PageContentFooter />
+
+     }
+
                 </div>
             </div>
         </>
