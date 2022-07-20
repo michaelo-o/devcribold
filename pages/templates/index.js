@@ -10,16 +10,16 @@ import { useAuthContext } from "../../hooks/useAuthContext";
 const Templates = () => {
 
 
-    const router = useRouter()
+    // const router = useRouter()
 
     const { user } = useAuthContext()
 
-    const redirect = () => {
-        setTimeout(() => {
-            router.push('/login/')
-        }, 3000)
-    }
-    !user && redirect()
+    // const redirect = () => {
+    //     setTimeout(() => {
+    //         router.push('/login/')
+    //     }, 3000)
+    // }
+    // !user && redirect()
 
 
 
