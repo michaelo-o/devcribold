@@ -7,6 +7,7 @@ import HtmlRefLSb from "./comps/HtmlRefLSb";
 import htmltagref from "../../../jsons/htmlref/htmltagref.json"
 import { useState, useEffect } from "react";
 import PageContentFooter from "../../../components/PageContentFooter";
+import { useAuthContext } from "../../../hooks/useAuthContext"
 
 
 const HtmlTagRef = () => {
@@ -19,6 +20,7 @@ const HtmlTagRef = () => {
     useEffect(() => {
         setsearch("")
     }, [])
+    const { user } = useAuthContext()
 
 
     return (
@@ -32,6 +34,7 @@ const HtmlTagRef = () => {
             <div className={styles.genrefbackground}>
 
                 <HtmlRefLSb />
+                {user ? (
 
                 <div className={styles.pagecontent}>
                     <h1>HTML Tag Reference</h1>
@@ -74,7 +77,11 @@ const HtmlTagRef = () => {
 
 
                     <PageContentFooter />
-                </div>
+                </div>) : <div className="loginmessage">
+                    <h2>
+                        <Link href="/login/"><a>Log In</a></Link>
+                        to See References</h2 >
+                </div>}
             </div>
 
         </>

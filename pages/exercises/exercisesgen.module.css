@@ -46,6 +46,10 @@
     flex-direction: column;
 }
 
+.exhomepagecontent a{
+color: #ee9209;
+text-decoration: underline aliceblue;
+}
 
 .pagecontent h1,
 .pagecontent h2,

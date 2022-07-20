@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Head from "next/head";
-import { useRouter } from 'next/router';
 import styles from "../exercises/exercisesgen.module.css"
 import PageContentFooter from "../../components/PageContentFooter";
 import { useAuthContext } from "../../hooks/useAuthContext";
@@ -10,16 +9,8 @@ import { useAuthContext } from "../../hooks/useAuthContext";
 const Templates = () => {
 
 
-    // const router = useRouter()
 
     const { user } = useAuthContext()
-
-    // const redirect = () => {
-    //     setTimeout(() => {
-    //         router.push('/login/')
-    //     }, 3000)
-    // }
-    // !user && redirect()
 
 
 
@@ -33,7 +24,7 @@ const Templates = () => {
 
             <div className={styles.genexcbackground}>
 
-                {user &&
+                {user ? (
                     <div className={styles.exhomepagecontent}>
                         <h1>Responsive Templates</h1>
 
@@ -67,6 +58,14 @@ const Templates = () => {
 
 
                         <PageContentFooter />
+                    </div>
+                ) :
+
+
+                    <div className={styles.exhomepagecontent}>
+                        <h2>
+                            <Link href="/login/"><a>Log In</a></Link>
+                            to See templates</h2>
                     </div>
                 }
             </div>

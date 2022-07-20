@@ -22,7 +22,7 @@ body {
 }
 
 /* Embed Div */
-.embedDiv{
+.embedDiv {
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -145,6 +145,10 @@ body {
   background-image: linear-gradient(#a86705, #0d1721);
 } */
 
+.loginmessage a {
+  color: #ee9209;
+  text-decoration: underline aliceblue;
+}
 
 .learnhtml {
   background-color: aliceblue !important;
@@ -235,22 +239,30 @@ body {
 /* Scrollbar Styling */
 
 /* width */
-.innerrlhexample::-webkit-scrollbar, .innerllcexample::-webkit-scrollbar, .innerrljexample::-webkit-scrollbar  {
+.innerrlhexample::-webkit-scrollbar,
+.innerllcexample::-webkit-scrollbar,
+.innerrljexample::-webkit-scrollbar {
   width: 10px;
 }
 
 /* Track */
-.innerrlhexample::-webkit-scrollbar-track, .innerllcexample::-webkit-scrollbar-track, .innerrljexample::-webkit-scrollbar-track {
+.innerrlhexample::-webkit-scrollbar-track,
+.innerllcexample::-webkit-scrollbar-track,
+.innerrljexample::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
 
 /* Handle */
-.innerrlhexample::-webkit-scrollbar-thumb, .innerllcexample::-webkit-scrollbar-thumb, .innerrljexample::-webkit-scrollbar-thumb {
+.innerrlhexample::-webkit-scrollbar-thumb,
+.innerllcexample::-webkit-scrollbar-thumb,
+.innerrljexample::-webkit-scrollbar-thumb {
   background: #888;
 }
 
 /* Handle on hover */
-.innerrlhexample::-webkit-scrollbar-thumb:hover, .innerllcexample::-webkit-scrollbar-thumb:hover, .innerrljexample::-webkit-scrollbar-thumb:hover {
+.innerrlhexample::-webkit-scrollbar-thumb:hover,
+.innerllcexample::-webkit-scrollbar-thumb:hover,
+.innerrljexample::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
 

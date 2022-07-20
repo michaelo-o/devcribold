@@ -7,10 +7,12 @@ import CssRefLSb from "./comps/CssRefLSb";
 import csspropref from "../../../jsons/cssref/CssProp.json"
 import { useState, useEffect } from "react";
 import PageContentFooter from "../../../components/PageContentFooter";
+import { useAuthContext } from "../../../hooks/useAuthContext"
 
 
 const CssPropRef = () => {
 
+    const { user } = useAuthContext()
 
     const [search, setsearch] = useState("")
     const [noRes, setnoRes] = useState('Tag Not Found')
@@ -31,49 +33,56 @@ const CssPropRef = () => {
             <div className={styles.genrefbackground}>
 
                 <CssRefLSb />
+                {user ? (
 
-                <div className={styles.pagecontent}>
-                    <h1>CSS Property Reference</h1>
-                    <h2>CSS Properties Listed Alphabetically</h2>
-                    {/* Search Bar */}
-                    <form className={styles.search}>
-                        <input
-                            type="text"
-                            placeholder="Search a Property.."
-                            onChange={(event) => setsearch(event.target.value)}
+                    <div className={styles.pagecontent}>
+                        <h1>CSS Property Reference</h1>
+                        <h2>CSS Properties Listed Alphabetically</h2>
+                        {/* Search Bar */}
+                        <form className={styles.search}>
+                            <input
+                                type="text"
+                                placeholder="Search a Property.."
+                                onChange={(event) => setsearch(event.target.value)}
 
-                        />
-                    </form>
-                    <div>
-                        <table className={styles.reftable}>
-                            <tbody>
-                                <tr>
-                                    <th>Property</th>
-                                    <th>Description</th>
-                                </tr>
-                                {csspropref.filter((cssprop) => {
-                                    if (search === "") {
-                                        return cssprop;
-                                    } else if (
-                                        cssprop?.Property.toLowerCase().includes(search.toLowerCase())
-                                    ) {
-                                        return cssprop;
-                                    } else if (
-                                        cssprop?.Property.toLowerCase().includes(search.toLowerCase())
-                                    ) return setnoRes('No Results')
-                                }).map(cssprop => (
-                                    <tr key={cssprop.id}>
-                                        <td>{cssprop['Property']}</td>
-                                        <td>{cssprop['Description']}</td>
+                            />
+                        </form>
+                        <div>
+                            <table className={styles.reftable}>
+                                <tbody>
+                                    <tr>
+                                        <th>Property</th>
+                                        <th>Description</th>
                                     </tr>
-                                ))}
-                            </tbody>
-                        </table>
+                                    {csspropref.filter((cssprop) => {
+                                        if (search === "") {
+                                            return cssprop;
+                                        } else if (
+                                            cssprop?.Property.toLowerCase().includes(search.toLowerCase())
+                                        ) {
+                                            return cssprop;
+                                        } else if (
+                                            cssprop?.Property.toLowerCase().includes(search.toLowerCase())
+                                        ) return setnoRes('No Results')
+                                    }).map(cssprop => (
+                                        <tr key={cssprop.id}>
+                                            <td>{cssprop['Property']}</td>
+                                            <td>{cssprop['Description']}</td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
 
-                    </div>
+                        </div>
 
 
-                    <PageContentFooter />                </div>
+                        <PageContentFooter />
+                    </div>) : <div className="loginmessage">
+                    <h2>
+                        <Link href="/login/"><a>Log In</a></Link>
+                        to See References</h2 >
+                </div>}
+
             </div>
 
         </>
