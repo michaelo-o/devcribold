@@ -19,7 +19,7 @@ const Templates = () => {
             router.push('/login/')
         }, 3000)
     }
-    // !user && redirect()
+    !user && redirect()
 
 
 
