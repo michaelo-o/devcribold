@@ -70,9 +70,11 @@ const redirect = () => {
 
                     <PageContentFooter />
 
-     }
+     
 
                 </div>
+
+}
             </div>
         </>
     );
