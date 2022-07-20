@@ -35,16 +35,16 @@ const JsMethRef = () => {
 
                 <div className={styles.pagecontent}>
                     <h1>JavaScript Method Reference</h1>
-                    <h2>JavaScript Properties/Methods Listed Alphabetically</h2>
+                    <h2>JavaScript Properties/Methods  Listed Alphabetically</h2>
                     {/* Search Bar */}
-                    <form className={styles.mrefsearch}>
+                    {/* <form className={styles.mrefsearch}>
                         <input
                             type="text"
                             placeholder="Search a Property/Method.."
                             onChange={(event) => setsearch(event.target.value)}
 
                         />
-                    </form>
+                    </form> */}
                     <div>
                         <table className={styles.jsmethtable}>
                             <tbody>
@@ -57,15 +57,15 @@ const JsMethRef = () => {
                                     if (search === "") {
                                         return jsmeth;
                                     } else if (
-                                        jsmeth?.Property / Method.toLowerCase().includes(search.toLowerCase())
+                                        jsmeth?.propmeth.toLowerCase().includes(search.toLowerCase())
                                     ) {
                                         return jsmeth;
                                     } else if (
-                                        jsmeth?.Property / Method.toLowerCase().includes(search.toLowerCase())
-                                    ) return setnoRes("No Results")
+                                        jsmeth?.propmeth.toLowerCase().includes(search.toLowerCase())
+                                    ) return setnoRes('No Results')
                                 }).map(jsmeth => (
                                     <tr key={jsmeth.id}>
-                                        <td>{jsmeth['Property/Method']}</td>
+                                        <td>{jsmeth['propmeth']}</td>
                                         <td>{jsmeth['Description']}</td>
                                         <td>{jsmeth['Belongs To']}</td>
                                     </tr>

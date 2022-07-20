@@ -253,6 +253,19 @@ export default function Home() {
           </div>
         </div>
 
+        <div className={styles.templateresponse}>
+          <h1>Web Templates</h1>
+          <h3>Browse the free responsive HTML <Link href="/templates/"><a target="_blank">Templates</a></Link> section.</h3>
+          <div className="embedDiv">
+            <iframe height="500" style={{ "width": "90%" }}
+              scrolling="no" title="Responsive Template 1" src="https://codepen.io/_michaeli/embed/KKomPpE?default-tab=html%2Cresult&editable=true&theme-id=dark" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
+              See the Pen <Link href="https://codepen.io/_michaeli/pen/KKomPpE"><a>
+                Responsive Template 1</a></Link> by Michael Okwuosah (<Link href="https://codepen.io/_michaeli"><a>@_michaeli</a></Link>)
+              on <Link href="https://codepen.io"><a>CodePen.</a></Link>
+            </iframe>
+          </div>
+        </div>
+
       </div>
 
 

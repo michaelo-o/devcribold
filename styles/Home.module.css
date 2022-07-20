@@ -212,6 +212,28 @@
   text-decoration: underline;
 }
 
+/* Templates reveal */
+
+.templateresponse {
+  background-color: aliceblue;
+  padding: 20px 5% 20px 5%;
+  color: #0d1721;
+  text-align: center;
+}
+
+.templateresponse h1 {
+  font-size: 70px;
+}
+
+.templateresponse p {
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.templateresponse a {
+  color: #0d1721;
+  text-decoration: underline;
+}
 
 
 /* MOBILE STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
