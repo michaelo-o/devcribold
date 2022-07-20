@@ -3,7 +3,7 @@ import Head from "next/head";
 import { useRouter } from 'next/router';
 import styles from "../exercises/exercisesgen.module.css"
 import PageContentFooter from "../../components/PageContentFooter";
-import { useAuthContext } from "../../context/AuthContext"
+import { useAuthContext } from "../context/AuthContext"
 
 
 
