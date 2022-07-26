@@ -33,14 +33,14 @@ const PageContentFooter = () => {
                     </div>
                     <div className={styles.report}>
                         <p onClick={OpenreportErrorTab}>{reportText ? (
-                            <span> Close Report Tab</span>
-                        ) : <span>Report Error</span>} </p>
+                            <span> Close Feedback Tab</span>
+                        ) : <span>Feedback</span>} </p>
                         {reportErrorTab ? (
                             <div className={styles.reportmessage}>
-                                <h2>Report Error</h2>
-                                If you want to report an error, or if you want to make a suggestion, do not hesitate to send us an e-mail;
+                                <h2>Feedback</h2>
+                                If you want to report an error, or if you want to make a suggestion, do not hesitate to send us a reply.
                                 <br />
-                                test@example.com
+                                <iframe height="50" style={{ width: "80%" }} src="https://docs.google.com/forms/d/e/1FAIpQLScTtgIG7nkwPrUKHsnFIAPt3rddVJ5l9gZq6TeYXT0KslVN6Q/viewform?embedded=true" frameBorder="no">Loading…</iframe>
                             </div>
                         ) : null}
                     </div>
