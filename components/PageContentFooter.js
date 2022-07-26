@@ -40,7 +40,7 @@ const PageContentFooter = () => {
                                 <h2>Feedback</h2>
                                 If you want to report an error, or if you want to make a suggestion, do not hesitate to send us a reply.
                                 <br />
-                                <iframe height="50" style={{ width: "80%" }} src="https://docs.google.com/forms/d/e/1FAIpQLScTtgIG7nkwPrUKHsnFIAPt3rddVJ5l9gZq6TeYXT0KslVN6Q/viewform?embedded=true" frameBorder="no">Loading…</iframe>
+                                <iframe height="150" style={{ width: "97%" }} src="https://docs.google.com/forms/d/e/1FAIpQLScTtgIG7nkwPrUKHsnFIAPt3rddVJ5l9gZq6TeYXT0KslVN6Q/viewform?embedded=true" frameBorder="no">Loading…</iframe>
                             </div>
                         ) : null}
                     </div>
