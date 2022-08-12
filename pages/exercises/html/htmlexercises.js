@@ -24,7 +24,7 @@ const HtmlEx = () => {
 
     const { user } = useAuthContext()
 
-    const uid = user
+    // const uid = user.uid
 
     const { addDocument, response } = useFirestore('score')
 
@@ -236,7 +236,7 @@ const HtmlEx = () => {
 
 
 
-                {user ? (
+                {/* {user ? ( */}
 
                     <div className={styles.pagecontent}>
                         <h1>HTML Exercises</h1>
@@ -362,11 +362,11 @@ const HtmlEx = () => {
                             </div>
                         }
 
-                        <div className={styles.quesbg}>
+                        {/* <div className={styles.quesbg}>
                             <h2>Your Previous Score: 3
-                                {/* {PrevScore} */}
+                                {PrevScore}
                             </h2>
-                        </div>
+                        </div> */}
 
 
 
@@ -379,7 +379,7 @@ const HtmlEx = () => {
 
                         <PageContentFooter />
                     </div>
-                ) : redirect()}
+                {/* ) : redirect()} */}
             </div>
 
         </>
