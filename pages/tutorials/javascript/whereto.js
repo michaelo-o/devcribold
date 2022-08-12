@@ -64,7 +64,7 @@ const JsIntro = () => {
                     <h2>JavaScript Functions and Events</h2>
                     <p>
                         A JavaScript <span className={styles.exptag}>function</span> is a block of
-                        JavaScript code, that can be executed when "called" for.
+                        JavaScript code, that can be executed when &quot;called&quot; for.
                     </p>
                     <p>
                         For example, a function can be called when an <b>event</b> occurs, like when
