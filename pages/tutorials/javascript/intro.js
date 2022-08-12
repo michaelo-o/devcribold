@@ -33,7 +33,7 @@ const JsIntro = () => {
                         <Link href="/tutorials/javascript/">
                             <a className={styles.prevbut}>Previous</a>
                         </Link>
-                        <Link href="/tutorials/javascript/tutorial">
+                        <Link href="/tutorials/javascript/whereto">
                             <a className={styles.nextbut}>Next</a>
                         </Link>
                     </div>

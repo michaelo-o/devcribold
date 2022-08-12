@@ -20,10 +20,10 @@ const JsLeftSidebar = () => {
                     <Link href="/tutorials/javascript/intro">
                         <a>Introduction </a>
                     </Link>
-                    <Link href="/tutorials/javascript/tutorial">
+                    <Link href="/tutorials/javascript/whereto">
                         <a>Where To </a>
                     </Link>
-                    <Link href="/tutorials/javascript/tutorial">
+                    <Link href="/tutorials/javascript/output">
                         <a>Output </a>
                     </Link>
                     <Link href="/tutorials/javascript/tutorial">
