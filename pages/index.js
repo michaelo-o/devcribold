@@ -47,7 +47,7 @@ export default function Home() {
             </div>
             {/* <h3>Kick start your Front-End Web Developer Career</h3> */}
             <Link href="/infographics/wheretobegin">
-              <a> <h4>Having trouble Getting Started?</h4></a>
+              <a> <h4>Not Sure Where To Begin?</h4></a>
             </Link>
           </div>
           <div className={styles.rltc}>
