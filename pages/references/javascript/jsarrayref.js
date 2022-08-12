@@ -37,7 +37,6 @@ const JsArrayRef = () => {
 
                 <JsRefLSb />
 
-                {user ? (
 
                     <div className={styles.pagecontent}>
                         <h1>JavaScript Array Reference</h1>
@@ -90,11 +89,7 @@ const JsArrayRef = () => {
 
 
                         <PageContentFooter />
-                    </div>) : <div className="loginmessage">
-                    <h2>
-                        <Link href="/login/"><a>Log In</a></Link>
-                        to See References</h2 >
-                </div>}
+                    </div>
             </div>
 
         </>

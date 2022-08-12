@@ -38,7 +38,6 @@ const JsStringRef = () => {
 
                 <JsRefLSb />
 
-                {user ? (
 
                     <div className={styles.pagecontent}>
                         <h1>JavaScript String Reference</h1>
@@ -114,11 +113,7 @@ const JsStringRef = () => {
                         </div>
 
                         <PageContentFooter />
-                    </div>) : <div className="loginmessage">
-                    <h2>
-                        <Link href="/login/"><a>Log In</a></Link>
-                        to See References</h2 >
-                </div>}
+                    </div>
             </div>
 
         </>
