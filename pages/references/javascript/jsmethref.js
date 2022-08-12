@@ -69,7 +69,7 @@ const JsMethRef = () => {
                                             <td>{jsmeth['propmeth']}</td>
                                             <td>{jsmeth['Description']}</td>
                                             <td>{jsmeth['Belongs To']}</td>
-                                        </tr>
+                                       </tr>
                                     ))}
                                 </tbody>
                             </table>

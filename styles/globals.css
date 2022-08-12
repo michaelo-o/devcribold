@@ -151,9 +151,23 @@ body {
   font-size: 25px;
 }
 
-.loginmessage a {
+.loginmessage a,
+.temploginmessage a {
   color: #ee9209;
   text-decoration: underline aliceblue;
+}
+
+.temploginmessage {
+  display: flex;
+  padding-left: 47%;
+  align-items: center;
+  font-size: 25px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.temploginmessage h2 {
+  border-bottom: none !important;
 }
 
 .learnhtml {

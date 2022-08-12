@@ -3,6 +3,7 @@ import Head from "next/head";
 import styles from "../exercises/exercisesgen.module.css"
 import PageContentFooter from "../../components/PageContentFooter";
 import { useAuthContext } from "../../hooks/useAuthContext";
+import Footer from "../../components/Footer";
 
 
 
@@ -58,16 +59,22 @@ const Templates = () => {
 
 
                         <PageContentFooter />
-                    </div>
-                ) :
+                    </div>) :
+                    <div className="tempviewlogin">
+                        <div className={styles.exhomepagecontent}>
+                            <div className="temploginmessage">
+                                <h2>
+                                    <Link href="/login/"><a>Log In</a></Link>
+                                    to See Templates</h2 >
+                            </div>
 
-
-                    <div className={styles.exhomepagecontent}>
-                        <h2>
-                            <Link href="/login/"><a>Log In</a></Link>
-                            to See templates</h2>
+                        </div>
+                        <Footer />
                     </div>
+
                 }
+
+
             </div>
         </>
     );
