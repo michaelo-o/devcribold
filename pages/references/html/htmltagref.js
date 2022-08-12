@@ -36,48 +36,48 @@ const HtmlTagRef = () => {
                 <HtmlRefLSb />
                 {user ? (
 
-                <div className={styles.pagecontent}>
-                    <h1>HTML Tag Reference</h1>
-                    <h2>HTML Tags Listed Alphabetically</h2>
-                    {/* Search Bar */}
-                    <form className={styles.search}>
-                        <input
-                            type="text"
-                            placeholder="Search a Tag.."
-                            onChange={(event) => setsearch(event.target.value)}
+                    <div className={styles.pagecontent}>
+                        <h1>HTML Tag Reference</h1>
+                        <h2>HTML Tags Listed Alphabetically</h2>
+                        {/* Search Bar */}
+                        <form className={styles.search}>
+                            <input
+                                type="text"
+                                placeholder="Search a Tag.."
+                                onChange={(event) => setsearch(event.target.value)}
 
-                        />
-                    </form>
-                    <div>
-                        <table className={styles.reftable}>
-                        <tbody>
-                            <tr>
-                                <th>Tag</th>
-                                <th>Description</th>
-                            </tr>
-                            {htmltagref.filter((htmltag) => {
-                                if (search === "") {
-                                    return htmltag;
-                                } else if (
-                                    htmltag?.html_tag.toLowerCase().includes(search.toLowerCase())
-                                ) {
-                                    return htmltag;
-                                } else if (
-                                    htmltag?.html_tag.toLowerCase().includes(search.toLowerCase())
-                                ) return setnoRes('No Results')
-                            }).map(htmltag => (
-                                <tr key={htmltag.id}>
-                                    <td>{htmltag['html_tag']}</td>
-                                    <td>{htmltag['tag_description']}</td>
-                                </tr>
-                            ))}
-                        </tbody>
-                        </table>
-                    </div>
+                            />
+                        </form>
+                        <div>
+                            <table className={styles.reftable}>
+                                <tbody>
+                                    <tr>
+                                        <th>Tag</th>
+                                        <th>Description</th>
+                                    </tr>
+                                    {htmltagref.filter((htmltag) => {
+                                        if (search === "") {
+                                            return htmltag;
+                                        } else if (
+                                            htmltag?.html_tag.toLowerCase().includes(search.toLowerCase())
+                                        ) {
+                                            return htmltag;
+                                        } else if (
+                                            htmltag?.html_tag.toLowerCase().includes(search.toLowerCase())
+                                        ) return setnoRes('No Results')
+                                    }).map(htmltag => (
+                                        <tr key={htmltag.id}>
+                                            <td>{htmltag['html_tag']}</td>
+                                            <td>{htmltag['tag_description']}</td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
 
 
-                    <PageContentFooter />
-                </div>) : <div className="loginmessage">
+                        <PageContentFooter />
+                    </div>) : <div className="loginmessage">
                     <h2>
                         <Link href="/login/"><a>Log In</a></Link>
                         to See References</h2 >
