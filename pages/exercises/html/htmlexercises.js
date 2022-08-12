@@ -6,6 +6,7 @@ import blankAnswer from "../../../jsons/exercises/html/blankAns.json"
 import correctAnswer from "../../../jsons/exercises/html/correctAns.json"
 import { useAuthContext } from "../../../hooks/useAuthContext";
 import { useRouter } from 'next/router';
+import { useFirestore } from "../../../hooks/useFirestore";
 
 
 // &#123; Left Curly Bracket
@@ -23,6 +24,9 @@ const HtmlEx = () => {
 
     const { user } = useAuthContext()
 
+    const uid = user.uid
+
+    const { addDocument, response } = useFirestore('score')
 
 
     const wrongA = <span className={styles.wrongAns}>Wrong Answer</span>
@@ -177,7 +181,11 @@ const HtmlEx = () => {
         else {
             setAns22to23Status(wrongA)
         }
-
+        addDocument({
+            uid,
+            Attrscore,
+        })
+        // console.log(Attrscore)
 
     }
 
@@ -217,7 +225,7 @@ const HtmlEx = () => {
     }
 
     //  !user && redirect() 
-    
+
     return (
         <>
             <Head>
@@ -236,25 +244,25 @@ const HtmlEx = () => {
 
                         <div className={styles.quesbg}>
                             <form onSubmit={handleSubmit}>
-                                <p>1&rpar; Add a &quot; tooltip&quot; to the paragraph below with the text &quot;About DevCrib&quot;.</p> <br />
+                                <p>1) Add a &quot; tooltip&quot; to the paragraph below with the text &quot;About DevCrib&quot;.</p> <br />
                                 <p> &lt;p<input value={ans1} name="ans1" onChange={onChange} type="text" />=&quot;About DevCrib&quot;&gt;DevCrib is a Web Developer Site&lt;p&gt; {Ans1Status}</p>
                                 <br />
 
-                                <p>2&rpar; Set the size of the image to 250 pixels wide and 400 pixels tall.</p> <br />
+                                <p>2) Set the size of the image to 250 pixels wide and 400 pixels tall.</p> <br />
                                 <p>&lt;img src=&quot;devcrib.jpg&quot; width=&quot;<input value={ans2} name="ans2" onChange={onChange} type="text" />&quot; height=&quot;<input value={ans3} name="ans3" onChange={onChange} type="text" />&quot;&gt;{Ans2Status}</p>
                                 <br />
 
-                                <p>3&rpar;Make the element below into a link that goes to &quot; https://www.google.com&quot;.</p> <br />
+                                <p>3)Make the element below into a link that goes to &quot; https://www.google.com&quot;.</p> <br />
                                 <p>&lt;a<input value={ans4} name="ans4" onChange={onChange} type="text"
                                 />&quot;https://www.google.com&quot;&gt;This is a link&lt;/a&gt;{Ans4Status}</p>
                                 <br />
 
-                                <p>4&rpar; Use the correct HTML tag to add a heading with the text &quot;London&quot;.</p> <br />
+                                <p>4) Use the correct HTML tag to add a heading with the text &quot;London&quot;.</p> <br />
                                 <p><input value={ans5} name="ans5" onChange={onChange} type="text" />  {Ans5Status}</p>
                                 <p>&lt;p&gt;London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.&lt;/p&gt;
                                 </p> <br />
 
-                                <p>5&rpar; Add six headings to the document with the text &quot;Hello&quot;. <br />
+                                <p>5) Add six headings to the document with the text &quot;Hello&quot;. <br />
                                     Start with the most important heading (the largest) and end with the least important heading (the smallest).</p> <br />
 
                                 <p><input value={ans6} name="ans6" onChange={onChange} type="text" />  </p>
@@ -265,7 +273,7 @@ const HtmlEx = () => {
                                 <p><input value={ans11} name="ans11" onChange={onChange} type="text" />  {Ans6to11Status}</p>
                                 <br />
 
-                                <p>6&rpar; Mark up the text with appropriate tags: <br />
+                                <p>6) Mark up the text with appropriate tags: <br />
 
                                     &quot;Universal Studios Presents&quot; is the most important heading. <br /> <br />
 
@@ -280,7 +288,7 @@ const HtmlEx = () => {
                                 <p><input value={ans16} name="ans16" onChange={onChange} type="text" />On the Island of Isla Nublar, a new park has been built: Jurassic Park is a theme park of cloned dinosaurs!!<input value={ans17} name="ans17" onChange={onChange} type="text" />  </p> {Ans12to17Status} <br /> <br />
 
 
-                                <p>7&rpar; Use the correct HTML tag to add a paragraph with the text &quot;Hello World!&quot;.</p> <br />
+                                <p>7) Use the correct HTML tag to add a paragraph with the text &quot;Hello World!&quot;.</p> <br />
                                 <p>
                                     &lt;html&gt; <br />
                                     &lt;body&gt;  <br />
@@ -291,14 +299,14 @@ const HtmlEx = () => {
 
                                 <br />
 
-                                <p>8&rpar; Clean up this document with proper end tags.</p> <br />
+                                <p>8) Clean up this document with proper end tags.</p> <br />
                                 <p>&lt;h1&gt;This is a Heading <input value={ans19} name="ans19" onChange={onChange} type="text" /> <br />
                                     &lt;p&gt;This is a paragraph.<input value={ans20} name="ans20" onChange={onChange} type="text" />  {Ans19to20Status}<br /> </p>
                                 <br />
-                                <p>9&rpar; Add a line break in the middle of the paragraph:</p> <br />
+                                <p>9) Add a line break in the middle of the paragraph:</p> <br />
                                 <p>&lt;p&gt;My Bonnie lies<input value={ans21} name="ans21" onChange={onChange} type="text" />over the ocean.&lt;/p&gt;{Ans21Status}</p> <br />
 
-                                <p>10&rpar; Add a list item with the text &quot;Coffee&quot; inside the &lt;ul&gt;.</p> <br />
+                                <p>10) Add a list item with the text &quot;Coffee&quot; inside the &lt;ul&gt;.</p> <br />
 
                                 <p>&lt;ul&gt;
                                     <br />
@@ -354,7 +362,11 @@ const HtmlEx = () => {
                             </div>
                         }
 
-
+                        <div className={styles.quesbg}>
+                            <h2>Your Previous Score: 3
+                                {/* {PrevScore} */}
+                            </h2>
+                        </div>
 
 
 
@@ -367,7 +379,7 @@ const HtmlEx = () => {
 
                         <PageContentFooter />
                     </div>
-                ) : redirect() }
+                ) : redirect()}
             </div>
 
         </>
