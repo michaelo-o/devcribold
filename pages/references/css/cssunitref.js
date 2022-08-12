@@ -32,7 +32,6 @@ const CssUnitRef = () => {
 
                 <CssRefLSb />
 
-                {user ? (
 
                 <div className={styles.pagecontent}>
                     <h1>CSS Unit Reference</h1>
@@ -121,11 +120,7 @@ const CssUnitRef = () => {
                     </div>
 
                     <PageContentFooter />
-                    </div>) : <div className="loginmessage">
-                    <h2>
-                        <Link href="/login/"><a>Log In</a></Link>
-                        to See References</h2 >
-                </div>}
+                    </div>
 
             </div>
 

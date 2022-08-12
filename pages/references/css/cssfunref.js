@@ -34,7 +34,6 @@ const CssFunRef = () => {
             <div className={styles.genrefbackground}>
 
                 <CssRefLSb />
-                {user ? (
 
                 <div className={styles.pagecontent}>
                     <h1>CSS Function Reference</h1>
@@ -79,11 +78,7 @@ const CssFunRef = () => {
 
 
                     <PageContentFooter />
-                    </div>) : <div className="loginmessage">
-                    <h2>
-                        <Link href="/login/"><a>Log In</a></Link>
-                        to See References</h2 >
-                </div>}
+                    </div>
             </div>
 
         </>
