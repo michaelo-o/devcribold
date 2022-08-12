@@ -236,7 +236,7 @@ const HtmlEx = () => {
 
 
 
-                {/* {user ? ( */}
+                {user ? (
 
                     <div className={styles.pagecontent}>
                         <h1>HTML Exercises</h1>
@@ -379,7 +379,7 @@ const HtmlEx = () => {
 
                         <PageContentFooter />
                     </div>
-                {/* ) : redirect()} */}
+                ) : redirect()}
             </div>
 
         </>
