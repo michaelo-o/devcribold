@@ -81,7 +81,8 @@ const HtmlTagRef = () => {
                     <h2>
                         <Link href="/login/"><a>Log In</a></Link>
                         to See References</h2 >
-                </div>}
+                </div>
+                }
             </div>
 
         </>

@@ -8,6 +8,8 @@ import unsupportedTags from "../../../jsons/htmlref/UnsupportedTags.json"
 import { useState, useEffect } from "react";
 import PageContentFooter from "../../../components/PageContentFooter";
 
+import { useAuthContext } from "../../../hooks/useAuthContext"
+
 
 const UnsupportedHtmlTags = () => {
 
@@ -20,6 +22,8 @@ const UnsupportedHtmlTags = () => {
         setsearch("")
     }, [])
 
+        const { user } = useAuthContext()
+
     return (
         <>
 
@@ -31,6 +35,8 @@ const UnsupportedHtmlTags = () => {
             <div className={styles.genrefbackground}>
 
                 <HtmlRefLSb />
+
+                {user ? (
 
                 <div className={styles.pagecontent}>
                     <h1>Unsupported & Deprecated HTML Tags</h1>
@@ -70,7 +76,12 @@ const UnsupportedHtmlTags = () => {
                         </table>
                     </div>
                     <PageContentFooter />
+                    </div>) : <div className="loginmessage">
+                    <h2>
+                        <Link href="/login/"><a>Log In</a></Link>
+                        to See References</h2 >
                 </div>
+                }
 
                 
             </div>

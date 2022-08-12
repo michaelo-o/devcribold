@@ -8,9 +8,13 @@ import MediaProp from "../../../jsons/htmlref/MediaProps.json"
 import MediaEv from "../../../jsons/htmlref/MediaEvents.json"
 import PageContentFooter from "../../../components/PageContentFooter";
 
+import { useAuthContext } from "../../../hooks/useAuthContext"
+
 
 
 const HtmlMediaRef = () => {
+        const { user } = useAuthContext()
+
     return (
         <>
             <Head>
@@ -21,6 +25,8 @@ const HtmlMediaRef = () => {
             <div className={styles.genrefbackground}>
 
                 <HtmlRefLSb />
+
+                {user ? (
 
                 <div className={styles.pagecontent}>
                     <h1>HTML Media (Audio and Video) DOM Reference</h1>
@@ -81,7 +87,12 @@ const HtmlMediaRef = () => {
                     </div>
 
                     <PageContentFooter />
+                    </div>) : <div className="loginmessage">
+                    <h2>
+                        <Link href="/login/"><a>Log In</a></Link>
+                        to See References</h2 >
                 </div>
+                }
             </div>
         </>
     );

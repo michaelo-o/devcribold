@@ -11,11 +11,15 @@ import relLen from "../../../jsons/cssref/RelLen.json"
 import Bsupport from "../../../jsons/cssref/BrowserSup.json"
 import PageContentFooter from "../../../components/PageContentFooter";
 
+import { useAuthContext } from "../../../hooks/useAuthContext"
+
 
 
 const CssUnitRef = () => {
 
     // const test = style={{ width: 1300 }}
+        const { user } = useAuthContext()
+
     return (
         <>
 
@@ -27,6 +31,8 @@ const CssUnitRef = () => {
             <div className={styles.genrefbackground}>
 
                 <CssRefLSb />
+
+                {user ? (
 
                 <div className={styles.pagecontent}>
                     <h1>CSS Unit Reference</h1>
@@ -115,7 +121,11 @@ const CssUnitRef = () => {
                     </div>
 
                     <PageContentFooter />
-                </div>
+                    </div>) : <div className="loginmessage">
+                    <h2>
+                        <Link href="/login/"><a>Log In</a></Link>
+                        to See References</h2 >
+                </div>}
 
             </div>
 

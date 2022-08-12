@@ -7,8 +7,12 @@ import CssRefLSb from "./comps/CssRefLSb";
 import cssSelref from "../../../jsons/cssref/CssSelector.json"
 import PageContentFooter from "../../../components/PageContentFooter";
 
+import { useAuthContext } from "../../../hooks/useAuthContext"
+
 
 const CssSelRef = () => {
+
+    const { user } = useAuthContext()
 
 
     return (
@@ -23,33 +27,39 @@ const CssSelRef = () => {
 
                 <CssRefLSb />
 
-                <div className={styles.pagecontent}>
-                    <h1>CSS Selector Reference</h1>
-                    <h2>CSS Selectors</h2>
-                    <p>In CSS, selectors are patterns used to select the element(s) you want to style.</p>
+                {user ? (
 
-                    <div>
-                        <table className={styles.reftable}>
-                            <tbody>
-                                <tr>
-                                    <th>Selector</th>
-                                    <th>Example</th>
-                                    <th>Example description</th>
-                                </tr>
-                                {cssSelref.map(cssSel => (
-                                    <tr key={cssSel.id}>
-                                        <td>{cssSel['Selector']}</td>
-                                        <td>{cssSel['Example']}</td>
-                                        <td>{cssSel['Example Description']}</td>
+                    <div className={styles.pagecontent}>
+                        <h1>CSS Selector Reference</h1>
+                        <h2>CSS Selectors</h2>
+                        <p>In CSS, selectors are patterns used to select the element(s) you want to style.</p>
+
+                        <div>
+                            <table className={styles.reftable}>
+                                <tbody>
+                                    <tr>
+                                        <th>Selector</th>
+                                        <th>Example</th>
+                                        <th>Example description</th>
                                     </tr>
-                                ))}
-                            </tbody>
-                        </table>
-                    </div>
+                                    {cssSelref.map(cssSel => (
+                                        <tr key={cssSel.id}>
+                                            <td>{cssSel['Selector']}</td>
+                                            <td>{cssSel['Example']}</td>
+                                            <td>{cssSel['Example description']}</td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
 
 
-                    <PageContentFooter />
-                </div>
+                        <PageContentFooter />
+                    </div>) : <div className="loginmessage">
+                    <h2>
+                        <Link href="/login/"><a>Log In</a></Link>
+                        to See References</h2 >
+                </div>}
             </div>
 
         </>

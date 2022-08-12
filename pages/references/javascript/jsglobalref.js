@@ -10,8 +10,12 @@ import jssglobalprop from "../../../jsons/jsref/JsGlobalProp.json";
 import PageContentFooter from "../../../components/PageContentFooter";
 
 
+import { useAuthContext } from "../../../hooks/useAuthContext"
+
 const JsStringRef = () => {
 
+
+        const { user } = useAuthContext()
 
     return (
         <>
@@ -24,6 +28,8 @@ const JsStringRef = () => {
             <div className={styles.genrefbackground}>
 
                 <JsRefLSb />
+
+                {user ? (
 
                 <div className={styles.pagecontent}>
                     <h1>JavaScript Global Reference</h1>
@@ -65,7 +71,11 @@ const JsStringRef = () => {
                     </div>
 
                     <PageContentFooter />
-                </div>
+                    </div>) : <div className="loginmessage">
+                    <h2>
+                        <Link href="/login/"><a>Log In</a></Link>
+                        to See References</h2 >
+                </div>}
             </div>
 
         </>

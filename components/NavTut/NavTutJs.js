@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const NavTutJs = (props) => {
 
-    const tutorial = props.tutorials 
+    const tutorial = props.tutorials
 
     return (
         <>
@@ -11,16 +11,16 @@ const NavTutJs = (props) => {
                 <Link href="/tutorials/javascript/">
                     <a><h3 onClick={tutorial}>Learn JavaScript</h3></a>
                 </Link>
-                <Link href="#">
+                <Link href="/tutorials/javascript/tutorial">
                     <a><h3 onClick={tutorial}>Learn JavaScript Objects</h3></a>
                 </Link>
-                <Link href="#">
+                <Link href="/tutorials/javascript/tutorial">
                     <a><h3 onClick={tutorial}>Learn JavaScript Functions</h3></a>
                 </Link>
-                <Link href="#">
+                <Link href="/tutorials/javascript/tutorial">
                     <a><h3 onClick={tutorial}>Learn JavaScript Classes</h3></a>
                 </Link>
-                <Link href="#">
+                <Link href="/tutorials/javascript/tutorial">
                     <a><h3 onClick={tutorial}>JavaScript Examples</h3></a>
                 </Link>
             </div>

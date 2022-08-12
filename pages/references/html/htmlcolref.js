@@ -8,6 +8,8 @@ import { useState, useEffect } from "react";
 import ColorTable from "./comps/ColTable";
 import PageContentFooter from "../../../components/PageContentFooter";
 
+import { useAuthContext } from "../../../hooks/useAuthContext"
+
 
 const HtmlColRef = () => {
 
@@ -21,6 +23,8 @@ const HtmlColRef = () => {
     // }, [htmltagref])
 
 
+        const { user } = useAuthContext()
+
     return (
         <>
 
@@ -32,6 +36,8 @@ const HtmlColRef = () => {
             <div className={styles.genrefbackground}>
 
                 <HtmlRefLSb />
+
+                {user ? (
 
                 <div className={styles.pagecontent}>
                     <h1>HTML Color Reference</h1>
@@ -52,7 +58,12 @@ const HtmlColRef = () => {
 
 
                     <PageContentFooter />
+                    </div>) : <div className="loginmessage">
+                    <h2>
+                        <Link href="/login/"><a>Log In</a></Link>
+                        to See References</h2 >
                 </div>
+                }
             </div>
 
         </>

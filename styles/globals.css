@@ -144,6 +144,12 @@ body {
   padding: 20px;
   background-image: linear-gradient(#a86705, #0d1721);
 } */
+.loginmessage {
+  display: flex;
+  padding-left: 30%;
+  align-items: center;
+  font-size: 25px;
+}
 
 .loginmessage a {
   color: #ee9209;

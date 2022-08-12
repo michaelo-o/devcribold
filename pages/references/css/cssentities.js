@@ -7,7 +7,11 @@ import EntTable from "./comps/enttable";
 import PageContentFooter from "../../../components/PageContentFooter";
 // default imports
 
+import { useAuthContext } from "../../../hooks/useAuthContext"
+
 const CssEntities = () => {
+        const { user } = useAuthContext()
+
     return (
         <>
             <Head>
@@ -18,6 +22,8 @@ const CssEntities = () => {
             <div className={styles.genrefbackground}>
 
                 <CssRefLSb />
+
+                {user ? (
 
                 <div className={styles.pagecontent}>
                     <h1>CSS Entities</h1>
@@ -37,7 +43,11 @@ const CssEntities = () => {
                     </table>
 
                     <PageContentFooter />
-                </div>
+                    </div>) : <div className="loginmessage">
+                    <h2>
+                        <Link href="/login/"><a>Log In</a></Link>
+                        to See References</h2 >
+                </div>}
 
             </div>
 
