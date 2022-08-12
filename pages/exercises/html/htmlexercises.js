@@ -24,7 +24,7 @@ const HtmlEx = () => {
 
     const { user } = useAuthContext()
 
-    const uid = user.uid
+    const uid = user
 
     const { addDocument, response } = useFirestore('score')
 
