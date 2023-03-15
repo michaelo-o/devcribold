@@ -75,7 +75,6 @@ const HtmlTagRef = () => {
                             </table>
                         </div>
 
-
                         <PageContentFooter />
                     </div>) : <div className="loginmessage">
                     <h2>
