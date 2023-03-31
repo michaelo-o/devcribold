@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import ComingSoonList from '../jsons/coming soon list 1.json'
 import Footer from '../components/Footer'
+import { useState } from 'react'
+
 
 
 export default function Home() {
@@ -30,6 +32,12 @@ export default function Home() {
   // <	&lt;	&#60;	&#x3C;	less than
   // >	&gt;	&#62;	&#x3E;	greater than
 
+  const [warning, setwarning] = useState(true)
+
+  const closeWarning = () => {
+    setwarning(false);
+  };
+
   return (
     <>
 
@@ -38,6 +46,17 @@ export default function Home() {
         <meta name="description" content="Dev Crib" />
       </Head>
       <div className="content">
+        {warning ? (
+          <div className="warning-modal">
+            <div className="warning-message">
+              <button onClick={closeWarning} className="close-Warning">
+                Close Warning
+              </button>
+              <h1>NOTICE!!</h1>
+              <h2>This site is currently undergoing overhaul/maintainance, so some components may not work as expected.</h2>
+            </div>
+          </div>
+        ) : null}
         <div className={styles.learntocode}>
           <div className={styles.lltc}>
             <h1><span className={styles.lltclearn}>Learning</span> to <span className={styles.lltccode}>Code</span> has never been <span className={styles.lltceasier}>easier</span>.</h1>
