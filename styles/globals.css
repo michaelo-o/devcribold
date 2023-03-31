@@ -29,6 +29,7 @@ body {
   padding: 0 1%;
   overflow-x: hidden;
   z-index: 1;
+  height: 100vh;
 
 }
 
